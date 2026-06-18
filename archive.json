@@ -14,6 +14,13 @@
     "summary": "<strong>Capital preservation day \u2014 both ACTIVE strategies OUT OF HABITAT.</strong> NQ gapped up ~500 pts to 29,700 then reversed hard to ~29,075\u201329,232. The Strait of Hormuz stalemate pushed oil higher (Brent ~$108, WTI ~$102), hot CPI reverberations persist, and chip stocks sold off. Powell's last week as Fed Chair adds uncertainty \u2014 FOMC minutes Wednesday expected to show historic dissent count. Gold failing to catch safe-haven bid despite equity weakness signals USD/rate pressure dominating. ES confirming NQ weakness with parallel move below ATR Stop and AVWAP. No trades today \u2014 wait for regime clarity post-FOMC."
   },
   {
+    "date": "June 18, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Uptrend Repair / Risk-On Reversal (Post-FOMC Relief)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>The first post-FOMC session faded the hawkish knee-jerk and reversed it in full.</strong> NQ reclaimed its ATR trend stop overnight and ground higher all day to close 30,726.5 (+1.94% on the clean September contract), with ES confirming (+0.85%) above its own reclaimed stop. VIX collapsed 11% to 16.40. Both indices flipped back LONG and TSMOM-20 is re-armed. The lone divergence is gold, which did not bounce, falling 1.13% to 4,228 and staying short. Note: today is the quarterly roll/expiry, so index levels are computed on the clean September contracts (the raw continuous print of +3.0% is a roll artifact). Throttle eases from DEFENSIVE toward REDUCED, but size stays capped into Friday's Juneteenth holiday and thin expiry tape."
+  },
+  {
     "date": "June 17, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Downtrend Confirmed / Risk-Off (Post-FOMC)",
