@@ -1,0 +1,72 @@
+[
+  {
+    "date": "May 29, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Trend-Up Stalled (Failed Breakout)",
+    "regimeClass": "trend-up-stalled",
+    "summary": "<strong>NQ and ES tagged fresh all-time highs at the open, then reversed and closed weak on the last business day of May.</strong> NQ printed ATH 30,535.75 on the RTH-open bar, reversed 266 points and closed 30,386.75 (+0.24%) \u2014 green but well off highs, with the 1hr ATR stop flipping overhead to 30,535. ES set a new ATH 7,611.75, faded to 7,590.5 (+0.03%) but held far better than NQ (stop still below at 7,581) \u2014 mega-cap tech distribution, not broad risk-off. Gold rallied with stocks: spiked 4,627.3, closed +0.94% at 4,569.7 (debasement/geopolitical bid). Oil stayed capped below $90, -0.69% to $87.80. Daily uptrend intact; intraday momentum stalled \u2014 likely month-end rebalancing. No first-tier scheduled release; month-end + post-PCE digestion."
+  },
+  {
+    "date": "May 18, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Risk-Off / Elevated Vol / Down Trend",
+    "regimeClass": "risk-off",
+    "summary": "<strong>Capital preservation day \u2014 both ACTIVE strategies OUT OF HABITAT.</strong> NQ gapped up ~500 pts to 29,700 then reversed hard to ~29,075\u201329,232. The Strait of Hormuz stalemate pushed oil higher (Brent ~$108, WTI ~$102), hot CPI reverberations persist, and chip stocks sold off. Powell's last week as Fed Chair adds uncertainty \u2014 FOMC minutes Wednesday expected to show historic dissent count. Gold failing to catch safe-haven bid despite equity weakness signals USD/rate pressure dominating. ES confirming NQ weakness with parallel move below ATR Stop and AVWAP. No trades today \u2014 wait for regime clarity post-FOMC."
+  },
+  {
+    "date": "June 17, 2026",
+    "dayOfWeek": "Wednesday",
+    "regime": "Downtrend Confirmed / Risk-Off (Post-FOMC)",
+    "regimeClass": "risk-off",
+    "summary": "<strong>The FOMC confirmed the break. A widely expected rate hold read hawkish once the dot plot and Chair Warsh's first press conference landed, and the 2:00 PM decision bar broke the morning range down across the board.</strong> NQ fell 0.51% to 29,832.75 (flushing to 29,612 before a late short-cover), ES lost 0.97% and the 7,500 line, and gold dropped 1.76% and LOST its 4,338 trend stop, so the last standing uptrend is gone. VIX jumped 12.37% to 18.44. All three major legs now sit below their ATR stops. Throttle stays DEFENSIVE into the first post-event session."
+  },
+  {
+    "date": "June 16, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Trend Break / Risk-Off (Into FOMC)",
+    "regimeClass": "risk-off",
+    "summary": "<strong>The uptrend snapped one day before the Fed. NQ reversed -1.79% off a fresh overnight high to close 29,985.75, below its 30,302 trend stop, and ES confirmed (-0.59%), also closing below its stop, so both index trend legs broke together.</strong> This was orderly de-risking, not panic: VIX rose only 1.30% to 16.41. Gold caught the defensive bid (+0.51%, holding its 4,338 stop), while crude crashed another -5.62%. Throttle steps to DEFENSIVE into Wednesday's 2:00 PM ET FOMC decision."
+  },
+  {
+    "date": "June 15, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Uptrend Extending (Pre-FOMC Risk-On)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>The trend extended into FOMC week. NQ ripped +2.88% off a weekend gap-up to fresh highs at 30,531.5, and ES confirmed step for step (+1.66%) to new highs, so this is broad risk-on, not a tech-only push.</strong> Both index ATR stops are trailing higher (MNQ 30,302, MES 7,530). VIX fell another 8.37% to 16.20, a third straight day of compression. Gold rose +2.15% but closed weak, below VWAP and near its rising stop. Crude was the lone risk-off tell, -3.74%, losing its ATR stop. Throttle is NORMAL today, stepping to REDUCED into Wednesday's FOMC decision (Jun 17, 2:00 PM ET)."
+  },
+  {
+    "date": "June 12, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Uptrend Confirmed (Quiet Risk-On)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>The reclaim became a trend. NQ ground +0.83% on a news-free day and held every level it reclaimed in yesterday's PPI V-reversal; both index ATR trails are now RISING (uptrend confirmed).</strong> MES +0.52%, gold +0.15% holding its reversal, VIX -9.0% to 17.68 (second day of vol compression). Crude was the lone weak link, -2.42% to fresh lows. Throttle upgraded to NORMAL, with a plan to step down into FOMC (Jun 16-17)."
+  },
+  {
+    "date": "June 1, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Trend Up Resuming \u2014 ES New ATH / Energy Shock Day",
+    "regimeClass": "trend-up-resuming",
+    "summary": "<strong>New month, new high.</strong> ES printed a fresh ATH (7,632.75) on the first trading day of June. NQ swept lows at the open (30,295), reversed 397 pts to 30,692, and closed 30,523.75 (+0.45%). ATR trailing stops re-armed below price on both NQ and ES \u2014 regime flipped from Friday's BORDERLINE back to IN_HABITAT. The macro story: MCL surged +5.35% to $92.50 on a single shock candle at 13:00 UTC (OPEC/geopolitical), spiked to $94.79 RTH high then faded. Gold fell -1.19% to 4,515.4 \u2014 capital rotating out of gold into oil and equities. Strongest regime improvement since April ATH run."
+  },
+  {
+    "date": "April 27, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Risk-On",
+    "regimeClass": "risk-on",
+    "summary": "<strong>Equities hold uptrend, gold breaks down \u2014 classic risk-on divergence.</strong> MNQ closed at 27,418 above ATR Stop (27,335) after absorbing a 244-pt overnight fade. MES printed fresh session highs at 7,211.50, closing above Friday. MGC broke below its ATR Stop and 4,700 psych \u2014 confirmed trend break on 1hr. VIX compressing at 18.02. Regime: UPTREND + NORMAL VOL + NO EVENT = core trend-following habitat. Clean Monday ahead of loaded macro week (GDP Thu, PCE Fri)."
+  },
+  {
+    "date": "April 24, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Trend Recovering \u2014 ATR Stop Reclaimed (NQ + ES)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>Friday reversed Thursday's liquidation decisively \u2014 NQ rallied +499 pts to 27,441, reclaiming the ATR stop at 27,223 with a 218-point buffer.</strong> ES confirmed at 7,196 (above ATR stop 7,154). Volatility contracted 20% on NQ (ATR 14 from 109 \u2192 87). The session was orderly \u2014 no afternoon flush, no bull trap. Seven consecutive green 1hr bars in RTH. Gold was the outlier: bounced from ON low 4,672 to RTH high 4,757, then faded to close at 4,724 \u2014 still range-bound below its ATR stop. This is ATR stop reclaim attempt #2 (Wednesday's reclaim failed Thursday). FOMC T-4 caps conviction. Stepping from PAUSED to DEFENSIVE (25%) IF Monday confirms with a 2-bar hold above ATR stop. No positions through FOMC Tue-Wed."
+  },
+  {
+    "date": "April 14, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Risk-On / Trend-Up, Normal Vol",
+    "regimeClass": "risk-on",
+    "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
+  }
+]
