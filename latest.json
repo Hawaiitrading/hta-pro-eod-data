@@ -1,211 +1,211 @@
 {
-  "date": "June 18, 2026",
-  "dayOfWeek": "Thursday",
-  "regime": "Uptrend Repair / Risk-On Reversal (Post-FOMC Relief)",
-  "regimeClass": "risk-on",
-  "summary": "<strong>The first post-FOMC session faded the hawkish knee-jerk and reversed it in full.</strong> NQ reclaimed its ATR trend stop overnight and ground higher all day to close 30,726.5 (+1.94% on the clean September contract), with ES confirming (+0.85%) above its own reclaimed stop. VIX collapsed 11% to 16.40. Both indices flipped back LONG and TSMOM-20 is re-armed. The lone divergence is gold, which did not bounce, falling 1.13% to 4,228 and staying short. Note: today is the quarterly roll/expiry, so index levels are computed on the clean September contracts (the raw continuous print of +3.0% is a roll artifact). Throttle eases from DEFENSIVE toward REDUCED, but size stays capped into Friday's Juneteenth holiday and thin expiry tape.",
+  "date": "June 19, 2026",
+  "dayOfWeek": "Friday",
+  "regime": "Holiday Drift / Uptrend Intact (Thin Juneteenth Tape)",
+  "regimeClass": "neutral",
+  "summary": "<strong>A quiet Juneteenth half-session that decided nothing and changed nothing.</strong> With US cash markets closed and CME equity futures shut at 1:00 PM ET, NQ and ES drifted in thin tape and held their post-FOMC repair: MNQ closed 30,651 (-0.22%) above its rising 30,461 ATR stop, MES 7,557 (-0.23%) above 7,526. TSMOM-20 stays armed long. Gold's 1hr stop flipped long on a marginal intraday reclaim, but it is net -1.30% on the day, a fragile thin-tape flip rather than a confirmed turn. Crude firmed +1.30% to 76.52. ATR(14) contracted again (MNQ 118.77 to 87.7); the only live risk now is the three-day-weekend gap into Monday June 22. Trade nothing you would not trade with a real read.",
   "keyLevels": [
     {
       "label": "MNQ ATR Stop",
-      "value": "30,430",
-      "note": "Rising; reclaimed, now support"
+      "value": "30,461",
+      "note": "Rising; held all session"
     },
     {
-      "label": "MNQ AVWAP",
-      "value": "30,668",
-      "note": "Closed above it"
-    },
-    {
-      "label": "MNQ RTH High",
-      "value": "30,783",
-      "note": "Session high"
+      "label": "MNQ Close",
+      "value": "30,651",
+      "note": "-0.22%, above the stop"
     },
     {
       "label": "MES ATR Stop",
-      "value": "7,522",
-      "note": "Rising; confirms NQ"
-    },
-    {
-      "label": "MES PSYCH",
-      "value": "7,500",
-      "note": "Reclaimed and held"
+      "value": "7,526",
+      "note": "Rising; ES confirms"
     },
     {
       "label": "MGC ATR Stop",
-      "value": "4,282",
-      "note": "Falling; gold still short"
+      "value": "4,146",
+      "note": "Flipped long (fragile)"
     },
     {
-      "label": "VIX",
-      "value": "16.40",
-      "note": "-11.06%, de-risk unwound"
+      "label": "MGC Close",
+      "value": "4,173",
+      "note": "-1.30%, lone laggard"
     },
     {
-      "label": "Contracts",
-      "value": "Sep roll",
-      "note": "Index levels on MNQU26/MESU26"
+      "label": "MCL Close",
+      "value": "76.52",
+      "note": "+1.30%, long above 74.74"
+    },
+    {
+      "label": "MNQ ATR(14)",
+      "value": "87.7",
+      "note": "Contracting (was 118.77)"
+    },
+    {
+      "label": "Session",
+      "value": "Juneteenth",
+      "note": "Early close 1:00 PM ET"
     }
   ],
   "setups": [
     {
-      "name": "Momentum Breakout / Trend Continuation Long",
-      "confidence": "Medium",
-      "entry": "Long on a hold above the 30,430 rising stop; add on a pullback that holds AVWAP 30,668 / -1s 30,617",
-      "stop": "Below 30,430 / the pullback structure",
-      "t1": "Prior high 30,783 then measured continuation",
+      "name": "Trend Continuation Long (Monday)",
+      "confidence": "Low",
+      "entry": "Monday only: long on a hold above the 30,461 rising stop; add on a dip toward 30,500 psych that holds on a 1hr basis",
+      "stop": "Below 30,461 / the pullback structure",
+      "t1": "30,705 RTH high, then 30,771 overnight high, then 31,000",
       "rr": "Systematic",
-      "bias": "Trend repaired and TSMOM-20 re-armed long, but this is into expiry and a holiday weekend. Trade light; demand a confirmed hourly hold, do not chase a vertical grind into the close."
+      "bias": "Trend held through the holiday and TSMOM-20 stays armed long, but this is a post-holiday open with three-day gap risk. Demand a confirmed hourly hold; do not chase the first gap."
     },
     {
-      "name": "AVWAP Bounce (pullback long)",
-      "confidence": "Medium",
-      "entry": "First dip to AVWAP 30,668 / -1s 30,617 that holds on a 1hr basis",
-      "stop": "Below -1s / structure",
-      "t1": "Back toward the highs",
-      "rr": "Half size",
-      "bias": "Buy-the-dip in a fresh uptrend, only on a holding test, never a knife into the band. Losing 30,430 cancels the long thesis."
+      "name": "Gold fragile-flip watch",
+      "confidence": "Low",
+      "entry": "Monday: only a hold above the 4,146 flipped stop on hourly closes keeps the thin-tape long honest",
+      "stop": "Below 4,146",
+      "t1": "4,200 psych",
+      "rr": "Half size or skip",
+      "bias": "The 1hr flip is marginal and on holiday liquidity, and gold is still net down on the week. Treat it as a watch, not a signal, until Monday's real participation confirms or rejects it."
     }
   ],
   "activeIndicators": [
+    "tsmom-20",
     "momentum-breakout",
-    "avwap-bounce",
-    "tsmom-20"
+    "atr-trailing-stop"
   ],
   "event": {
-    "name": "First post-FOMC session (relief reversal) + quarterly roll / expiry day",
-    "type": "POST_EVENT",
-    "consensus": "After Wednesday's hawkish-read FOMC, the open question was whether the knee-jerk de-risk would extend or retrace",
-    "actual": "It retraced in full. NQ reclaimed its trend stop overnight and ground higher all session; ES confirmed; VIX collapsed 11% to 16.40",
-    "surprise": "The hawkish interpretation was faded hard and one-directionally, a textbook first-post-FOMC reversal",
-    "nqReaction": "NQ +1.94% to 30,726.5 on the clean September contract. Reclaimed the 30,430 ATR stop overnight (~02:00 UTC), flipped long, and closed above AVWAP 30,668 and +1 sigma. TSMOM-20 re-armed long.",
-    "crossAsset": "Broad risk-on in equities (ES +0.85%, also reclaimed its stop) but gold diverged, falling 1.13% to 4,228 and staying short with no haven bid. Crude whipsawed (72.84 low, 76.06 high) and closed flat 75.54 on a fragile long. Equities up with gold down keeps the firmer-dollar / higher-real-yield read alive in metals."
+    "name": "No scheduled release (Juneteenth federal holiday)",
+    "type": "HOLIDAY",
+    "consensus": "Holiday half-session; US cash closed, CME equity futures early close 1:00 PM ET. The only question was whether thin tape would give back the Jun 18 repair.",
+    "actual": "It did not. NQ and ES drifted and held their stops; the post-FOMC repair survived on no participation.",
+    "surprise": "None. A do-nothing holiday; the cleanest information was the absence of any reversal.",
+    "nqReaction": "MNQ -0.22% to 30,651, holding above the rising 30,461 ATR stop all session. ATR(14) contracted to 87.7. TSMOM-20 stays armed long.",
+    "crossAsset": "ES -0.23% (held its 7,526 stop). Gold -1.30% to 4,173, though its 1hr stop flipped long on a marginal reclaim (fragile, not confirmed). Crude +1.30% to 76.52, long firming above 74.74."
   },
   "atrStop": {
     "MNQ": {
-      "stop": 30429.58,
-      "price": 30726.5,
-      "gap": 296.92,
+      "stop": 30460.67,
+      "price": 30651,
+      "gap": 190.33,
       "trend": "RISING",
       "status": "ABOVE"
     },
     "MES": {
-      "stop": 7521.68,
-      "price": 7574.75,
-      "gap": 53.07,
+      "stop": 7525.58,
+      "price": 7557,
+      "gap": 31.42,
       "trend": "RISING",
       "status": "ABOVE"
     },
     "MGC": {
-      "stop": 4282.32,
-      "price": 4228.0,
-      "gap": -54.32,
-      "trend": "FALLING",
-      "status": "BELOW"
+      "stop": 4145.99,
+      "price": 4173.2,
+      "gap": 27.21,
+      "trend": "FLIPPED LONG",
+      "status": "ABOVE (fragile)"
     },
     "MCL": {
-      "stop": 73.7,
-      "price": 75.54,
-      "gap": 1.84,
+      "stop": 74.74,
+      "price": 76.52,
+      "gap": 1.78,
       "trend": "RISING",
-      "status": "ABOVE (fragile)"
+      "status": "ABOVE"
     }
   },
   "observe": [
     {
       "name": "GAP_NQ",
       "status": "NEUTRAL",
-      "note": "No clean tradable gap on the clean September contract; the overnight recovery was a steady grind, not a discrete gap-and-go. No setup."
+      "note": "Holiday tape is the wrong environment for a gap fade; the overnight was a two-way grind, not a gap-and-go. Monday's post-holiday open is the setup to watch."
     },
     {
       "name": "TSMOM252LO_NQ",
       "status": "MONITOR",
-      "note": "The short 1hr leg flipped back long today; watch whether the longer 252-period filter, which held long through the dip, now aligns and confirms the repair rather than diverging."
+      "note": "The 252-period filter stays aligned long with the short leg through the holiday. Watch for confirmation or divergence on Monday's reopen."
     }
   ],
   "risk": {
-    "throttleState": "REDUCED (easing from DEFENSIVE as event risk clears and VIX contracts to 16.40)",
-    "ddProximity": "NORMAL band; TSMOM-20 stayed flat through the event, no drawdown taken",
-    "dailyLossBudget": "Full (flat into and out of the decision)",
-    "sizing": "NQ and ES back above their ATR stops restore trend-following long habitat; TSMOM-20 re-armed long, but cap size into the Friday Juneteenth holiday and thin expiry tape. No new gold longs (still short below 4,282). Crude a no-touch after the whipsaw.",
-    "note": "The FOMC catalyst is realized and faded; volatility is contracting (VIX 16.40, MNQ ATR easing 155 to 119), so the binding constraint shifts to holiday/expiry liquidity risk. Index trend is repaired but the cleanest long location was the overnight reclaim, not the close, so chasing the grind invites a poor entry. Week ahead: Friday June 19 Juneteenth (cash closed, CME equities early close 1:00 PM ET); next full session Monday June 22; no first-tier US release confirmed to open the week, with month-end data the later focus."
+    "throttleState": "REDUCED (holiday). Bias toward NORMAL as event risk and volatility fade, but capped through the long weekend.",
+    "ddProximity": "NORMAL band; TSMOM-20 took no drawdown on the holiday.",
+    "dailyLossBudget": "Full (no holiday trades warranted).",
+    "sizing": "NQ and ES hold trend-following long habitat above their ATR stops; TSMOM-20 armed long. No new size on a holiday tape. Gold's flip is fragile, not a confirmed long. Crude long firming but not a holiday entry.",
+    "note": "Volatility is dormant (ATR contracting) and event risk is cleared, so the binding constraint is the three-day-weekend gap into Monday. Week ahead: Monday Jun 22 quiet (no first-tier US release); Philly and Richmond Fed surveys Tuesday; the May PCE inflation print Thursday Jun 25 is the week's catalyst."
   },
-  "psychology": "Yesterday the lesson was patience; today it is the discipline not to overcorrect. The market handed back the entire FOMC drop in one session, and the temptation is to declare the all-clear and pile in at the highs. But the cleanest long location was the overnight reclaim, not the close. Chasing a vertical grind into a holiday weekend, when liquidity thins and three-day gap risk opens, is how a good read becomes a bad trade. Honor the re-arm, mark your levels for Monday, and let price come to you.",
+  "psychology": "The hardest trade on a holiday is no trade. Thin tape invents fake signals: a marginal gold flip, a 68-point NQ chop that feels like structure, an overnight wick that taps a stop and snaps back. None of it is real information. The discipline today is to mark your levels, respect that the trend held without you, and protect capital across a three-day gap. A do-nothing session you sat out flat is a win. Let Monday's full participation give you a real read before you act.",
   "fullReport": [
     {
       "title": "Market Regime Snapshot (6-Axis)",
-      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Axis</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>State</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Confidence</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Direction</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>UPTREND REPAIR. NQ and ES reclaimed their ATR stops and flipped LONG overnight (MNQ 02:00 UTC, MES 01:00 UTC). Both close above their rising stops (MNQ 30,430, MES 7,522). Gold is the lone laggard, still SHORT below a falling 4,282 stop.</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Volatility</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>CONTRACTING. VIX -11.06% to 16.40, fully unwinding yesterday's FOMC spike (18.44). MNQ ATR(14) eased 155 to 119. Steady grind, low intraday dispersion (RTH sigma 51).</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Session</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NY TREND DAY UP. Overnight reclaimed the stop, RTH opened firm and ground higher all session with no meaningful pullback into the close 30,726.5.</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Inventory</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>LONG LEAN, orderly. Close above AVWAP 30,668 and +1 sigma; accumulation rather than a squeeze.</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Medium</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Event</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>POST_EVENT day 2 (first-post-FOMC reversal) plus quarterly roll / expiry day. Catalyst realized and faded.</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Liquidity</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>THINNING into a long weekend: roll-week plus expiry plus Friday Juneteenth holiday (cash closed, CME equities early close 1:00 PM ET).</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Medium</td></tr></tbody></table>"
+      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Axis</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>State</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Confidence</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Direction</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>UPTREND HELD (equities). MNQ and MES stayed LONG above rising ATR stops (MNQ 30,651 vs 30,461; MES 7,557 vs 7,526). No new flip. Gold flipped LONG on its 1hr stop intraday but only marginally and is net -1.30%, a fragile thin-tape flip. Crude firmed +1.30% above 74.74.</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High / Med</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Volatility</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>CONTRACTING / DORMANT. ATR(14) eased again (MNQ 118.77 to 87.7; MES 21.23 to 15.3). Tiny RTH ranges (MNQ 68 pts, MES 14 pts). Cash VIX did not print (cash closed).</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Session</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>HOLIDAY HALF-DAY drift. 3 RTH bars, early close 1:00 PM ET. NQ chopped 30,636-30,705 and closed mid-range. No trend day, no clean structure.</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Inventory</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>BALANCED / NEUTRAL. Held the Jun 18 long lean but added nothing; closed near AVWAP. Overnight ran a two-way shakeout (30,388 to 30,771) that resolved flat.</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Medium</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Event</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>POST_EVENT / holiday lull. No releases today. Monday Jun 22 has no first-tier US release. Next catalyst Thursday Jun 25 (May PCE).</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Liquidity</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>THIN (holiday). Early close, cash closed, three-day-weekend gap risk into Monday. Lightest tape of the cycle.</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>High</td></tr></tbody></table>"
     },
     {
       "title": "NY Opening Range / COMPASS (MNQ)",
-      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Metric</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Reading</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>OR High / Low</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,661 / 30,449 (first RTH hour, width 212 pts)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Break</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>UP. Trend-day-up structure; price held above the OR and AVWAP all session</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NYVWAP</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,668 (price closed 30,726.5, above)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Signals fired</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Trend-day-up continuation; no clean OR-fade. COMPASS long-side bias confirmed</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Filters (Thu Jun 18)</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Not FOMC, not Wed, not CPI: BIR, HOF, MID, BNC all eligible (HOF 12:00-14:00 ET dead zone applies)</td></tr></tbody></table>"
+      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Metric</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Reading</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>OR High / Low</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,698 / 30,648 (first RTH hour, holiday half-day; width 50 pts)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Break</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NONE clean. Holiday chop; price closed mid-range near AVWAP, no directional OR resolution</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NYVWAP</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,674 (price closed 30,651, just below)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Signals fired</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>None. Holiday half-session, COMPASS not applicable on 3 RTH bars</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Filters (Mon Jun 22)</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Monday so BIR skipped; HOF, MID, BNC eligible (HOF 12:00-14:00 ET dead zone)</td></tr></tbody></table>"
     },
     {
       "title": "Momentum Breakout (Regime Filter)",
-      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Component</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Reading</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Signal state</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>LONG RE-ARM FIRED</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>ROC(12)</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Positive; flipped up as the reclaim held overnight</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Price vs trend</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Closed above AVWAP 30,668 and above the flipped rising ATR stop 30,430</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Regime filter</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>PASSED (long-only strategy, up trend restored)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Position</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>TSMOM-20 re-armed long; first confirmation is a hold above 30,430 on Monday's open</td></tr></tbody></table>"
+      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Component</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Reading</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Signal state</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>LONG, ARMED (held through the holiday)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>ROC(12)</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Positive but flattening on the holiday drift</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Price vs trend</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Closed 30,651, just below AVWAP 30,674 but comfortably above the rising 30,461 ATR stop</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Regime filter</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>PASSED (long-only strategy, up trend intact)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Position</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>TSMOM-20 stays armed long; first real test is a hold above 30,461 on Monday's open</td></tr></tbody></table>"
     },
     {
       "title": "AVWAP Deviation Band Reversal (MNQ)",
-      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Level</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Value</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>AVWAP center</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,668 (sigma 50.9, tight; one-way grind compressed dispersion)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>+3s / -3s</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,821 / 30,515</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>+2s / -2s</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,770 / 30,566</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>+1s / -1s</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,719 / 30,617</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Price zone</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>ABOVE +1s (close 30,726.5, between +1s and +2s)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Touches</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Ground up along the upper bands; no reversion-short triggered on a trend day. Reversion shorts stand down while price holds above AVWAP</td></tr></tbody></table>"
+      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Level</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Value</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>AVWAP center</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,674 (sigma only 7.5 on a 3-bar holiday RTH, so bands are compressed and NOT actionable)</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>+3s / -3s</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,697 / 30,652</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>+2s / -2s</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,689 / 30,659</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>+1s / -1s</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>30,682 / 30,667</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Price zone</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>At the lower edge (close 30,651, near -3s) a quirk of the thin 3-bar sample</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Touches</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>None meaningful. Reversion stands down on a holiday half-session; use the overnight range 30,388-30,771 for real structure</td></tr></tbody></table>"
     },
     {
-      "title": "Yesterday's Map: Marked (Jun 17 to Jun 18)",
-      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>#</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Map row</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Result</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Grade</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>1</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ reclaims 30,063 flipped ATR stop on an hourly close (repair / TSMOM re-arm)</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>PLAYED OUT. The reclaim came overnight (~02:00 UTC) and never gave back; NQ closed 30,726.5 (Sep), well above the stop. The call of the day.</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>2</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ stays below 30,063 and loses 29,612 RTH low on an hourly close</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NOT TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Neutral. Price reclaimed the stop instead of failing.</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>3</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ tags 29,578 (-3 sigma) on a volume-exhaustion bar</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NOT TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Neutral. Price rallied; the downside band was never approached.</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>4</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MES holds 7,400 psych into the NY open (range risk 7,400 to 7,483)</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MIXED. Held 7,400 easily, but broke ABOVE the 7,483 stop rather than ranging; closed 7,574.75. Trend repair, not range.</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>5</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MGC reclaims 4,322 flipped stop on an hourly close</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NOT TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Neutral. Gold did not reclaim; it fell further to 4,228 and stayed short.</td></tr></tbody></table>"
+      "title": "Yesterday's Map: Marked (Jun 18 map, checked on the Jun 19 holiday session)",
+      "html": "<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>#</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Map row</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Result</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Grade</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>1</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ holds above 30,430 rising ATR stop on hourly closes</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>PLAYED OUT. Held every hourly close (lowest ~30,433 on the overnight dip), closed 30,651. Trend held.</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>2</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ loses 30,430 on an hourly close</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NOT TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Neutral. The overnight wick hit 30,388 but no hourly close broke 30,430. Closing discipline held.</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>3</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MES confirms by holding 7,522 stop / 7,500 psych</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>PLAYED OUT. Lowest hourly close 7,526 held the stop; 7,500 never threatened. ES stayed long.</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>4</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MGC reclaims 4,282 falling stop on an hourly close</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>NOT TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Neutral. Gold never neared 4,282. Its 1hr stop flipped long via a lower reclaim (4,196), not this level.</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>5</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MCL holds 73.70 rising stop / 75 psych</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>TRIGGERED</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>PLAYED OUT. Held both easily and firmed to 76.52 (+1.3%). The fragile Thursday long steadied.</td></tr></tbody></table>"
     },
     {
       "title": "Tomorrow's Map (for Monday, June 22, 2026)",
-      "html": "<p><strong>Friday June 19 is Juneteenth</strong> (cash markets closed; CME equities early close 1:00 PM ET). The map is for the next full session, Monday June 22. <strong>Filters Monday:</strong> Monday so BIR skipped; HOF, MID, BNC eligible (HOF 12:00-14:00 ET dead zone applies). <strong>Calendar:</strong> no first-tier US release confirmed to open Monday; treat the post-holiday open with normal gap caution.</p><table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>IF</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>THEN</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>BIAS</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ holds above 30,430 rising ATR stop on hourly closes</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Uptrend intact, TSMOM-20 long re-armed</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Stay constructive above the stop; first dip into 30,617 (-1s) / AVWAP 30,668 is the pullback zone, not a short</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ loses 30,430 on an hourly close</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Repair fails, back toward chop</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Stand down longs on the stop loss; next reference 30,515 (-3s) then 30,500 psych</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MES confirms by holding 7,522 stop / 7,500 psych</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Broad risk-on intact, NQ and ES aligned long</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Treat dips to AVWAP 7,564 as the pullback zone; losing 7,500 warns of failure</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MGC reclaims 4,282 falling stop on an hourly close</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Gold short-covers, downtrend pauses</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Stand down gold shorts vs the reclaim; staying below keeps gold the lone laggard, next ref 4,209 (-3s) / 4,200 psych</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MCL holds 73.70 rising stop / 75 psych</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Crude stabilizes after the whipsaw</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Only a clean hourly hold keeps the fragile long; losing 73.70 flips it short, a no-touch in the chop</td></tr></tbody></table>"
+      "html": "<p><strong>Friday June 19 was Juneteenth</strong> (cash closed; CME equity futures early close 1:00 PM ET). The map is for the next full session, Monday June 22. <strong>Filters Monday:</strong> Monday so BIR skipped; HOF, MID, BNC eligible (HOF 12:00-14:00 ET dead zone). <strong>Calendar:</strong> no first-tier US release Monday; week's focus is May PCE Thursday June 25, Philly and Richmond Fed surveys Tuesday. Treat the post-holiday open with normal three-day-gap caution.</p><table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>IF</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>THEN</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>BIAS</th></tr></thead><tbody><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ holds above 30,461 rising ATR stop on hourly closes</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Uptrend intact, TSMOM-20 long armed</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Constructive above the stop; first dip toward 30,500 psych is the pullback zone, not a short. Reclaiming 30,705 RTH high / 30,771 overnight high opens 31,000</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MNQ loses 30,461 on an hourly close</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Holiday repair stalls, back toward chop</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Stand down longs on the stop loss; next refs 30,388 overnight low then prior structure</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MES holds 7,526 stop / 7,500 psych</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Broad risk-on intact, NQ and ES aligned long</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Dips toward the 7,520 overnight low are the pullback zone; losing 7,500 warns of failure</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MGC holds above its 4,146 flipped stop on hourly closes</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Fragile gold long persists</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Only a hold keeps the thin-tape long honest; losing 4,146 re-arms the short toward 4,100 psych</td></tr><tr><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>MCL holds 74.74 rising stop / 75 psych</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Crude long intact after the steadying</td><td style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Dips toward 75 are the pullback zone; losing 74.74 flips it back to chop, a no-touch</td></tr></tbody></table>"
     }
   ],
   "tomorrowsMap": [
     {
-      "if": "MNQ holds above 30,430 rising ATR stop on hourly closes",
-      "then": "Uptrend intact, TSMOM-20 long re-armed",
-      "bias": "Stay constructive above the stop; first dip into 30,617 (-1s) / AVWAP 30,668 is the pullback zone, not a short",
-      "level": "30,430"
+      "if": "MNQ holds above 30,461 rising ATR stop on hourly closes",
+      "then": "Uptrend intact, TSMOM-20 long armed",
+      "bias": "Constructive above the stop; first dip toward 30,500 psych is the pullback zone, not a short. Reclaiming 30,705 / 30,771 overnight high opens 31,000",
+      "level": "30,461"
     },
     {
-      "if": "MNQ loses 30,430 on an hourly close",
-      "then": "Repair fails, back toward chop",
-      "bias": "Stand down longs on the stop loss; next reference 30,515 (-3s) then 30,500 psych",
-      "level": "30,430"
+      "if": "MNQ loses 30,461 on an hourly close",
+      "then": "Holiday repair stalls, back toward chop",
+      "bias": "Stand down longs on the stop loss; next refs 30,388 overnight low then prior structure",
+      "level": "30,461"
     },
     {
-      "if": "MES confirms by holding 7,522 stop / 7,500 psych",
+      "if": "MES holds 7,526 stop / 7,500 psych",
       "then": "Broad risk-on intact, NQ and ES aligned long",
-      "bias": "Treat dips to AVWAP 7,564 as the pullback zone; losing 7,500 warns of failure",
-      "level": "7,522"
+      "bias": "Dips toward the 7,520 overnight low are the pullback zone; losing 7,500 warns of failure",
+      "level": "7,526"
     },
     {
-      "if": "MGC reclaims 4,282 falling stop on an hourly close",
-      "then": "Gold short-covers, downtrend pauses",
-      "bias": "Stand down gold shorts vs the reclaim; staying below keeps gold the lone laggard, next ref 4,209 (-3s) / 4,200 psych",
-      "level": "4,282"
+      "if": "MGC holds above its 4,146 flipped stop on hourly closes",
+      "then": "Fragile gold long persists",
+      "bias": "Only a hold keeps the thin-tape long honest; losing 4,146 re-arms the short toward 4,100 psych",
+      "level": "4,146"
     },
     {
-      "if": "MCL holds 73.70 rising stop / 75 psych",
-      "then": "Crude stabilizes after the whipsaw",
-      "bias": "Only a clean hourly hold keeps the fragile long; losing 73.70 flips it short, a no-touch in the chop",
-      "level": "73.70"
+      "if": "MCL holds 74.74 rising stop / 75 psych",
+      "then": "Crude long intact after the steadying",
+      "bias": "Dips toward 75 are the pullback zone; losing 74.74 flips it back to chop, a no-touch",
+      "level": "74.74"
     }
   ],
   "yesterdaysMapScore": {
     "rows": 5,
-    "triggered": 2,
-    "playedOut": 1,
+    "triggered": 3,
+    "playedOut": 3,
     "failed": 0,
-    "note": "Row 1 (MNQ reclaim 30,063) triggered and played out, the call of the day. Row 4 (MES holds 7,400) triggered but mixed: held the psych yet broke above the 7,483 stop to the upside rather than ranging. Rows 2, 3, 5 not triggered (neutral): price reversed up instead of continuing down, and gold never reclaimed."
+    "note": "Rows 1, 3, 5 (hold the MNQ/MES/MCL stops) triggered and played out on the holiday tape; the constructive scenarios held. Rows 2, 4 not triggered (neutral): MNQ never lost 30,430 on a close, and gold never reclaimed 4,282 (its lower 1hr stop flipped via a different level)."
   },
   "mapTallyMTD": {
-    "triggered": 12,
-    "playedOut": 10,
+    "triggered": 15,
+    "playedOut": 13,
     "failed": 0
   },
   "downloadLink": "https://your-download-link.com/EOD_Report.docx",
-  "reportFileName": "pro-eod-report-2026-06-18.docx",
+  "reportFileName": "pro-eod-report-2026-06-19.docx",
   "charts": [
-    "chart-mnq-1hr-2026-06-18.png",
-    "chart-mes-1hr-2026-06-18.png",
-    "chart-mgc-1hr-2026-06-18.png",
-    "chart-mcl-1hr-2026-06-18.png"
+    "chart-mnq-1hr-2026-06-19.png",
+    "chart-mes-1hr-2026-06-19.png",
+    "chart-mgc-1hr-2026-06-19.png",
+    "chart-mcl-1hr-2026-06-19.png"
   ]
 }
