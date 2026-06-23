@@ -14,6 +14,13 @@
     "summary": "<strong>Capital preservation day \u2014 both ACTIVE strategies OUT OF HABITAT.</strong> NQ gapped up ~500 pts to 29,700 then reversed hard to ~29,075\u201329,232. The Strait of Hormuz stalemate pushed oil higher (Brent ~$108, WTI ~$102), hot CPI reverberations persist, and chip stocks sold off. Powell's last week as Fed Chair adds uncertainty \u2014 FOMC minutes Wednesday expected to show historic dissent count. Gold failing to catch safe-haven bid despite equity weakness signals USD/rate pressure dominating. ES confirming NQ weakness with parallel move below ATR Stop and AVWAP. No trades today \u2014 wait for regime clarity post-FOMC."
   },
   {
+    "date": "June 23, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Trend-Down / Risk-Off Liquidation (Volatility Expanding)",
+    "regimeClass": "trend-down",
+    "summary": "<strong>Day 2 of the downtrend, and it broke wider.</strong> Equities extended Monday's TSMOM flip hard as an Asian chip crash (KOSPI -9.99%, Samsung and SK Hynix down more than 12%), a Broadcom guidance miss, and Fed late-2026 hike bets hammered the AI trade: MNQ closed 29,750 (-2.9%) below a falling 30,031 short stop and MES 7,446 below 7,482. The lone haven long broke too, with gold flipping short (4,129 below its 4,178.6 long stop), so all four HTA instruments are now short and even safety was sold. TSMOM-20 (long-only) stays flat and stands aside until a confirmed reclaim above 30,031."
+  },
+  {
     "date": "June 22, 2026",
     "dayOfWeek": "Monday",
     "regime": "Trend Flip Down / Risk-Off Reversal (Volatility Re-Expanding)",
