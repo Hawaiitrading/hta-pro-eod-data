@@ -1,5 +1,12 @@
 [
   {
+    "date": "June 30, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Risk-On Day 2 (NQ Fresh Highs, Commodities Whipsaw)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>Day 2 of the risk-on, and now it is squarely an equity story.</strong> MNQ extended Monday's reversal into a clean trend day: it ran through the 13:00 hour, broke its opening range UP at 13:50 UTC and held, then ground to a fresh 30,600 RTH high before settling 30,501 (+1.69%). MES confirmed, +0.65% to 7,541.75, holding above the 7,500 breakout on every hourly close (RTH low 7,515.5). Both TSMOM-20 legs sit above rising 1hr stops, with NQ leading ES roughly three to one. The commodity side decoupled into whipsaw: gold flipped its 1hr stop back long overnight, then failed a 4,106 pop and closed 4,050.5 (-0.21%) heavy near the RTH low, stretched 2.3 sigma below its session VWAP; crude lost its stop midsession and flipped short (-0.58%, 70.04). The easy money was Monday's reversal; today is extension into round-number resistance, and it prints into quarter-end markup ahead of a holiday-shortened jobs week (ADP and ISM Wed, June jobs Thu, market closed Fri)."
+  },
+  {
     "date": "June 29, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-On Reversal (NQ Reclaims 30,000, Gold Flips Short)",
