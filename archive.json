@@ -1,5 +1,12 @@
 [
   {
+    "date": "July 1, 2026",
+    "dayOfWeek": "Wednesday",
+    "regime": "Risk-Off Reversal (TSMOM-20 Stopped Out, All Legs Flip Short)",
+    "regimeClass": "risk-off",
+    "summary": "<strong>The two-day risk-on run ended, and it ended as a tech-led reversal.</strong> MNQ opened lower, broke its opening range up at 13:55 UTC then failed, and sold off through the day to close 30,064.5 (-1.43%), losing its 1hr trend stop and flipping SHORT. TSMOM-20, long and healthy 24 hours ago, was stopped out on a 2-close break of 30,242 and is now flat. MES held far better (-0.12% to 7,533) but told the same story: it printed a record 7,579, reversed, and closed below its own 7,574 stop, so the equity complex is now both-short on the 1hr. The commodity side offered no shelter: gold spiked to 4,159.5 and reversed to close 4,072.6 (a large outside-day, stop flipped short), and crude fell 2.8% to 68.08. It was an event day (soft ADP +98K, ISM beat 53.3 but down MoM) and a de-risk into Thursday's June jobs report and the holiday close, not a growth-scare cascade. All four contracts closed below their 1hr stops.</p>"
+  },
+  {
     "date": "June 30, 2026",
     "dayOfWeek": "Tuesday",
     "regime": "Risk-On Day 2 (NQ Fresh Highs, Commodities Whipsaw)",
