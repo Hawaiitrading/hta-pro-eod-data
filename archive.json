@@ -112,6 +112,13 @@
     "summary": "<strong>New month, new high.</strong> ES printed a fresh ATH (7,632.75) on the first trading day of June. NQ swept lows at the open (30,295), reversed 397 pts to 30,692, and closed 30,523.75 (+0.45%). ATR trailing stops re-armed below price on both NQ and ES \u2014 regime flipped from Friday's BORDERLINE back to IN_HABITAT. The macro story: MCL surged +5.35% to $92.50 on a single shock candle at 13:00 UTC (OPEC/geopolitical), spiked to $94.79 RTH high then faded. Gold fell -1.19% to 4,515.4 \u2014 capital rotating out of gold into oil and equities. Strongest regime improvement since April ATH run."
   },
   {
+    "date": "July 7, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Risk-Off Reversal (Equities Flip Short, Crude Spikes)",
+    "regimeClass": "risk-off",
+    "summary": "<p>A near-mirror of Monday. One session after equities flipped long, the risk-on unwound: <strong>MNQ lost its 29,802 stop and 2-closed short</strong> (-1.62%), ES flipped short by a whisker (-0.07%), and gold kept falling with <strong>no haven bid</strong> (-1.71%). The standout was <strong>crude, +4.96% and flipping long</strong>, a crude-led inflation impulse that lifted real-yield fear into tomorrow's FOMC minutes. The book stays flat and DEFENSIVE; the trend edge is short but a 14:00 ET release argues against full size on a one-day reversal.</p>"
+  },
+  {
     "date": "July 6, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-On Rotation (Equities Flip Long, Havens Unwind)",
