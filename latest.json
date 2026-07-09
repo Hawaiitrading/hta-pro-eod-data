@@ -1,203 +1,213 @@
 {
-  "date": "July 8, 2026",
-  "dayOfWeek": "Wednesday",
-  "regime": "Risk-On Reclaim / Whipsaw (Equities Flip Long Post-FOMC Minutes)",
+  "date": "July 9, 2026",
+  "dayOfWeek": "Thursday",
+  "regime": "Risk-On Trend / Whipsaw Resolves Up (Equities Confirm the Long Flip)",
   "regimeClass": "risk-on",
-  "summary": "<p>One session after flipping short, equities snapped back. <strong>MNQ, MES and MGC all washed to fresh overnight lows</strong> (MNQ 28,910, MES 7,468, MGC 4,062) then recovered through the FOMC June minutes and <strong>flipped their 1hr stops back long</strong> by the close. It reads as a squeeze of yesterday's reversal shorts, not a confirmed trend: <strong>NQ's stop has now flipped three sessions running</strong> (long, short, long). Crude was the one clean move, +3.55% for a second straight up day. The book stays flat and DEFENSIVE; chop, not trend, is the operating assumption.</p>",
+  "summary": "<p>The three-session whipsaw finally resolved, and it resolved up. <strong>MNQ, MES and MGC all closed higher on rising long stops</strong>, the first clean trend day in a week. MNQ ripped +1.84% to 29,993, kissing the 30,000 psych; MES pressed to 7,595, seven ticks under its 7,602 cash record; gold firmed its recovery +1.08%. Volatility normalized as the move ran (MNQ ATR14 158 to 119), the mark of an orderly trend rather than an expansion. <strong>Crude was the lone outlier</strong>, reversing 3.91% and flipping its 1hr stop short. The book can lift from DEFENSIVE toward REDUCED, but it is day one of the trend and CPI (June) next week is the gate.</p>",
   "keyLevels": [
     {
       "label": "MNQ ATR Stop",
-      "value": "29,055",
-      "note": "Flipped LONG; price +335 above. The line for the fresh long."
+      "value": "29,637",
+      "note": "Rising LONG; RTH close +292 above. The line that now defines the trend."
     },
     {
-      "label": "MNQ AVWAP / OR High",
-      "value": "29,323 / 29,386",
-      "note": "Closed above both; a 2-close hold confirms, a loss reopens the chop."
+      "label": "MNQ AVWAP / RTH High",
+      "value": "29,901 / 29,993",
+      "note": "Closed above AVWAP; the 29,993 high sits seven points under the 30,000 psych."
     },
     {
-      "label": "MES ATR Stop / RTH Low",
-      "value": "7,472 / 7,469",
-      "note": "Flipped long; 7,468 O/N low is the pivot, 7,602 record above."
+      "label": "MES ATR Stop / Record",
+      "value": "7,548 / 7,602",
+      "note": "Long; the 7,595 high stalled seven ticks under the 7,602 cash record."
     },
     {
-      "label": "MGC ATR Stop",
-      "value": "4,069",
-      "note": "Flipped long but late; +48 above, below the 4,184 prior stop."
+      "label": "MGC ATR Stop / AVWAP",
+      "value": "4,137 / 4,166",
+      "note": "Long firmed; ran to a 4,177 high, +25 above the stop."
     },
     {
-      "label": "MCL ATR Stop / psych",
-      "value": "73.58 / 74.00",
-      "note": "Rising LONG; +1.17 above after a +8.7% two-day surge."
+      "label": "MCL ATR Stop",
+      "value": "73.55",
+      "note": "FLIPPED SHORT; close 71.83, -1.72 below after a -3.9% reversal."
     }
   ],
   "setups": [
     {
       "name": "TSMOM-20 1hr (long)",
-      "confidence": "Low-Medium",
-      "entry": "Long continuation only on a 2-close hold above the 29,386 OR high; not at the highs",
-      "stop": "Below the 29,055 flipped-long stop",
-      "t1": "29,558 O/N high, then the 29,638 +3s",
+      "confidence": "Medium",
+      "entry": "Long with the trend on a pullback to the rising AVWAP (29,901), not a chase into the 30,000 psych",
+      "stop": "Below the 29,637 rising long stop",
+      "t1": "30,000 psych, then the 30,107 +3s",
       "rr": "Systematic",
-      "bias": "BORDERLINE long. Whipsaw tape (3 flips in 3 sessions); reduced size, demand confirmation."
+      "bias": "IN_HABITAT long. First clean trend day after three chop sessions; still respect that it is day one."
     },
     {
       "name": "AVWAP Bounce (MNQ / MES)",
-      "confidence": "Low-Medium",
-      "entry": "Long on a hold of the session AVWAP (MNQ 29,323, MES 7,512) as support",
+      "confidence": "Medium",
+      "entry": "Long on a hold of the rising session AVWAP (MNQ 29,901, MES 7,579) as support",
       "stop": "Below AVWAP on a 2-close",
-      "t1": "OR high, then the O/N high",
+      "t1": "RTH high, then the psych / record above",
       "rr": "Continuation",
-      "bias": "BORDERLINE. AVWAP flipped to support on the reclaim; a loss reopens the chop."
+      "bias": "IN_HABITAT. AVWAP is rising support on a trend day; a loss is the first stall signal."
+    },
+    {
+      "name": "E3v2 Momentum Long (15min)",
+      "confidence": "Medium",
+      "entry": "Long on a 15min breakout with the regime filter green",
+      "stop": "Per the breakout structure",
+      "t1": "Session extension",
+      "rr": "Breakout",
+      "bias": "IN_HABITAT (re-armed). Risk-on trend qualifies the filter; best breakout tape in a week."
     }
   ],
   "activeIndicators": [
     "tsmom-20",
     "compass-or",
     "avwap-bounce",
-    "atr-trailing-stop"
+    "atr-trailing-stop",
+    "e3v2-momentum"
   ],
-  "downloadLink": "HTA-Pro-EOD-Report-2026-07-08.docx",
-  "reportFileName": "HTA-Pro-EOD-Report-2026-07-08.docx",
+  "downloadLink": "HTA-Pro-EOD-Report-2026-07-09.docx",
+  "reportFileName": "HTA-Pro-EOD-Report-2026-07-09.docx",
   "event": {
-    "name": "FOMC June-meeting minutes (released 14:00 ET)",
-    "type": "POST_EVENT",
-    "consensus": "n/a (minutes, not a data print)",
-    "actual": "Equities entered soft and washed to fresh overnight lows (MNQ 28,910, MES 7,468, MGC 4,062), then recovered through the 14:00 ET release and flipped their 1hr stops back long by the close.",
+    "name": "No scheduled Tier-1 release (weekly jobless claims 8:30 ET, minor)",
+    "type": "NONE",
+    "consensus": "n/a",
+    "actual": "Weekly jobless claims printed roughly in line and were a market non-event; price action, not a catalyst, drove the trend day.",
     "surprise": "n/a",
-    "nqReaction": "MNQ dropped through its 29,201 OR low and the 29,000 psych to 28,910, then V-reclaimed to close 29,390 above the OR high, flipping its stop long at 29,055 (its 3rd flip in 3 sessions).",
-    "crossAsset": "Crude led again (+3.55%, 2nd up day, +8.7% two-day). Equities and gold flipped long via stop ratchets on the reclaim but closed red. The snapback squeezed the reversal shorts rather than starting a fresh trend."
+    "nqReaction": "MNQ held its rising 29,637 stop all session, broke the 29,871 OR high on the 13:50 UTC opening drive and ran to 29,993, kissing the 30,000 psych. A clean trend-continuation day, the follow-through the Jul 8 squeeze needed.",
+    "crossAsset": "Equities and gold trended up together (MES +0.94% to 7,595 near the 7,602 record; MGC +1.08% to a 4,177 high). Crude was the outlier, reversing 3.91% and flipping its 1hr stop short at 73.55."
   },
   "atrStop": {
     "MNQ": {
-      "stop": 29055.21,
-      "price": 29390,
-      "gap": 334.79,
+      "stop": 29637.35,
+      "price": 29929.75,
+      "gap": 292.4,
       "trend": "RISING",
       "status": "ABOVE"
     },
     "MES": {
-      "stop": 7472.45,
-      "price": 7515.25,
-      "gap": 42.8,
+      "stop": 7548.03,
+      "price": 7586.25,
+      "gap": 38.22,
       "trend": "RISING",
       "status": "ABOVE"
     },
     "MGC": {
-      "stop": 4068.65,
-      "price": 4117.1,
-      "gap": 48.45,
+      "stop": 4136.79,
+      "price": 4161.4,
+      "gap": 24.61,
       "trend": "RISING",
       "status": "ABOVE"
     },
     "MCL": {
-      "stop": 73.58,
-      "price": 74.75,
-      "gap": 1.17,
-      "trend": "RISING",
-      "status": "ABOVE"
+      "stop": 73.55,
+      "price": 71.83,
+      "gap": -1.72,
+      "trend": "FALLING",
+      "status": "BELOW"
     }
   },
   "observe": [
     {
       "name": "GAP_NQ (gap fade)",
       "status": "MONITOR",
-      "note": "The two-way range left an unstable close; watch Thursday's open, no clean fade yet."
+      "note": "Strong trend close near the highs; a Friday gap up would run straight into the 30,000 psych, no clean fade yet."
     },
     {
       "name": "TSMOM252LO_NQ (long-only 252)",
       "status": "LONG",
-      "note": "The longer-horizon base held the 28,910 washout and the short-horizon flip re-aligned long."
+      "note": "The long-horizon base and the short-horizon trend are now aligned long after the whipsaw resolved up."
     },
     {
       "name": "ES confirmation",
       "status": "BOTH-LONG",
-      "note": "MES flipped long with NQ, but both closed red and the alignment came from a stop ratchet, not strength, so it is fragile."
+      "note": "MES and MNQ both trended and closed green on rising stops; a genuine both-long this time, not a stop-ratchet artifact."
     }
   ],
   "risk": {
-    "throttleState": "DEFENSIVE. Signals flipped long, but three stop flips in three sessions is chop, and chop is where trend edges bleed.",
+    "throttleState": "REDUCED (up from DEFENSIVE). The whipsaw resolved into a clean trend day; edges can size up modestly, but it is day one of the trend.",
     "ddProximity": "Not binding; the book entered flat and the full daily budget is intact.",
     "dailyLossBudget": "Intact.",
-    "sizing": "A TSMOM-20 long is a starter only, on a 2-close hold above the 29,055 stop and the 29,386 OR high, not at the highs. The gold long is late and the crude long chases a +8.7% two-day move, so neither is a fresh entry.",
+    "sizing": "A TSMOM-20 long is now with the trend and above a rising 29,637 stop; a starter-to-half is reasonable on a pullback to the AVWAP rather than a chase into the 30,000 psych. The crude short is a fresh signal but late in the day.",
     "openRisk": "Flat.",
-    "note": "Week ahead: CPI (June) next week. Thursday is a normal session; treat the whipsaw as the base case and demand 2-close confirmation before adding size."
+    "note": "Week ahead: CPI (June) next week is the gate on this trend. Friday is a normal session; let pullbacks to the rising AVWAP set entries rather than chasing the round number."
   },
-  "psychology": "<strong>Three flips in three sessions is the market telling you what it is: chop, not trend.</strong> After being whipsawed short yesterday, the pull is to trust today's long flip at full size and make it back. That instinct is what a whipsaw feeds on. Demand a 2-close hold, size down, and let the tape prove it can trend before you press. A stop that flips every session is a signal to trade smaller, not harder.",
+  "psychology": "<strong>The first clean trend day after three whipsaws tempts two mistakes:</strong> chasing the 30,000 round number at the highs, or distrusting the move because the last three flips burned you. Neither is process. The trend is defined by the rising 29,637 stop; trade with it, enter on pullbacks to the AVWAP, and let the round number come to you. One clean day is not a reason to abandon the confirmation discipline that kept you flat through the chop.",
   "fullReport": [
     {
       "title": "Market Regime Snapshot (6-Axis)",
-      "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>State</th><th>Confidence</th><th>Note</th></tr></thead><tbody><tr><td>Direction</td><td>RISK-ON RECLAIM / WHIPSAW</td><td>Medium</td><td>MNQ, MES and MGC all washed out overnight then reclaimed and flipped their 1hr stops LONG. NQ's 3rd flip in 3 sessions. Crude extended a 2-day surge.</td></tr><tr><td>Volatility</td><td>EXPANDING / HIGH</td><td>High</td><td>MNQ ATR14 157.65 (from 123); MES 21.97 (from 14.7). Huge intraday range: MNQ 29,558 down to 28,910 and back.</td></tr><tr><td>Session</td><td>POST-EVENT</td><td>High</td><td>FOMC June minutes released today 14:00 ET; the tape recovered through and after the release.</td></tr><tr><td>Inventory</td><td>Trapped Jul 7 shorts squeezed / momentum-long crude</td><td>Medium</td><td>Reversal shorts from yesterday caught on the reclaim; energy extended higher.</td></tr><tr><td>Event</td><td>POST_EVENT (FOMC minutes)</td><td>Medium</td><td>No fresh Tier-1 print after; CPI (June) lands next week.</td></tr><tr><td>Liquidity</td><td>Normal</td><td>Medium</td><td>Full depth, no holiday distortion.</td></tr></tbody></table></div>"
+      "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>State</th><th>Confidence</th><th>Note</th></tr></thead><tbody><tr><td>Direction</td><td>RISK-ON TREND / CONFIRM</td><td>Medium-High</td><td>MNQ +1.84%, MES +0.94%, MGC +1.08% all closed up on rising long stops. First clean trend day after three chop sessions; the whipsaw resolved to the upside. Crude the lone outlier, flipping short.</td></tr><tr><td>Volatility</td><td>NORMALIZING / MODERATE</td><td>High</td><td>MNQ ATR14 fell 157.65 to 119; MES 21.97 to 16.31. Range compressed versus the Jul 8 washout, the mark of an orderly trend rather than an expansion.</td></tr><tr><td>Session</td><td>NORMAL</td><td>High</td><td>No Tier-1 print; weekly jobless claims 8:30 ET was a market non-event.</td></tr><tr><td>Inventory</td><td>Longs in control / crude momentum-short</td><td>Medium</td><td>Jul 8 reversal shorts fully squeezed; trend followers now long. Energy flipped to momentum-short.</td></tr><tr><td>Event</td><td>NONE (CPI next week)</td><td>Medium-High</td><td>No catalyst today; CPI (June) next week is the next gate on the trend.</td></tr><tr><td>Liquidity</td><td>Normal</td><td>Medium</td><td>Full depth, no holiday distortion.</td></tr></tbody></table></div>"
     },
     {
-      "title": "NY Opening Range / COMPASS (MNQ)",
-      "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>OR (13:30-13:44 UTC)</th><th>Break</th><th>Result</th></tr></thead><tbody><tr><td>MNQ</td><td>29,202 - 29,386</td><td>DOWN 14:45</td><td>Broke to 29,174 then reclaimed the OR high; failed break, closed 29,390.</td></tr><tr><td>MES</td><td>7,502 - 7,523</td><td>DOWN 14:35</td><td>Broke to 7,498 then reclaimed; closed 7,515.</td></tr><tr><td>MGC</td><td>4,110 - 4,120</td><td>DOWN 13:45</td><td>Held down most of the session; closed 4,117.</td></tr><tr><td>MCL</td><td>73.53 - 74.30</td><td>UP 14:10</td><td>Held and extended to 76.08.</td></tr></tbody></table></div>"
+      "title": "NY Opening Range / COMPASS",
+      "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>OR (13:30-13:44 UTC)</th><th>Break</th><th>Result</th></tr></thead><tbody><tr><td>MNQ</td><td>29,672 - 29,871</td><td>UP 13:50</td><td>Broke the OR high at 13:50 to 29,902 and never looked back; ran to 29,993.</td></tr><tr><td>MES</td><td>7,530 - 7,559</td><td>UP 13:50</td><td>Broke up at 13:50 to 7,564; extended to 7,595 near the record.</td></tr><tr><td>MGC</td><td>4,160 - 4,168</td><td>DOWN 13:50</td><td>Broke down to 4,159 then reclaimed; ground higher to 4,177.</td></tr><tr><td>MCL</td><td>72.71 - 73.24</td><td>DOWN 13:55</td><td>Broke down at 13:55 to 72.66; extended lower to 71.41.</td></tr></tbody></table></div>"
     },
     {
       "title": "Momentum Breakout (Regime Filter)",
-      "html": "<div class='table-wrap'><table><thead><tr><th>Field</th><th>Read</th></tr></thead><tbody><tr><td>Regime filter</td><td>Turned positive for longs (price above AVWAP, above a freshly flipped long stop), but fragile.</td></tr><tr><td>Trend edge</td><td>TSMOM-20 flipped LONG on both indices via a stop ratchet, not strength.</td></tr><tr><td>Continuation</td><td>Qualifies only on a 2-close hold above the 29,386 OR high, not a chase at the highs.</td></tr><tr><td>E3v2 Momentum Long</td><td>Re-arming in the risk-on flip, but gated by the post-FOMC whipsaw.</td></tr></tbody></table></div>"
+      "html": "<div class='table-wrap'><table><thead><tr><th>Field</th><th>Read</th></tr></thead><tbody><tr><td>Regime filter</td><td>Turned cleanly positive for longs: price above AVWAP, above a rising long stop, ATR normalizing. The best trend-follow tape in a week.</td></tr><tr><td>Trend edge</td><td>TSMOM-20 long confirmed on both indices via price, not a stop ratchet; the Jul 8 flip held and extended.</td></tr><tr><td>Continuation</td><td>Qualifies long on pullbacks to the rising AVWAP (MNQ 29,901), not a chase into the 30,000 psych.</td></tr><tr><td>E3v2 Momentum Long</td><td>Re-armed and qualifying in the risk-on trend; the 15min breakout filter is green.</td></tr></tbody></table></div>"
     },
     {
       "title": "AVWAP Deviation Band Reversal (MNQ)",
-      "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Value</th></tr></thead><tbody><tr><td>Center (AVWAP)</td><td>29,323</td></tr><tr><td>Sigma</td><td>105</td></tr><tr><td>+1s / +2s / +3s</td><td>29,428 / 29,533 / 29,638</td></tr><tr><td>-1s / -2s / -3s</td><td>29,219 / 29,114 / 29,009</td></tr><tr><td>Signal</td><td>Washed to 28,910 (through -3s) then reverted hard to close 29,390 above AVWAP; the reversion long already fired intraday. A fresh fade needs a new -2s/-3s tag with an exhaustion bar and center reclaim, half size. Price-based.</td></tr></tbody></table></div>"
+      "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Value</th></tr></thead><tbody><tr><td>Center (AVWAP)</td><td>29,901</td></tr><tr><td>Sigma</td><td>70</td></tr><tr><td>+1s / +2s / +3s</td><td>29,966 / 30,036 / 30,107</td></tr><tr><td>-1s / -2s / -3s</td><td>29,825 / 29,755 / 29,684</td></tr><tr><td>Signal</td><td>Price rode the +1s band up on a trend day; mean-reversion fades are counter-trend and OUT of habitat today. A fade needs a stretched +3s (30,107) tag with an exhaustion bar, half size at most. Price-based (volume unavailable on the continuous contract).</td></tr></tbody></table></div>"
     },
     {
       "title": "Yesterday's Map: Marked",
-      "html": "<div class='table-wrap'><table><thead><tr><th>#</th><th>Map row (targeted Wed Jul 8)</th><th>Result</th><th>Measured line</th></tr></thead><tbody><tr><td>1</td><td>MNQ 2-closes back above its 29,606 flipped-short stop</td><td>NOT TRIGGERED</td><td>Never reclaimed 29,606 (max close 29,457). The short was voided instead by the stop ratcheting down and flipping long at 29,055.</td></tr><tr><td>2</td><td>MNQ accepts (2 closes) below the 29,210 RTH low / 29,194 -3s</td><td>TRIGGERED / PLAYED OUT</td><td>Five straight hourly closes below 29,210; the air pocket opened through the 29,000 psych to a 28,910 low, then V-reclaimed.</td></tr><tr><td>3</td><td>MES loses the 7,530 RTH low / 7,500 psych on hourly closes</td><td>TRIGGERED / MIXED</td><td>Lost both to a 7,468 low, but reclaimed 7,500 and flipped its stop long by the close (7,515.25).</td></tr><tr><td>4</td><td>MCL holds above its 70.84 stop and the 72.00 psych</td><td>TRIGGERED / PLAYED OUT</td><td>Held both and extended through the 73.00 psych to a 76.08 high.</td></tr><tr><td>5</td><td>MGC 2-closes back above its 4,184 stop</td><td>NOT TRIGGERED</td><td>Never reclaimed 4,184 (max close 4,168); fell to a 4,062 low then bounced but stayed below.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 3 triggered (2 played out, 1 mixed), 0 failed, 2 not triggered. July MTD: 12 triggered / 6 played out / 0 failed.</p>"
+      "html": "<div class='table-wrap'><table><thead><tr><th>#</th><th>Map row (targeted Thu Jul 9)</th><th>Result</th><th>Measured line</th></tr></thead><tbody><tr><td>1</td><td>MNQ holds above its 29,055 flipped-long stop and reclaims the 29,386 OR high on a 2-close</td><td>TRIGGERED / PLAYED OUT</td><td>Held 29,055 all day, blew through the OR high and ran to 29,993, tagging both the 29,558 O/N target and the 29,638 +3s.</td></tr><tr><td>2</td><td>MNQ 2-closes back below the 29,055 stop</td><td>NOT TRIGGERED</td><td>Never threatened; the RTH low was 29,614, nearly 560 above the stop.</td></tr><tr><td>3</td><td>MES holds its 7,472 stop and reclaims the 7,523 OR high</td><td>TRIGGERED / PLAYED OUT</td><td>Held 7,472, reclaimed 7,523 and ran to 7,595, tagging the 7,563 O/N high and stalling seven ticks under the 7,602 record.</td></tr><tr><td>4</td><td>MCL holds above its 73.58 trailing stop and the 74.00 psych</td><td>TRIGGERED / FAILED</td><td>Held the stop overnight to 75.15 then reversed hard through 73.58 and 74.00 to a 71.83 close; the stop flipped short. First failed row of the month.</td></tr><tr><td>5</td><td>MGC reclaims its 4,069 stop and the 4,102 AVWAP with acceptance</td><td>TRIGGERED / PLAYED OUT</td><td>Held 4,069, accepted over the 4,102 AVWAP and ran to 4,177, tagging the 4,130 target and the 4,175 O/N high.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 4 triggered (3 played out, 1 failed), 1 not triggered. July MTD: 16 triggered / 9 played out / 1 failed.</p>"
     },
     {
-      "title": "Tomorrow's Map (for Thursday July 9)",
-      "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th></tr></thead><tbody><tr><td>MNQ holds above its 29,055 flipped-long stop and reclaims the 29,386 OR high on a 2-close</td><td>The whipsaw reclaim confirms; the long re-arms toward the 29,558 O/N high and the 29,638 +3s</td><td>Above 29,055 the fresh long stands; a 2-close back below voids the third flip, no chasing</td></tr><tr><td>MNQ 2-closes back below the 29,055 stop</td><td>The third flip fails and the chop resumes toward the 29,034 RTH low and 29,000 psych</td><td>Below 29,055 the long is void; whipsaw risk is high, size stays small</td></tr><tr><td>MES holds its 7,472 stop and reclaims the 7,523 OR high</td><td>ES confirms the equity reclaim toward the 7,563 O/N high, the 7,600 psych and the 7,602 cash record</td><td>Above 7,472 long; a close back below reopens the 7,468 low</td></tr><tr><td>MCL holds above its 73.58 trailing stop and the 74.00 psych</td><td>The two-day energy surge extends toward the 76.08 RTH high and the 76.60 +3s</td><td>Crude stays long above 73.58; a 2-close below voids it after a +8.7% two-day run</td></tr><tr><td>MGC reclaims its 4,069 stop and the 4,102 AVWAP with acceptance</td><td>Gold's late flip long firms toward the 4,130 RTH high and the 4,175 O/N high</td><td>Above 4,069 the flip stands but it is late; below the 4,062 RTH low the short resumes</td></tr></tbody></table></div><p><strong>Filters Thursday:</strong> Thursday is a normal session (not FOMC, not Monday, no CPI), so HOF, MID, BIR and BNC are all eligible. <strong>Calendar:</strong> weekly jobless claims Thu Jul 9 8:30 ET (minor); CPI (June) next week.</p>"
+      "title": "Tomorrow's Map (for Friday July 10)",
+      "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th></tr></thead><tbody><tr><td>MNQ holds above its 29,637 rising stop and the 29,901 AVWAP on hourly closes</td><td>The trend day extends toward the 30,000 psych and the 30,107 +3s</td><td>Above 29,637 the long stands; the 30,000 round is the magnet, a first 2-close below the 29,825 -1s signals a stall</td></tr><tr><td>MNQ 2-closes back below the 29,637 stop</td><td>The trend-day gain unwinds toward the 29,672 OR low and the 29,614 RTH low</td><td>Below 29,637 the long is void; that stop is the line that now defines the trend</td></tr><tr><td>MES holds 7,548 and presses the 7,600 psych and the 7,602 cash record</td><td>A breakout above 7,602 opens fresh price discovery toward the 7,620 +3s</td><td>Above 7,548 long; the 7,602 record is the whole game, a rejection there caps the day</td></tr><tr><td>MGC holds above its 4,137 stop and the 4,166 AVWAP</td><td>Gold's recovered long extends toward the 4,177 RTH high and the 4,200 psych</td><td>Above 4,137 long; below the 4,153 RTH low the bounce stalls</td></tr><tr><td>MCL stays below its 73.55 flipped-short stop</td><td>The crude reversal extends toward the 71.41 RTH low and the 70.86 -3s / 70.00 psych</td><td>Below 73.55 short; only a 2-close back above 73.55 voids the fresh short after a one-day -3.9% reversal</td></tr></tbody></table></div><p><strong>Filters Friday:</strong> Friday is a normal session (not FOMC, not Monday, no CPI), so HOF, MID, BIR and BNC are all eligible. <strong>Calendar:</strong> no Tier-1 US print scheduled Friday Jul 10; CPI (June) lands next week.</p>"
     }
   ],
   "tomorrowsMap": [
     {
-      "if": "MNQ holds above its 29,055 flipped-long stop and reclaims the 29,386 OR high on a 2-close",
-      "then": "The whipsaw reclaim confirms; the long re-arms toward the 29,558 O/N high and the 29,638 +3s",
-      "bias": "Above 29,055 the fresh long stands; a 2-close back below voids the third flip, no chasing",
-      "level": "29,055 / 29,386"
+      "if": "MNQ holds above its 29,637 rising stop and the 29,901 AVWAP on hourly closes",
+      "then": "The trend day extends toward the 30,000 psych and the 30,107 +3s",
+      "bias": "Above 29,637 the long stands; the 30,000 round is the magnet, a first 2-close below the 29,825 -1s signals a stall",
+      "level": "29,637 / 29,901 / 30,000"
     },
     {
-      "if": "MNQ 2-closes back below the 29,055 stop",
-      "then": "The third flip fails and the chop resumes toward the 29,034 RTH low and 29,000 psych",
-      "bias": "Below 29,055 the long is void; whipsaw risk is high, size stays small",
-      "level": "29,055 / 29,034 / 29,000"
+      "if": "MNQ 2-closes back below the 29,637 stop",
+      "then": "The trend-day gain unwinds toward the 29,672 OR low and the 29,614 RTH low",
+      "bias": "Below 29,637 the long is void; that stop is the line that now defines the trend",
+      "level": "29,637 / 29,672 / 29,614"
     },
     {
-      "if": "MES holds its 7,472 stop and reclaims the 7,523 OR high",
-      "then": "ES confirms the equity reclaim toward the 7,563 O/N high, the 7,600 psych and the 7,602 cash record",
-      "bias": "Above 7,472 long; a close back below reopens the 7,468 low",
-      "level": "7,472 / 7,523 / 7,602"
+      "if": "MES holds 7,548 and presses the 7,600 psych and the 7,602 cash record",
+      "then": "A breakout above 7,602 opens fresh price discovery toward the 7,620 +3s",
+      "bias": "Above 7,548 long; the 7,602 record is the whole game, a rejection there caps the day",
+      "level": "7,548 / 7,600 / 7,602"
     },
     {
-      "if": "MCL holds above its 73.58 trailing stop and the 74.00 psych",
-      "then": "The two-day energy surge extends toward the 76.08 RTH high and the 76.60 +3s",
-      "bias": "Crude stays long above 73.58; a 2-close below voids it after a +8.7% two-day run",
-      "level": "73.58 / 74.00 / 76.08"
+      "if": "MGC holds above its 4,137 stop and the 4,166 AVWAP",
+      "then": "Gold's recovered long extends toward the 4,177 RTH high and the 4,200 psych",
+      "bias": "Above 4,137 long; below the 4,153 RTH low the bounce stalls",
+      "level": "4,137 / 4,166 / 4,200"
     },
     {
-      "if": "MGC reclaims its 4,069 stop and the 4,102 AVWAP with acceptance",
-      "then": "Gold's late flip long firms toward the 4,130 RTH high and the 4,175 O/N high",
-      "bias": "Above 4,069 the flip stands but it is late; below the 4,062 RTH low the short resumes",
-      "level": "4,069 / 4,102 / 4,130"
+      "if": "MCL stays below its 73.55 flipped-short stop",
+      "then": "The crude reversal extends toward the 71.41 RTH low and the 70.86 -3s / 70.00 psych",
+      "bias": "Below 73.55 short; only a 2-close back above 73.55 voids the fresh short after a one-day -3.9% reversal",
+      "level": "73.55 / 71.41 / 70.86"
     }
   ],
   "yesterdaysMapScore": {
     "rows": 5,
-    "triggered": 3,
-    "playedOut": 2,
-    "failed": 0,
-    "note": "Graded the Jul 7 map (targeting Jul 8). Rows 2 and 4 TRIGGERED / PLAYED OUT (MNQ air pocket to 28,910; MCL held and ran to 76.08). Row 3 TRIGGERED / MIXED (MES lost 7,530/7,500 to 7,468 then reclaimed and flipped long). Rows 1 and 5 NOT TRIGGERED (no reclaim of the 29,606 or 4,184 stops; both flipped long instead via stop ratchet)."
+    "triggered": 4,
+    "playedOut": 3,
+    "failed": 1,
+    "note": "Graded the Jul 8 map (targeting Jul 9). Rows 1, 3 and 5 TRIGGERED / PLAYED OUT (MNQ ran to 29,993; MES to 7,595 near the record; MGC to 4,177). Row 4 TRIGGERED / FAILED (crude lost its 73.58 stop and the 74.00 psych, reversed to 71.83 and flipped short). Row 2 NOT TRIGGERED (MNQ never neared the 29,055 stop)."
   },
   "mapTallyMTD": {
-    "triggered": 12,
-    "playedOut": 6,
-    "failed": 0
+    "triggered": 16,
+    "playedOut": 9,
+    "failed": 1
   },
   "charts": [
-    "charts/chart-mnq-1hr-2026-07-08.png",
-    "charts/chart-mes-1hr-2026-07-08.png",
-    "charts/chart-mgc-1hr-2026-07-08.png",
-    "charts/chart-mcl-1hr-2026-07-08.png"
+    "charts/chart-mnq-1hr-2026-07-09.png",
+    "charts/chart-mes-1hr-2026-07-09.png",
+    "charts/chart-mgc-1hr-2026-07-09.png",
+    "charts/chart-mcl-1hr-2026-07-09.png"
   ]
 }
