@@ -154,6 +154,13 @@
     "summary": "<strong>The reversal became a trend.</strong> A soft June jobs print (+57K vs about +115K, May revised to +129K) sparked a dovish knee-jerk pop that reversed into a broad, tech-led de-risk. MNQ broke its opening range UP at 13:50 UTC (30,234) then FAILED, trending down all session to a 29,328.5 RTH low before a small bounce to 29,551.75 (-1.71%). It remains short and falling, 232 below its 29,783 stop. MES held far better: it printed a fresh record 7,593.75, reversed, and closed 7,522.75 (-0.14%), still below its stop, keeping the damage concentrated in mega-cap tech. The real tell was the hedge: gold rallied +2.26% to 4,164.7 on a clean lower-yields / safe-haven bid and flipped its 1hr stop back long, unlike Wednesday's whipsaw. Crude firmed +0.57% to 68.47 and flipped long. Equities are both-short on the 1hr, gold and crude now long, into a closed Friday and a three-day weekend. This is a third distribution day and a momentum unwind, not a broad crash, but it prints on a thin, holiday-shortened tape where a single data point can gap the weekend."
   },
   {
+    "date": "July 10, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Risk-On Trend Day 2 / Equities Only (NQ and ES Break to New Records)",
+    "regimeClass": "risk-on",
+    "summary": "<p>Day two of the trend, and it is equities only. <strong>MNQ cleared the 30,000 psych to a 30,077 high</strong> and closed +0.46% above a rising 29,814 stop; <strong>MES broke the 7,602 cash record to a 7,628 high</strong>, +0.52%, into fresh price discovery. The move was quiet and orderly, ATR still contracting, the signature of a trend rather than an expansion. <strong>Gold and crude did not come along:</strong> on the correct MGC1! front contract gold sits below its 4,142 stop, and crude held its flipped short to a 70.77 low. The book can hold REDUCED and lean with the equity trend, but it is Friday into a weekend and CPI (June) lands Tuesday, so size for the gap risk, not the breakout.</p>"
+  },
+  {
     "date": "July 1, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Risk-Off Reversal (TSMOM-20 Stopped Out, All Legs Flip Short)",
