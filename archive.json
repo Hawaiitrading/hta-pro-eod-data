@@ -1,17 +1,59 @@
 [
   {
-    "date": "May 29, 2026",
+    "date": "July 10, 2026",
     "dayOfWeek": "Friday",
-    "regime": "Trend-Up Stalled (Failed Breakout)",
-    "regimeClass": "trend-up-stalled",
-    "summary": "<strong>NQ and ES tagged fresh all-time highs at the open, then reversed and closed weak on the last business day of May.</strong> NQ printed ATH 30,535.75 on the RTH-open bar, reversed 266 points and closed 30,386.75 (+0.24%) \u2014 green but well off highs, with the 1hr ATR stop flipping overhead to 30,535. ES set a new ATH 7,611.75, faded to 7,590.5 (+0.03%) but held far better than NQ (stop still below at 7,581) \u2014 mega-cap tech distribution, not broad risk-off. Gold rallied with stocks: spiked 4,627.3, closed +0.94% at 4,569.7 (debasement/geopolitical bid). Oil stayed capped below $90, -0.69% to $87.80. Daily uptrend intact; intraday momentum stalled \u2014 likely month-end rebalancing. No first-tier scheduled release; month-end + post-PCE digestion."
+    "regime": "Risk-On Trend Day 2 / Equities Only (NQ and ES Break to New Records)",
+    "regimeClass": "risk-on",
+    "summary": "<p>Day two of the trend, and it is equities only. <strong>MNQ cleared the 30,000 psych to a 30,077 high</strong> and closed +0.46% above a rising 29,814 stop; <strong>MES broke the 7,602 cash record to a 7,628 high</strong>, +0.52%, into fresh price discovery. The move was quiet and orderly, ATR still contracting, the signature of a trend rather than an expansion. <strong>Gold and crude did not come along:</strong> on the correct MGC1! front contract gold sits below its 4,142 stop, and crude held its flipped short to a 70.77 low. The book can hold REDUCED and lean with the equity trend, but it is Friday into a weekend and CPI (June) lands Tuesday, so size for the gap risk, not the breakout.</p>"
   },
   {
-    "date": "May 18, 2026",
-    "dayOfWeek": "Monday",
-    "regime": "Risk-Off / Elevated Vol / Down Trend",
+    "date": "July 9, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Risk-On Trend / Whipsaw Resolves Up (Equities Confirm the Long Flip)",
+    "regimeClass": "risk-on",
+    "summary": "<p>The three-session whipsaw finally resolved, and it resolved up. <strong>MNQ, MES and MGC all closed higher on rising long stops</strong>, the first clean trend day in a week. MNQ ripped +1.84% to 29,993, kissing the 30,000 psych; MES pressed to 7,595, seven ticks under its 7,602 cash record; gold firmed its recovery +1.08%. Volatility normalized as the move ran (MNQ ATR14 158 to 119), the mark of an orderly trend rather than an expansion. <strong>Crude was the lone outlier</strong>, reversing 3.91% and flipping its 1hr stop short. The book can lift from DEFENSIVE toward REDUCED, but it is day one of the trend and CPI (June) next week is the gate.</p>"
+  },
+  {
+    "date": "July 8, 2026",
+    "dayOfWeek": "Wednesday",
+    "regime": "Risk-On Reclaim / Whipsaw (Equities Flip Long Post-FOMC Minutes)",
+    "regimeClass": "risk-on",
+    "summary": "<p>One session after flipping short, equities snapped back. <strong>MNQ, MES and MGC all washed to fresh overnight lows</strong> (MNQ 28,910, MES 7,468, MGC 4,062) then recovered through the FOMC June minutes and <strong>flipped their 1hr stops back long</strong> by the close. It reads as a squeeze of yesterday's reversal shorts, not a confirmed trend: <strong>NQ's stop has now flipped three sessions running</strong> (long, short, long). Crude was the one clean move, +3.55% for a second straight up day. The book stays flat and DEFENSIVE; chop, not trend, is the operating assumption.</p>"
+  },
+  {
+    "date": "July 7, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Risk-Off Reversal (Equities Flip Short, Crude Spikes)",
     "regimeClass": "risk-off",
-    "summary": "<strong>Capital preservation day \u2014 both ACTIVE strategies OUT OF HABITAT.</strong> NQ gapped up ~500 pts to 29,700 then reversed hard to ~29,075\u201329,232. The Strait of Hormuz stalemate pushed oil higher (Brent ~$108, WTI ~$102), hot CPI reverberations persist, and chip stocks sold off. Powell's last week as Fed Chair adds uncertainty \u2014 FOMC minutes Wednesday expected to show historic dissent count. Gold failing to catch safe-haven bid despite equity weakness signals USD/rate pressure dominating. ES confirming NQ weakness with parallel move below ATR Stop and AVWAP. No trades today \u2014 wait for regime clarity post-FOMC."
+    "summary": "<p>A near-mirror of Monday. One session after equities flipped long, the risk-on unwound: <strong>MNQ lost its 29,802 stop and 2-closed short</strong> (-1.62%), ES flipped short by a whisker (-0.07%), and gold kept falling with <strong>no haven bid</strong> (-1.71%). The standout was <strong>crude, +4.96% and flipping long</strong>, a crude-led inflation impulse that lifted real-yield fear into tomorrow's FOMC minutes. The book stays flat and DEFENSIVE; the trend edge is short but a 14:00 ET release argues against full size on a one-day reversal.</p>"
+  },
+  {
+    "date": "July 6, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Risk-On Rotation (Equities Flip Long, Havens Unwind)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>The mirror of Thursday.</strong> The post-holiday reopen reversed Jul 2's tech-led de-risk into a clean risk-on rotation. Equities flipped LONG on the 1hr: MNQ +1.34% to 29,946.5 back above a 29,802 stop, and MES +0.98% to 7,596.5 after printing a fresh record 7,602.25. The safe havens that led Jul 2 rolled over: gold spiked to 4,243 overnight then reversed, flipping its 1hr stop SHORT (4,206.1 vs 4,219), and crude flipped short too (68.58 vs 69.03). ISM Services at 54.0, with employment rebounding and prices cooling, gave the tape a soft-landing read. One caution: MNQ closed BELOW its 29,983 session VWAP and faded off the 30,094 high, so the reclaim is real but follow-through is not yet confirmed. Throttle steps up from DEFENSIVE to REDUCED; a TSMOM-20 re-arm is a small starter only, added on a 2-close reclaim of VWAP, not on the first touch."
+  },
+  {
+    "date": "July 3, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Holiday (Independence Day Observed), Cash Closed; Carried Risk-Off Day 3",
+    "regimeClass": "caution",
+    "summary": "<strong>A holiday bridge, not a session.</strong> Friday July 3 was the observed Independence Day holiday (July 4 Saturday). Cash equity markets were closed and CME micro futures traded only a thin half-session to the ~1:00 pm ET early close, so there was no new cash RTH structure. A live data pull was not available in this unattended run, so all levels are carried forward from the Thu Jul 2 close and flagged as such. The Jul 2 risk-off Day 3 read stands into the long weekend: equities are both-short on the 1hr (MNQ 29,551.75 below a 29,783 falling stop, MES 7,522.75 below 7,538), while gold holds its safe-haven long (4,164.7 above 4,124) and crude holds long (68.47 above 67.43). No trade signal fired; the book is flat and the throttle DEFENSIVE. The single open question is a Monday gap after a three-day break on one soft jobs print (June NFP +57K). Standing map targets Monday Jul 6 and carries intact."
+  },
+  {
+    "date": "July 2, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Risk-Off Day 3 (Tech-Led Liquidation, Gold Safe-Haven Bid)",
+    "regimeClass": "risk-off",
+    "summary": "<strong>The reversal became a trend.</strong> A soft June jobs print (+57K vs about +115K, May revised to +129K) sparked a dovish knee-jerk pop that reversed into a broad, tech-led de-risk. MNQ broke its opening range UP at 13:50 UTC (30,234) then FAILED, trending down all session to a 29,328.5 RTH low before a small bounce to 29,551.75 (-1.71%). It remains short and falling, 232 below its 29,783 stop. MES held far better: it printed a fresh record 7,593.75, reversed, and closed 7,522.75 (-0.14%), still below its stop, keeping the damage concentrated in mega-cap tech. The real tell was the hedge: gold rallied +2.26% to 4,164.7 on a clean lower-yields / safe-haven bid and flipped its 1hr stop back long, unlike Wednesday's whipsaw. Crude firmed +0.57% to 68.47 and flipped long. Equities are both-short on the 1hr, gold and crude now long, into a closed Friday and a three-day weekend. This is a third distribution day and a momentum unwind, not a broad crash, but it prints on a thin, holiday-shortened tape where a single data point can gap the weekend."
+  },
+  {
+    "date": "July 1, 2026",
+    "dayOfWeek": "Wednesday",
+    "regime": "Risk-Off Reversal (TSMOM-20 Stopped Out, All Legs Flip Short)",
+    "regimeClass": "risk-off",
+    "summary": "<strong>The two-day risk-on run ended, and it ended as a tech-led reversal.</strong> MNQ opened lower, broke its opening range up at 13:55 UTC then failed, and sold off through the day to close 30,064.5 (-1.43%), losing its 1hr trend stop and flipping SHORT. TSMOM-20, long and healthy 24 hours ago, was stopped out on a 2-close break of 30,242 and is now flat. MES held far better (-0.12% to 7,533) but told the same story: it printed a record 7,579, reversed, and closed below its own 7,574 stop, so the equity complex is now both-short on the 1hr. The commodity side offered no shelter: gold spiked to 4,159.5 and reversed to close 4,072.6 (a large outside-day, stop flipped short), and crude fell 2.8% to 68.08. It was an event day (soft ADP +98K, ISM beat 53.3 but down MoM) and a de-risk into Thursday's June jobs report and the holiday close, not a growth-scare cascade. All four contracts closed below their 1hr stops.</p>"
   },
   {
     "date": "June 30, 2026",
@@ -107,85 +149,43 @@
   {
     "date": "June 1, 2026",
     "dayOfWeek": "Monday",
-    "regime": "Trend Up Resuming \u2014 ES New ATH / Energy Shock Day",
+    "regime": "Trend Up Resuming — ES New ATH / Energy Shock Day",
     "regimeClass": "trend-up-resuming",
-    "summary": "<strong>New month, new high.</strong> ES printed a fresh ATH (7,632.75) on the first trading day of June. NQ swept lows at the open (30,295), reversed 397 pts to 30,692, and closed 30,523.75 (+0.45%). ATR trailing stops re-armed below price on both NQ and ES \u2014 regime flipped from Friday's BORDERLINE back to IN_HABITAT. The macro story: MCL surged +5.35% to $92.50 on a single shock candle at 13:00 UTC (OPEC/geopolitical), spiked to $94.79 RTH high then faded. Gold fell -1.19% to 4,515.4 \u2014 capital rotating out of gold into oil and equities. Strongest regime improvement since April ATH run."
+    "summary": "<strong>New month, new high.</strong> ES printed a fresh ATH (7,632.75) on the first trading day of June. NQ swept lows at the open (30,295), reversed 397 pts to 30,692, and closed 30,523.75 (+0.45%). ATR trailing stops re-armed below price on both NQ and ES — regime flipped from Friday's BORDERLINE back to IN_HABITAT. The macro story: MCL surged +5.35% to $92.50 on a single shock candle at 13:00 UTC (OPEC/geopolitical), spiked to $94.79 RTH high then faded. Gold fell -1.19% to 4,515.4 — capital rotating out of gold into oil and equities. Strongest regime improvement since April ATH run."
   },
   {
-    "date": "July 9, 2026",
-    "dayOfWeek": "Thursday",
-    "regime": "Risk-On Trend / Whipsaw Resolves Up (Equities Confirm the Long Flip)",
-    "regimeClass": "risk-on",
-    "summary": "<p>The three-session whipsaw finally resolved, and it resolved up. <strong>MNQ, MES and MGC all closed higher on rising long stops</strong>, the first clean trend day in a week. MNQ ripped +1.84% to 29,993, kissing the 30,000 psych; MES pressed to 7,595, seven ticks under its 7,602 cash record; gold firmed its recovery +1.08%. Volatility normalized as the move ran (MNQ ATR14 158 to 119), the mark of an orderly trend rather than an expansion. <strong>Crude was the lone outlier</strong>, reversing 3.91% and flipping its 1hr stop short. The book can lift from DEFENSIVE toward REDUCED, but it is day one of the trend and CPI (June) next week is the gate.</p>"
+    "date": "May 29, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Trend-Up Stalled (Failed Breakout)",
+    "regimeClass": "trend-up-stalled",
+    "summary": "<strong>NQ and ES tagged fresh all-time highs at the open, then reversed and closed weak on the last business day of May.</strong> NQ printed ATH 30,535.75 on the RTH-open bar, reversed 266 points and closed 30,386.75 (+0.24%) — green but well off highs, with the 1hr ATR stop flipping overhead to 30,535. ES set a new ATH 7,611.75, faded to 7,590.5 (+0.03%) but held far better than NQ (stop still below at 7,581) — mega-cap tech distribution, not broad risk-off. Gold rallied with stocks: spiked 4,627.3, closed +0.94% at 4,569.7 (debasement/geopolitical bid). Oil stayed capped below $90, -0.69% to $87.80. Daily uptrend intact; intraday momentum stalled — likely month-end rebalancing. No first-tier scheduled release; month-end + post-PCE digestion."
   },
   {
-    "date": "July 8, 2026",
-    "dayOfWeek": "Wednesday",
-    "regime": "Risk-On Reclaim / Whipsaw (Equities Flip Long Post-FOMC Minutes)",
-    "regimeClass": "risk-on",
-    "summary": "<p>One session after flipping short, equities snapped back. <strong>MNQ, MES and MGC all washed to fresh overnight lows</strong> (MNQ 28,910, MES 7,468, MGC 4,062) then recovered through the FOMC June minutes and <strong>flipped their 1hr stops back long</strong> by the close. It reads as a squeeze of yesterday's reversal shorts, not a confirmed trend: <strong>NQ's stop has now flipped three sessions running</strong> (long, short, long). Crude was the one clean move, +3.55% for a second straight up day. The book stays flat and DEFENSIVE; chop, not trend, is the operating assumption.</p>"
-  },
-  {
-    "date": "July 7, 2026",
-    "dayOfWeek": "Tuesday",
-    "regime": "Risk-Off Reversal (Equities Flip Short, Crude Spikes)",
-    "regimeClass": "risk-off",
-    "summary": "<p>A near-mirror of Monday. One session after equities flipped long, the risk-on unwound: <strong>MNQ lost its 29,802 stop and 2-closed short</strong> (-1.62%), ES flipped short by a whisker (-0.07%), and gold kept falling with <strong>no haven bid</strong> (-1.71%). The standout was <strong>crude, +4.96% and flipping long</strong>, a crude-led inflation impulse that lifted real-yield fear into tomorrow's FOMC minutes. The book stays flat and DEFENSIVE; the trend edge is short but a 14:00 ET release argues against full size on a one-day reversal.</p>"
-  },
-  {
-    "date": "July 6, 2026",
+    "date": "May 18, 2026",
     "dayOfWeek": "Monday",
-    "regime": "Risk-On Rotation (Equities Flip Long, Havens Unwind)",
-    "regimeClass": "risk-on",
-    "summary": "<strong>The mirror of Thursday.</strong> The post-holiday reopen reversed Jul 2's tech-led de-risk into a clean risk-on rotation. Equities flipped LONG on the 1hr: MNQ +1.34% to 29,946.5 back above a 29,802 stop, and MES +0.98% to 7,596.5 after printing a fresh record 7,602.25. The safe havens that led Jul 2 rolled over: gold spiked to 4,243 overnight then reversed, flipping its 1hr stop SHORT (4,206.1 vs 4,219), and crude flipped short too (68.58 vs 69.03). ISM Services at 54.0, with employment rebounding and prices cooling, gave the tape a soft-landing read. One caution: MNQ closed BELOW its 29,983 session VWAP and faded off the 30,094 high, so the reclaim is real but follow-through is not yet confirmed. Throttle steps up from DEFENSIVE to REDUCED; a TSMOM-20 re-arm is a small starter only, added on a 2-close reclaim of VWAP, not on the first touch."
-  },
-  {
-    "date": "July 3, 2026",
-    "dayOfWeek": "Friday",
-    "regime": "Holiday (Independence Day Observed), Cash Closed; Carried Risk-Off Day 3",
-    "regimeClass": "caution",
-    "summary": "<strong>A holiday bridge, not a session.</strong> Friday July 3 was the observed Independence Day holiday (July 4 Saturday). Cash equity markets were closed and CME micro futures traded only a thin half-session to the ~1:00 pm ET early close, so there was no new cash RTH structure. A live data pull was not available in this unattended run, so all levels are carried forward from the Thu Jul 2 close and flagged as such. The Jul 2 risk-off Day 3 read stands into the long weekend: equities are both-short on the 1hr (MNQ 29,551.75 below a 29,783 falling stop, MES 7,522.75 below 7,538), while gold holds its safe-haven long (4,164.7 above 4,124) and crude holds long (68.47 above 67.43). No trade signal fired; the book is flat and the throttle DEFENSIVE. The single open question is a Monday gap after a three-day break on one soft jobs print (June NFP +57K). Standing map targets Monday Jul 6 and carries intact."
-  },
-  {
-    "date": "July 2, 2026",
-    "dayOfWeek": "Thursday",
-    "regime": "Risk-Off Day 3 (Tech-Led Liquidation, Gold Safe-Haven Bid)",
+    "regime": "Risk-Off / Elevated Vol / Down Trend",
     "regimeClass": "risk-off",
-    "summary": "<strong>The reversal became a trend.</strong> A soft June jobs print (+57K vs about +115K, May revised to +129K) sparked a dovish knee-jerk pop that reversed into a broad, tech-led de-risk. MNQ broke its opening range UP at 13:50 UTC (30,234) then FAILED, trending down all session to a 29,328.5 RTH low before a small bounce to 29,551.75 (-1.71%). It remains short and falling, 232 below its 29,783 stop. MES held far better: it printed a fresh record 7,593.75, reversed, and closed 7,522.75 (-0.14%), still below its stop, keeping the damage concentrated in mega-cap tech. The real tell was the hedge: gold rallied +2.26% to 4,164.7 on a clean lower-yields / safe-haven bid and flipped its 1hr stop back long, unlike Wednesday's whipsaw. Crude firmed +0.57% to 68.47 and flipped long. Equities are both-short on the 1hr, gold and crude now long, into a closed Friday and a three-day weekend. This is a third distribution day and a momentum unwind, not a broad crash, but it prints on a thin, holiday-shortened tape where a single data point can gap the weekend."
-  },
-  {
-    "date": "July 10, 2026",
-    "dayOfWeek": "Friday",
-    "regime": "Risk-On Trend Day 2 / Equities Only (NQ and ES Break to New Records)",
-    "regimeClass": "risk-on",
-    "summary": "<p>Day two of the trend, and it is equities only. <strong>MNQ cleared the 30,000 psych to a 30,077 high</strong> and closed +0.46% above a rising 29,814 stop; <strong>MES broke the 7,602 cash record to a 7,628 high</strong>, +0.52%, into fresh price discovery. The move was quiet and orderly, ATR still contracting, the signature of a trend rather than an expansion. <strong>Gold and crude did not come along:</strong> on the correct MGC1! front contract gold sits below its 4,142 stop, and crude held its flipped short to a 70.77 low. The book can hold REDUCED and lean with the equity trend, but it is Friday into a weekend and CPI (June) lands Tuesday, so size for the gap risk, not the breakout.</p>"
-  },
-  {
-    "date": "July 1, 2026",
-    "dayOfWeek": "Wednesday",
-    "regime": "Risk-Off Reversal (TSMOM-20 Stopped Out, All Legs Flip Short)",
-    "regimeClass": "risk-off",
-    "summary": "<strong>The two-day risk-on run ended, and it ended as a tech-led reversal.</strong> MNQ opened lower, broke its opening range up at 13:55 UTC then failed, and sold off through the day to close 30,064.5 (-1.43%), losing its 1hr trend stop and flipping SHORT. TSMOM-20, long and healthy 24 hours ago, was stopped out on a 2-close break of 30,242 and is now flat. MES held far better (-0.12% to 7,533) but told the same story: it printed a record 7,579, reversed, and closed below its own 7,574 stop, so the equity complex is now both-short on the 1hr. The commodity side offered no shelter: gold spiked to 4,159.5 and reversed to close 4,072.6 (a large outside-day, stop flipped short), and crude fell 2.8% to 68.08. It was an event day (soft ADP +98K, ISM beat 53.3 but down MoM) and a de-risk into Thursday's June jobs report and the holiday close, not a growth-scare cascade. All four contracts closed below their 1hr stops.</p>"
+    "summary": "<strong>Capital preservation day — both ACTIVE strategies OUT OF HABITAT.</strong> NQ gapped up ~500 pts to 29,700 then reversed hard to ~29,075–29,232. The Strait of Hormuz stalemate pushed oil higher (Brent ~$108, WTI ~$102), hot CPI reverberations persist, and chip stocks sold off. Powell's last week as Fed Chair adds uncertainty — FOMC minutes Wednesday expected to show historic dissent count. Gold failing to catch safe-haven bid despite equity weakness signals USD/rate pressure dominating. ES confirming NQ weakness with parallel move below ATR Stop and AVWAP. No trades today — wait for regime clarity post-FOMC."
   },
   {
     "date": "April 27, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-On",
     "regimeClass": "risk-on",
-    "summary": "<strong>Equities hold uptrend, gold breaks down \u2014 classic risk-on divergence.</strong> MNQ closed at 27,418 above ATR Stop (27,335) after absorbing a 244-pt overnight fade. MES printed fresh session highs at 7,211.50, closing above Friday. MGC broke below its ATR Stop and 4,700 psych \u2014 confirmed trend break on 1hr. VIX compressing at 18.02. Regime: UPTREND + NORMAL VOL + NO EVENT = core trend-following habitat. Clean Monday ahead of loaded macro week (GDP Thu, PCE Fri)."
+    "summary": "<strong>Equities hold uptrend, gold breaks down — classic risk-on divergence.</strong> MNQ closed at 27,418 above ATR Stop (27,335) after absorbing a 244-pt overnight fade. MES printed fresh session highs at 7,211.50, closing above Friday. MGC broke below its ATR Stop and 4,700 psych — confirmed trend break on 1hr. VIX compressing at 18.02. Regime: UPTREND + NORMAL VOL + NO EVENT = core trend-following habitat. Clean Monday ahead of loaded macro week (GDP Thu, PCE Fri)."
   },
   {
     "date": "April 24, 2026",
     "dayOfWeek": "Friday",
-    "regime": "Trend Recovering \u2014 ATR Stop Reclaimed (NQ + ES)",
+    "regime": "Trend Recovering — ATR Stop Reclaimed (NQ + ES)",
     "regimeClass": "risk-on",
-    "summary": "<strong>Friday reversed Thursday's liquidation decisively \u2014 NQ rallied +499 pts to 27,441, reclaiming the ATR stop at 27,223 with a 218-point buffer.</strong> ES confirmed at 7,196 (above ATR stop 7,154). Volatility contracted 20% on NQ (ATR 14 from 109 \u2192 87). The session was orderly \u2014 no afternoon flush, no bull trap. Seven consecutive green 1hr bars in RTH. Gold was the outlier: bounced from ON low 4,672 to RTH high 4,757, then faded to close at 4,724 \u2014 still range-bound below its ATR stop. This is ATR stop reclaim attempt #2 (Wednesday's reclaim failed Thursday). FOMC T-4 caps conviction. Stepping from PAUSED to DEFENSIVE (25%) IF Monday confirms with a 2-bar hold above ATR stop. No positions through FOMC Tue-Wed."
+    "summary": "<strong>Friday reversed Thursday's liquidation decisively — NQ rallied +499 pts to 27,441, reclaiming the ATR stop at 27,223 with a 218-point buffer.</strong> ES confirmed at 7,196 (above ATR stop 7,154). Volatility contracted 20% on NQ (ATR 14 from 109 → 87). The session was orderly — no afternoon flush, no bull trap. Seven consecutive green 1hr bars in RTH. Gold was the outlier: bounced from ON low 4,672 to RTH high 4,757, then faded to close at 4,724 — still range-bound below its ATR stop. This is ATR stop reclaim attempt #2 (Wednesday's reclaim failed Thursday). FOMC T-4 caps conviction. Stepping from PAUSED to DEFENSIVE (25%) IF Monday confirms with a 2-bar hold above ATR stop. No positions through FOMC Tue-Wed."
   },
   {
     "date": "April 14, 2026",
     "dayOfWeek": "Tuesday",
     "regime": "Risk-On / Trend-Up, Normal Vol",
     "regimeClass": "risk-on",
-    "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
+    "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session — bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 — squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position — confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
   }
 ]
