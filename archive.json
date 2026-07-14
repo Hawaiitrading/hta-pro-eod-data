@@ -154,6 +154,13 @@
     "summary": "<strong>The reversal became a trend.</strong> A soft June jobs print (+57K vs about +115K, May revised to +129K) sparked a dovish knee-jerk pop that reversed into a broad, tech-led de-risk. MNQ broke its opening range UP at 13:50 UTC (30,234) then FAILED, trending down all session to a 29,328.5 RTH low before a small bounce to 29,551.75 (-1.71%). It remains short and falling, 232 below its 29,783 stop. MES held far better: it printed a fresh record 7,593.75, reversed, and closed 7,522.75 (-0.14%), still below its stop, keeping the damage concentrated in mega-cap tech. The real tell was the hedge: gold rallied +2.26% to 4,164.7 on a clean lower-yields / safe-haven bid and flipped its 1hr stop back long, unlike Wednesday's whipsaw. Crude firmed +0.57% to 68.47 and flipped long. Equities are both-short on the 1hr, gold and crude now long, into a closed Friday and a three-day weekend. This is a third distribution day and a momentum unwind, not a broad crash, but it prints on a thin, holiday-shortened tape where a single data point can gap the weekend."
   },
   {
+    "date": "July 14, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Cool CPI Relief Rally / Broad Flip Long (Overnight Flush Reversed)",
+    "regimeClass": "risk-on",
+    "summary": "Two tapes in one session. Overnight the weekend risk-off kept bleeding: the globex flush drove MNQ to a 29,303 low, MES to 7,531.75 and gold to 3,990.1, essentially tagging Monday's downside map targets before the cash open. Then June CPI printed cool at 8:30 ET (3.5% YoY vs 3.8% expected, core 2.6%, the biggest monthly drop since April 2020) and the tape flipped. MNQ rallied 1.24% to close 29,794.75 and flipped long above a 29,536 stop; MES added 0.49% and poked its 7,602 record with a 7,604 high before closing 7,590.5; gold bounced 1.24% to 4,058.5 but stalled under its 4,070 AVWAP; crude held its Hormuz bid, up 2.37% to tag the 80 handle. All four ATR stops are now long, but every flip is one session old and PPI lands tomorrow at 8:30 ET, so this is a bounce to respect, not chase."
+  },
+  {
     "date": "July 13, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-Off Reversal / Strait of Hormuz Shock (Equities and Gold Down, Crude Spikes)",
