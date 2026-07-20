@@ -1,130 +1,54 @@
 {
- "date": "July 17, 2026",
- "dayOfWeek": "Friday",
- "regime": "Conflicted Transition (Stops Flip Long, Tape Still Heavy, Expanding Volatility)",
+ "date": "July 20, 2026",
+ "dayOfWeek": "Monday",
+ "regime": "Conflicted Trend, Distribution Session (Long Signal on a 15-Point Leash)",
  "regimeClass": "caution",
- "summary": "<strong>Three of four stops flipped long. The tape did not.</strong> MNQ closed -1.40% at 28,768.75 and its stop still turned long, because the stop trailed down 894 points overnight while price rallied back through it at midday. MGC and MCL both reversed one-session-old short flips, exactly the fragility yesterday's report flagged. Crude ran +3.73% on Hormuz supply disruption and is the only clean trend on the board. MES never flipped and closed -0.98% under its 7,540.81 stop, so the indexes disagree again.",
- "keyLevels": [
-  {
-   "label": "MNQ ATR Stop",
-   "value": "28,600.35",
-   "note": "Flipped LONG; -3s sits 0.38 away"
-  },
-  {
-   "label": "MNQ AVWAP",
-   "value": "28,843.93",
-   "note": "Close -0.92s, overhead"
-  },
-  {
-   "label": "MNQ RTH Close",
-   "value": "28,768.75",
-   "note": "-1.40%, 27% of range"
-  },
-  {
-   "label": "MES ATR Stop",
-   "value": "7,540.81",
-   "note": "Still SHORT, price 45.81 below"
-  },
-  {
-   "label": "MGC ATR Stop",
-   "value": "3,981.97",
-   "note": "Flipped LONG; 4,000 reclaimed"
-  },
-  {
-   "label": "MCL ATR Stop",
-   "value": "80.83",
-   "note": "Flipped LONG; +3.73% on Hormuz"
-  },
-  {
-   "label": "MNQ Overnight Low",
-   "value": "28,408.25",
-   "note": "Pre-open low and OR floor"
-  },
-  {
-   "label": "MNQ Psych",
-   "value": "29,000",
-   "note": "Overhead shelf"
-  }
- ],
- "setups": [
-  {
-   "name": "AVWAP Deviation Band",
-   "confidence": "High",
-   "entry": "Band tag at +/-2s from the 28,843.93 AVWAP",
-   "stop": "Beyond the 3s band",
-   "t1": "AVWAP mean",
-   "rr": "Systematic",
-   "bias": "Two-sided. Both outer bands tagged today and reverted; sigma contracted to 81.32."
-  },
-  {
-   "name": "TSMOM-20",
-   "confidence": "Low",
-   "entry": "Systematic on the 1hr stop",
-   "stop": "MNQ 28,600.35 / MES 7,540.81",
-   "t1": "Trend",
-   "rr": "Systematic",
-   "bias": "Borderline. MCL is the only clean leg; equity legs are whipsawing and disagree."
-  },
-  {
-   "name": "AVWAP Bounce",
-   "confidence": "Low",
-   "entry": "Retest of 28,843.93 from below",
-   "stop": "Above AVWAP on 2 closes",
-   "t1": "28,665 RTH low",
-   "rr": "Systematic",
-   "bias": "Borderline. AVWAP is overhead resistance again, but it points against the stop."
-  }
- ],
- "activeIndicators": [
-  "avwap-dev-bands",
-  "tsmom-20",
-  "avwap-bounce",
-  "hta-compass"
- ],
+ "summary": "<p>The Nasdaq handed you 424 points overnight and took every one of them back. MNQ ran to 29,192.50 before the open, printed a 29,118.50 RTH high, then faded for six straight hours to close 28,777.75, up 9.00 points on the day. Flat. The whole thing was a distribution.</p><p>The number that matters: MNQ closed <strong>15.34 points</strong> above its own 1hr trailing stop at 28,762.41. That stop ratcheted up 162 points today while price went nowhere, so the cushion that was 168 points on Friday is essentially gone.</p><p>MES never played along. Its stop stayed short at 7,534.22 and price closed 50.72 below it, a third straight session with the indexes pointing different directions. Gold coiled into the tightest RTH range in weeks, sigma 1.95, low printing exactly 4,000.00. Crude ran 84.20 to 79.55 and back to 82.44 and flipped its trend stop twice inside 24 hours.</p>",
+ "psychology": "<p>Today punished conviction and rewarded rules, which is the least satisfying combination there is.</p><p>If you bought the overnight strength you were right for eleven hours and flat by the close. If you were still holding at 20:00 UTC with no level to lean on, the only thing that decided your day was luck. An overnight gap is inventory. It is somebody's position, not a trend, and it has to be defended in RTH before it means anything. Today it was not.</p><p>The practical version: before you take a gap, write down the price where you are wrong. Not a feeling, a number. On MNQ that number was sitting right there at 28,762.41, and it was the difference between a scratch and a slow bleed. The trade you can define is the trade you can survive.</p>",
  "event": {
-  "name": "Housing Starts (June), Industrial Production (June), UMich Sentiment (July prelim)",
-  "type": "POST_EVENT",
-  "consensus": "Housing starts 1.310M SAAR; industrial production +0.2% MoM; UMich 51.0",
-  "actual": "Housing starts 1.427M SAAR (+19% MoM); industrial production +0.1% MoM; UMich 54.4",
-  "surprise": "MIXED, tilted positive. Housing starts beat big but internals were soft: single-family starts fell 0.2% to 895k (-3.2% YoY) and permits fell 3.0% to 1.367M. The 19% headline was multifamily, +76.3% to 513k off a 41% plunge. Industrial production missed. UMich beat by 3.4 points, up from 49.5, highest since February, with gasoline relief cited as the driver.",
-  "nqReaction": "Two-sided. MNQ made its low at 28,408.25 at 13:00 UTC before the cash open, then rallied 638.75 points to a 29,047 RTH high around the UMich window. The 16:00 UTC bar closed 28,974.50 and crossed the stop, flipping it long. Price faded all afternoon to close 28,768.75, -1.40%, back under AVWAP.",
-  "crossAsset": "The UMich beat was built on cheaper gasoline, and gasoline is what the Hormuz disruption is now repricing, so the survey's tailwind is already stale. Crude ran +3.73% as US-Iran strikes entered a sixth day and Strait traffic slowed. Gold reclaimed 4,000, +1.08%. Equities did not participate: the PHLX Semiconductor Index entered a bear market on a second day of AI capex selling and Netflix fell roughly 11%. Our measured MES -0.98% and MNQ -1.40% match the cash prints. Energy up, havens up, long-duration tech down is a risk-premium day driven by the conflict rather than the data."
+  "name": "No scheduled release (Monday July 20 carried no major US macro print)",
+  "type": "QUIET",
+  "consensus": "n/a",
+  "actual": "n/a",
+  "surprise": "None scheduled. Today was positioning rather than data.",
+  "nqReaction": "MNQ gapped to a 29,192.50 overnight high, printed a 29,118.50 RTH high, then faded six consecutive hours to close 28,777.75, up 9.00 (+0.03%). A full round trip with no catalyst behind either leg.",
+  "crossAsset": "Crude ran an 84.20 to 79.55 to 82.44 overnight round trip on geopolitical headlines with no economic print behind it, the second consecutive session where energy moved on headlines. Gold compressed to a 23.90-point RTH range. MES closed -0.15% and never reclaimed its stop. Next scheduled catalysts are Friday's July flash PMIs and June New Home Sales; the larger swing factor is this week's Alphabet, Tesla, Intel and IBM earnings block, which no economic calendar carries."
  },
  "atrStop": {
   "MNQ": {
-   "stop": 28600.35,
-   "price": 28768.75,
-   "gap": 168.4,
-   "trend": "WHIPSAW",
-   "status": "ABOVE (fresh flip)"
+   "stop": 28762.41,
+   "price": 28777.75,
+   "gap": 15.34,
+   "trend": "RISING",
+   "status": "ABOVE (15.34 cushion)"
   },
   "MES": {
-   "stop": 7540.81,
-   "price": 7495.0,
-   "gap": -45.81,
+   "stop": 7534.22,
+   "price": 7483.5,
+   "gap": -50.72,
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MGC": {
-   "stop": 3981.97,
-   "price": 4023.1,
-   "gap": 41.13,
-   "trend": "WHIPSAW",
-   "status": "ABOVE (fresh flip)"
-  },
-  "MCL": {
-   "stop": 80.83,
-   "price": 82.52,
-   "gap": 1.69,
+   "stop": 3990.15,
+   "price": 4011.7,
+   "gap": 21.55,
    "trend": "RISING",
    "status": "ABOVE"
+  },
+  "MCL": {
+   "stop": 80.49,
+   "price": 82.44,
+   "gap": 1.95,
+   "trend": "WHIPSAW",
+   "status": "ABOVE (fresh re-flip)"
   }
  },
  "observe": [
   {
    "name": "ES/NQ confirmation",
    "status": "BROKEN",
-   "note": "Split again with the polarity inverted from Jul 15. Then MES was long against MNQ short; now MNQ is long against MES short. Two breaks in three sessions is the read: the index complex has no agreement."
+   "note": "Third straight session, same polarity as Friday: MNQ long, MES short. Three breaks in four sessions means the index complex has no working agreement, and that is the single most useful thing on this page."
   },
   {
    "name": "GAP_NQ",
@@ -138,90 +62,180 @@
   }
  ],
  "risk": {
-  "throttleState": "DEFENSIVE",
+  "throttleState": "REDUCED",
   "ddProximity": "Not binding. Book entered flat, full daily budget intact.",
   "dailyLossBudget": "Intact",
-  "sizing": "Size reduced 50 to 75% per the DEFENSIVE band. MNQ ATR(14) rose to 143.96 from 126.28, so contract count comes down on the volatility change alone. Trend lines that must hold: MNQ 28,600.35 / MES 7,540.81 / MGC 3,981.97 / MCL 80.83.",
-  "openRisk": "Yesterday's correlated-short stack is gone. Three legs flipped long, MES did not, so the basket no longer nets to one bet. It also means no leg currently confirms another.",
-  "note": "Escalated from REDUCED. Two REDUCED triggers are active at once, which is the documented condition for DEFENSIVE: regime fit fell to BORDERLINE across three of four shown edges, and the volatility regime shifted (ATR +14% in a session, daily range 5.64x ATR). Two of four trend stops whipsawed inside one session. The binding constraint into Monday is weekend gap risk rather than drawdown: the US-Iran conflict is live, Hormuz flows are disrupted, and crude has moved roughly 13% on the week. No stop protects against a gap. Week ahead: Existing Home Sales, July flash PMIs, New Home Sales, claims for the week ended July 18, with Alphabet, Tesla, Intel and IBM reporting."
+  "sizing": "Reduced 25 to 50% per the REDUCED band. MNQ ATR(14) fell to 132.28 from 143.96, so the volatility input allows slightly more contracts. Do not take it. The binding constraint is signal quality, not volatility. Lines that must hold: MNQ 28,762.41 / MES 7,534.22 as resistance / MGC 3,990.15 / MCL 80.49.",
+  "openRisk": "No correlated stack. MNQ, MGC and MCL are long-signal, MES is short-signal, and MCL flipped twice today, so nothing here confirms anything else.",
+  "note": "De-escalated from DEFENSIVE. Friday's escalation was driven by weekend gap risk, which resolved without damage, so it comes off. What replaces it is a different problem: MNQ's long signal sits 15.34 points, 0.05% of price, above its own invalidation while the correlated index points short. That is one REDUCED trigger, not two. Week ahead: no major US release until Friday's July flash PMIs and June New Home Sales at 9:45 and 10:00 ET. The real risk is the earnings block, with Alphabet, Tesla, Intel and IBM reporting into a Nasdaq that just failed a 424-point overnight rally. Earnings gaps do not respect stops. Size positions you would be willing to hold through one."
  },
- "psychology": "Here is the trap today set. You spent two sessions getting short, the read worked, and then the stop flipped long on a red day. Every instinct says do something about it. Look at what happened: the stop fell 894 points overnight, price bounced 638.75 off the pre-open low, and they crossed at midday. That is arithmetic catching up with itself. MNQ still closed under its VWAP and handed back two-thirds of the bounce. Yesterday's report told you fresh flips are the least reliable state a stop has and to size accordingly, and today two of them reversed inside a single session. A stop is a risk tool. It tells you where you are wrong, and it was never built to tell you what comes next. When your system flips on a day price fell, trade smaller while the tape makes up its mind.",
- "fullReport": [
+ "keyLevels": [
   {
-   "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>State</th><th>Confidence</th><th>Evidence</th></tr></thead><tbody><tr><td><strong>Direction</strong></td><td>CONFLICTED</td><td>Medium</td><td>3 of 4 stops flipped long (MNQ 28,600.35, MGC 3,981.97, MCL 80.83); MES stays short at 7,540.81. MNQ closed -1.40% and 75.18 under its AVWAP while its stop turned long. MGC and MCL reversed one-session-old short flips.</td></tr><tr><td><strong>Volatility</strong></td><td>EXPANDING</td><td>High</td><td>MNQ ATR(14) 143.96 vs 126.28, +14.0%. Full daily range 811.75 pts = 5.64x ATR. RTH range 382.00 = 2.65x ATR. RTH sigma contracted to 81.32 from 96.32.</td></tr><tr><td><strong>Session</strong></td><td>FAILED BOUNCE, WEAK CLOSE</td><td>High</td><td>MNQ rallied 638.75 off the 28,408.25 pre-open low to a 29,047 RTH high, gave back two-thirds, closed 28,768.75 at 27% of the RTH range. MES closed at 19%.</td></tr><tr><td><strong>Inventory</strong></td><td>BALANCED</td><td>Medium</td><td>MNQ closed inside the overnight range at 44%. No clearly trapped side, a change from yesterday's close below the overnight low.</td></tr><tr><td><strong>Event</strong></td><td>POST_EVENT / GEOPOLITICAL LIVE</td><td>High</td><td>Housing Starts, Industrial Production and prelim UMich released. July monthly OpEx. US-Iran conflict active, Hormuz flows disrupted.</td></tr><tr><td><strong>Liquidity</strong></td><td>NORMAL, SLIGHTLY BELOW</td><td>Medium</td><td>MNQ1! daily volume 3.107M vs a 3.382M 20-day average, 0.92x. Below average on a monthly expiration day.</td></tr></tbody></table></div><p><strong>Classification:</strong> Conflicted Transition (Stops Flip Long, Tape Still Heavy, Expanding Volatility)</p>"
+   "label": "MNQ ATR Stop",
+   "value": "28,762.41",
+   "note": "LONG, only 15.34 cushion"
   },
   {
-   "title": "NY Opening Range / COMPASS",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>OR High</th><th>OR Low</th><th>Width</th><th>Break</th><th>Time (UTC)</th><th>Price</th><th>Closed back inside</th></tr></thead><tbody><tr><td>MNQ</td><td>28,685.50</td><td>28,408.25</td><td>277.25</td><td>UP</td><td>14:00</td><td>28,717.75</td><td>No</td></tr><tr><td>MES</td><td>7,492.25</td><td>7,473.00</td><td>19.25</td><td>UP</td><td>13:45</td><td>7,496.00</td><td>Yes, 19:20</td></tr><tr><td>MGC</td><td>4,007.60</td><td>3,966.70</td><td>40.90</td><td>UP</td><td>15:00</td><td>4,017.20</td><td>Yes, 19:20</td></tr><tr><td>MCL</td><td>81.74</td><td>81.27</td><td>0.47</td><td>UP</td><td>13:50</td><td>81.78</td><td>Yes, 14:05</td></tr></tbody></table></div><p><strong>Read:</strong> All four broke up, the mirror image of yesterday. The MNQ opening range was 277.25 points wide, 1.93x its ATR(14), with the pre-open low at 28,408.25 as its floor. A range that wide again says the open had no agreement in it. MNQ was the only one to break up and stay out, and it still closed red, so the up-break was a recovery off a washed-out low rather than a bid with conviction.</p><p><strong>Filters Monday:</strong> BIR not eligible (skip Mondays). HOF eligible, short only, 12:00 to 14:00 ET dead zone applies. MID eligible, 9:30 to 10:30 ET only. BNC eligible, no filter.</p>"
+   "label": "MNQ AVWAP",
+   "value": "28,917.40",
+   "note": "Close -1.60s, overhead"
   },
   {
-   "title": "Momentum Breakout (Regime Filter)",
-   "html": "<p><strong>MNQ:</strong> No long signal taken. Direction is CONFLICTED rather than a confirmed downtrend, so the filter no longer blocks E3v2 outright the way it did yesterday. Permission changed; the evidence did not. MNQ closed -1.40%, under AVWAP, with a stop flip one bar old and MES pointing the other way. This is the weakest kind of green light.</p>"
+   "label": "MNQ RTH High",
+   "value": "29,118.50",
+   "note": "Where distribution began"
   },
   {
-   "title": "AVWAP Deviation Band Reversal (MNQ)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Band</th><th>Level</th><th>Touched</th></tr></thead><tbody><tr><td>+3s</td><td>29,087.89</td><td>No</td></tr><tr><td>+2s</td><td>29,006.57</td><td>Yes, RTH high tagged +2.50s</td></tr><tr><td>+1s</td><td>28,925.25</td><td>Yes</td></tr><tr><td>AVWAP</td><td>28,843.93</td><td>Yes</td></tr><tr><td>-1s</td><td>28,762.61</td><td>Yes</td></tr><tr><td>-2s</td><td>28,681.29</td><td>Yes, RTH low tagged -2.20s</td></tr><tr><td>-3s</td><td>28,599.97</td><td>No</td></tr></tbody></table></div><p><strong>Read:</strong> Both outer bands were tagged in one session and price closed at -0.92s, back near the mean. That is what the edge is built for. Yesterday sigma expanded to 96.32 and the bands chased a trend; today sigma contracted to 81.32 and price rotated between the extremes. The -3s at 28,599.97 sits 0.38 from the 28,600.35 ATR stop, so on Monday that shelf carries two meanings at once.</p>"
+   "label": "MNQ -2s",
+   "value": "28,743.08",
+   "note": "First band below the stop"
   },
   {
-   "title": "Yesterday's Map: Marked",
-   "html": "<div class='table-wrap'><table><thead><tr><th>#</th><th>Map row (IF)</th><th>Result</th><th>Measured</th></tr></thead><tbody><tr><td>1</td><td>MNQ stays below the 29,494.21 stop on hourly closes: short structure stands, 29,079 RTH low then the 29,000 psych and the 29,000.58 -3s are the downside references</td><td><span style='color:#10b981;font-weight:600;'>TRIGGERED - PLAYED OUT</span></td><td>Held on every hourly close; highest close 28,974.50. All three references reached: 29,079 taken out on the 00:00 UTC bar, 29,000 and the 29,000.58 -3s lost by 01:00. RTH low 28,665.00, overnight low 28,408.25.</td></tr><tr><td>2</td><td>MNQ reclaims the 29,289.55 AVWAP and holds it on 2 hourly closes: first repair signal, the 29,509 RTH high and 29,532 OR high come back into scope</td><td><span style='color:#9ca3af;font-weight:600;'>NOT TRIGGERED</span></td><td>No hourly close above 29,289.55 at any point. Highest close 28,974.50, roughly 315 short.</td></tr><tr><td>3</td><td>MES stays below the 7,613.08 flipped stop: the broad de-risk read holds, 7,548.25 RTH low then the 7,540.10 -3s are the references</td><td><span style='color:#10b981;font-weight:600;'>TRIGGERED - PLAYED OUT</span></td><td>Held on every hourly close, highest 7,552.00. Both references reached on the 01:00 UTC bar. RTH low 7,484.50, overnight low 7,473.00. MES closed -0.98% and never flipped.</td></tr><tr><td>4</td><td>MGC 2 hourly closes back above 4,000: gold's break is rejected and the 4,025.50 stop comes into play as the trend test</td><td><span style='color:#10b981;font-weight:600;'>TRIGGERED - PLAYED OUT</span></td><td>Fired on the 13:00 and 14:00 UTC bars at 4,000.90 and 4,005.50, then held above 4,000. The break was rejected and the 4,025.50 stop came into play exactly as written: RTH high 4,029.00 traded through it, close landed 2.40 under at 4,023.10.</td></tr><tr><td>5</td><td>MCL holds above the 78.56 RTH low on hourly closes while under the 80.59 stop: range risk between 78.56 and 80.59, with the 79.24 AVWAP as the midpoint tell</td><td><span style='color:#ef4444;font-weight:600;'>TRIGGERED - FAILED</span></td><td>First clause held (lowest close 79.07); the second broke. MCL closed above 80.59 from the 11:00 UTC bar onward and ran to 82.52 (+3.73%), 1.93 above the row's upper bound. The range thesis was wrong and the stop flipped long.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 4 triggered, 3 played out, 1 failed. &nbsp;|&nbsp; <strong>Month MTD:</strong> 39 triggered, 22 played out, 5 failed.</p>"
+   "label": "MES ATR Stop",
+   "value": "7,534.22",
+   "note": "SHORT, price 50.72 below"
   },
   {
-   "title": "Tomorrow's Map (for Monday, July 20, 2026)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th></tr></thead><tbody><tr><td>MNQ reclaims the 28,843.93 AVWAP on 2 hourly closes</td><td>The long flip earns its first real confirmation; the 29,000 psych, the 29,006.57 +2s and the 29,047 RTH high stack up as the next tests</td><td>Between 28,600.35 and 28,843.93 the flip is unproven. A stop flip without an AVWAP reclaim is not a trend</td></tr><tr><td>MNQ closes below 28,600.35 on 2 hourly closes</td><td>The one-session long flip is rejected and the 28,500 psych, then the 28,408.25 overnight and OR low, come into scope</td><td>Short-side under 28,600.35. The 28,599.97 -3s sits 0.38 away, so that shelf is a trend test and a volatility test at once</td></tr><tr><td>MES reclaims its 7,540.81 stop on 2 hourly closes</td><td>The split tape closes and both indexes agree again; the 7,554.97 +3s and the 7,569.00 prior close are the references</td><td>While MES stays under 7,540.81 and MNQ stays above 28,600.35, the indexes disagree and neither trend read is clean</td></tr><tr><td>MGC holds above 4,000 on hourly closes</td><td>The reclaim stands and the 4,029 RTH high then the 4,050 psych are the upside references</td><td>Gold has flipped twice in two sessions, so treat its trend layer as unreliable. A 2-close back under 4,000 reopens the 3,994.20 low and 3,981.97 stop</td></tr><tr><td>MCL holds above the 80.83 stop on hourly closes</td><td>The energy trend stays intact and the 82.95 +2s then the 83.00 psych are the upside references</td><td>Long-side above 80.83. Headline-driven, so size it for gap risk: a Hormuz de-escalation can reprice it overnight</td></tr></tbody></table></div><p><strong>Filters:</strong> BIR not eligible (skip Mondays). HOF eligible, short only, with the 12:00 to 14:00 ET dead zone. MID eligible, 9:30 to 10:30 ET only. BNC eligible. No CPI, no FOMC, not Wednesday.</p><p><strong>Calendar:</strong> Monday July 20 carries no major scheduled US release. The week brings Existing Home Sales, July flash PMIs, New Home Sales and claims for the week ended July 18, with Alphabet, Tesla, Intel and IBM reporting. The live variable is the US-Iran conflict, a weekend headline risk no calendar prints.</p>"
+   "label": "MGC Psych / RTH Low",
+   "value": "4,000.00",
+   "note": "Low printed to the tick"
+  },
+  {
+   "label": "MCL ATR Stop",
+   "value": "80.49",
+   "note": "Re-flipped LONG, 1.95 above"
   }
+ ],
+ "setups": [
+  {
+   "name": "AVWAP Hand-off (short only)",
+   "confidence": "High",
+   "entry": "OR break down with no reclaim, continuation below NYVWAP",
+   "stop": "Back inside the opening range",
+   "t1": "Session extension",
+   "rr": "Systematic",
+   "bias": "In habitat. Textbook on MES today: broke down 13:50 UTC at 7,528.50, no reclaim, trended to a 7,483.50 close."
+  },
+  {
+   "name": "TSMOM-20",
+   "confidence": "Low",
+   "entry": "Systematic on the 1hr stop",
+   "stop": "MNQ 28,762.41 / MES 7,534.22",
+   "t1": "Trend",
+   "rr": "Systematic",
+   "bias": "Borderline. Long signal exists but MNQ is 15.34 points from invalidation and MES points the other way."
+  },
+  {
+   "name": "AVWAP Deviation Band",
+   "confidence": "Medium",
+   "entry": "Band tag at +/-2s from the 28,917.40 AVWAP",
+   "stop": "Beyond the 3s band",
+   "t1": "AVWAP mean",
+   "rr": "Systematic",
+   "bias": "Borderline. Close at -1.60s, between bands. Upper band produced a reversion today; -2s at 28,743.08 is the next actionable tag."
+  },
+  {
+   "name": "AVWAP Midrange",
+   "confidence": "Medium",
+   "entry": "Range play between AVWAP and OR boundary, 9:30 to 10:30 ET",
+   "stop": "Outside the opening range",
+   "t1": "Opposite boundary",
+   "rr": "Systematic",
+   "bias": "Borderline. The MNQ opening range was 156.25 wide, so playable structure but wide risk."
+  }
+ ],
+ "activeIndicators": [
+  "avwap-hand-off",
+  "tsmom-20",
+  "avwap-dev-bands",
+  "avwap-midrange",
+  "hta-compass"
+ ],
+ "downloadLink": "HTA-Pro-EOD-Report-2026-07-20.docx",
+ "reportFileName": "HTA-Pro-EOD-Report-2026-07-20.docx",
+ "charts": [
+  "charts/chart-mnq-1hr-2026-07-20.png",
+  "charts/chart-mes-1hr-2026-07-20.png",
+  "charts/chart-mgc-1hr-2026-07-20.png",
+  "charts/chart-mcl-1hr-2026-07-20.png"
  ],
  "tomorrowsMap": [
   {
-   "if": "MNQ reclaims the 28,843.93 AVWAP on 2 hourly closes",
-   "then": "Long flip earns first real confirmation; 29,000 psych, 29,006.57 +2s, 29,047 RTH high are the next tests",
-   "bias": "Between 28,600.35 and 28,843.93 the flip is unproven",
-   "level": "MNQ 28,843.93"
+   "if": "MNQ closes below 28,762.41 on 2 hourly closes",
+   "then": "The long flip is done and the 28,750.00 RTH low, the 28,743.08 -2s and then the 28,655.92 -3s come into scope, with 28,500 psych behind them",
+   "bias": "Short-side under 28,762.41. The cushion is 15.34 points, 0.05% of price, so this is the single most likely first event of the session",
+   "level": "MNQ 28,762.41"
   },
   {
-   "if": "MNQ closes below 28,600.35 on 2 hourly closes",
-   "then": "One-session long flip rejected; 28,500 psych then 28,408.25 overnight/OR low come into scope",
-   "bias": "Short-side under 28,600.35; the 28,599.97 -3s sits 0.38 away",
-   "level": "MNQ 28,600.35"
+   "if": "MNQ reclaims the 28,917.40 AVWAP on 2 hourly closes",
+   "then": "The fade is repaired and the 28,966.97 NYVWAP, the 29,004.56 +1s and the 29,000 psych are the tests, with 29,118.50 the level that would actually prove it",
+   "bias": "Long-side only above 28,917.40. Between the stop and the AVWAP there is no trend, only range",
+   "level": "MNQ 28,917.40"
   },
   {
-   "if": "MES reclaims its 7,540.81 stop on 2 hourly closes",
-   "then": "Split tape closes; 7,554.97 +3s and 7,569.00 prior close are the references",
-   "bias": "While MES is under 7,540.81 and MNQ above 28,600.35 the indexes disagree",
-   "level": "MES 7,540.81"
+   "if": "MES closes above 7,534.22 on 2 hourly closes",
+   "then": "The three-session disagreement ends and both indexes finally point the same way, with the 7,545.48 +3s and the 7,552.25 overnight high as references",
+   "bias": "While MES sits below 7,534.22 and MNQ sits below 28,917.40, both trend layers actually agree on down, and that is the cleanest agreement in three sessions",
+   "level": "MES 7,534.22"
   },
   {
-   "if": "MGC holds above 4,000 on hourly closes",
-   "then": "Reclaim stands; 4,029 RTH high then 4,050 psych are the upside references",
-   "bias": "Gold flipped twice in two sessions; trend layer unreliable",
+   "if": "MGC closes below 4,000 on 2 hourly closes",
+   "then": "The coil resolves lower and the 3,990.15 stop then the 3,986.60 overnight low are the references",
+   "bias": "Two-sided by design. RTH sigma of 1.95 is the tightest in weeks. Compression resolves but nothing says which way, so wait for the break. Above: 4,023.90 then 4,046.10 then 4,050",
    "level": "MGC 4,000.00"
   },
   {
-   "if": "MCL holds above the 80.83 stop on hourly closes",
-   "then": "Energy trend intact; 82.95 +2s then 83.00 psych are the upside references",
-   "bias": "Long-side above 80.83, but headline-driven; size for gap risk",
-   "level": "MCL 80.83"
+   "if": "MCL holds above the 80.49 stop on hourly closes",
+   "then": "The second long flip in 24 hours stands and the 83.16 RTH high then the 83.35 +3s are the upside references",
+   "bias": "Treat crude's trend layer as unusable. It flipped twice in one session and ran a 4.65-dollar overnight round trip. Size for headline gap risk or leave it alone",
+   "level": "MCL 80.49"
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
-  "triggered": 4,
-  "playedOut": 3,
-  "failed": 1,
-  "note": "Row 5 (MCL range thesis) failed: price broke the 80.59 upper bound and ran to 82.52. Rows 1, 3 and 4 played out. Row 2 not triggered."
+  "triggered": 3,
+  "playedOut": 0,
+  "failed": 0,
+  "mixed": 3,
+  "note": "Three triggers, zero clean grades. Rows 1, 4 and 5 each did the right thing and then undid it inside the same session. Rows 2 and 3 did not trigger. That is not a mapping failure, it is what a round-trip session does to conditional levels."
  },
  "mapTallyMTD": {
-  "triggered": 39,
+  "triggered": 42,
   "playedOut": 22,
   "failed": 5
  },
- "downloadLink": "HTA-Pro-EOD-Report-2026-07-17.docx",
- "reportFileName": "HTA-Pro-EOD-Report-2026-07-17.docx",
- "charts": [
-  "charts/chart-mnq-1hr-2026-07-17.png",
-  "charts/chart-mes-1hr-2026-07-17.png",
-  "charts/chart-mgc-1hr-2026-07-17.png",
-  "charts/chart-mcl-1hr-2026-07-17.png"
+ "fullReport": [
+  {
+   "title": "Yesterday's Map: Marked",
+   "html": "<div class='table-wrap'><table><thead><tr><th>#</th><th>Row (as published Jul 17)</th><th>Status</th><th>Grade</th><th>What happened</th></tr></thead><tbody><tr><td>1</td><td>MNQ reclaims the 28,843.93 AVWAP on 2 hourly closes</td><td><strong>TRIGGERED</strong></td><td><strong>MIXED</strong></td><td>Reclaimed on the 23:00 UTC bar, confirmed next close, then held twelve straight hourly closes above the line from 07:00 UTC. Every listed target printed: 29,000 psych, the 29,006.57 +2s and the 29,047 RTH high were all cleared, topping at 29,192.50 overnight and 29,118.50 in RTH. Then it round-tripped. Close 28,777.75 is back below the AVWAP, inside the unproven zone the bias line described.</td></tr><tr><td>2</td><td>MNQ closes below 28,600.35 on 2 hourly closes</td><td>NOT TRIGGERED</td><td>n/a</td><td>Lowest hourly close 28,777.75, session low 28,750.00. Never came near it.</td></tr><tr><td>3</td><td>MES reclaims its 7,540.81 stop on 2 hourly closes</td><td>NOT TRIGGERED</td><td>n/a</td><td>Highest close of the day 7,523.50, 17.31 short. The bias line held exactly: MES stayed under its stop, MNQ stayed above its own, and neither trend read was clean all session.</td></tr><tr><td>4</td><td>MGC holds above 4,000 on hourly closes</td><td><strong>TRIGGERED</strong></td><td><strong>MIXED</strong></td><td>The hold broke first. Two consecutive Sunday-open closes printed below at 3,998.50 and 3,999.70 and the overnight low ran 3,986.60, exactly the 2-close breach the bias warned about. Gold then reclaimed 4,000 and defended it on every close after, RTH low landing on 4,000.00 to the tick. Neither upside reference was reached: RTH high 4,023.90 stopped short of 4,029.</td></tr><tr><td>5</td><td>MCL holds above the 80.83 stop on hourly closes</td><td><strong>TRIGGERED</strong></td><td><strong>MIXED</strong></td><td>It went up first, to 84.20 on the Sunday open, then fully reversed. The 11:00 UTC bar closed 80.25, below the level, and the overnight low ran 79.55. The stop flipped short on the 07:00 close and back long on the 18:00 close at 82.85. Closed 82.44. The bias warning about overnight repricing was right, in both directions.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 3 triggered, 2 not triggered. 0 played out, 0 failed, 3 mixed. <strong>MTD:</strong> 42 triggered, 22 played out, 5 failed.</p>"
+  },
+  {
+   "title": "Tomorrow's Map (for Tuesday, July 21, 2026)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th><th>Level</th></tr></thead><tbody><tr><td>MNQ closes below 28,762.41 on 2 hourly closes</td><td>The long flip is done and the 28,750.00 RTH low, the 28,743.08 -2s and then the 28,655.92 -3s come into scope, with 28,500 psych behind them</td><td>Short-side under 28,762.41. The cushion is 15.34 points, 0.05% of price, so this is the single most likely first event of the session</td><td>MNQ 28,762.41</td></tr><tr><td>MNQ reclaims the 28,917.40 AVWAP on 2 hourly closes</td><td>The fade is repaired and the 28,966.97 NYVWAP, the 29,004.56 +1s and the 29,000 psych are the tests, with 29,118.50 the level that would actually prove it</td><td>Long-side only above 28,917.40. Between the stop and the AVWAP there is no trend, only range</td><td>MNQ 28,917.40</td></tr><tr><td>MES closes above 7,534.22 on 2 hourly closes</td><td>The three-session disagreement ends and both indexes finally point the same way, with the 7,545.48 +3s and the 7,552.25 overnight high as references</td><td>While MES sits below 7,534.22 and MNQ sits below 28,917.40, both trend layers actually agree on down, and that is the cleanest agreement in three sessions</td><td>MES 7,534.22</td></tr><tr><td>MGC closes below 4,000 on 2 hourly closes</td><td>The coil resolves lower and the 3,990.15 stop then the 3,986.60 overnight low are the references</td><td>Two-sided by design. RTH sigma of 1.95 is the tightest in weeks. Compression resolves but nothing says which way, so wait for the break. Above: 4,023.90 then 4,046.10 then 4,050</td><td>MGC 4,000.00</td></tr><tr><td>MCL holds above the 80.49 stop on hourly closes</td><td>The second long flip in 24 hours stands and the 83.16 RTH high then the 83.35 +3s are the upside references</td><td>Treat crude's trend layer as unusable. It flipped twice in one session and ran a 4.65-dollar overnight round trip. Size for headline gap risk or leave it alone</td><td>MCL 80.49</td></tr></tbody></table></div><p><strong>Filters Tuesday:</strong> BIR eligible (Monday skip is off). HOF eligible, short only, 12:00 to 14:00 ET dead zone applies. MID eligible, 9:30 to 10:30 ET only. BNC eligible, no filter. No CPI, no FOMC, not Wednesday.</p><p><strong>Calendar:</strong> Tuesday July 21 carries no major scheduled US release. The week's data lands Friday with July flash PMIs and June New Home Sales at 9:45 and 10:00 ET. The live variable is the earnings block: Alphabet, Tesla, Intel and IBM all report this week.</p>"
+  },
+  {
+   "title": "Market Regime Snapshot (6-Axis)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>State</th><th>Confidence</th><th>Evidence</th></tr></thead><tbody><tr><td>Direction</td><td>CONFLICTED / UNRESOLVED</td><td>High</td><td>MNQ stop LONG at 28,762.41 with 15.34 points of cushion. MES stop SHORT at 7,534.22, price 50.72 below. Third session without agreement.</td></tr><tr><td>Volatility</td><td>CONTRACTING FROM ELEVATED</td><td>Medium</td><td>MNQ ATR(14) 132.28, down from 143.96. Overnight range 429.75 points, RTH sigma up to 87.16 from 81.32.</td></tr><tr><td>Session</td><td>DISTRIBUTION / FADE</td><td>High</td><td>RTH open 28,996.25, high 29,118.50, close 28,777.75, in the bottom 7.5% of the range.</td></tr><tr><td>Inventory</td><td>LONG AND LIQUIDATED</td><td>High</td><td>Overnight close 28,996.25 vs Friday 28,768.75. RTH returned all of it.</td></tr><tr><td>Event</td><td>QUIET</td><td>High</td><td>No major US release Monday July 20.</td></tr><tr><td>Liquidity</td><td>NORMAL PLUS</td><td>Medium</td><td>MNQ1! volume 3,384,109 vs 20-day SMA 3,118,123, ratio 1.09x.</td></tr></tbody></table></div>"
+  },
+  {
+   "title": "Strategy Habitat Check",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Strategy</th><th>Habitat</th><th>Read</th></tr></thead><tbody><tr><td>AVWAP Hand-off (short only)</td><td><strong>IN_HABITAT</strong></td><td>Textbook on MES. The opening range broke DOWN at 13:50 UTC at 7,528.50 with no reclaim and price trended below the NYVWAP to close 7,483.50. The MNQ version did not qualify: it broke down at 13:55 and reclaimed at 14:25, the filter working as designed.</td></tr><tr><td>TSMOM-20</td><td>BORDERLINE</td><td>A long signal exists on MNQ, MGC and MCL, but MNQ's is 15.34 points from invalidation and MES points the other way. MCL flipped twice inside the session. Signal present, quality poor.</td></tr><tr><td>AVWAP Deviation Band</td><td>BORDERLINE</td><td>MNQ closed at -1.60s, between bands rather than at one. The -2s sits at 28,743.08. Structure alive, no tag to act on at the close.</td></tr><tr><td>AVWAP Midrange</td><td>BORDERLINE</td><td>The MNQ opening range was wide at 156.25 points and price spent the 9:30 to 10:30 ET window inside it. Playable structure, wide risk.</td></tr></tbody></table></div><p><strong>Out of habitat today:</strong> AVWAP Bounce (MNQ lost the AVWAP into the close with no bounce, both index legs below it), AVWAP Back Into Range (fired on MNQ at 14:25 UTC but BIR is not eligible on Mondays, so it does not count), E3v2 Momentum Long (a distribution session with a broken index confirmation is the opposite of its regime filter).</p>"
+  },
+  {
+   "title": "NY Opening Range / COMPASS (13:30 to 13:44 UTC)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>OR High</th><th>OR Low</th><th>Width</th><th>Break</th><th>Time</th><th>Price</th><th>Reclaimed</th></tr></thead><tbody><tr><td>MNQ1!</td><td>29,182.00</td><td>29,025.75</td><td>156.25</td><td>DOWN</td><td>13:55</td><td>28,996.25</td><td>Yes, 14:25 at 29,030.50</td></tr><tr><td>MES1!</td><td>7,551.50</td><td>7,532.75</td><td>18.75</td><td>DOWN</td><td>13:50</td><td>7,528.50</td><td>No</td></tr><tr><td>MGC1!</td><td>4,021.80</td><td>4,012.20</td><td>9.60</td><td>DOWN</td><td>13:55</td><td>4,009.60</td><td>Yes, 14:30 at 4,013.60</td></tr><tr><td>MCL1!</td><td>81.52</td><td>81.10</td><td>0.42</td><td>UP</td><td>13:50</td><td>81.73</td><td>Yes, 14:30 at 81.49</td></tr></tbody></table></div><p>Three of four broke down out of the opening range. Only MES held its break, and MES is the one that trended.</p>"
+  },
+  {
+   "title": "Momentum Breakout (Regime Filter)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Item</th><th>Read</th></tr></thead><tbody><tr><td>E3v2 Momentum Long</td><td>No qualifying signal. The regime filter rejects a distribution session with a broken index confirmation.</td></tr><tr><td>Direction gate</td><td>MNQ long stop against a MES short stop. Gate closed.</td></tr><tr><td>Volatility gate</td><td>ATR(14) contracting to 132.28 from 143.96, inside band but falling.</td></tr><tr><td>Session gate</td><td>Close in the bottom 7.5% of the RTH range. Fails a long-breakout premise outright.</td></tr></tbody></table></div>"
+  },
+  {
+   "title": "AVWAP Deviation Band Reversal (MNQ)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Band</th><th>Price</th><th>Distance from close</th></tr></thead><tbody><tr><td>+3s</td><td>29,178.88</td><td>+401.13</td></tr><tr><td>+2s</td><td>29,091.72</td><td>+313.97</td></tr><tr><td>+1s</td><td>29,004.56</td><td>+226.81</td></tr><tr><td>AVWAP</td><td>28,917.40</td><td>+139.65</td></tr><tr><td>-1s</td><td>28,830.24</td><td>+52.49</td></tr><tr><td>-2s</td><td>28,743.08</td><td>-34.67</td></tr><tr><td>-3s</td><td>28,655.92</td><td>-121.83</td></tr></tbody></table></div><p>Sigma 87.16, up from 81.32. RTH high tagged +2.31s and the low tagged -1.92s, so the upper band produced a reversion and the lower band was approached but not tagged. Close sits at -1.60s, between bands. Nothing to act on at the bell.</p>"
+  },
+  {
+   "title": "Key Levels (MNQ1!)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Price</th><th>Note</th></tr></thead><tbody><tr><td>Overnight high</td><td>29,192.50</td><td>The full extent of the gap</td></tr><tr><td>RTH high</td><td>29,118.50</td><td>Where the distribution started</td></tr><tr><td>Psych</td><td>29,000</td><td>Cleared and lost</td></tr><tr><td>NYVWAP</td><td>28,966.97</td><td>Session mean, overhead</td></tr><tr><td>AVWAP</td><td>28,917.40</td><td>The reclaim level for tomorrow</td></tr><tr><td>RTH close</td><td>28,777.75</td><td>-1.60s</td></tr><tr><td>Friday close</td><td>28,768.75</td><td>+9.00 on the day</td></tr><tr><td>ATR stop (LONG)</td><td>28,762.41</td><td>15.34 points of cushion</td></tr><tr><td>RTH low</td><td>28,750.00</td><td>12.41 below the stop</td></tr><tr><td>Psych</td><td>28,500</td><td>Next shelf lower</td></tr></tbody></table></div>"
+  }
  ]
 }
