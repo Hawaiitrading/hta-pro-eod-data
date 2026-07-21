@@ -147,6 +147,13 @@
     "summary": "<strong>A holiday bridge, not a session.</strong> Friday July 3 was the observed Independence Day holiday (July 4 Saturday). Cash equity markets were closed and CME micro futures traded only a thin half-session to the ~1:00 pm ET early close, so there was no new cash RTH structure. A live data pull was not available in this unattended run, so all levels are carried forward from the Thu Jul 2 close and flagged as such. The Jul 2 risk-off Day 3 read stands into the long weekend: equities are both-short on the 1hr (MNQ 29,551.75 below a 29,783 falling stop, MES 7,522.75 below 7,538), while gold holds its safe-haven long (4,164.7 above 4,124) and crude holds long (68.47 above 67.43). No trade signal fired; the book is flat and the throttle DEFENSIVE. The single open question is a Monday gap after a three-day break on one soft jobs print (June NFP +57K). Standing map targets Monday Jul 6 and carries intact."
   },
   {
+    "date": "July 21, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Broad Risk-On, Clean Trend Alignment (First Full Agreement in Weeks)",
+    "regimeClass": "risk-on",
+    "summary": "Broad risk-on, and for once everything agrees. NQ closed +1.78%, ES +0.79%, gold +1.74%, crude +2.57%, and all four finished green and above their 1hr stops. The standout is MES: it flipped long and ended a three-session ES/NQ disagreement, the first clean index alignment in weeks. The tape was a gap up that held and extended, closing near the highs, the mirror image of Monday's round trip. Gold rejoined the move rather than trading as a haven, and crude kept its Hormuz bid. The one caution is correlation: with everything long into an earnings week (Alphabet, Tesla, Intel, IBM), a single risk-off headline would hit every position at once. Not financial advice."
+  },
+  {
     "date": "July 20, 2026",
     "dayOfWeek": "Monday",
     "regime": "Conflicted Trend, Distribution Session (Long Signal on a 15-Point Leash)",
