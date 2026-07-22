@@ -147,6 +147,13 @@
     "summary": "<strong>A holiday bridge, not a session.</strong> Friday July 3 was the observed Independence Day holiday (July 4 Saturday). Cash equity markets were closed and CME micro futures traded only a thin half-session to the ~1:00 pm ET early close, so there was no new cash RTH structure. A live data pull was not available in this unattended run, so all levels are carried forward from the Thu Jul 2 close and flagged as such. The Jul 2 risk-off Day 3 read stands into the long weekend: equities are both-short on the 1hr (MNQ 29,551.75 below a 29,783 falling stop, MES 7,522.75 below 7,538), while gold holds its safe-haven long (4,164.7 above 4,124) and crude holds long (68.47 above 67.43). No trade signal fired; the book is flat and the throttle DEFENSIVE. The single open question is a Monday gap after a three-day break on one soft jobs print (June NFP +57K). Standing map targets Monday Jul 6 and carries intact."
   },
   {
+    "date": "July 22, 2026",
+    "dayOfWeek": "Wednesday",
+    "regime": "Trend Up Weakening (Pre-Earnings De-Risk)",
+    "regimeClass": "caution",
+    "summary": "<p>The tape gave it back. NQ ramped 380 points off a 28,961.25 overnight low into the open, tagged 29,342.50 in the first ninety minutes, then sold off every single hour into the close and finished 29,169, down 0.41%. That is a distribution afternoon. The context that matters: <strong>Alphabet and Tesla both reported after the bell today</strong>, and the fade was traders flattening ahead of the prints, not conviction selling. Volume backs that up, with RTH volume at 1,950k against a 2,440k six-session average, about 80% of normal. ES barely moved at -0.02%, which points at a tech-specific de-risk rather than a broad exit. Gold kept running, up 1.31% to a fresh 4,171.30 high before fading to 4,134.90. Crude closed up 2.28% and still flipped its 1hr stop short after reversing off an 88.61 overnight spike. Every index trend is technically intact, but NQ closed under its AVWAP for the first time in this leg. Not financial advice.</p>"
+  },
+  {
     "date": "July 21, 2026",
     "dayOfWeek": "Tuesday",
     "regime": "Broad Risk-On, Clean Trend Alignment (First Full Agreement in Weeks)",
