@@ -243,5 +243,12 @@
     "regime": "Risk-On / Trend-Up, Normal Vol",
     "regimeClass": "risk-on",
     "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
+  },
+  {
+    "date": "2026-07-23",
+    "dayOfWeek": "Thursday",
+    "regime": "Trend Down, Fresh Flip (Oil Shock Risk-Off)",
+    "regimeClass": "caution",
+    "summary": "Risk-off, and it came from oil. Middle East escalation sent WTI up 6.82% to 92.39 overnight, and that inflation catalyst landed on top of a jobless claims print of 187,000, the lowest since 1969. Hot labor plus an oil shock pushed yields and the dollar up, and equities and gold both got sold. MNQ closed -1.47%, MES -1.13%, MGC -2.00%, MCL +6.82%. The structural part matters most: NQ, ES, and gold all closed below their 1hr ATR trailing stops and flipped short, the first synchronized equity-and-gold trend flip in weeks. Crude flipped the other way, long. NQ dumped 380 points to a 28,432.50 low, then bounced almost 300 points to close 28,740.75, back above its session AVWAP but still under its stop. Not financial advice."
   }
 ]
