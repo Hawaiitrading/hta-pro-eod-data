@@ -147,6 +147,13 @@
     "summary": "<strong>A holiday bridge, not a session.</strong> Friday July 3 was the observed Independence Day holiday (July 4 Saturday). Cash equity markets were closed and CME micro futures traded only a thin half-session to the ~1:00 pm ET early close, so there was no new cash RTH structure. A live data pull was not available in this unattended run, so all levels are carried forward from the Thu Jul 2 close and flagged as such. The Jul 2 risk-off Day 3 read stands into the long weekend: equities are both-short on the 1hr (MNQ 29,551.75 below a 29,783 falling stop, MES 7,522.75 below 7,538), while gold holds its safe-haven long (4,164.7 above 4,124) and crude holds long (68.47 above 67.43). No trade signal fired; the book is flat and the throttle DEFENSIVE. The single open question is a Monday gap after a three-day break on one soft jobs print (June NFP +57K). Standing map targets Monday Jul 6 and carries intact."
   },
   {
+    "date": "July 24, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Mixed / Transition (Fragile Flips, Pre-FOMC Chop)",
+    "regimeClass": "caution",
+    "summary": "<p>Yesterday's synchronized flush only half unwound. NQ never repaired: it rallied to tag its stop and RTH high early, failed, faded to a fresh 28,212.50 low, and closed <strong>-1.51%</strong> still short below 28,632.42. ES and gold clawed marginally back above their flip lines, but both sit under their AVWAPs, so these are fragile long flips, not clean reversals. Crude gave back about a third of its supply-shock spike, <strong>-2.11%</strong>, and flipped short. This is a two-sided, elevated-vol, low-conviction tape coiling into next week's FOMC. The laggard names the risk, and today NQ is the laggard.</p>"
+  },
+  {
     "date": "July 22, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Trend Up Weakening (Pre-Earnings De-Risk)",
