@@ -147,6 +147,13 @@
     "summary": "<strong>A holiday bridge, not a session.</strong> Friday July 3 was the observed Independence Day holiday (July 4 Saturday). Cash equity markets were closed and CME micro futures traded only a thin half-session to the ~1:00 pm ET early close, so there was no new cash RTH structure. A live data pull was not available in this unattended run, so all levels are carried forward from the Thu Jul 2 close and flagged as such. The Jul 2 risk-off Day 3 read stands into the long weekend: equities are both-short on the 1hr (MNQ 29,551.75 below a 29,783 falling stop, MES 7,522.75 below 7,538), while gold holds its safe-haven long (4,164.7 above 4,124) and crude holds long (68.47 above 67.43). No trade signal fired; the book is flat and the throttle DEFENSIVE. The single open question is a Monday gap after a three-day break on one soft jobs print (June NFP +57K). Standing map targets Monday Jul 6 and carries intact."
   },
   {
+    "date": "July 27, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Risk-Off / Down-Leaning (Crude Shock, Pre-FOMC)",
+    "regimeClass": "caution",
+    "summary": "<p>Risk-off finally showed up, and crude led the charge. MCL cratered -9.43% as the geopolitical premium bled all the way out. NQ faked higher overnight to 28,763.75, then reversed hard once New York opened, printed a 27,938.50 low, and closed -0.34% back under its 28,425.18 stop. ES lost Friday's fragile long flip and rejoined the downside. Gold was the lone market standing, up +0.58% and holding its long above 4,071.10 on a haven bid. Every symbol broke its opening range DOWN. This is a risk-off tape coiling into a two-day FOMC, and the overnight rally that failed is the tell: nothing up here held.</p>"
+  },
+  {
     "date": "July 24, 2026",
     "dayOfWeek": "Friday",
     "regime": "Mixed / Transition (Fragile Flips, Pre-FOMC Chop)",
