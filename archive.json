@@ -266,6 +266,13 @@
     "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
   },
   {
+    "date": "2026-07-29",
+    "dayOfWeek": "Wednesday",
+    "regime": "Risk-off FOMC day. NQ and ES flipped short and closed on their lows after a divided 9-3 hold; gold caught a haven bid, crude squeezed on Middle East headlines.",
+    "regimeClass": "risk-off",
+    "summary": "FOMC day went risk-off. The Fed held at 3.50 to 3.75 percent in a divided 9-3 vote and kept a hawkish tone, and the tape sold it. NQ gave back the pre-decision pop and closed on its lows at 27,259.75, down 2.5 percent and flipping short below its 27,832 stop. ES mirrored it, down 1.77 percent and also short. VIX jumped 13.45 percent to 20.66 and the 10-year yield rose. Gold caught a haven bid, up 0.93 percent, but it is still under its trailing stop, so treat it as a bounce, not a trend flip. Crude was the outlier, squeezing 7.0 percent off its two-day flush on Middle East headlines and flipping long."
+  },
+  {
     "date": "2026-07-23",
     "dayOfWeek": "Thursday",
     "regime": "Trend Down, Fresh Flip (Oil Shock Risk-Off)",
