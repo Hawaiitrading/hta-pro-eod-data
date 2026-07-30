@@ -266,6 +266,13 @@
     "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
   },
   {
+    "date": "2026-07-30",
+    "dayOfWeek": "Thursday",
+    "regime": "Risk-on reversal. One day after the FOMC flush, NQ and ES reclaimed their ATR stops and flipped long on a tech-led, earnings-driven rally; gold held a haven bid, crude cooled.",
+    "regimeClass": "risk-on",
+    "summary": "One day after the FOMC flush, the tape ripped it all back. NQ closed up 3.94 percent at 28,333.5, reclaimed its ATR stop, and flipped long. The driver was earnings, not macro: Microsoft jumped about 15 percent on blowout results and semis followed Samsung higher, so tech led the recovery. It happened despite a soft Q2 GDP print, 1.5 percent advance against roughly 2 percent expected and down from Q1, with the report's inflation gauges still elevated. ES flipped long too, up 1.90 percent, VIX collapsed 17 percent to 17.09, and gold held its haven bid up 0.88 percent while crude gave a little back at minus 0.85 percent."
+  },
+  {
     "date": "2026-07-29",
     "dayOfWeek": "Wednesday",
     "regime": "Risk-off FOMC day. NQ and ES flipped short and closed on their lows after a divided 9-3 hold; gold caught a haven bid, crude squeezed on Middle East headlines.",
