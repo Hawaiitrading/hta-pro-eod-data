@@ -245,6 +245,13 @@
     "summary": "<strong>The two-day risk-on run ended, and it ended as a tech-led reversal.</strong> MNQ opened lower, broke its opening range up at 13:55 UTC then failed, and sold off through the day to close 30,064.5 (-1.43%), losing its 1hr trend stop and flipping SHORT. TSMOM-20, long and healthy 24 hours ago, was stopped out on a 2-close break of 30,242 and is now flat. MES held far better (-0.12% to 7,533) but told the same story: it printed a record 7,579, reversed, and closed below its own 7,574 stop, so the equity complex is now both-short on the 1hr. The commodity side offered no shelter: gold spiked to 4,159.5 and reversed to close 4,072.6 (a large outside-day, stop flipped short), and crude fell 2.8% to 68.08. It was an event day (soft ADP +98K, ISM beat 53.3 but down MoM) and a de-risk into Thursday's June jobs report and the holiday close, not a growth-scare cascade. All four contracts closed below their 1hr stops.</p>"
   },
   {
+    "date": "Friday, July 31, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Two-sided reversal. NQ's overnight earnings spike round-tripped and stalled below its AVWAP; ES held firmer, gold broke down and flipped short, and crude ripped to a +3 sigma extreme. June PCE cooled and kept risk calm.",
+    "regimeClass": "caution",
+    "summary": "The earnings pop got sold. NQ spiked to 28,725 overnight on big-tech results, then gave the whole move back and closed at 28,284, down 0.17 percent and barely above its stop. The fresh long from yesterday is still alive but it stalled: price closed below its 28,352 AVWAP with only 18 points of room over the 28,266 ATR stop. ES held up better, up 0.37 percent and above both its stop and AVWAP. The real moves were in commodities: gold broke down 1.50 percent and lost its stop to flip short, while crude ripped 3.47 percent and closed pinned at the +3 sigma band. June PCE cooled to 3.7 percent headline and the reaction stayed calm, with VIX down 6.4 percent to 15.99."
+  },
+  {
     "date": "April 27, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-On",
