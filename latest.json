@@ -1,45 +1,45 @@
 {
- "date": "2026-07-30",
- "dayOfWeek": "Thursday",
- "regime": "Risk-on reversal. One day after the FOMC flush, NQ and ES reclaimed their ATR stops and flipped long on a tech-led, earnings-driven rally; gold held a haven bid, crude cooled.",
- "regimeClass": "risk-on",
- "summary": "One day after the FOMC flush, the tape ripped it all back. NQ closed up 3.94 percent at 28,333.5, reclaimed its ATR stop, and flipped long. The driver was earnings, not macro: Microsoft jumped about 15 percent on blowout results and semis followed Samsung higher, so tech led the recovery. It happened despite a soft Q2 GDP print, 1.5 percent advance against roughly 2 percent expected and down from Q1, with the report's inflation gauges still elevated. ES flipped long too, up 1.90 percent, VIX collapsed 17 percent to 17.09, and gold held its haven bid up 0.88 percent while crude gave a little back at minus 0.85 percent.",
- "psychology": "Your bias resets every session. Anyone who stayed short after yesterday's hawkish close got squeezed today, because the tape does not owe the prior move a follow-through. The tell was mechanical: when price reclaims the ATR stop you were leaning against, that is the signal to stand down the old bias, not to double down on it. Trade the level in front of you, not the story you brought in from yesterday.",
+ "date": "Friday, July 31, 2026",
+ "dayOfWeek": "Friday",
+ "regime": "Two-sided reversal. NQ's overnight earnings spike round-tripped and stalled below its AVWAP; ES held firmer, gold broke down and flipped short, and crude ripped to a +3 sigma extreme. June PCE cooled and kept risk calm.",
+ "regimeClass": "caution",
+ "summary": "The earnings pop got sold. NQ spiked to 28,725 overnight on big-tech results, then gave the whole move back and closed at 28,284, down 0.17 percent and barely above its stop. The fresh long from yesterday is still alive but it stalled: price closed below its 28,352 AVWAP with only 18 points of room over the 28,266 ATR stop. ES held up better, up 0.37 percent and above both its stop and AVWAP. The real moves were in commodities: gold broke down 1.50 percent and lost its stop to flip short, while crude ripped 3.47 percent and closed pinned at the +3 sigma band. June PCE cooled to 3.7 percent headline and the reaction stayed calm, with VIX down 6.4 percent to 15.99.",
+ "psychology": "A round trip is information. NQ printed a fresh overnight high and then closed red, which means the traders who chased the earnings pop at 3am are now underwater and the ones who faded it got paid. When a market tags a new high and closes back below where it opened the range, the auction rejected higher prices. Do not marry the breakout you saw overnight. Mark the level, watch how price treats it on the next test, and let the close decide your bias instead of the spike.",
  "event": {
-  "name": "Q2 GDP Advance Estimate",
+  "name": "June PCE (Personal Consumption Expenditures)",
   "type": "POST_EVENT",
-  "consensus": "~2.0% annualized",
-  "actual": "+1.5% annualized (down from Q1 2.1%)",
-  "surprise": "Soft growth miss with inflation gauges still elevated; market looked through it",
-  "nqReaction": "NQ reclaimed nearly all of the Jul 29 FOMC drop, up 3.94% and flipping long above its ATR stop.",
-  "crossAsset": "VIX 17.09 (-17.28%), US10Y 4.661 (-0.21%), gold +0.88% haven bid, crude -0.85%. Rally led by Microsoft +15% and semiconductors."
+  "consensus": "In line with LSEG economist expectations",
+  "actual": "Headline PCE -0.1% m/m and +3.7% YoY, down from 4.1% in May. Core +0.1% m/m and +3.3% YoY. Real spending +0.4%.",
+  "surprise": "A cooler, in-line print. Both gauges remain above the Fed's 2% target but the annual trend eased.",
+  "nqReaction": "Muted. NQ had already round-tripped its overnight earnings spike, so the PCE print added no fresh directional impulse and the indices closed near flat.",
+  "crossAsset": "VIX down 6.44% to 15.99, 10Y 4.668 (-0.15%), spot gold -1.49% to 4,041, silver -2.40%. Risk stayed calm; the day's energy was in commodities, not equity volatility."
  },
  "atrStop": {
   "MNQ": {
-   "stop": 27921.169,
-   "price": 28333.5,
-   "gap": 412.33,
+   "stop": 28265.89,
+   "price": 28284,
+   "gap": 18.11,
    "trend": "RISING",
    "status": "ABOVE"
   },
   "MES": {
-   "stop": 7412.824,
-   "price": 7474.5,
-   "gap": 61.68,
+   "stop": 7467.24,
+   "price": 7502.5,
+   "gap": 35.26,
    "trend": "RISING",
    "status": "ABOVE"
   },
   "MGC": {
-   "stop": 4059.255,
-   "price": 4101.6,
-   "gap": 42.35,
-   "trend": "RISING",
-   "status": "ABOVE"
+   "stop": 4073.1,
+   "price": 4040.1,
+   "gap": -33.0,
+   "trend": "FALLING",
+   "status": "BELOW"
   },
   "MCL": {
-   "stop": 83.011,
-   "price": 83.94,
-   "gap": 0.93,
+   "stop": 84.33,
+   "price": 86.85,
+   "gap": 2.52,
    "trend": "RISING",
    "status": "ABOVE"
   }
@@ -54,155 +54,160 @@
  "risk": {
   "throttleState": "NORMAL",
   "ddProximity": "NORMAL band",
-  "dailyLossBudget": "Full",
-  "sizing": "Volatility is normalizing: MNQ ATR(14) contracted about 28% (229.07 to 164.93) and VIX fell 17% to 17.09, so you can carry more contracts for the same dollar risk than yesterday.",
-  "note": "Week ahead: June PCE Fri Jul 31 at 8:30am ET (Fed's preferred inflation gauge), month end. Prop-firm blackouts apply around the 8:30 release. Both equity indices are freshly long above their stops; bias is trade-with-trend or stand aside."
+  "dailyLossBudget": "Full into the new session.",
+  "sizing": "Volatility is contained: MNQ ATR(14) 155.56 (down from 164.93) and VIX 15.99, so risk per contract is moderate. But the tape was two-sided and whippy, so a smaller ATR does not mean a calmer session.",
+  "openRisk": "NQ is only 18 points above its 28,266 stop, so a with-trend long has almost no room before the trend flips. Size an NQ long as if the stop is right here, or wait for a reclaim of the 28,352 AVWAP.",
+  "note": "Week ahead: Monday Aug 3 brings ISM Manufacturing PMI at 10:00 ET (June was 53.3), the first data of a new month. Prop-firm blackouts apply around the release. Month-end and PCE are now behind the tape."
  },
  "keyLevels": [
   {
    "label": "MNQ ATR Stop",
-   "value": "27,921",
-   "note": "Above; flipped long"
-  },
-  {
-   "label": "MNQ RTH High",
-   "value": "28,410",
-   "note": "Session high, closed near it"
+   "value": "28,266",
+   "note": "Only 18 pts below; long is marginal"
   },
   {
    "label": "MNQ AVWAP",
-   "value": "28,173",
-   "note": "Rising support on pullbacks"
+   "value": "28,352",
+   "note": "Closed below it; reclaim to turn bullish"
+  },
+  {
+   "label": "MNQ ON High",
+   "value": "28,726",
+   "note": "Overnight earnings spike, fully reversed"
   },
   {
    "label": "MES ATR Stop",
-   "value": "7,413",
-   "note": "Above; flipped long"
+   "value": "7,467",
+   "note": "Above; ES firmer than NQ"
   },
   {
    "label": "MGC ATR Stop",
-   "value": "4,059",
-   "note": "Above price; gold flipped long"
+   "value": "4,073",
+   "note": "Lost it; gold flipped short"
   },
   {
-   "label": "MCL ATR Stop",
-   "value": "83.01",
-   "note": "Above price; long holds"
+   "label": "MCL +3s Band",
+   "value": "86.69",
+   "note": "Crude pinned at the upside extreme"
   }
  ],
  "setups": [
   {
-   "name": "TSMOM-20",
-   "confidence": "High",
-   "entry": "Long continuation above the 27,921 stop",
-   "stop": "2-close loss of 27,921",
-   "t1": "28,500",
-   "rr": "Systematic",
-   "bias": "Trend up, long side"
-  },
-  {
-   "name": "E3v2 Momentum Long",
-   "confidence": "High",
-   "entry": "OR-break-up continuation above 28,410",
-   "stop": "Back below the 28,173 AVWAP",
-   "t1": "28,500",
-   "rr": "Systematic",
-   "bias": "Long only, in habitat"
-  },
-  {
-   "name": "AVWAP Bounce",
+   "name": "AVWAP Hand-off (short)",
    "confidence": "Medium",
-   "entry": "Pullback hold at the 28,173 rising AVWAP",
-   "stop": "2-close below the AVWAP",
-   "t1": "28,410",
-   "rr": "Discretionary",
-   "bias": "With-trend long, borderline"
+   "entry": "Short continuation on rejections below the 28,352 AVWAP after the OR-break-down",
+   "stop": "2-close reclaim of 28,352",
+   "t1": "28,080 RTH low",
+   "rr": "Structure",
+   "bias": "NQ faded below AVWAP, short side"
+  },
+  {
+   "name": "AVWAP Deviation Band (MCL)",
+   "confidence": "Medium",
+   "entry": "Fade toward the 85.01 AVWAP only after crude stalls at the +3s 86.69 band",
+   "stop": "Acceptance above 87",
+   "t1": "85.57 (+1s)",
+   "rr": "Mean reversion",
+   "bias": "Crude stretched +3.3s, late to chase"
+  },
+  {
+   "name": "TSMOM-20 (MES)",
+   "confidence": "Medium",
+   "entry": "Long above the 7,467 stop while ES holds its AVWAP",
+   "stop": "2-close loss of 7,467",
+   "t1": "7,541 then 7,564",
+   "rr": "Systematic",
+   "bias": "ES is the cleaner long"
   }
  ],
  "activeIndicators": [
+  "avwap-handoff",
+  "avwap-dev-band",
   "tsmom-20",
-  "e3v2-momentum",
-  "avwap-bounce",
   "hta-compass"
  ],
- "downloadLink": "https://www.hawaiitradingacademy.com/pro/eod/pro-eod-report-2026-07-30.docx",
- "reportFileName": "pro-eod-report-2026-07-30.docx",
+ "downloadLink": "https://www.hawaiitradingacademy.com/pro/eod/pro-eod-report-2026-07-31.docx",
+ "reportFileName": "pro-eod-report-2026-07-31.docx",
  "charts": [
-  "charts/chart-mnq-1hr-2026-07-30.png",
-  "charts/chart-mes-1hr-2026-07-30.png",
-  "charts/chart-mgc-1hr-2026-07-30.png",
-  "charts/chart-mcl-1hr-2026-07-30.png"
+  "charts/chart-mnq-1hr-2026-07-31.png",
+  "charts/chart-mes-1hr-2026-07-31.png",
+  "charts/chart-mgc-1hr-2026-07-31.png",
+  "charts/chart-mcl-1hr-2026-07-31.png"
  ],
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>State</th><th>Confidence</th></tr></thead><tbody><tr><td><strong>Direction</strong></td><td>UP / RISK-ON</td><td>High</td></tr><tr><td><strong>Volatility</strong></td><td>ELEVATED, CONTRACTING</td><td>High</td></tr><tr><td><strong>Session</strong></td><td>TREND-UP / GAP-AND-GO RECOVERY</td><td>High</td></tr><tr><td><strong>Inventory</strong></td><td>SHORT TRAPPED / SQUEEZE</td><td>Medium</td></tr><tr><td><strong>Event</strong></td><td>POST_EVENT (Q2 GDP miss) + EARNINGS-DRIVEN</td><td>High</td></tr><tr><td><strong>Liquidity</strong></td><td>MODERATE (inferred)</td><td>Low</td></tr></tbody></table></div>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>State</th><th>Confidence</th><th>Evidence</th></tr></thead><tbody><tr><td>Direction</td><td>TWO-SIDED / MIXED, risk-on undertone</td><td>Medium</td><td>Indices near flat and split (MNQ -0.17%, MES +0.37%); gold broke down 1.50% and flipped short while crude ripped 3.47%. VIX down 6.44% to 15.99 keeps the tape calm, but there is no clean index trend.</td></tr><tr><td>Volatility</td><td>CONTRACTING headline, WHIPPY intraday</td><td>High</td><td>MNQ ATR(14) 155.56, down from 164.93. VIX 15.99. But realized range was violent: MNQ spiked to 28,725.75 overnight then fell to a 28,079.75 RTH low, a 646 point round trip.</td></tr><tr><td>Session</td><td>REVERSAL / DISTRIBUTION</td><td>High</td><td>The overnight earnings gap to 28,725 fully reversed. MNQ opening range broke DOWN at 13:45 UTC and faded, closing 28,284 below its 28,352 AVWAP.</td></tr><tr><td>Inventory</td><td>OVERNIGHT LONGS TRAPPED</td><td>Medium</td><td>The overnight spike trapped late longs who chased the earnings pop; the cash session distributed the move back down and closed NQ red.</td></tr><tr><td>Event</td><td>POST_EVENT (June PCE) + month-end</td><td>High</td><td>June PCE cooled: headline -0.1% m/m, 3.7% YoY (down from 4.1%); core +0.1% m/m, 3.3% YoY, in line with expectations.</td></tr><tr><td>Liquidity</td><td>MODERATE, month-end rebalance flows</td><td>Low</td><td>Inferred from the month-end distribution tape. Volume not tabulated on the continuous contract.</td></tr></tbody></table></div>"
   },
   {
-   "title": "NY Opening Range / COMPASS",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>OR High</th><th>OR Low</th><th>OR Width</th><th>Break</th><th>Time UTC</th><th>Break Px</th></tr></thead><tbody><tr><td>MNQ1!</td><td>27,996.25</td><td>27,813.25</td><td>183.0</td><td>UP</td><td>13:45</td><td>28,065</td></tr><tr><td>MES1!</td><td>7,421.5</td><td>7,399.75</td><td>21.75</td><td>UP</td><td>13:45</td><td>7,427.5</td></tr><tr><td>MGC1!</td><td>4,096.3</td><td>4,072.7</td><td>23.6</td><td>UP</td><td>13:50</td><td>4,100.2</td></tr><tr><td>MCL1!</td><td>83.73</td><td>83.30</td><td>0.43</td><td>UP</td><td>13:45</td><td>83.74</td></tr></tbody></table></div><p>MNQ opening range 183 wide, about 1.11x ATR(14), a wide open. All four instruments broke up, a rare all-up alignment. June PCE at 8:30am ET Friday lands before the cash open; stand aside through the release.</p>"
+   "title": "Strategy Habitat Check",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Strategy</th><th>Status</th><th>Read</th></tr></thead><tbody><tr><td>AVWAP Hand-off (short only)</td><td>IN_HABITAT</td><td>NQ opening range broke DOWN at 13:45 UTC and handed off lower, closing below the 28,352 AVWAP. The OR-break-down to AVWAP continuation is this edge's home on the short side today.</td></tr><tr><td>AVWAP Deviation Band</td><td>IN_HABITAT</td><td>MCL closed at +3.28 sigma over its AVWAP, a textbook upside band extreme where the mean-reversion fade sets up. NQ sits -0.83s and gold -1.23s, both mid to lower band.</td></tr><tr><td>TSMOM-20</td><td>BORDERLINE</td><td>NQ is technically long above its stop but by only 18 points and it closed below AVWAP, so the trend signal is weak. MES is the cleaner long.</td></tr><tr><td>AVWAP Midrange</td><td>BORDERLINE</td><td>NQ chopped a wide two-sided range from 28,080 to 28,525 around its AVWAP, which can suit range plays, but the range was violent and news-driven.</td></tr></tbody></table></div><p>Out of habitat today: E3v2 Momentum Long (no clean long breakout on a reversal tape), AVWAP Bounce (trend not clean), AVWAP Back Into Range (no OR reclaim setup on NQ).</p>"
   },
   {
-   "title": "Momentum Breakout",
-   "html": "<p>E3v2 Momentum Long was in habitat today. NQ broke its opening range up (27,996 OR high, break at 13:45 UTC), reclaimed its 27,921 ATR stop, and trended to 28,410. The clean read was the OR-break-up plus the stop reclaim early and riding it, not chasing the extension into the close.</p>"
+   "title": "NY Opening Range / COMPASS (13:30 to 13:44 UTC)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>OR High</th><th>OR Low</th><th>OR Width</th><th>Break</th><th>Time (UTC)</th><th>Break Px</th></tr></thead><tbody><tr><td>MNQ1!</td><td>28,725.75</td><td>28,415</td><td>310.75</td><td>DOWN</td><td>13:45</td><td>28,359.25</td></tr><tr><td>MES1!</td><td>7,515.25</td><td>7,480.25</td><td>35</td><td>DOWN</td><td>13:45</td><td>7,474.25</td></tr><tr><td>MGC1!</td><td>4,041.8</td><td>4,041.4</td><td>0.4</td><td>DOWN</td><td>14:00</td><td>4,027.8</td></tr><tr><td>MCL1!</td><td>85.92</td><td>85.35</td><td>0.57</td><td>DOWN</td><td>14:00</td><td>85.33</td></tr></tbody></table></div><p>All four instruments broke their opening ranges to the DOWNSIDE today, the mirror image of yesterday's all-up alignment, which fit the reversal tape.</p><p>NQ opening range was 310.75 wide, about 2.0x the 155.56 ATR(14), an unusually wide and whippy open driven by the overnight earnings reversal.</p><p>The MGC opening range reads unusually tight (0.4 wide); only a single clean 5-min bar printed inside the 13:30 to 13:44 UTC window, so treat the gold OR as low-confidence.</p>"
   },
   {
-   "title": "AVWAP Deviation Band",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>AVWAP</th><th>-2s</th><th>+2s</th><th>Close vs AVWAP</th></tr></thead><tbody><tr><td>MNQ1!</td><td>28,173</td><td>28,008</td><td>28,338</td><td>+1.95s</td></tr><tr><td>MES1!</td><td>7,448</td><td>7,401</td><td>7,495</td><td>+1.11s</td></tr><tr><td>MGC1!</td><td>4,103.2</td><td>4,095.7</td><td>4,110.7</td><td>-0.42s</td></tr><tr><td>MCL1!</td><td>83.95</td><td>83.57</td><td>84.32</td><td>-0.03s</td></tr></tbody></table></div><p>Both equity indices closed stretched above their AVWAPs, so the bands are being ridden higher on a trend day, not faded. Fading an upside band into an earnings-driven trend is the low-probability trade.</p>"
+   "title": "Momentum Breakout (Regime Filter)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>ATR Stop</th><th>Price</th><th>Gap</th><th>Status</th><th>Read</th></tr></thead><tbody><tr><td>MNQ1!</td><td>28,266</td><td>28,284</td><td>+18.11</td><td>ABOVE / LONG</td><td>Marginal. Long by 18 points, closed below AVWAP. Momentum stalled.</td></tr><tr><td>MES1!</td><td>7,467</td><td>7,502.5</td><td>+35.26</td><td>ABOVE / LONG</td><td>Cleaner long. Held the stop and the 7,500 psych.</td></tr><tr><td>MGC1!</td><td>4,073.1</td><td>4,040.1</td><td>-33.00</td><td>BELOW / SHORT</td><td>Flipped short. Lost the stop on the sell-off.</td></tr><tr><td>MCL1!</td><td>84.33</td><td>86.85</td><td>+2.52</td><td>ABOVE / LONG</td><td>Long but extended far above the stop and AVWAP.</td></tr></tbody></table></div><p>E3v2 Momentum Long was OUT of habitat: there was no clean long breakout, the tape was a reversal. The tradeable structure was the short hand-off from the NQ OR-break-down into the AVWAP.</p><p>NQ is the one to watch: 18 points above its stop after a full round trip. A 2-close loss of 28,266 flips the momentum read back to short.</p>"
+  },
+  {
+   "title": "AVWAP Deviation Band Reversal",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>AVWAP</th><th>Sigma Pos</th><th>Band Read</th><th>Note</th></tr></thead><tbody><tr><td>MNQ1!</td><td>28,352</td><td>-0.83s</td><td>Below AVWAP</td><td>Closed under the mean after the reversal. Not a band extreme; no fade edge.</td></tr><tr><td>MES1!</td><td>7,497</td><td>+0.26s</td><td>At AVWAP</td><td>Sitting on the mean, mild upside lean. Neutral band read.</td></tr><tr><td>MGC1!</td><td>4,045.4</td><td>-1.23s</td><td>Below AVWAP</td><td>Mid lower band after the break down. Trend is down, do not fade the first tag.</td></tr><tr><td>MCL1!</td><td>85.01</td><td>+3.28s</td><td>+3s extreme</td><td>Textbook upside band extreme. The fade sets up only after crude stops expanding.</td></tr></tbody></table></div><p>The only band extreme today is crude at +3.28 sigma. Fading a +3s reading into a strong momentum trend is the low-probability trade; wait for a stall or a lower-high before leaning against it.</p><p>NQ and gold are below their AVWAPs, so the mean-reversion-long side is not in play there; the bias is with the down move until the mean is reclaimed.</p>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Row</th><th>Triggered?</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ stays below the 27,832.42 stop and loses the 27,200 RTH low on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>The bearish branch never armed. Overnight retested the FOMC low at 27,204.75, held 27,200, then the cash session reclaimed the stop and ran. No hourly close below the low.</td></tr><tr><td>MNQ reclaims the 27,604 AVWAP and the 27,832.42 stop on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Full repair. NQ reclaimed both levels early, cleared 28,000 and yesterday's 28,099.75 high, tagged 28,410 and closed 28,333.5. The reclaim was the whole day.</td></tr><tr><td>MES holds below 7,424.28 and loses the 7,323.25 RTH low</td><td>NOT TRIGGERED</td><td>-</td><td>ES did the opposite. It reclaimed its stop with NQ and closed 7,474.5. The short branch never triggered.</td></tr><tr><td>MGC reclaims the 4,101.47 stop on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Gold reclaimed the old stop, pushed to 4,117.9 past the 4,115.40 target, then settled 4,101.6 right back at the reclaim line. Objective tagged, close on the level.</td></tr><tr><td>MCL holds the 82.68 stop and accepts above the 84.75 AVWAP</td><td>TRIGGERED</td><td>MIXED</td><td>Crude held the stop and tagged the 85.58 target and 86 handle overnight at 85.95, then faded back under the 84.75 AVWAP and closed 83.94. Long intact, momentum gone.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 3 triggered, 2 not triggered, 2 played out, 0 failed, 1 mixed. The two bearish MNQ and MES branches did not arm because the tape reversed hard the other way. MTD: 69 triggered, 41 played out, 6 failed.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Row</th><th>Triggered?</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ holds the 27,921 stop and accepts above the 28,410 RTH high on 2 hourly closes</td><td>TRIGGERED</td><td>MIXED</td><td>NQ held the stop and did accept above 28,410 overnight, tagging the 28,500 psych and running to 28,725. Then the whole move reversed and NQ closed 28,284, back below 28,410 and below its new AVWAP. Target tagged, acceptance failed.</td></tr><tr><td>MNQ loses the 27,921 stop on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>The downside branch never armed. NQ's RTH low was 28,079.75 and it never closed anywhere near 27,921.</td></tr><tr><td>MES holds above the 7,413 stop and clears the 7,498 RTH high and 7,500 psych on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>ES held the stop, cleared 7,498 and the 7,500 psych, and pushed the +3s 7,519 band, tagging a 7,541 RTH high before closing 7,502.5. Clean follow-through.</td></tr><tr><td>MGC holds the 4,059 stop and accepts above the 4,117.9 RTH high</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>The bearish clause armed instead. Gold lost the 4,081.7 reference, sold to a 4,020 RTH low, lost the stop entirely and flipped short, closing 4,040.1. The downside path the row flagged played out.</td></tr><tr><td>MCL holds the 83.01 stop and reclaims the 83.95 AVWAP on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Crude held the stop, reclaimed the AVWAP, blew through the 84.86 target and the 85 handle, and ran to 86.91 before closing 86.85. Full continuation.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 4 triggered, 1 not triggered, 3 played out, 0 failed, 1 mixed. The only miss was the NQ downside branch, which never armed. NQ's upside row tagged its target overnight then round-tripped, so it grades mixed. MTD: 73 triggered, 44 played out, 6 failed.</p>"
   },
   {
-   "title": "Tomorrow's Map (for Friday, July 31, 2026)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th><th>Level</th></tr></thead><tbody><tr><td>MNQ holds the 27,921 stop and accepts above the 28,410 RTH high on 2 hourly closes</td><td>the 28,500 psych and the +3s 28,420 band open up</td><td>Fresh long flip that closed near the highs. Above the stop, buyers keep control.</td><td>MNQ 28,410</td></tr><tr><td>MNQ loses the 27,921 stop on 2 hourly closes</td><td>the long flip voids back toward the 28,000 psych and the 27,600 FOMC zone</td><td>Only a 2-close loss of the stop undoes the recovery. Until then, dips are buys.</td><td>MNQ 27,921</td></tr><tr><td>MES holds above the 7,413 stop and clears the 7,498 RTH high and 7,500 psych on 2 hourly closes</td><td>the +3s 7,519 band and open air above come into play</td><td>ES flipped long with NQ. Above the stop the path of least resistance is up.</td><td>MES 7,500</td></tr><tr><td>MGC holds the 4,059 stop and accepts above the 4,117.9 RTH high</td><td>the 4,150 psych opens; a loss of the 4,081.7 RTH low puts the 4,059 stop back in the frame</td><td>Gold flipped long and holds a haven bid even in a risk-on tape. Respect both sides.</td><td>MGC 4,117.9</td></tr><tr><td>MCL holds the 83.01 stop and reclaims the 83.95 AVWAP on 2 hourly closes</td><td>the 84.86 RTH high, then the 85 handle; a loss of 83.01 voids the long toward 82</td><td>Crude is digesting the squeeze under its AVWAP. Direction unresolved, so size it down.</td><td>MCL 83.01</td></tr></tbody></table></div><p>COMPASS filter (Fri Jul 31): today's MNQ opening range was 183 wide, about 1.11x the 164.93 ATR(14), a wide open. Session structure plays are eligible in the 9:30 ET window, but June PCE at 8:30am ET lands before the cash open, so expect a gap and a fast first hour. Stand aside through the release.</p><p>Calendar: June PCE Friday July 31 at 8:30am ET, the Fed's preferred inflation gauge, and it is month end. The Q2 GDP report (Jul 30) already flagged inflation running hot. Prop-firm news blackouts apply around the 8:30 release.</p>"
+   "title": "Tomorrow's Map (for Monday, August 3, 2026)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th><th>Level</th></tr></thead><tbody><tr><td>MNQ reclaims the 28,352 AVWAP and accepts above the 28,524 RTH high on 2 hourly closes</td><td>the 28,500 psych holds as support and the 28,726 overnight high and +2s 28,516 band reopen</td><td>The long flip survived but stalled below AVWAP. Reclaiming it puts buyers back in control.</td><td>MNQ 28,524</td></tr><tr><td>MNQ loses the 28,266 ATR stop on 2 hourly closes</td><td>the fresh long voids toward the 28,080 RTH low and the 28,000 psych, then the -2s 28,187 band</td><td>The close is only 18 points above the stop. A 2-close loss flips the trend back down.</td><td>MNQ 28,266</td></tr><tr><td>MES holds the 7,467 stop and clears the 7,541 RTH high on 2 hourly closes</td><td>the +3s 7,564 band and the 7,621 cash ATH come into view</td><td>ES is firmer than NQ, holding above its AVWAP and the 7,500 psych.</td><td>MES 7,541</td></tr><tr><td>MGC stays below the 4,073 stop and loses the 4,020 RTH low</td><td>the 4,000 psych opens; a 2-close reclaim of the 4,073 stop voids the short</td><td>Gold flipped short and lost its haven bid. Respect a snapback given how fast it fell.</td><td>MGC 4,020</td></tr><tr><td>MCL holds the 84.33 stop but stalls at the +3s 86.69 band</td><td>mean reversion back toward the 85.01 AVWAP is the higher-probability path; only acceptance above 87 extends the squeeze</td><td>Crude is stretched +3.3 sigma. Chasing here is late; the edge is the fade, not the breakout.</td><td>MCL 86.69</td></tr></tbody></table></div><p><strong>COMPASS filter (Mon Aug 3):</strong> today's MNQ opening range was 310.75 wide, about 2.0x the 155.56 ATR(14), a very wide and whippy open. Session structure plays are eligible in Monday's 9:30 ET window, but ISM Manufacturing PMI lands at 10:00 ET, so expect a settle into the open then a possible re-rate on the release. Stand aside across the 10:00 print.</p><p><strong>Calendar:</strong> Monday Aug 3, ISM Manufacturing PMI (July) at 10:00 ET; June printed 53.3. First business day of the month. Prop-firm news blackouts apply around the 10:00 release.</p>"
   }
  ],
  "tomorrowsMap": [
   {
-   "if": "MNQ holds the 27,921 stop and accepts above the 28,410 RTH high on 2 hourly closes",
-   "then": "the 28,500 psych and the +3s 28,420 band open up",
-   "bias": "Fresh long flip that closed near the highs. Above the stop, buyers keep control.",
-   "level": "MNQ 28,410"
+   "if": "MNQ reclaims the 28,352 AVWAP and accepts above the 28,524 RTH high on 2 hourly closes",
+   "then": "the 28,500 psych holds as support and the 28,726 overnight high and +2s 28,516 band reopen",
+   "bias": "The long flip survived but stalled below AVWAP. Reclaiming it puts buyers back in control.",
+   "level": "MNQ 28,524"
   },
   {
-   "if": "MNQ loses the 27,921 stop on 2 hourly closes",
-   "then": "the long flip voids back toward the 28,000 psych and the 27,600 FOMC zone",
-   "bias": "Only a 2-close loss of the stop undoes the recovery. Until then, dips are buys.",
-   "level": "MNQ 27,921"
+   "if": "MNQ loses the 28,266 ATR stop on 2 hourly closes",
+   "then": "the fresh long voids toward the 28,080 RTH low and the 28,000 psych, then the -2s 28,187 band",
+   "bias": "The close is only 18 points above the stop. A 2-close loss flips the trend back down.",
+   "level": "MNQ 28,266"
   },
   {
-   "if": "MES holds above the 7,413 stop and clears the 7,498 RTH high and 7,500 psych on 2 hourly closes",
-   "then": "the +3s 7,519 band and open air above come into play",
-   "bias": "ES flipped long with NQ. Above the stop the path of least resistance is up.",
-   "level": "MES 7,500"
+   "if": "MES holds the 7,467 stop and clears the 7,541 RTH high on 2 hourly closes",
+   "then": "the +3s 7,564 band and the 7,621 cash ATH come into view",
+   "bias": "ES is firmer than NQ, holding above its AVWAP and the 7,500 psych.",
+   "level": "MES 7,541"
   },
   {
-   "if": "MGC holds the 4,059 stop and accepts above the 4,117.9 RTH high",
-   "then": "the 4,150 psych opens; a loss of the 4,081.7 RTH low puts the 4,059 stop back in the frame",
-   "bias": "Gold flipped long and holds a haven bid even in a risk-on tape. Respect both sides.",
-   "level": "MGC 4,117.9"
+   "if": "MGC stays below the 4,073 stop and loses the 4,020 RTH low",
+   "then": "the 4,000 psych opens; a 2-close reclaim of the 4,073 stop voids the short",
+   "bias": "Gold flipped short and lost its haven bid. Respect a snapback given how fast it fell.",
+   "level": "MGC 4,020"
   },
   {
-   "if": "MCL holds the 83.01 stop and reclaims the 83.95 AVWAP on 2 hourly closes",
-   "then": "the 84.86 RTH high, then the 85 handle; a loss of 83.01 voids the long toward 82",
-   "bias": "Crude is digesting the squeeze under its AVWAP. Direction unresolved, so size it down.",
-   "level": "MCL 83.01"
+   "if": "MCL holds the 84.33 stop but stalls at the +3s 86.69 band",
+   "then": "mean reversion back toward the 85.01 AVWAP is the higher-probability path; only acceptance above 87 extends the squeeze",
+   "bias": "Crude is stretched +3.3 sigma. Chasing here is late; the edge is the fade, not the breakout.",
+   "level": "MCL 86.69"
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
-  "triggered": 3,
-  "playedOut": 2,
+  "triggered": 4,
+  "playedOut": 3,
   "failed": 0,
   "mixed": 1,
-  "notTriggered": 2,
-  "note": "5 rows, 3 triggered, 2 not triggered, 2 played out, 0 failed, 1 mixed. The two bearish MNQ and MES branches did not arm because the tape reversed hard the other way. MTD: 69 triggered, 41 played out, 6 failed."
+  "notTriggered": 1,
+  "note": "5 rows, 4 triggered, 1 not triggered, 3 played out, 0 failed, 1 mixed. The only miss was the NQ downside branch, which never armed. NQ's upside row tagged its target overnight then round-tripped, so it grades mixed. MTD: 73 triggered, 44 played out, 6 failed."
  },
  "mapTallyMTD": {
-  "triggered": 69,
-  "playedOut": 41,
+  "triggered": 73,
+  "playedOut": 44,
   "failed": 6
  }
 }
