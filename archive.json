@@ -1,5 +1,12 @@
 [
   {
+    "date": "Monday, August 3, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Risk-on trend day. NQ and ES broke out together and closed near their highs above rising AVWAPs, powered by a 7.8% crude crash on Iran de-escalation and a strong ISM beat. Gold lagged and stayed below its stop; the only caution is how far and fast oil just repriced.",
+    "regimeClass": "bullish",
+    "summary": "Risk-on, clean and one-sided. NQ ripped 2.28% to close at 28,929, near its high and about 299 points above its 28,631 stop, with ES up 1.72% to a fresh 7,638 high and the Dow at a record. The fuel was oil: crude gapped down 7.81% over the weekend after Trump paused Iran strikes and OPEC+ lined up a September supply hike, which pulled yields lower and let the ISM beat (55.6 vs 54.0) do the rest. Every equity opening range broke up and price held above its AVWAP all session, a textbook trend day. Gold was the outlier, up a quiet 0.26% but still closed about 10 points under its stop, so its haven bid has not turned yet."
+  },
+  {
     "date": "May 29, 2026",
     "dayOfWeek": "Friday",
     "regime": "Trend-Up Stalled (Failed Breakout)",
