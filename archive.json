@@ -1,5 +1,12 @@
 [
   {
+    "date": "Tuesday, August 4, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Risk-on trend day, the second in a row. NQ and ES broke out together again and closed above their prior-day highs and above rising AVWAPs, with no major catalyst behind it. Gold reclaimed its ATR stop and flipped long, crude kept bleeding. The one caution is a VIX that ticked up while stocks rose, a stretched tape rather than a fresh breakout.",
+    "regimeClass": "bullish",
+    "summary": "Risk-on, day two. NQ tacked on another 3.08% to close near 29,819, roughly 231 points over its 29,588 stop and knocking on 30,000, while ES added 1.88% to a fresh 7,786 high. There was no big catalyst behind it: Tuesday's data was second-tier, trade balance, factory orders and JOLTS, and the tape just kept trending, every equity opening range breaking up for a second straight session. Gold flipped. It reclaimed its ATR stop and now reads long at 4,077, though it faded off a 4,101 high into the close. Crude kept bleeding, down another 6.17% to 75.13 after an overnight fake to 82.35, roughly a 13% two-day repricing. One quiet tell: the VIX ticked up to 16.50 even as stocks ripped, so this is a stretched tape, not a fresh breakout."
+  },
+  {
     "date": "Monday, August 3, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-on trend day. NQ and ES broke out together and closed near their highs above rising AVWAPs, powered by a 7.8% crude crash on Iran de-escalation and a strong ISM beat. Gold lagged and stayed below its stop; the only caution is how far and fast oil just repriced.",
