@@ -1,10 +1,17 @@
 [
   {
+    "date": "Wednesday, August 5, 2026",
+    "dayOfWeek": "Wednesday",
+    "regime": "Risk-off rotation. Stocks gapped to fresh highs overnight then reversed and sold off through the US session, flipping both index trend stops to short (NQ -0.75%, ES -0.21%). Soft jobs data was the trigger. Money rotated into safety: gold surged +4.19% and silver +4.30%. The VIX eased to 15.81 even as stocks dipped, so this read as an orderly rotation off stretched highs, not a fear spike.",
+    "regimeClass": "risk-off",
+    "summary": "Risk rotation day. Stocks gapped to fresh highs overnight, with NQ tagging 30,073 to clear the 30,000 round number, then reversed and sold off through the US session. Both index trend stops flipped short: NQ closed -0.75% at 29,594.75 and ES -0.21% at 7,758.5. The driver was soft data. ADP private payrolls rose just 44,000 for July, well under the roughly 70,000 expected and the weakest in six months, and ISM Services showed its employment piece back in contraction. Money rotated into safety: gold surged +4.19% (MGC2! to 4,276, spot gold about +4%) and silver +4.30%, while crude sat flat and based near 75. One tell worth noting: the VIX eased to 15.81 even as stocks slipped, so this read as an orderly rotation off stretched highs, not a fear spike."
+  },
+  {
     "date": "Tuesday, August 4, 2026",
     "dayOfWeek": "Tuesday",
-    "regime": "Risk-on trend day, the second in a row. NQ and ES broke out together again and closed above their prior-day highs and above rising AVWAPs, with no major catalyst behind it. Gold reclaimed its ATR stop and flipped long, crude kept bleeding. The one caution is a VIX that ticked up while stocks rose, a stretched tape rather than a fresh breakout.",
+    "regime": "Uptrend, day two. NQ and ES both rose again and closed above yesterday's highs and above their average lines, with no big news behind it. Gold turned bullish above its trend stop, and crude kept falling. The one caution: the VIX ticked up while stocks rose, so this is a stretched market, not a fresh breakout.",
     "regimeClass": "bullish",
-    "summary": "Risk-on, day two. NQ tacked on another 3.08% to close near 29,819, roughly 231 points over its 29,588 stop and knocking on 30,000, while ES added 1.88% to a fresh 7,786 high. There was no big catalyst behind it: Tuesday's data was second-tier, trade balance, factory orders and JOLTS, and the tape just kept trending, every equity opening range breaking up for a second straight session. Gold flipped. It reclaimed its ATR stop and now reads long at 4,077, though it faded off a 4,101 high into the close. Crude kept bleeding, down another 6.17% to 75.13 after an overnight fake to 82.35, roughly a 13% two-day repricing. One quiet tell: the VIX ticked up to 16.50 even as stocks ripped, so this is a stretched tape, not a fresh breakout."
+    "summary": "Risk-on, day two. NQ added another 3.08% to close near 29,819, about 231 points above its 29,588 trend stop and knocking on the 30,000 round number. ES added 1.88% to a fresh 7,786 high. There was no big news behind it. Tuesday's data was second-tier (trade balance, factory orders, JOLTS), and the market simply kept trending, with every stock-index opening range breaking up for a second day. Gold flipped bullish: it reclaimed its trend stop and now reads long at 4,077, though it faded off a 4,101 high into the close. Crude kept falling, down another 6.17% to 75.13 after an overnight spike to 82.35, roughly a 13% drop over two days. One quiet warning: the VIX ticked up to 16.50 even as stocks rose, so this is a stretched market, not a fresh breakout."
   },
   {
     "date": "Monday, August 3, 2026",
