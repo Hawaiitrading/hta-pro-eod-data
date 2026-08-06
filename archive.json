@@ -14,6 +14,13 @@
     "summary": "Risk-on, day two. NQ added another 3.08% to close near 29,819, about 231 points above its 29,588 trend stop and knocking on the 30,000 round number. ES added 1.88% to a fresh 7,786 high. There was no big news behind it. Tuesday's data was second-tier (trade balance, factory orders, JOLTS), and the market simply kept trending, with every stock-index opening range breaking up for a second day. Gold flipped bullish: it reclaimed its trend stop and now reads long at 4,077, though it faded off a 4,101 high into the close. Crude kept falling, down another 6.17% to 75.13 after an overnight spike to 82.35, roughly a 13% drop over two days. One quiet warning: the VIX ticked up to 16.50 even as stocks rose, so this is a stretched market, not a fresh breakout."
   },
   {
+    "date": "Thursday, August 6, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Stabilization day. The indices kept falling overnight then reversed and bought the dip through the US session. NQ reclaimed its trend stop intraday but closed slightly red (-0.30%) and still below its average; ES lagged and stayed short (-0.34%). Crude ripped +4.26% and flipped its trend long on Iran-Oman headlines, while gold cooled -0.20% and flipped its short-term stop short after its +4% surge. The VIX eased again to about 15.1 and the 10-year yield ticked up near 4.69% ahead of Friday's July jobs report.",
+    "regimeClass": "neutral",
+    "summary": "Stabilization day. Overnight, the indices kept falling from yesterday's reversal, with NQ sinking to 29,241, then they turned and bought the dip through the US session. NQ reclaimed its trend stop intraday and closed only slightly red at 29,504.5 (-0.30%), while ES lagged and stayed under its stop at 7,731.75 (-0.34%). The Dow tagged a fresh record even as tech gave back a little of yesterday's rally. Weekly jobless claims edged up to 199,000 but the labor picture stayed steady into Friday's big July jobs report. The clean movers were elsewhere: crude ripped +4.26% to 78.25 on reports of Iran-Oman talks and flipped its trend long, while gold cooled -0.20% to 4,267.5 after its +4% surge and flipped its short-term stop short. The 10-year yield ticked up near 4.69% and the VIX eased again to about 15.1. This read as the market catching its breath before the jobs number."
+  },
+  {
     "date": "Monday, August 3, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-on trend day. NQ and ES broke out together and closed near their highs above rising AVWAPs, powered by a 7.8% crude crash on Iran de-escalation and a strong ISM beat. Gold lagged and stayed below its stop; the only caution is how far and fast oil just repriced.",
