@@ -280,6 +280,13 @@
     "summary": "The earnings pop got sold. NQ spiked to 28,725 overnight on big-tech results, then gave the whole move back and closed at 28,284, down 0.17 percent and barely above its stop. The fresh long from yesterday is still alive but it stalled: price closed below its 28,352 AVWAP with only 18 points of room over the 28,266 ATR stop. ES held up better, up 0.37 percent and above both its stop and AVWAP. The real moves were in commodities: gold broke down 1.50 percent and lost its stop to flip short, while crude ripped 3.47 percent and closed pinned at the +3 sigma band. June PCE cooled to 3.7 percent headline and the reaction stayed calm, with VIX down 6.4 percent to 15.99."
   },
   {
+    "date": "Friday, August 7, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Risk-On",
+    "regimeClass": "risk-on",
+    "summary": "Risk-on follow-through on jobs day. The July payrolls report cleared at 8:30 AM ET and stocks rallied. NQ reclaimed its trend and closed 29,841 (+1.14%); ES flipped its trend back long and closed 7,777.25 (+0.59%), so the laggard caught up. All four opening ranges broke down first at the US open, a quick shakeout, then the indices reversed and ran higher into the close. Gold was the standout, ripping +2.37% to 4,368.5 and flipping its trend long, with spot gold +2.39% and silver +3.19%. Crude gave back -1.48% to 77.09 after Thursday's spike but held just above its stop. The VIX eased to 14.90 and the 10-year yield slipped to about 4.66%."
+  },
+  {
     "date": "April 27, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-On",
