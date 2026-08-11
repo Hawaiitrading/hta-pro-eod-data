@@ -14,6 +14,13 @@
     "summary": "Risk-on, day two. NQ added another 3.08% to close near 29,819, about 231 points above its 29,588 trend stop and knocking on the 30,000 round number. ES added 1.88% to a fresh 7,786 high. There was no big news behind it. Tuesday's data was second-tier (trade balance, factory orders, JOLTS), and the market simply kept trending, with every stock-index opening range breaking up for a second day. Gold flipped bullish: it reclaimed its trend stop and now reads long at 4,077, though it faded off a 4,101 high into the close. Crude kept falling, down another 6.17% to 75.13 after an overnight spike to 82.35, roughly a 13% drop over two days. One quiet warning: the VIX ticked up to 16.50 even as stocks rose, so this is a stretched market, not a fresh breakout."
   },
   {
+    "date": "Tuesday, August 11, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "De-Risk / Pre-CPI Rollover (NQ, ES, gold flip short)",
+    "regimeClass": "caution",
+    "summary": "Broad de-risk day with nothing on the US calendar and July CPI one day out. This was not yesterday's rotation. Today everything came off the table together. NQ sold the open and closed 29,647.25 (-0.39%), below both its trend stop and its average, a fresh short. The S&P did the same, losing its stop and flipping short at 7,753.25 (-0.31%), so the split between the two indices is over. Even gold, the week's strongest trend, rejected an overnight spike to 4,461.9 and reversed all session to close 4,394.8 (-0.49%), flipping its own trend short. Crude was the lone gainer, up +1.15% to 83.24, but it faded from an 84.64 high and closed just under its stop, capped. The VIX actually eased to 15.28 (-1.16%) and the 10-year yield slipped, so this was an orderly flattening into the print, not a panic. Traders reduced exposure across the board ahead of Wednesday's inflation number."
+  },
+  {
     "date": "Thursday, August 6, 2026",
     "dayOfWeek": "Thursday",
     "regime": "Stabilization day. The indices kept falling overnight then reversed and bought the dip through the US session. NQ reclaimed its trend stop intraday but closed slightly red (-0.30%) and still below its average; ES lagged and stayed short (-0.34%). Crude ripped +4.26% and flipped its trend long on Iran-Oman headlines, while gold cooled -0.20% and flipped its short-term stop short after its +4% surge. The VIX eased again to about 15.1 and the 10-year yield ticked up near 4.69% ahead of Friday's July jobs report.",
