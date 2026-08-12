@@ -1,45 +1,45 @@
 {
- "date": "Tuesday, August 11, 2026",
- "dayOfWeek": "Tuesday",
- "regime": "De-Risk / Pre-CPI Rollover (NQ, ES, gold flip short)",
- "regimeClass": "caution",
- "summary": "Broad de-risk day with nothing on the US calendar and July CPI one day out. This was not yesterday's rotation. Today everything came off the table together. NQ sold the open and closed 29,647.25 (-0.39%), below both its trend stop and its average, a fresh short. The S&P did the same, losing its stop and flipping short at 7,753.25 (-0.31%), so the split between the two indices is over. Even gold, the week's strongest trend, rejected an overnight spike to 4,461.9 and reversed all session to close 4,394.8 (-0.49%), flipping its own trend short. Crude was the lone gainer, up +1.15% to 83.24, but it faded from an 84.64 high and closed just under its stop, capped. The VIX actually eased to 15.28 (-1.16%) and the 10-year yield slipped, so this was an orderly flattening into the print, not a panic. Traders reduced exposure across the board ahead of Wednesday's inflation number.",
- "psychology": "Today was about how you handle the day before a known catalyst, and about not marrying yesterday's winner. Twenty-four hours ago gold was the hero of the tape, the cleanest trend on the board. Today it rejected a new high and flipped short. That is the market reminding you that trends end, and the session before a big print is exactly when crowded trades get unwound. If you were still leaning long gold because it worked yesterday, today cost you. The discipline into an event like CPI is simple: carry less, not more. There is no edge in guessing the number, and the first move after an 8:30 print is often a head-fake that reverses once the real positioning shows up. The professional play is patience. Let the print land, wait for the market to accept beyond a level with two hourly closes, and trade the reaction. Guessing the number is gambling. Trading the reaction is a plan.",
+ "date": "Wednesday, August 12, 2026",
+ "dayOfWeek": "Wednesday",
+ "regime": "Risk-On Reclaim / Post-CPI (NQ, ES, gold flip back long)",
+ "regimeClass": "risk-on",
+ "summary": "Cool CPI, risk back on. July inflation landed in line with forecasts and a touch softer year over year, and the market treated it as the all-clear it had been de-risking for. NQ gapped up overnight, tagged 30,001.5 above the 30,000 psych level, and though it faded through the day it still closed 29,807.25 (+0.54%), back above the trend stop it lost on Tuesday. The S&P did the same, reclaiming its stop and closing green at 7,766.5 (+0.17%). Gold repaired Tuesday's crack, closing 4,435.7 (+0.93%) back above its stop. The clearest tell was fear coming out of the market: the VIX collapsed to 14.55, down 4.78%, and spot gold and silver both firmed. Crude was the lone holdout, down 0.78% to 82.59, still under its stop and now losing its average. So three of four symbols repaired their Tuesday short flips, but note the shape of the day: this was a gap up that faded, not a trend that ran. The relief buying came overnight and the RTH sold the highs.",
+ "psychology": "The lesson today is about the head-fake, and about not chasing the gap. We told you Tuesday that the first move after an 8:30 print is often not the real one, and today showed both sides of it. The benign number sent everything higher overnight, and if you bought that gap at the highs, you spent the whole RTH session watching it bleed back. NQ gave back more than a hundred points off its 29,946 high into the close. That is the trap of an event day: the emotional move is up front, and the market spends the rest of the session sorting out what the number actually means. The professionals did not chase the open. They let the relief spike happen, waited to see whether price could accept above a level with two hourly closes, and most of it could not hold the highs. Reclaiming a stop and closing near your session low, like NQ did, is a weaker signal than reclaiming and closing strong. It counts, but it is a soft reclaim. Respect the difference. And with PPI on Thursday, the same discipline carries: carry less into the print, trade the reaction, not the anticipation.",
  "event": {
-  "name": "No scheduled release: markets flatten into CPI",
-  "type": "PRE_EVENT",
-  "consensus": "No top-tier US release was scheduled for Tuesday, August 11. The week's main event is the July CPI report on Wednesday, August 12 at 8:30 AM ET.",
-  "actual": "With nothing on the calendar, the session was about positioning ahead of CPI, and traders took risk off across the board. The Nasdaq and S&P both sold the open and flipped their trend stops short, and even gold, the week's strongest trend, rejected an overnight high and flipped short. This was a broad de-risk, not a rotation.",
-  "surprise": "The VIX eased to 15.28 (-1.16%) and the 10-year yield slipped to about 4.69%, so this was an orderly flattening rather than a fear-driven sell-off. Positioning came off before the number, not in a panic.",
-  "nqReaction": "NQ opened below its average, broke down out of its opening range at 16:30 UTC, and sold off to a 29,533 low before closing 29,647.25, below both its trend stop and its average, a fresh short.",
-  "crossAsset": "Gold gave back its overnight spike to 4,461.9 and closed 4,394.8 (-0.49%), flipping short. Crude was the lone gainer, up +1.15% to 83.24, but it faded from an 84.64 high and closed just under its trend stop, capped. The message across assets was the same: reduce exposure into the CPI print."
+  "name": "July CPI comes in cool, risk-on reclaim",
+  "type": "POST_EVENT",
+  "consensus": "Headline CPI was expected near +0.1% on the month and 3.4% year over year, with core near +0.2% and 2.5%. All four readings matched the Wall Street consensus tracked by Dow Jones and FactSet.",
+  "actual": "The July CPI report landed at 8:30 AM ET and it was benign. Headline prices rose 0.1% on the month for a 3.4% annual rate, cooler than June, and core prices (excluding food and energy) rose 0.2% for a 2.5% annual rate, also a step down. Both the headline and the core matched consensus, and the core continued its slow multi-month cooling.",
+  "surprise": "There was no upside surprise to punish the market, and after two sessions of de-risking into the number, that was enough to trigger a relief rally. The VIX collapsed 4.78% to 14.55 as event risk cleared.",
+  "nqReaction": "The reaction was textbook risk-on. Equities gapped up overnight. NQ ran to 30,001.5, just above the 30,000 psych level, then spent the RTH giving it back, closing 29,807.25 (+0.54%) but back above the trend stop it lost Tuesday.",
+  "crossAsset": "ES reclaimed its stop and closed green at 7,766.5 (+0.17%). Gold repaired its Tuesday crack, closing 4,435.7 (+0.93%) with spot gold (4,408.21, +0.88%) and silver both firm. Crude was the exception, sliding 0.78% to 82.59 and staying under its stop. The important nuance: the buying was an overnight relief spike, and the RTH faded it. This was a repair of the short flips, not a fresh trend day, and it comes with PPI still to clear on Thursday."
  },
  "atrStop": {
   "MNQ": {
-   "stop": 29795.47,
-   "price": 29647.25,
-   "gap": -148.22,
-   "trend": "FALLING",
-   "status": "BELOW"
+   "stop": 29746.72,
+   "price": 29807.25,
+   "gap": 60.53,
+   "trend": "RISING",
+   "status": "ABOVE"
   },
   "MES": {
-   "stop": 7776.77,
-   "price": 7753.25,
-   "gap": -23.52,
-   "trend": "FALLING",
-   "status": "BELOW"
+   "stop": 7760.56,
+   "price": 7766.5,
+   "gap": 5.94,
+   "trend": "RISING",
+   "status": "ABOVE"
   },
   "MGC": {
-   "stop": 4432.86,
-   "price": 4394.8,
-   "gap": -38.06,
-   "trend": "FALLING",
-   "status": "BELOW"
+   "stop": 4419.86,
+   "price": 4435.7,
+   "gap": 15.84,
+   "trend": "RISING",
+   "status": "ABOVE"
   },
   "MCL": {
-   "stop": 83.67,
-   "price": 83.24,
-   "gap": -0.43,
+   "stop": 84.13,
+   "price": 82.59,
+   "gap": -1.54,
    "trend": "FALLING",
    "status": "BELOW"
   }
@@ -53,169 +53,178 @@
  ],
  "risk": {
   "throttleState": "REDUCED",
-  "ddProximity": "REDUCED band, leaning DEFENSIVE into CPI",
-  "sizing": "Realized volatility is still low, with NQ's ATR at 83.8, so risk per contract is contained. The bigger factor is that the whole board is now on the defensive side: NQ, ES, and gold all flipped short and crude is capped under its stop. When everything rolls the same way into a known catalyst, the honest move is to carry less, not more.",
-  "openRisk": "The dominant variable is tomorrow's 8:30 ET CPI print, which can reprice every level on this page in seconds. There is no edge in guessing the number. Let the print land, wait for acceptance beyond a level (two hourly closes, not a knee-jerk spike), and trade the reaction rather than the anticipation.",
-  "dailyLossBudget": "Trim size as CPI approaches; do not carry full risk into the print.",
-  "note": "Wednesday's July CPI at 8:30 AM ET is the week's main event, with PPI Thursday and retail sales plus University of Michigan sentiment Friday. Plan exposure into CPI, respect your prop-firm blackout rules, and remember that the first move after the print is often not the real one."
+  "ddProximity": "REDUCED band, still leaning careful into PPI",
+  "sizing": "Realized volatility fell further today, with NQ's ATR down to 75.38 and the VIX at 14.55, so risk per contract is contained and the tape is calm. The read improved: three of four symbols reclaimed their trend stops, so the board is no longer uniformly defensive. But two things keep the throttle down. First, the reclaims are soft, one day old, and the equities closed near their session lows after fading a relief gap, which is a weak-handed repair rather than a fresh trend. Second, there is another 8:30 ET print on Thursday with PPI.",
+  "openRisk": "When a repair is fragile and another catalyst is one session away, the honest move is the same as yesterday: carry less, not more. PPI can reprice every level on this page in seconds. Let it land, wait for acceptance beyond a level (two hourly closes, not a knee-jerk spike), and trade the reaction rather than the anticipation.",
+  "dailyLossBudget": "Trim size as PPI approaches; do not carry full risk into the print.",
+  "note": "Thursday's July PPI at 8:30 AM ET is the next event, with retail sales and University of Michigan sentiment Friday. Plan exposure into PPI, respect your prop-firm blackout rules, and remember the first move after the print is often not the real one, which is exactly what today's gap-and-fade just showed."
  },
  "keyLevels": [
   {
    "label": "MNQ Trend Stop",
-   "value": "29,795",
-   "note": "Flipped SHORT; price 148 below it"
+   "value": "29,747",
+   "note": "Reclaimed; price 60 above it"
   },
   {
    "label": "MNQ AVWAP",
-   "value": "29,654",
-   "note": "The pivot the fresh short sits on"
+   "value": "29,875",
+   "note": "Soft close under it; reclaim line"
   },
   {
-   "label": "MNQ RTH Low",
-   "value": "29,533",
-   "note": "Loss on 2 closes extends the short"
+   "label": "MNQ Psych",
+   "value": "30,000",
+   "note": "Overnight tag, then faded"
   },
   {
    "label": "MES Trend Stop",
-   "value": "7,777",
-   "note": "Flipped SHORT with NQ; the split is over"
+   "value": "7,761",
+   "note": "Reclaimed with NQ; fragile by 6 pts"
   },
   {
    "label": "MGC Trend Stop",
-   "value": "4,433",
-   "note": "Uptrend cracked; now overhead resistance"
+   "value": "4,420",
+   "note": "Repaired; cleanest reclaim"
   },
   {
-   "label": "MGC RTH Low",
-   "value": "4,387",
-   "note": "Loss on 2 closes opens the 4,350 area"
+   "label": "MGC AVWAP",
+   "value": "4,440",
+   "note": "Line that keeps the uptrend healthy"
   },
   {
    "label": "MCL Trend Stop",
-   "value": "83.67",
-   "note": "The pivot; capped just under it after 84.64 fail"
+   "value": "84.13",
+   "note": "Still short; the pivot above"
   },
   {
-   "label": "MCL AVWAP",
-   "value": "83.05",
-   "note": "Losing it unwinds the spike toward 82.00"
+   "label": "MCL Psych",
+   "value": "82.00",
+   "note": "Downside magnet under the 83.01 avg"
   }
  ],
  "setups": [
   {
-   "name": "TSMOM-20 (MNQ trend, short-side watch)",
-   "confidence": "Low",
-   "entry": "Only on a stay-below the 29,654 average and the 29,795 stop after CPI on 2 hourly closes",
-   "stop": "a 2-close reclaim of 29,795",
-   "t1": "the 29,533 RTH low, then the 29,469 -3s / 29,500 psych",
+   "name": "AVWAP Hand-off (short only)",
+   "confidence": "Medium",
+   "entry": "Short only on an opening-range down-break that hands off to the session VWAP, eligible Thursday",
+   "stop": "a reclaim back inside the opening range",
+   "t1": "the prior swing low, then the session extension",
    "rr": "Structure",
-   "bias": "NQ is a fresh short into CPI. This is a with-new-trend watch, not a fresh chase; the 8:30 ET print decides direction, so wait for acceptance."
+   "bias": "The gap-and-fade structure fit the short hand-off today, but HOF skips Wednesdays so it sat out. It is eligible again Thursday if the PPI open breaks down and hands off to VWAP."
   },
   {
-   "name": "TSMOM-20 (MES trend, short-side watch)",
-   "confidence": "Low",
-   "entry": "Only while MES holds below the 7,777 stop after the print",
-   "stop": "a 2-close reclaim of 7,777",
-   "t1": "the 7,739 RTH low, then the 7,722 -3s / 7,700 psych",
+   "name": "AVWAP Bounce (MGC)",
+   "confidence": "Medium",
+   "entry": "Long on a hold of the 4,420 stop and a bounce off the 4,440 average",
+   "stop": "a 2-close loss of 4,420",
+   "t1": "the 4,466 RTH high, then the 4,469 overnight high",
    "rr": "Structure",
-   "bias": "ES joined NQ short today. Below 7,777 the two indices are aligned lower; a reclaim is the first sign it is repairing."
+   "bias": "Gold is the cleanest reclaim, riding a rising stop. Above 4,420 and back over 4,440 the dynamic-support bounce is the home."
   },
   {
-   "name": "AVWAP Bounce / breakout-watch (MCL)",
-   "confidence": "Low",
-   "entry": "Only on a 2-close reclaim of the 83.67 stop",
-   "stop": "a loss of the 83.05 average on 2 closes",
-   "t1": "the 84.16 +3s, then the 84.64 overnight high",
+   "name": "TSMOM-20 (index reclaim watch)",
+   "confidence": "Medium",
+   "entry": "Only while MNQ holds the 29,747 stop and MES holds 7,761 after PPI on 2 hourly closes",
+   "stop": "a 2-close loss of those stops",
+   "t1": "MNQ 29,875 average, then the 29,946 RTH high",
    "rr": "Structure",
-   "bias": "Crude is the lone bid but capped right under its stop. 83.67 is the pivot: reclaim re-engages the breakout, losing 83.05 unwinds the spike."
+   "bias": "Direction flipped back up but the reclaims are soft and one day old. Hold the stops through PPI to keep the repair alive; lose them and it re-aligns short."
+  },
+  {
+   "name": "AVWAP Deviation Band (MNQ/MCL watch)",
+   "confidence": "Medium",
+   "entry": "Watch only: NQ closed about 2.55s and crude 2.29s below their averages",
+   "stop": "n/a, a mean-reversion watch, not a signal",
+   "t1": "back toward the averages (MNQ 29,875, MCL 83.01)",
+   "rr": "Structure",
+   "bias": "First reversion zone but small absolute stretch and no 3-sigma exhaustion. A watch that points back to the averages, not a fresh fade."
   }
  ],
  "activeIndicators": [
-  "tsmom-atr",
-  "avwap-bir",
+  "tsmom-20",
+  "avwap-hand-off",
   "avwap-bounce",
-  "hta-open"
+  "avwap-deviation-band"
  ],
- "downloadLink": "https://www.hawaiitradingacademy.com/pro/eod/pro-eod-report-2026-08-11.docx",
- "reportFileName": "pro-eod-report-2026-08-11.docx",
+ "downloadLink": "https://www.hawaiitradingacademy.com/pro/eod/pro-eod-report-2026-08-12.docx",
+ "reportFileName": "pro-eod-report-2026-08-12.docx",
  "charts": [
-  "charts/chart-mnq-1hr-2026-08-11.png",
-  "charts/chart-mes-1hr-2026-08-11.png",
-  "charts/chart-mgc-1hr-2026-08-11.png",
-  "charts/chart-mcl-1hr-2026-08-11.png"
+  "charts/chart-mnq-1hr-2026-08-12.png",
+  "charts/chart-mes-1hr-2026-08-12.png",
+  "charts/chart-mgc-1hr-2026-08-12.png",
+  "charts/chart-mcl-1hr-2026-08-12.png"
  ],
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Angle</th><th>Reading</th><th>Confidence</th><th>Why (plain)</th></tr></thead><tbody><tr><td>Direction</td><td>Risk-off lean, broad de-risk</td><td>Medium-High</td><td>NQ (-0.39%), ES (-0.31%), and gold (-0.49%) all flipped their trend stops short. Only crude was green (+1.15%) and it closed capped under its stop. The whole board is now on the defensive side.</td></tr><tr><td>Volatility</td><td>Low and easing</td><td>Medium</td><td>NQ&#x27;s ATR is 83.8 and the VIX eased to 15.28 (-1.16%). Realized calm and a slightly lower fear gauge, an orderly flatten rather than a fear spike.</td></tr><tr><td>Session</td><td>Sell the open, trend down</td><td>High</td><td>Three of four opening ranges broke DOWN (NQ, ES, gold); only crude broke up. Sellers took control after the opens and the equities and gold trended lower into the close.</td></tr><tr><td>Positioning</td><td>De-risking into CPI</td><td>Medium</td><td>Gold&#x27;s overnight spike to 4,461.9 was sold hard, and NQ and ES ground lower all session. Exposure came off across the board ahead of the print.</td></tr><tr><td>Event</td><td>Pre-event (CPI eve)</td><td>High</td><td>A quiet Tuesday with no top-tier release. The week&#x27;s driver is July CPI on Wednesday, August 12 at 8:30 AM ET.</td></tr><tr><td>Liquidity</td><td>Moderate, summer-thin</td><td>Low</td><td>Read from the tape. Volume is not available on the continuous contract.</td></tr></tbody></table></div>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Angle</th><th>Reading</th><th>Confidence</th><th>Why (plain)</th></tr></thead><tbody><tr><td>Direction</td><td>Risk-on reclaim, board flips back up</td><td>Medium-High</td><td>NQ (+0.54%), ES (+0.17%), and gold (+0.93%) all closed back above their trend stops after the cool CPI. Only crude stayed red (-0.78%) and below its stop. Three of four repaired Tuesday&#x27;s short flip.</td></tr><tr><td>Volatility</td><td>Low and compressing</td><td>Medium</td><td>The VIX collapsed to 14.55 (-4.78%) and NQ&#x27;s ATR fell to 75.38 from 83.8. Fear came out of the market fast on the benign print.</td></tr><tr><td>Session</td><td>Gap up overnight, fade the RTH</td><td>Medium</td><td>Equities gapped up to tag 30,001.5 overnight, then three of four opening ranges broke DOWN in the RTH (NQ, ES, crude) and faded the highs; only gold&#x27;s opening range broke up. A relief gap that sold into the close.</td></tr><tr><td>Positioning</td><td>Shorts covered, then distributed</td><td>Medium</td><td>Tuesday&#x27;s fresh shorts got squeezed by the cool print. The overnight lifted everything, then the RTH faded from the highs as the relief buying dried up.</td></tr><tr><td>Event</td><td>Post-event (CPI), pre-event (PPI eve)</td><td>High</td><td>July CPI landed at 8:30 ET in line with consensus and cooler year over year. The next driver is PPI on Thursday, August 13.</td></tr><tr><td>Liquidity</td><td>Moderate, summer-thin</td><td>Low</td><td>Read from the tape. Volume is not available on the continuous contract.</td></tr></tbody></table></div>"
   },
   {
    "title": "NY Opening Range / HTA OPEN",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Market</th><th>OR High</th><th>OR Low</th><th>Width</th><th>Break</th><th>Time (UTC)</th><th>Break Price</th></tr></thead><tbody><tr><td>MNQ1!</td><td>29,842.75</td><td>29,636</td><td>206.75</td><td>DOWN</td><td>16:30</td><td>29,634</td></tr><tr><td>MES1!</td><td>7,792.5</td><td>7,771.75</td><td>20.75</td><td>DOWN</td><td>15:15</td><td>7,770</td></tr><tr><td>MGC2!</td><td>4,430.5</td><td>4,410.5</td><td>20</td><td>DOWN</td><td>15:20</td><td>4,410.2</td></tr><tr><td>MCL1!</td><td>81.95</td><td>81.27</td><td>0.68</td><td>UP</td><td>14:05</td><td>81.98</td></tr></tbody></table></div><p>Three of the four opening ranges broke DOWN first (NQ, ES, and gold), and only crude broke up. That is the mirror image of yesterday and the tell that sellers ran the session. NQ&#x27;s opening range was very wide at 206.75 points, about 2.47 times its 83.8 ATR, so it took until 16:30 UTC to break, and when it did the down-move extended straight to the 29,533 low.</p><p>HTA OPEN eligibility Wednesday: it is a CPI day and a Wednesday, so BIR (skips CPI), HOF (skips Wednesday), and MID (skips Wednesday) are all ineligible. Only BNC is eligible, and even then a CPI open is the highest-variance session of the week. Eligibility note, not a trade instruction.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Market</th><th>OR High</th><th>OR Low</th><th>Width</th><th>Break</th><th>Time (UTC)</th><th>Break Price</th></tr></thead><tbody><tr><td>MNQ1!</td><td>30,001.5</td><td>29,853.25</td><td>148.25</td><td>DOWN</td><td>15:00</td><td>29,851.25</td></tr><tr><td>MES1!</td><td>7,794</td><td>7,765.5</td><td>28.5</td><td>DOWN</td><td>14:00</td><td>7,764</td></tr><tr><td>MGC2!</td><td>4,460.3</td><td>4,435.1</td><td>25.2</td><td>UP</td><td>14:15</td><td>4,462.5</td></tr><tr><td>MCL1!</td><td>83.08</td><td>82.55</td><td>0.53</td><td>DOWN</td><td>14:00</td><td>82.5</td></tr></tbody></table></div><p>Three of the four opening ranges broke DOWN first (NQ, ES, and crude), and only gold broke up. That is the fade tell: the market gapped up on the print, then sellers took the RTH the other way. NQ&#x27;s opening range topped right at the 30,001.5 overnight high, a failed poke above the 30,000 psych level, and the down-break at 15:00 UTC ran price all the way to the 29,807 close. The session NYVWAP for NQ sat at 29,886, and price closed below it, another sign the RTH belonged to the sellers even on a green day.</p><p>HTA OPEN eligibility Thursday: Thursday is not Monday, not Wednesday, not FOMC, and PPI is not a filtered event, so all four plays (BIR, HOF, MID, BNC) are eligible. An 8:30 PPI open is still high-variance, so treat eligibility as a rules green light, not a push to trade. Eligibility note, not a trade instruction.</p>"
   },
   {
    "title": "Momentum Breakout",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Market</th><th>Trend Stop</th><th>Price</th><th>Distance</th><th>Trend</th><th>Plain note</th></tr></thead><tbody><tr><td>MNQ1!</td><td>29,795.47</td><td>29,647.25</td><td>-148.22</td><td>BELOW / SHORT</td><td>Flipped short. Sold the whole session and closed below both its stop and its average. The easy side is now the short side.</td></tr><tr><td>MES1!</td><td>7,776.77</td><td>7,753.25</td><td>-23.52</td><td>BELOW / SHORT</td><td>Lost its stop and joined NQ short. The split from yesterday is over; both indices are now under their trend lines.</td></tr><tr><td>MGC2!</td><td>4,432.86</td><td>4,394.8</td><td>-38.06</td><td>BELOW / SHORT</td><td>Rejected the 4,461.9 overnight high and flipped short. The strongest trend on the board just cracked.</td></tr><tr><td>MCL1!</td><td>83.67</td><td>83.24</td><td>-0.43</td><td>BELOW / SHORT (by a hair)</td><td>Net green on the day but pinned right under its stop after failing at 84.64. A whisker from flipping back long; the pivot for its next leg.</td></tr></tbody></table></div><p>A positive distance means price is above the stop (uptrend); negative means below it (downtrend). Every symbol on the board is now below its trend stop, a full de-risk. Crude is the only one green on the day, but it too closed just under its line.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Market</th><th>Trend Stop</th><th>Price</th><th>Distance</th><th>Trend</th><th>Plain note</th></tr></thead><tbody><tr><td>MNQ1!</td><td>29,746.72</td><td>29,807.25</td><td>+60.53</td><td>ABOVE / RECLAIMED</td><td>Reclaimed the stop on the cool print, but closed soft near its session low under its average. A real reclaim, but a weak-handed one.</td></tr><tr><td>MES1!</td><td>7,760.56</td><td>7,766.5</td><td>+5.94</td><td>ABOVE / RECLAIMED</td><td>Back above its stop with NQ and green on the day, but only by 6 points. The repair is fragile and needs PPI to confirm.</td></tr><tr><td>MGC2!</td><td>4,419.86</td><td>4,435.7</td><td>+15.84</td><td>ABOVE / RECLAIMED</td><td>Repaired Tuesday&#x27;s crack cleanly, closing back above its stop. The strongest of the three reclaims.</td></tr><tr><td>MCL1!</td><td>84.13</td><td>82.59</td><td>-1.54</td><td>BELOW / SHORT</td><td>The lone laggard. Never reclaimed its stop, lost its average, and closed heading toward the 82.00 psych. Still the short side.</td></tr></tbody></table></div><p>A positive distance means price is above the stop (uptrend); negative means below it (downtrend). Three of four flipped back above their stops today, a mirror of Tuesday&#x27;s flush. Gold&#x27;s reclaim is the cleanest; the two indices are back above by thin margins after fading from their highs, so treat the equity repairs as fragile into Thursday&#x27;s print.</p>"
   },
   {
    "title": "AVWAP Deviation Band",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Market</th><th>AVWAP</th><th>Distance</th><th>Simple read</th><th>Beginner takeaway</th></tr></thead><tbody><tr><td>MNQ1!</td><td>29,654</td><td>-0.11s</td><td>At average</td><td>Closed right on its average after the sell-off. 29,654 is the near-term pivot the fresh short sits on.</td></tr><tr><td>MES1!</td><td>7,760</td><td>-0.53s</td><td>Below average</td><td>Rolled under fair value with NQ. It follows the index lower unless it reclaims 7,760.</td></tr><tr><td>MGC2!</td><td>4,403</td><td>-0.93s</td><td>Below average</td><td>Dropped under its average as the trend flipped. Not stretched enough to fade; 4,403 is the reclaim line to repair it.</td></tr><tr><td>MCL1!</td><td>83.05</td><td>+0.51s</td><td>Above average</td><td>Still above its average, the only one on the board, but capped by its stop just overhead.</td></tr></tbody></table></div><p>Nothing hit the clean 2-to-3 sigma extreme today, so there was no textbook mean-reversion fade. The names are clustered near their averages, coiled into the CPI print rather than stretched away from it.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Market</th><th>AVWAP</th><th>Distance</th><th>Simple read</th><th>Beginner takeaway</th></tr></thead><tbody><tr><td>MNQ1!</td><td>29,875</td><td>-2.55s</td><td>Stretched below</td><td>Faded off its highs to close well under its RTH average. The stretch is real but the absolute size is small on a tight range; 29,875 is the reclaim line to firm the repair.</td></tr><tr><td>MES1!</td><td>7,771</td><td>-1.07s</td><td>Below average</td><td>Slipped just under fair value into the close even while green. It needs to hold above 7,761 and reclaim 7,771 to stay aligned up.</td></tr><tr><td>MGC2!</td><td>4,440</td><td>-0.51s</td><td>Near average</td><td>Closed right under its average after a strong day. The cleanest of the group; 4,440 is the line that keeps the uptrend healthy.</td></tr><tr><td>MCL1!</td><td>83.01</td><td>-2.29s</td><td>Stretched below</td><td>Rolled well under its average and stayed there, the mirror of the equities. It is heading for the 82.00 psych while it holds below 83.01.</td></tr></tbody></table></div><p>NQ and crude both closed past the 2-sigma mark below their averages, the first reversion zone, but the absolute stretch is small because the RTH ranges were tight, and neither reached the clean 3-sigma exhaustion. So this is a mean-reversion watch, not a textbook fade signal, and it points back toward the averages rather than away.</p>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Row</th><th>Triggered?</th><th>Grade</th><th>What happened (plain)</th></tr></thead><tbody><tr><td>MNQ reclaims the 29,782 AVWAP and the 29,900 RTH high on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>NQ opened below the 29,782 average and never reclaimed it, let alone the 29,900 high. It stayed under the average the entire session, so the rejection-and-repair branch never activated.</td></tr><tr><td>MNQ stays below the 29,782 AVWAP and loses the 29,719 overnight low on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>NQ stayed below the 29,782 average all day and lost the 29,719 low on the 15:00 close, then kept going. It reached the 29,600 area and made a 29,533 low, exactly the downside extension the row called for.</td></tr><tr><td>MES loses the 7,764 stop on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>ES lost 7,764 from the 16:00 close and stayed below it, falling to a 7,739 low and flipping short, joining NQ lower toward the 7,750 area as the row said.</td></tr><tr><td>MGC holds the 4,373 stop and the 4,392 AVWAP on 2 hourly closes</td><td>TRIGGERED</td><td>MIXED</td><td>Gold held its 4,373 stop and 4,392 average, and its overnight spike to 4,461.9 tagged both the 4,429 and 4,450 upside targets. But it could not hold the extension: it reversed all session, closed 4,394.8 (-0.49%), and flipped its own trend stop short. The targets hit, but the trend-up bias failed by the close.</td></tr><tr><td>MCL holds the 80.51 stop but loses the 81.56 average on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>Crude never lost the 81.56 average; it held above it and pushed the other way, tagging an 84.64 overnight high before settling back to 83.24. The cool-off branch never activated.</td></tr></tbody></table></div><p>Score: 5 rows, 3 triggered, 2 played out, 1 mixed, 0 failed, 2 not triggered. A broad de-risk day. The NQ and ES downside scenarios played out cleanly as both flipped short, gold tagged its upside targets overnight but reversed and flipped short too (mixed), and crude held its average and ran the opposite way. Month to date (August): 35 rows, 24 triggered, 16 played out, 7 mixed, 0 failed.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Row</th><th>Triggered?</th><th>Grade</th><th>What happened (plain)</th></tr></thead><tbody><tr><td>MNQ stays below the 29,795 stop and the 29,654 AVWAP after CPI on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>The opposite happened. The cool CPI gapped NQ up overnight and it opened the RTH above 29,795 and 29,654 and held there every hour, so the stay-below short extension never activated.</td></tr><tr><td>MNQ reclaims the 29,795 stop on 2 hourly closes after the print</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>NQ reclaimed 29,795 on the gap and closed above it every RTH hour. The short flip was neutralized and it repaired past the 29,887 target the row named, tagging a 29,946 RTH high and a 30,001.5 overnight high before fading to close 29,807.25. The reclaim held into the close.</td></tr><tr><td>MES stays below the 7,777 stop</td><td>TRIGGERED</td><td>FAILED</td><td>ES did close under the old 7,777 line (7,766.5), but the downside continuation the row projected did not come. Instead of pressing toward the 7,739 low it reclaimed its own 7,761 trend stop and closed green (+0.17%), so the short-continuation thesis failed.</td></tr><tr><td>MGC stays below the 4,433 stop and loses the 4,387 RTH low on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>Gold did the opposite. It rallied back above the 4,433 area, never went near the 4,387 low (session low 4,422.7), and closed 4,435.7 (+0.93%), repairing rather than extending the pullback.</td></tr><tr><td>MCL reclaims the 83.67 stop on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>The reclaim branch did not fire; crude never got back above 83.67 (RTH high 83.46). The other branch did: it lost the 83.05 average on the close and cooled toward the 82.00 psych exactly as the row said, closing 82.59 with a 82.35 low.</td></tr></tbody></table></div><p>Score: 5 rows, 3 triggered, 2 played out, 0 mixed, 1 failed, 2 not triggered. A risk-on reclaim day. The NQ reclaim scenario played out cleanly and crude&#x27;s cool-off branch played out, while the ES short-continuation row failed as ES reclaimed its own stop and closed green. That is the first failed row of the month, and it happened because a benign CPI flipped the tape back up faster than the short thesis could work. Month to date (August): 40 rows, 27 triggered, 18 played out, 7 mixed, 1 failed.</p>"
   },
   {
-   "title": "Tomorrow's Map (for Wednesday, August 12, 2026)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>IF (what to wait for)</th><th>THEN (what could open up)</th><th>BIAS (how to think about it)</th><th>Level</th></tr></thead><tbody><tr><td>MNQ stays below the 29,795 stop and the 29,654 AVWAP after CPI on 2 hourly closes</td><td>the fresh short extends toward the 29,533 RTH low, then the 29,469 -3s and the 29,500 psych</td><td>NQ is a fresh short under both its stop and its average. Below 29,654 the downside is with-trend, but the 8:30 ET print sets the tone, so wait for post-CPI acceptance.</td><td>MNQ 29,654</td></tr><tr><td>MNQ reclaims the 29,795 stop on 2 hourly closes after the print</td><td>the short flip is neutralized and it can repair toward the 29,887 overnight high</td><td>A cool CPI could snap NQ back. A 2-close reclaim of 29,795 flips the read from short to neutral and puts the overnight high back in play.</td><td>MNQ 29,795</td></tr><tr><td>MES stays below the 7,777 stop</td><td>it stays in gear with NQ toward the 7,739 RTH low and the 7,722 -3s, then the 7,700 psych</td><td>ES joined NQ short today. Below 7,777 the two indices are aligned lower; a reclaim of 7,777 is the first sign it is repairing.</td><td>MES 7,777</td></tr><tr><td>MGC stays below the 4,433 stop and loses the 4,387 RTH low on 2 hourly closes</td><td>the pullback extends toward the 4,376 -3s and the 4,350 psych</td><td>Gold&#x27;s strong uptrend cracked today. Below 4,433 and 4,387 the pullback has room; reclaiming the 4,403 average is what would repair it.</td><td>MGC 4,387</td></tr><tr><td>MCL reclaims the 83.67 stop on 2 hourly closes</td><td>it re-engages the breakout toward the 84.16 +3s and the 84.64 overnight high; losing the 83.05 average instead cools it toward the 82.00 psych</td><td>Crude is pinned at its stop after failing at 84.64. The 83.67 line is the pivot: above it the breakout is alive, below the 83.05 average the spike unwinds.</td><td>MCL 83.67</td></tr></tbody></table></div><p>HTA OPEN eligibility Wednesday: it is a CPI day and a Wednesday, so BIR (skips CPI), HOF (skips Wednesday), and MID (skips Wednesday) are all ineligible. Only BNC is eligible, and even then a CPI open is the highest-variance session of the week. Eligibility note, not a trade instruction.</p><p>Calendar: Wednesday August 12 brings the July CPI report at 8:30 AM ET, the week&#x27;s main event. PPI follows Thursday, and retail sales plus the University of Michigan sentiment read land Friday. Plan exposure into CPI and honor your prop-firm blackout rules.</p>"
+   "title": "Tomorrow's Map (for Thursday, August 13, 2026)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>IF (what to wait for)</th><th>THEN (what could open up)</th><th>BIAS (how to think about it)</th><th>Level</th></tr></thead><tbody><tr><td>MNQ holds the 29,747 stop on 2 hourly closes after PPI</td><td>the reclaim builds a base and it can push back through the 29,875 average toward the 29,946 RTH high and the 30,000 psych</td><td>NQ reclaimed but closed soft under its average. Holding 29,747 keeps the repair alive; the 8:30 PPI print sets the tone, so wait for acceptance.</td><td>MNQ 29,747</td></tr><tr><td>MNQ loses the 29,747 stop on 2 hourly closes after the print</td><td>the soft reclaim fails and it rotates back toward the 29,647 prior close and the 29,600 area</td><td>The reclaim is one day old and closed weak near the session low. A 2-close loss of 29,747 flips the read back to short.</td><td>MNQ 29,747</td></tr><tr><td>MES holds the 7,761 stop on 2 hourly closes</td><td>it stays aligned with NQ toward the 7,781 RTH high and the 7,800 psych</td><td>ES reclaimed with NQ. Above 7,761 the long-side repair is intact; losing it re-aligns the two indices short.</td><td>MES 7,761</td></tr><tr><td>MGC holds the 4,420 stop and reclaims the 4,440 average on 2 hourly closes</td><td>the uptrend repair extends toward the 4,466 RTH high and the 4,469 overnight high</td><td>Gold repaired its Tuesday crack. Above 4,420 and back over the 4,440 average the trend is healthy again; below 4,420 it re-cracks.</td><td>MGC 4,440</td></tr><tr><td>MCL reclaims the 84.13 stop on 2 hourly closes</td><td>the short is neutralized toward the 84.35 overnight high; staying below the 83.01 average instead keeps it heading toward the 82.00 psych and the 82.35 low</td><td>Crude is the lone laggard, still short. 84.13 is the pivot above, 82.00 is the magnet below while it holds under its average.</td><td>MCL 84.13</td></tr></tbody></table></div><p>HTA OPEN eligibility Thursday: Thursday is not Monday, not Wednesday, not FOMC, and PPI is not a filtered event, so all four plays (BIR, HOF, MID, BNC) are eligible. That said, an 8:30 PPI open is still a high-variance session, so treat eligibility as a green light on the rules, not a reason to force a trade. Eligibility note, not a trade instruction.</p><p>Calendar: Thursday August 13 brings the July PPI report at 8:30 AM ET. Retail sales and the University of Michigan sentiment read land Friday. Plan exposure into PPI and honor your prop-firm blackout rules.</p>"
   }
  ],
  "tomorrowsMap": [
   {
-   "if": "MNQ stays below the 29,795 stop and the 29,654 AVWAP after CPI on 2 hourly closes",
-   "then": "the fresh short extends toward the 29,533 RTH low, then the 29,469 -3s and the 29,500 psych",
-   "bias": "NQ is a fresh short under both its stop and its average. Below 29,654 the downside is with-trend, but the 8:30 ET print sets the tone, so wait for post-CPI acceptance.",
-   "level": "MNQ 29,654"
+   "if": "MNQ holds the 29,747 stop on 2 hourly closes after PPI",
+   "then": "the reclaim builds a base and it can push back through the 29,875 average toward the 29,946 RTH high and the 30,000 psych",
+   "bias": "NQ reclaimed but closed soft under its average. Holding 29,747 keeps the repair alive; the 8:30 PPI print sets the tone, so wait for acceptance.",
+   "level": "MNQ 29,747"
   },
   {
-   "if": "MNQ reclaims the 29,795 stop on 2 hourly closes after the print",
-   "then": "the short flip is neutralized and it can repair toward the 29,887 overnight high",
-   "bias": "A cool CPI could snap NQ back. A 2-close reclaim of 29,795 flips the read from short to neutral and puts the overnight high back in play.",
-   "level": "MNQ 29,795"
+   "if": "MNQ loses the 29,747 stop on 2 hourly closes after the print",
+   "then": "the soft reclaim fails and it rotates back toward the 29,647 prior close and the 29,600 area",
+   "bias": "The reclaim is one day old and closed weak near the session low. A 2-close loss of 29,747 flips the read back to short.",
+   "level": "MNQ 29,747"
   },
   {
-   "if": "MES stays below the 7,777 stop",
-   "then": "it stays in gear with NQ toward the 7,739 RTH low and the 7,722 -3s, then the 7,700 psych",
-   "bias": "ES joined NQ short today. Below 7,777 the two indices are aligned lower; a reclaim of 7,777 is the first sign it is repairing.",
-   "level": "MES 7,777"
+   "if": "MES holds the 7,761 stop on 2 hourly closes",
+   "then": "it stays aligned with NQ toward the 7,781 RTH high and the 7,800 psych",
+   "bias": "ES reclaimed with NQ. Above 7,761 the long-side repair is intact; losing it re-aligns the two indices short.",
+   "level": "MES 7,761"
   },
   {
-   "if": "MGC stays below the 4,433 stop and loses the 4,387 RTH low on 2 hourly closes",
-   "then": "the pullback extends toward the 4,376 -3s and the 4,350 psych",
-   "bias": "Gold's strong uptrend cracked today. Below 4,433 and 4,387 the pullback has room; reclaiming the 4,403 average is what would repair it.",
-   "level": "MGC 4,387"
+   "if": "MGC holds the 4,420 stop and reclaims the 4,440 average on 2 hourly closes",
+   "then": "the uptrend repair extends toward the 4,466 RTH high and the 4,469 overnight high",
+   "bias": "Gold repaired its Tuesday crack. Above 4,420 and back over the 4,440 average the trend is healthy again; below 4,420 it re-cracks.",
+   "level": "MGC 4,440"
   },
   {
-   "if": "MCL reclaims the 83.67 stop on 2 hourly closes",
-   "then": "it re-engages the breakout toward the 84.16 +3s and the 84.64 overnight high; losing the 83.05 average instead cools it toward the 82.00 psych",
-   "bias": "Crude is pinned at its stop after failing at 84.64. The 83.67 line is the pivot: above it the breakout is alive, below the 83.05 average the spike unwinds.",
-   "level": "MCL 83.67"
+   "if": "MCL reclaims the 84.13 stop on 2 hourly closes",
+   "then": "the short is neutralized toward the 84.35 overnight high; staying below the 83.01 average instead keeps it heading toward the 82.00 psych and the 82.35 low",
+   "bias": "Crude is the lone laggard, still short. 84.13 is the pivot above, 82.00 is the magnet below while it holds under its average.",
+   "level": "MCL 84.13"
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
   "triggered": 3,
   "playedOut": 2,
-  "mixed": 1,
-  "failed": 0,
+  "mixed": 0,
+  "failed": 1,
   "notTriggered": 2,
-  "note": "Broad de-risk day. NQ and ES downside scenarios played out as both flipped short; gold tagged its upside targets overnight then reversed and flipped short (mixed); crude held its average and ran the opposite way."
+  "note": "Risk-on reclaim day. The NQ reclaim scenario and crude's cool-off branch played out; the ES short-continuation row failed as ES reclaimed its own stop and closed green (first failed row of the month)."
  },
  "mapTallyMTD": {
-  "rows": 35,
-  "triggered": 24,
-  "playedOut": 16,
+  "rows": 40,
+  "triggered": 27,
+  "playedOut": 18,
   "mixed": 7,
-  "failed": 0
+  "failed": 1
  }
 }
