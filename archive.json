@@ -308,6 +308,13 @@
     "summary": "Risk-on follow-through on jobs day. The July payrolls report cleared at 8:30 AM ET and stocks rallied. NQ reclaimed its trend and closed 29,841 (+1.14%); ES flipped its trend back long and closed 7,777.25 (+0.59%), so the laggard caught up. All four opening ranges broke down first at the US open, a quick shakeout, then the indices reversed and ran higher into the close. Gold was the standout, ripping +2.37% to 4,368.5 and flipping its trend long, with spot gold +2.39% and silver +3.19%. Crude gave back -1.48% to 77.09 after Thursday's spike but held just above its stop. The VIX eased to 14.90 and the 10-year yield slipped to about 4.66%."
   },
   {
+    "date": "August 13, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Trend-Up (Risk-On)",
+    "regimeClass": "trend-up",
+    "summary": "<strong>Two cool inflation prints in two days lit a fire under stocks.</strong> July PPI came in flat this morning, a touch softer than the small rise the street looked for, and the Nasdaq ran with it. MNQ pushed through the 30,000 psych, tagged a fresh session high at 30,273, and closed +1.37% at 30,216 with its trend stop rising underneath. MES tracked it step for step, +0.76% to 7,825. Gold and crude went the other way: gold spiked overnight, failed, and closed down 1.38% while flipping short on its trend line, and crude stayed the lone energy drag at 81.20."
+  },
+  {
     "date": "April 27, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-On",
