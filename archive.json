@@ -308,6 +308,13 @@
     "summary": "Risk-on follow-through on jobs day. The July payrolls report cleared at 8:30 AM ET and stocks rallied. NQ reclaimed its trend and closed 29,841 (+1.14%); ES flipped its trend back long and closed 7,777.25 (+0.59%), so the laggard caught up. All four opening ranges broke down first at the US open, a quick shakeout, then the indices reversed and ran higher into the close. Gold was the standout, ripping +2.37% to 4,368.5 and flipping its trend long, with spot gold +2.39% and silver +3.19%. Crude gave back -1.48% to 77.09 after Thursday's spike but held just above its stop. The VIX eased to 14.90 and the 10-year yield slipped to about 4.66%."
   },
   {
+    "date": "August 14, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Pullback / Rotation (Risk-Off Lite)",
+    "regimeClass": "pullback",
+    "summary": "<strong>The two-day rally ran out of gas.</strong> Soft retail sales at -0.6% and a weak Michigan sentiment print at 51.0 took the wind out of stocks, and both indices flipped short on their trend stops for the first time in the run. MNQ closed -0.20% at 30,155 and MES -0.30% at 7,802, each a touch under a falling stop. This was rotation, not panic: gold reversed an overnight flush to 4,332 and closed +0.56% at 4,398 to reclaim its stop, while crude firmed +1.49% to 82.41 on the Iran supply premium. VIX eased under 14, so a pause and a rotation, not a fear event, with the geopolitical story the thing to watch into the weekend."
+  },
+  {
     "date": "August 13, 2026",
     "dayOfWeek": "Thursday",
     "regime": "Trend-Up (Risk-On)",
