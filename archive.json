@@ -350,6 +350,13 @@
     "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
   },
   {
+    "date": "2026-08-19",
+    "dayOfWeek": "Wednesday",
+    "regime": "Split tape. NQ short below a falling stop, ES long above a rising stop. Volatility expanded on FOMC minutes day and gold ripped 4.4%. Post-event, reduced-risk posture.",
+    "regimeClass": "risk-off",
+    "summary": "Quiet day-over-day for the Nasdaq, loud under the surface. NQ closed 29,559, basically flat versus Tuesday, but stayed pinned below a falling ATR stop all session, so the short regime still runs the show. The S&P did the opposite: it closed above its own rising stop. So ES reads long while NQ reads short, and that split is the story of the day. Gold stole the show with a 4.4% rip into and after the FOMC minutes, closing 4,546.8 well above a rising stop. Crude gave back about 1% but held its line near 84.11. Vol picked up, with the Nasdaq hourly ATR at 92 versus the mid-60s earlier this week."
+  },
+  {
     "date": "2026-07-30",
     "dayOfWeek": "Thursday",
     "regime": "Risk-on reversal. One day after the FOMC flush, NQ and ES reclaimed their ATR stops and flipped long on a tech-led, earnings-driven rally; gold held a haven bid, crude cooled.",
