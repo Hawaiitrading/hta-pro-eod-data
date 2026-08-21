@@ -350,6 +350,13 @@
     "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
   },
   {
+    "date": "2026-08-21",
+    "dayOfWeek": "Friday",
+    "regime": "Mixed and diverging. NQ stays short below a falling stop while ES reclaimed its stop, so the index split is back on. Volatility eased a touch on NQ but the tape was two-sided. Gold broke to fresh highs and crude held firm. Normal to reduced risk into Jackson Hole week.",
+    "regimeClass": "neutral",
+    "summary": "Choppy Friday, and the indices split again. NQ never got back above its 29,518 stop, dipped to 29,220, then bounced to close 29,370, a third straight day under a falling stop. ES did the opposite and reclaimed its stop, closing 7,687.5 back on the long side, so the NQ versus ES divergence is back on after one day of alignment. Gold was the story, up 1.9% to a fresh 4,626.9 close with a new 4,654 high, well above its rising stop. Crude held firm near 87, closing 86.65 above its stop. NQ volatility eased a touch, hourly ATR near 83 versus 105 Thursday, but the tape stayed two-sided into the weekend and Jackson Hole week."
+  },
+  {
     "date": "2026-08-20",
     "dayOfWeek": "Thursday",
     "regime": "Aligned down. Both NQ and ES now read short below falling stops after the week's split resolved lower. Volatility is still expanding. Gold rests above its rising stop and crude leads higher. Normal-to-reduced risk.",
