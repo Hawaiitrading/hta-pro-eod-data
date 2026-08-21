@@ -350,6 +350,13 @@
     "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
   },
   {
+    "date": "2026-08-20",
+    "dayOfWeek": "Thursday",
+    "regime": "Aligned down. Both NQ and ES now read short below falling stops after the week's split resolved lower. Volatility is still expanding. Gold rests above its rising stop and crude leads higher. Normal-to-reduced risk.",
+    "regimeClass": "risk-off",
+    "summary": "The split finally broke, and it broke down. NQ closed 29,317, its second straight day under a falling stop, and this time the S&P came with it. ES lost its 7,706 stop and closed 7,668, so both indices now read short and the week's NQ-versus-ES divergence is gone. Gold took a breather after its big run, closing 4,540.9 just under flat but still above a rising stop, so that uptrend is only resting. Crude was the bright spot, up 2.1% to 86.21, clearing its prior high and holding well above its stop. Volatility kept expanding, with the Nasdaq hourly ATR near 105 versus 92 on Wednesday and the mid-60s on Monday."
+  },
+  {
     "date": "2026-08-19",
     "dayOfWeek": "Wednesday",
     "regime": "Split tape. NQ short below a falling stop, ES long above a rising stop. Volatility expanded on FOMC minutes day and gold ripped 4.4%. Post-event, reduced-risk posture.",
