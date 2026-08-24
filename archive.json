@@ -350,6 +350,13 @@
     "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
   },
   {
+    "date": "2026-08-24",
+    "dayOfWeek": "Monday",
+    "regime": "Risk-off and aligned short. NQ and ES both closed below their stops, so Friday's index split is gone. Volatility ticked up on NQ and a violent open set a wide range. Gold broke to fresh highs while crude broke down. Reduced risk into the Wednesday data cluster and Jackson Hole week.",
+    "regimeClass": "risk-off",
+    "summary": "Risk-off Monday. NQ never threatened its falling 29,283 stop and sold off all session, tagging a 28,948 low before closing 29,131, down 0.8%. ES gave up its one-day long and flipped below its 7,700 stop to close 7,674.5, so the indices are aligned short again after Friday's split. Gold was the mirror image, up 1.0% to fresh highs at 4,700 and holding well above a rising stop. Crude broke down hard, off 2.0% and losing both its stop and the 86 handle. Volatility ticked up too, NQ hourly ATR near 103 versus 83 Friday, and a violent open set a wide 296 point range that boxed the session in."
+  },
+  {
     "date": "2026-08-21",
     "dayOfWeek": "Friday",
     "regime": "Mixed and diverging. NQ stays short below a falling stop while ES reclaimed its stop, so the index split is back on. Volatility eased a touch on NQ but the tape was two-sided. Gold broke to fresh highs and crude held firm. Normal to reduced risk into Jackson Hole week.",
