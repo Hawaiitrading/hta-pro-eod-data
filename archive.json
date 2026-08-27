@@ -308,6 +308,13 @@
     "summary": "Risk-on follow-through on jobs day. The July payrolls report cleared at 8:30 AM ET and stocks rallied. NQ reclaimed its trend and closed 29,841 (+1.14%); ES flipped its trend back long and closed 7,777.25 (+0.59%), so the laggard caught up. All four opening ranges broke down first at the US open, a quick shakeout, then the indices reversed and ran higher into the close. Gold was the standout, ripping +2.37% to 4,368.5 and flipping its trend long, with spot gold +2.39% and silver +3.19%. Crude gave back -1.48% to 77.09 after Thursday's spike but held just above its stop. The VIX eased to 14.90 and the 10-year yield slipped to about 4.66%."
   },
   {
+    "date": "August 27, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Trend-Up (Extended into Jackson Hole)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>Equities went into Jackson Hole on the front foot.</strong> NQ closed up 0.69% and ES up 0.30%, both near session highs for a second straight day, with the ATR stops rising underneath. Crude was the standout, up 1.97% as the long off the 80 base extended toward 84, while gold stayed heavy under a falling stop and finished roughly flat after dipping to 4,586. The whole tape now waits on Friday's Warsh keynote, so the read is trend-up but stretched into a real event."
+  },
+  {
     "date": "August 26, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Risk-on held and the commodities flipped sides. NQ and ES both extended their longs and closed at session highs. Gold rolled over and flipped short; crude bounced and flipped long. Index volatility ticked up into Jackson Hole. Reduced risk with both index longs stretched at the highs ahead of Friday's Warsh keynote.",
