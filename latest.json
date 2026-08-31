@@ -1,46 +1,46 @@
 {
- "date": "August 28, 2026",
- "dayOfWeek": "Friday",
- "regime": "Risk-Off Reversal (Hawkish Jackson Hole)",
- "regimeClass": "risk-off",
- "summary": "<p>Jackson Hole delivered, and it was hawkish. Both index futures spiked to fresh highs right after the Warsh keynote, then reversed hard and gave it all back. NQ ran to 29,811 and closed 29,509, down 0.42%. ES tagged 7,782 and closed 7,724, essentially flat but well off the high. The real move was in gold: MGC cratered 3.25% to 4,468 as the 10-year yield jumped about 1.4%, a clean rates-up, gold-down reaction. Crude was the lone holdout, closing 83.43 and hanging onto its uptrend stop. Both index ATR stops flipped bearish today, so the two-day trend push is on hold.</p>",
- "psychology": "Today is the classic event trap. The knee-jerk pop after a Fed headline pulls breakout buyers in at the highs, then the real move goes the other way and stops them out. If you chased 29,800 on NQ, you felt it. The lesson is not to predict the reaction, it is to wait for the reaction to resolve. A spike into an event is the lowest-quality entry there is. Let the first move exhaust, see where price accepts, and trade the level, not the headline. The ATR stop flipping bearish is information, not a reason to flip and short into the close either.",
+ "date": "August 31, 2026",
+ "dayOfWeek": "Monday",
+ "regime": "Digestion Coil (Below Stops, Data Week Ahead)",
+ "regimeClass": "caution",
+ "summary": "Quiet Monday after Friday's fireworks. Equities coiled just under their flipped stops. NQ closed 29,521, basically flat on the day at plus 0.04 percent, and MES closed 7,701, down 0.30 percent and sitting right on the 7,700 psych line. Gold steadied after the crash, down just 0.13 percent. The real move was crude: MCL ripped 3.45 percent to 86.31 and is now the strongest trend on the board, the lone long above a rising stop. Low volatility digestion heading into a data heavy week, ISM Tuesday and the jobs report Friday.",
+ "psychology": "After a big reversal day the urge is to force the next trade. Today was a slow coil, and chop days punish over trading. Watch what NQ actually did: it broke below the opening range early, ran to 29,354, then ground all the way back to close at the highs. If you shorted the break and held for a trend, you got squeezed. The read is patience. Let price pick a side and accept there before you commit size. A handful of clean setups beats a stack of chop day scratches.",
  "event": {
-  "name": "Jackson Hole keynote (Fed Chair Warsh)",
+  "name": "No scheduled US release (post-Jackson Hole digestion, month-end)",
   "type": "POST_EVENT",
-  "consensus": "Market positioned for policy continuity after two days of new highs",
-  "actual": "The keynote read hawkish. Equities spiked to fresh highs in the opening hour (NQ 29,811, ES 7,782), then reversed sharply as the message sank in. The 10-year yield jumped about 1.4% to 4.729.",
-  "surprise": "Hawkish surprise. Rates repriced higher, which hit gold hardest and trapped index longs at the highs.",
-  "nqReaction": "Reflex pop to a 29,811.75 high, then a full reversal to close 29,509.5 (-0.42%), below AVWAP and NYVWAP, with the ATR stop flipping bearish.",
-  "crossAsset": "Gold -3.25% (worst day of the run, most rate-sensitive), 10-year yield +1.4%, ES -0.10% (mirrored NQ), crude -0.11% (held, disconnected from rates). VIX near 14.4 and eased slightly on the post-event volatility bleed."
+  "consensus": "Market positioned cautiously after Friday's hawkish Jackson Hole reversal, watching whether the selloff would extend.",
+  "actual": "No major US data today. The tape digested Friday's move in a low volatility grind. The 10 year yield eased to 4.724, down 0.11 percent, and VIX ticked up to 14.92 but stayed low.",
+  "surprise": "None. A quiet, mechanical month-end session with no fresh macro shock.",
+  "nqReaction": "NQ broke below the opening range early, bottomed at 29,354, then reversed and ground back to close 29,521.5, flat on the day. A coil, not a directional day.",
+  "crossAsset": "Crude was the standout, breaking above 86 for a 3.45 percent gain. Gold steadied at 4,463 after Friday's 3.25 percent drop. Yields eased slightly and VIX stayed near 15."
  },
  "atrStop": {
   "MNQ1!": {
-   "stop": "29,706.27",
-   "price": "29,509.5",
-   "gap": "-196.77",
+   "stop": "29,541.38",
+   "price": "29,521.5",
+   "gap": "-19.88",
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MES1!": {
-   "stop": "7,756.70",
-   "price": "7,724.75",
-   "gap": "-31.95",
+   "stop": "7,715.62",
+   "price": "7,701.5",
+   "gap": "-14.12",
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MGC1!": {
-   "stop": "4,535.52",
-   "price": "4,468.7",
-   "gap": "-66.82",
+   "stop": "4,490.55",
+   "price": "4,462.8",
+   "gap": "-27.75",
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MCL1!": {
-   "stop": "82.41",
-   "price": "83.43",
-   "gap": "+1.02",
-   "trend": "FLAT",
+   "stop": "84.74",
+   "price": "86.31",
+   "gap": "+1.57",
+   "trend": "RISING",
    "status": "ABOVE"
   }
  },
@@ -48,151 +48,162 @@
   {
    "name": "Net Alpha Pro OBSERVE",
    "status": "NONE ACTIVE",
-   "note": "No in-scope OBSERVE candidate signaled today. Out-of-curriculum candidates are excluded by scope."
+   "note": "No in scope OBSERVE candidate signaled today. Out of curriculum candidates are excluded by scope."
   }
  ],
  "risk": {
   "throttleState": "REDUCED",
-  "sizing": "Size down until direction confirms. The equity trend just reversed and both index stops flipped bearish on a high-volatility event day. This is a transition, not a clean new trend. Do not flip and chase shorts into the weekend at the lows either.",
-  "openRisk": "MNQ back above 29,706 or MES above 7,757 on two hourly closes neutralizes the fresh short bias. Gold reclaiming 4,536 is the first bounce signal after a 3.25% drop. Crude losing 82.41 on two closes flips the last long bearish too.",
-  "note": "Jackson Hole is largely behind the tape now; the hawkish read lifted yields and hit gold. Next macro is ISM manufacturing Tuesday Sep 1 and the August jobs report Friday Sep 4. Carry reduced posture over the weekend gap. Not financial advice."
+  "sizing": "Keep size reduced. Equity direction is unresolved, still below falling stops but with the selling stalled into a data heavy week. This is a coil, and coils resolve fast once a catalyst hits. Crude is the one clean trend if you want directional exposure, sized normally with a stop under 84.74.",
+  "openRisk": "MNQ back above 29,541 or MES above 7,716 on two hourly closes flips the near term tone up. Losing the 7,700 psych on MES opens the 7,675 RTH low. Gold reclaiming 4,491 is the first real bounce signal; losing 4,450 reopens the downside. Crude stays long above 84.74.",
+  "note": "ISM Manufacturing Tuesday Sep 1 is the first real test, then JOLTS mid week and the August jobs report Friday Sep 4. Expect the coil to break on one of those prints. Carry reduced size until it does. Not financial advice."
  },
  "keyLevels": [
   {
    "label": "MNQ ATR Stop",
-   "value": "29,706.27",
-   "note": "flipped bearish, falling, price below"
+   "value": "29,541.38",
+   "note": "falling, price 20 below, coiled"
   },
   {
    "label": "MNQ AVWAP",
-   "value": "29,544.55",
-   "note": "close 29,509 below it; NYVWAP 29,566 also lost"
-  },
-  {
-   "label": "MNQ RTH High / Low",
-   "value": "29,811.75 / 29,437.00",
-   "note": "374-pt range; failed breakout at the high"
+   "value": "29,439",
+   "note": "close near plus 2 sigma"
   },
   {
    "label": "MES ATR Stop",
-   "value": "7,756.70",
-   "note": "flipped bearish, price 7,724.75 below"
+   "value": "7,715.62",
+   "note": "falling, price on the 7,700 psych"
   },
   {
    "label": "MGC ATR Stop",
-   "value": "4,535.52",
-   "note": "gold -3.25%, short live under a falling stop"
+   "value": "4,490.55",
+   "note": "falling, gold steadied at 4,463"
   },
   {
    "label": "MCL ATR Stop",
-   "value": "82.41",
-   "note": "crude the lone long, price 83.43 above a flat stop"
+   "value": "84.74",
+   "note": "rising, crude long leads at 86.31"
+  },
+  {
+   "label": "MNQ Opening Range",
+   "value": "29,390 to 29,517",
+   "note": "back into range close"
   }
  ],
  "setups": [
   {
+   "name": "AVWAP Back Into Range",
+   "confidence": "Borderline",
+   "entry": "NQ close back inside the OR after an opening break",
+   "stop": "Opposite OR boundary",
+   "t1": "AVWAP / mid range",
+   "rr": "Session",
+   "bias": "Worked today. A coiled, two sided open favors the failed break reclaim over a trend break."
+  },
+  {
    "name": "TSMOM-20",
    "confidence": "Borderline",
-   "entry": "Trend book mid-transition: equities flipped bearish, gold a strong short, crude a fading long",
-   "stop": "Opposite side of the trend stop",
-   "t1": "Prior swing extreme",
+   "entry": "Crude long above 84.74; index side unresolved",
+   "stop": "84.74 on MCL",
+   "t1": "87 psych",
    "rr": "Systematic",
-   "bias": "MNQ and MES ATR stops flipped bearish; conviction lower until direction settles after the reversal."
+   "bias": "Crude is the one clean trend. Index trends are mid coil below falling stops."
   },
   {
    "name": "AVWAP Deviation Band",
    "confidence": "Borderline",
-   "entry": "No fresh setup at the close (NQ -0.4 sigma); the intraday plus-3 tag at 29,811 already reverted",
-   "stop": "Beyond the sigma band",
-   "t1": "AVWAP 29,545",
-   "rr": "~1.5R",
-   "bias": "Textbook plus-3 exhaustion fade played out intraday into the event; nothing actionable at the close."
+   "entry": "Fade a plus or minus 2 sigma tag back to AVWAP",
+   "stop": "Beyond the 3 sigma band",
+   "t1": "AVWAP 29,439",
+   "rr": "1 to 1.5",
+   "bias": "Sigma compressed and a minus 2 tag reverted cleanly today. Best odds if ISM spikes price to a band extreme."
   }
  ],
  "activeIndicators": [
   "tsmom-20",
-  "avwap-deviation-band"
+  "avwap-deviation-band",
+  "avwap-back-into-range",
+  "hta-open"
  ],
- "downloadLink": "HTA-Pro-EOD-Report-2026-08-28.docx",
- "reportFileName": "HTA-Pro-EOD-Report-2026-08-28.docx",
+ "downloadLink": "HTA-Pro-EOD-Report-2026-08-31.docx",
+ "reportFileName": "HTA-Pro-EOD-Report-2026-08-31.docx",
  "charts": [
-  "charts/chart-mnq-1hr-2026-08-28.png",
-  "charts/chart-mes-1hr-2026-08-28.png",
-  "charts/chart-mgc-1hr-2026-08-28.png",
-  "charts/chart-mcl-1hr-2026-08-28.png"
+  "charts/chart-mnq-1hr-2026-08-31.png",
+  "charts/chart-mes-1hr-2026-08-31.png",
+  "charts/chart-mgc-1hr-2026-08-31.png",
+  "charts/chart-mcl-1hr-2026-08-31.png"
  ],
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Flipped. Two-day equity up-trend reversed on the Warsh keynote. MNQ and MES closed below AVWAP with ATR stops flipping bearish. Gold broke down 3.25%; crude is the lone long above its stop.</td><td>Med-High</td></tr><tr><td>Volatility</td><td>High and expanding. NQ RTH range 374 points (29,811 to 29,437), far wider than Thursday's 230. Hourly ATR near 95. Two-sided whipsaw around the event.</td><td>High</td></tr><tr><td>Session</td><td>Post-event Friday. The Jackson Hole keynote was the trigger; the reaction was a spike-and-reverse that resolved hawkish (yields up, gold and equities down).</td><td>High</td></tr><tr><td>Inventory</td><td>Longs got trapped at the highs and flushed. The reversal cleared the crowded long from the two prior days. Short-side inventory building into the weekend.</td><td>Medium</td></tr><tr><td>Event</td><td>Resolving. Jackson Hole (Aug 27-29) delivered a hawkish Warsh keynote. Event risk is largely behind the tape; next macro is ISM Tuesday and jobs Friday.</td><td>High</td></tr><tr><td>Liquidity</td><td>Normal for indices and crude. Gold clean: the roll advanced and MGC1! is liquid again as the current front (continuity verified against yesterday's Oct close).</td><td>High</td></tr></tbody></table></div>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Coiling. Equities sit just below their flipped ATR stops but Friday's selling faded. NQ closed 29,521 (plus 0.04 percent), MES 7,701 (minus 0.30 percent). Gold steadied (minus 0.13 percent). Crude is the standout, up 3.45 percent and the only market above a rising stop.</td><td>Medium</td></tr><tr><td>Volatility</td><td>Low and compressing. NQ RTH range 184 points (29,538 to 29,354), roughly half of Friday's 374. Hourly ATR fell to about 81 from 95. VIX 14.92, still low.</td><td>High</td></tr><tr><td>Session</td><td>Post event digestion Monday, month-end. No scheduled US data. A failed downside break that ground back into the range by the close.</td><td>High</td></tr><tr><td>Inventory</td><td>Balanced. Friday's flush cleared the trapped longs; today built a base with a slow grind up off the lows. No strong one sided positioning into ISM week.</td><td>Medium</td></tr><tr><td>Event</td><td>Quiet today, heavy ahead. Jackson Hole is behind the tape. ISM Manufacturing Tuesday Sep 1, JOLTS mid week, August jobs Friday Sep 4.</td><td>High</td></tr><tr><td>Liquidity</td><td>Normal across the board. Gold clean and continuous: MGC1! confirmed as the current front contract, price continuous with Friday's 4,468.7 close and the report change matches the chart header.</td><td>High</td></tr></tbody></table></div>"
   },
   {
    "title": "NY Opening Range / HTA OPEN",
-   "html": "<p>HTA OPEN (NY opening range, 13:30 to 13:45 UTC): OR high <strong>29,701.25</strong>, OR low <strong>29,562.5</strong>, width 138.75 points (0.47%). The open was a two-sided whipsaw. Price first closed below the OR low at 14:10 UTC (29,534.75), then reclaimed and broke the OR high at 14:40 UTC (29,734.25), ran to the 29,811.75 session high, then reversed and closed 29,509.5 back below the OR low. NYVWAP sat at 29,566 and price closed below it, so sellers had the close.</p><p><strong>Signals:</strong> a failed upside break, so the read was distribution rather than continuation. HOF (short-only) had no clean hand-off in the chop, BIR did not fire on the 2-close rule, and MID had no clean first-hour rejection. For Monday, HOF, MID and BNC are eligible (BIR skips Monday); expect a gap-sensitive open, so keep the first break on a short leash.</p>"
+   "html": "<p>HTA OPEN (NY opening range, 13:30 to 13:45 UTC window): OR high 29,517, OR low 29,390, width 127 points (0.43 percent). Price broke down through the OR low first, closing below it at 14:05 UTC (29,377.75), and ran to a 29,354 session low. Then it reversed and ground higher all session, only reclaiming the OR high late at 19:50 UTC (29,524.25) and closing 29,521.5 right at the top of the range. NYVWAP sat at 29,422 and price closed well above it, so buyers had the close. Signals: a failed downside break that recovered into the range, a back into range day. HOF (short only) had no clean continuation after the reversal, MID saw a two sided grind rather than a single first hour rejection, and BIR does not fire on Monday. For Tuesday, BIR, HOF, MID and BNC are all eligible, but ISM Manufacturing lands 10:00 ET right in the opening window, so keep the first opening range break on a short leash.</p>"
   },
   {
    "title": "Momentum Breakout",
-   "html": "<p>E3v2 Momentum Long has its filter closed for the long side. NQ is below its flipped 29,706 ATR stop and below the 50-period trend reference after the reversal, so the regime filter no longer supports a fresh long. The intraday move was the opposite of a momentum-long setup: a failed breakout that reversed. A momentum filter turning off is doing its job, keeping you out of a long right when the trend rolled over.</p>"
+   "html": "<p>E3v2 Momentum Long keeps its filter off for the equity index. NQ is below its 29,541 ATR stop and its regime reference after Friday's flip, so a fresh long here fights the still bearish stop. The one place momentum is working is crude: MCL broke above 86 on strong follow through and holds above a rising stop, the profile a momentum long looks for. The takeaway is that the filter is doing its job on the indices, keeping you out of a long while the trend is unresolved, and pointing at the market that is actually trending.</p>"
   },
   {
    "title": "AVWAP Deviation Band",
-   "html": "<p>AVWAP deviation band (MNQ): AVWAP center <strong>29,545</strong>, close 29,509 is about minus 0.4 sigma, inside the minus-1 band at 29,457. Normal range at the close. The real signal was intraday: the 29,811.75 high stretched beyond the plus-3 band (plus 3 sigma 29,808), a genuine exhaustion tag, and price mean-reverted hard back through the AVWAP. Bands: plus 3 sigma 29,808, plus 2 sigma 29,720, minus 2 sigma 29,369, minus 3 sigma 29,281. Sigma ran wide at 87.7 on the two-sided range. Volume unavailable on the continuous contract, so the exhaustion read is price-only.</p><p><em>The lesson: a plus-3 sigma tag into a known event is where reversion odds are highest. Today the band did its job.</em></p>"
+   "html": "<p>AVWAP deviation band (MNQ): AVWAP center 29,439, close 29,521 is about plus 1.9 sigma, just under the plus 2 band at 29,526. Bands: plus 2 sigma 29,526, plus 1 sigma 29,483, minus 1 sigma 29,395, minus 2 sigma 29,351, minus 3 sigma 29,308. Sigma compressed to 43.8 today from Friday's 87.7. The reversion signal already fired intraday: the 29,354 low tagged the minus 2 band and price mean reverted straight back to the upper band by the close. Volume is unavailable on the continuous contract, so the read is price only. The lesson: a minus 2 sigma tag in a quiet range is a high odds reversion spot, and today it delivered a full trip from the lower band back to the upper band.</p>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Status</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ 29,438</td><td>MNQ holds above the 29,438 stop on 2 hourly closes, the long stays in control toward the 29,707 session high and the 30,000 psych</td><td>TRIGGERED</td><td>MIXED</td><td>NQ held 29,438 on every hourly close (lowest close 29,455.5) and spiked through 29,707 to a 29,811.75 high early. But the breakout failed: price reversed, the ATR stop flipped bearish, and NQ closed 29,509.5, down on the day. Hit the first target, then lost control.</td></tr><tr><td>MNQ 29,438</td><td>MNQ loses 29,438 on 2 hourly closes, the long neutralizes and rotation toward the 29,613 avwap and the 29,500 psych opens</td><td>NOT TRIGGERED</td><td>n/a</td><td>No hourly close printed below 29,438, so this exact trigger never armed. Price rotated down to the 29,500 area by the close, but not via the stated 2-close break.</td></tr><tr><td>MES 7,715</td><td>MES holds above the 7,715 stop and the 7,737 avwap, the ES long has room toward the 7,750 psych</td><td>TRIGGERED</td><td>MIXED</td><td>ES held 7,715 at the close (7,724.75) and tagged 7,782.5, clearing 7,750 and pressing toward 7,800. Then it reversed, closed below its 7,737 avwap, and the ATR stop flipped bearish. Reached target intraday, then failed.</td></tr><tr><td>MGC 4,637</td><td>MGC stays below the 4,637 stop on 2 hourly closes, the fresh gold short has room toward the 4,600 psych and the 4,586 RTH low</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Gold stayed well below 4,637 all session and crashed 3.25% to a 4,460 low, blowing through the 4,600 psych and the 4,586 prior low. The short paid out big under a falling stop.</td></tr><tr><td>MCL 82.41</td><td>MCL holds above the 82.41 stop on 2 hourly closes, the fresh crude long has room toward the 82 psych and the 83.30 RTH high</td><td>TRIGGERED</td><td>MIXED</td><td>Crude held its 82.41 stop (RTH close 83.43) and cleared the 83.30 reference, but stalled at a 83.71 high and never reached the 84 psych. The long held, the follow-through did not.</td></tr></tbody></table><p>Score: 5 rows, 4 triggered, 1 played out, 3 mixed, 0 failed, 1 not triggered. Month to date: 95 rows, 69 triggered, 45 played out, 18 mixed, 5 failed.</p></div>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Status</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ 29,706</td><td>MNQ stays below the 29,706 stop on 2 hourly closes, the fresh short has room toward the 29,437 RTH low and the 29,369 minus-2-sigma band</td><td>TRIGGERED</td><td>MIXED</td><td>Every hourly close printed below 29,706 (highest close 29,521.5), so the short armed. It worked to target intraday: NQ traded down to 29,354, through both the 29,437 RTH low and the 29,369 band. Then it reversed and ground all the way back to close 29,521.5, giving the move back. Target hit, then faded.</td></tr><tr><td>MNQ 29,545</td><td>MNQ reclaims and holds the 29,545 avwap on 2 hourly closes, the reversal stalls and a rotation back toward 29,706 opens</td><td>NOT TRIGGERED</td><td>n/a</td><td>No hourly close printed above 29,545 (highest close 29,521.5, just under it), so this reclaim never armed. Price pushed right up to the level into the close but did not clear it.</td></tr><tr><td>MES 7,757</td><td>MES stays below the 7,757 stop on 2 hourly closes, the short has room toward the 7,712 RTH low and the 7,700 psych</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>MES held below 7,757 on every close and worked lower to a 7,674.75 low, through the 7,712 RTH low, then closed 7,701.5 right on the 7,700 psych target. The short paid to its stated targets and closed there.</td></tr><tr><td>MGC 4,536</td><td>MGC stays below the 4,536 stop on 2 hourly closes, the gold short stays live toward the 4,450 psych and the 4,411 minus-2-sigma band</td><td>TRIGGERED</td><td>MIXED</td><td>Gold stayed below 4,536 all session and tagged both targets: the RTH low was 4,432.1 (through 4,450) and the overnight low was 4,410.7 (right at 4,411). But it recovered to close 4,462.8, back above the 4,450 psych. Targets hit, close flat.</td></tr><tr><td>MCL 82.41</td><td>MCL holds above the 82.41 stop on 2 hourly closes, the crude long stays live toward the 84 psych and the 83.71 RTH high</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Crude held its 82.41 stop easily and ripped to 86.39, blowing through the 84 psych and the 83.71 target for a 3.45 percent day. The long paid out big.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 4 triggered, 2 played out, 2 mixed, 0 failed, 1 not triggered. Month to date: 100 rows, 73 triggered, 47 played out, 20 mixed, 5 failed.</p><p>Aug 28 map marked against the Aug 31 tape. Crude was the clean winner, playing out for a 3.45 percent run. MES also played out, closing on the 7,700 psych target. Both NQ and gold triggered short and tagged their downside targets intraday, then reversed to close roughly flat, so both grade mixed. The NQ avwap reclaim branch never armed.</p>"
   },
   {
-   "title": "Tomorrow's Map (for Monday, August 31)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Bias</th></tr></thead><tbody><tr><td>MNQ 29,706</td><td>MNQ stays below the 29,706 stop on 2 hourly closes, the fresh short has room toward the 29,437 RTH low and the 29,369 minus-2-sigma band</td><td>Stop flipped bearish and is falling. Two closes back above 29,706 neutralizes the short.</td></tr><tr><td>MNQ 29,545</td><td>MNQ reclaims and holds the 29,545 avwap on 2 hourly closes, the reversal stalls and a rotation back toward 29,706 opens</td><td>Price closed below the avwap and the NYVWAP. Holding back above 29,545 is the first sign the selling is done.</td></tr><tr><td>MES 7,757</td><td>MES stays below the 7,757 stop on 2 hourly closes, the short has room toward the 7,712 RTH low and the 7,700 psych</td><td>ES flipped bearish with NQ. Back above 7,757 puts the short on hold.</td></tr><tr><td>MGC 4,536</td><td>MGC stays below the 4,536 stop on 2 hourly closes, the gold short stays live toward the 4,450 psych and the 4,411 minus-2-sigma band</td><td>Gold is in free-fall under a falling stop after a 3.25% drop. A reclaim of 4,536 is the first bounce signal.</td></tr><tr><td>MCL 82.41</td><td>MCL holds above the 82.41 stop on 2 hourly closes, the crude long stays live toward the 84 psych and the 83.71 RTH high</td><td>Crude is the only long left standing. Two closes below 82.41 flip it bearish too.</td></tr></tbody></table><p>HTA OPEN eligibility for Monday Aug 31: HOF, MID and BNC eligible; BIR skips Monday. No CPI or FOMC. Expect a gap-sensitive open after Friday's reversal, so keep the first opening-range break on a short leash. Calendar: ISM manufacturing Tuesday Sep 1, August jobs report Friday Sep 4.</p></div>"
+   "title": "Tomorrow's Map (for Tuesday, September 1)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Bias</th></tr></thead><tbody><tr><td>MNQ 29,541</td><td>MNQ reclaims the 29,541 stop on 2 hourly closes, the coil resolves up and the short is neutralized, opening a push toward the 29,570 plus-3-sigma and the 29,600s</td><td>Price closed 20 points under a falling stop. Two closes back above 29,541 flip the near term tone up.</td></tr><tr><td>MNQ 29,439</td><td>MNQ stays below 29,541 and loses the 29,439 avwap on 2 hourly closes, the downside re-arms toward the 29,354 RTH low and the 29,351 minus-2-sigma band</td><td>Still below a falling stop. Losing the avwap is the trigger that puts sellers back in control.</td></tr><tr><td>MES 7,700</td><td>MES loses the 7,700 psych on 2 hourly closes, the short opens toward the 7,675 RTH low</td><td>ES closed right on 7,700 under a falling 7,716 stop. Reclaiming 7,716 puts the short on hold.</td></tr><tr><td>MGC 4,491</td><td>MGC reclaims the 4,491 stop on 2 hourly closes, the bounce extends toward the 4,500 psych</td><td>Gold steadied after the crash but sits below a falling stop. Losing 4,450 reopens the downside.</td></tr><tr><td>MCL 84.74</td><td>MCL holds above the 84.74 stop on 2 hourly closes, the crude long stays live toward the 87 psych and today's 86.39 high</td><td>Crude is the strongest trend, above a rising stop after a 3.45 percent day. Two closes below 84.74 flip it.</td></tr></tbody></table></div><p>HTA OPEN eligibility for Tuesday Sep 1: BIR, HOF, MID and BNC are all eligible (no CPI, no FOMC, not Monday, not Wednesday). ISM Manufacturing prints at 10:00 ET, right in the MID window, so expect an event spike and keep the first opening range break on a short leash. Calendar: Tuesday Sep 1 ISM Manufacturing PMI is the main event, JOLTS lands mid week, and the August jobs report is Friday Sep 4. Labor Day is Monday Sep 7.</p>"
   }
  ],
  "tomorrowsMap": [
   {
-   "if": "MNQ stays below the 29,706 stop on 2 hourly closes",
-   "then": "the fresh short has room toward the 29,437 RTH low and the 29,369 minus-2-sigma band",
-   "bias": "Stop flipped bearish and is falling. Two closes back above 29,706 neutralizes the short.",
-   "level": "MNQ 29,706"
+   "if": "MNQ reclaims the 29,541 stop on 2 hourly closes",
+   "then": "the coil resolves up and the short is neutralized, opening a push toward the 29,570 plus-3-sigma and the 29,600s",
+   "bias": "Price closed 20 points under a falling stop. Two closes back above 29,541 flip the near term tone up.",
+   "level": "MNQ 29,541"
   },
   {
-   "if": "MNQ reclaims and holds the 29,545 avwap on 2 hourly closes",
-   "then": "the reversal stalls and a rotation back toward 29,706 opens",
-   "bias": "Price closed below the avwap and NYVWAP. Holding back above 29,545 is the first sign the selling is done.",
-   "level": "MNQ 29,545"
+   "if": "MNQ stays below 29,541 and loses the 29,439 avwap on 2 hourly closes",
+   "then": "the downside re-arms toward the 29,354 RTH low and the 29,351 minus-2-sigma band",
+   "bias": "Still below a falling stop. Losing the avwap is the trigger that puts sellers back in control.",
+   "level": "MNQ 29,439"
   },
   {
-   "if": "MES stays below the 7,757 stop on 2 hourly closes",
-   "then": "the short has room toward the 7,712 RTH low and the 7,700 psych",
-   "bias": "ES flipped bearish with NQ. Back above 7,757 puts the short on hold.",
-   "level": "MES 7,757"
+   "if": "MES loses the 7,700 psych on 2 hourly closes",
+   "then": "the short opens toward the 7,675 RTH low",
+   "bias": "ES closed right on 7,700 under a falling 7,716 stop. Reclaiming 7,716 puts the short on hold.",
+   "level": "MES 7,700"
   },
   {
-   "if": "MGC stays below the 4,536 stop on 2 hourly closes",
-   "then": "the gold short stays live toward the 4,450 psych and the 4,411 minus-2-sigma band",
-   "bias": "Gold is in free-fall under a falling stop after a 3.25% drop. A reclaim of 4,536 is the first bounce signal.",
-   "level": "MGC 4,536"
+   "if": "MGC reclaims the 4,491 stop on 2 hourly closes",
+   "then": "the bounce extends toward the 4,500 psych",
+   "bias": "Gold steadied after the crash but sits below a falling stop. Losing 4,450 reopens the downside.",
+   "level": "MGC 4,491"
   },
   {
-   "if": "MCL holds above the 82.41 stop on 2 hourly closes",
-   "then": "the crude long stays live toward the 84 psych and the 83.71 RTH high",
-   "bias": "Crude is the only long left standing. Two closes below 82.41 flip it bearish too.",
-   "level": "MCL 82.41"
+   "if": "MCL holds above the 84.74 stop on 2 hourly closes",
+   "then": "the crude long stays live toward the 87 psych and today's 86.39 high",
+   "bias": "Crude is the strongest trend, above a rising stop after a 3.45 percent day. Two closes below 84.74 flip it.",
+   "level": "MCL 84.74"
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
   "triggered": 4,
-  "playedOut": 1,
-  "mixed": 3,
+  "playedOut": 2,
+  "mixed": 2,
   "failed": 0,
   "notTriggered": 1,
-  "note": "Aug 27 map marked against the Aug 28 tape. The gold short played out for a 3.25% drop. Both index longs and the crude long triggered but graded mixed: each hit its first target intraday, then equities reversed to close red and crude stalled short of 84. The downside index branch never armed on the stated 2-close trigger."
+  "note": "Aug 28 map marked against the Aug 31 tape. Crude was the clean winner, playing out for a 3.45 percent run. MES also played out, closing on the 7,700 psych target. Both NQ and gold triggered short and tagged their downside targets intraday, then reversed to close roughly flat, so both grade mixed. The NQ avwap reclaim branch never armed."
  },
  "mapTallyMTD": {
-  "rows": 95,
-  "triggered": 69,
-  "playedOut": 45,
-  "mixed": 18,
+  "rows": 100,
+  "triggered": 73,
+  "playedOut": 47,
+  "mixed": 20,
   "failed": 5
  }
 }
