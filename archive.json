@@ -308,6 +308,20 @@
     "summary": "Risk-on follow-through on jobs day. The July payrolls report cleared at 8:30 AM ET and stocks rallied. NQ reclaimed its trend and closed 29,841 (+1.14%); ES flipped its trend back long and closed 7,777.25 (+0.59%), so the laggard caught up. All four opening ranges broke down first at the US open, a quick shakeout, then the indices reversed and ran higher into the close. Gold was the standout, ripping +2.37% to 4,368.5 and flipping its trend long, with spot gold +2.39% and silver +3.19%. Crude gave back -1.48% to 77.09 after Thursday's spike but held just above its stop. The VIX eased to 14.90 and the 10-year yield slipped to about 4.66%."
   },
   {
+    "date": "August 31, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Digestion Coil (Below Stops, Data Week Ahead)",
+    "regimeClass": "caution",
+    "summary": "Quiet Monday after Friday's fireworks. Equities coiled just under their flipped stops. NQ closed 29,521, basically flat on the day at plus 0.04 percent, and MES closed 7,701, down 0.30 percent and sitting right on the 7,700 psych line. Gold steadied after the crash, down just 0.13 percent. The real move was crude: MCL ripped 3.45 percent to 86.31 and is now the strongest trend on the board, the lone long above a rising stop. Low volatility digestion heading into a data heavy week, ISM Tuesday and the jobs report Friday."
+  },
+  {
+    "date": "August 28, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Risk-Off Reversal (Hawkish Jackson Hole)",
+    "regimeClass": "risk-off",
+    "summary": "<p>Jackson Hole delivered, and it was hawkish. Both index futures spiked to fresh highs right after the Warsh keynote, then reversed hard and gave it all back. NQ ran to 29,811 and closed 29,509, down 0.42%. ES tagged 7,782 and closed 7,724, essentially flat but well off the high. The real move was in gold: MGC cratered 3.25% to 4,468 as the 10-year yield jumped about 1.4%, a clean rates-up, gold-down reaction. Crude was the lone holdout, closing 83.43 and hanging onto its uptrend stop. Both index ATR stops flipped bearish today, so the two-day trend push is on hold.</p>"
+  },
+  {
     "date": "August 27, 2026",
     "dayOfWeek": "Thursday",
     "regime": "Trend-Up (Extended into Jackson Hole)",
