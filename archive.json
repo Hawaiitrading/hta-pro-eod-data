@@ -35,6 +35,13 @@
     "summary": "Stabilization day. Overnight, the indices kept falling from yesterday's reversal, with NQ sinking to 29,241, then they turned and bought the dip through the US session. NQ reclaimed its trend stop intraday and closed only slightly red at 29,504.5 (-0.30%), while ES lagged and stayed under its stop at 7,731.75 (-0.34%). The Dow tagged a fresh record even as tech gave back a little of yesterday's rally. Weekly jobless claims edged up to 199,000 but the labor picture stayed steady into Friday's big July jobs report. The clean movers were elsewhere: crude ripped +4.26% to 78.25 on reports of Iran-Oman talks and flipped its trend long, while gold cooled -0.20% to 4,267.5 after its +4% surge and flipped its short-term stop short. The 10-year yield ticked up near 4.69% and the VIX eased again to about 15.1. This read as the market catching its breath before the jobs number."
   },
   {
+    "date": "September 3, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Trend Up / Risk-On (Expanding Realized Vol)",
+    "regimeClass": "trend",
+    "summary": "<strong>Broad risk-on trend day into jobs Friday.</strong> Nasdaq closed up 1.23 percent at 29,502.75 and reclaimed the 29,500 round. The S&P rose 1.05 percent to 7,749.5 and printed fresh highs. Gold led, up 1.93 percent to 4,520, and crude added 1.16 percent to 91.68. VIX fell almost 6 percent to 14.32. Stocks, gold, and bonds all caught a bid together, a dovish mix that points to softer rate expectations. It all happened the day before Friday's NFP, so read it as positioning into the number."
+  },
+  {
     "date": "September 2, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Chop / Stabilizing (Contracting Vol)",
