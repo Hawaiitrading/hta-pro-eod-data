@@ -1,18 +1,18 @@
 {
- "date": "September 4, 2026",
- "dayOfWeek": "Friday",
- "regime": "Rotation Lower after NFP (Trend Stops Flipped Down, Volatility Calm)",
- "regimeClass": "chop",
- "summary": "<strong>Jobs day whip. Everything ran up overnight, then reversed after the 8:30 ET payrolls print.</strong> NQ gave back the run to close 29,524, up just 0.07 percent but well off its 29,720 high, and its trend stop flipped down. MES fell 0.45 percent to 7,715 and December gold dropped 0.95 percent to 4,477, both flipping their stops down too. Crude was the one that dipped to 88.73 and recovered, closing 91.24 back above its stop. VIX stayed calm near 14.5, so the fade was orderly and controlled.",
- "psychology": "Traders were leaning long into the jobs number after the overnight run to new highs. Then the print hit and the move reversed. The lesson is simple. The market can run right up to a scheduled event and turn on the release, so carrying full size into a top tier number is a gamble. Today also flipped the short term trend stops down on NQ, ES and gold, which is exactly the kind of two way tape that whips trend traders in both directions. When the session swings around an event like this, the edge is doing less. Let price pick a side after the dust settles, then trade along with it.",
+ "date": "September 7, 2026",
+ "dayOfWeek": "Monday",
+ "regime": "Labor Day Holiday (US Market Closed, No RTH Session)",
+ "regimeClass": "neutral",
+ "summary": "<strong>Quiet one. Monday September 7 is Labor Day, the US market is closed, and there was no regular session.</strong> The last completed session is Friday September 4, and the levels here are carried from that close. Friday's jobs day fade left the short term trend stops flipped down on NQ, ES and December gold, while crude held its rising stop as the lone long. VIX finished Friday calm near 14.5. Futures reopen Sunday evening on a holiday schedule, so expect thin liquidity into and just after the long weekend.",
+ "psychology": "Days off are part of the job. A long weekend with no session is a good reminder that you do not need to be in the market every day to be a good trader. The edge is in waiting for your setup, not in forcing action. When the tape reopens after a holiday it is often thin, and thin tape can push price around on very little real buying or selling. Let the first hour or two of the reopen show its hand before you commit size. Patience through a quiet stretch is the same skill that keeps you out of a bad trade during a loud one.",
  "event": {
-  "name": "August nonfarm payrolls (jobs report)",
-  "type": "POST_EVENT",
-  "consensus": "Not captured this run. Traders came in watching whether the August jobs report would keep the door open for rate cuts or push back on it.",
-  "actual": "Not captured this run. The exact payrolls figure sat behind an exchange data agreement that was not accepted in this unattended run, so the read here is the price reaction. Markets ran to new highs overnight, then faded broadly after the 8:30 ET release. NQ gave back its gains to close 29,524, MES fell 0.45 percent, and December gold fell 0.95 percent, with the equity and gold trend stops flipping down.",
-  "surprise": "Not captured as a number. The cross asset pattern, equities and gold falling together while VIX stayed low, is the kind of move you tend to see on a firmer rates read rather than a growth scare.",
-  "nqReaction": "Up overnight to a 29,720 high, then a sharp two way bar on the 12:30 UTC release, then a fade through the RTH session to close 29,524, back near the day's mean and below a flipped trend stop.",
-  "crossAsset": "Broad. MES minus 0.45 percent and December gold minus 0.95 percent both closed lower with NQ. Crude dipped to 88.73 and recovered to 91.24, the lone market still above its stop. VIX ticked up to 14.53 from 14.32 but stayed low. The 10 year yield was not captured this run."
+  "name": "No scheduled release (Labor Day, US market holiday)",
+  "type": "HOLIDAY",
+  "consensus": "None. US market closed Monday Sep 7 for Labor Day, no regular session and no economic release to trade.",
+  "actual": "No session today. The last completed session was Friday Sep 4, driven by the August jobs report: an overnight run to new highs, then a broad fade after the 8:30 ET release that flipped the equity and gold trend stops down.",
+  "surprise": "Not applicable on a holiday. The next scheduled market driver is CPI mid month.",
+  "nqReaction": "No reaction today (closed). Friday NQ ran to a 29,720 high then faded to close 29,524, back near its mean and below a flipped trend stop.",
+  "crossAsset": "Carried from Friday: MES and December gold both closed lower with NQ and flipped their stops down; crude held at 91.24 as the lone long. VIX 14.53, still low. The market reopens for a normal session Tuesday Sep 8."
  },
  "atrStop": {
   "MNQ": {
@@ -20,58 +20,58 @@
    "price": "29,524.75",
    "gap": "-184.62 (0.62 percent)",
    "trend": "FALLING",
-   "status": "BELOW (trend flipped down)"
+   "status": "BELOW (flipped down, carried from Fri)"
   },
   "MES": {
    "stop": "7,746.65",
    "price": "7,715",
    "gap": "-31.65 (0.41 percent)",
    "trend": "FALLING",
-   "status": "BELOW (lost 7,750)"
+   "status": "BELOW (lost 7,750, carried from Fri)"
   },
   "MGC": {
    "stop": "4,496.50",
    "price": "4,477",
    "gap": "-19.50 (0.43 percent)",
    "trend": "FALLING",
-   "status": "BELOW (December, lost 4,500)"
+   "status": "BELOW (December, lost 4,500, carried from Fri)"
   },
   "MCL": {
    "stop": "89.42",
    "price": "91.24",
    "gap": "+1.82 (2.04 percent)",
    "trend": "RISING",
-   "status": "ABOVE (lone long)"
+   "status": "ABOVE (lone long, carried from Fri)"
   }
  },
  "observe": [
   {
    "name": "Net Alpha Pro OBSERVE",
    "status": "NONE ACTIVE",
-   "note": "No in scope OBSERVE candidate signaled today. Out of curriculum candidates are excluded by scope."
+   "note": "Market closed for Labor Day, so no candidate could signal today. Out of curriculum candidates are excluded by scope."
   }
  ],
  "risk": {
   "throttleState": "REDUCED",
-  "sizing": "Keep size reduced. The jobs number whipped the tape and flipped the trend stops down on NQ, ES and gold, so the short term trend is no longer clearly up. Do not chase the flip in either direction. Crude is the one clean long, above a rising stop, and can be sized normally with a stop under 89.42.",
-  "openRisk": "For the equities the flipped stops are the line. MNQ back above 29,709 or MES above 7,746 on two hourly closes would turn the short term trend back up. Below, MNQ 29,468 and the 29,000 psych, and MES 7,710 then 7,700, are the downside references. December gold stays soft below the 4,496 stop, and a reclaim there is the first repair sign. Crude stays long above 89.42.",
-  "note": "Labor Day is Monday Sep 7 and the US market is closed, so liquidity thins into the long weekend and can stay thin on the Tuesday Sep 8 reopen. Carry reduced size through the holiday and let the tape settle after the jobs whip. Prop accounts should mind the holiday schedule and any lingering post news volatility. Not financial advice."
+  "sizing": "Nothing changed over the holiday. Friday's jobs number whipped the tape and flipped the trend stops down on NQ, ES and gold, so the short term trend is no longer clearly up. Carry reduced size through the long weekend and into the Tuesday reopen. Do not chase the flip in either direction, and let thin post holiday tape settle before committing. Crude is the one clean long, above a rising stop, and can be sized normally with a stop under 89.42.",
+  "openRisk": "The flipped stops are the line for equities. MNQ back above 29,709 or MES above 7,746 on two hourly closes would turn the short term trend back up. Below, MNQ 29,468 and the 29,000 psych, and MES 7,710 then 7,700, are the downside references. December gold stays soft below the 4,496 stop; a reclaim there is the first repair sign. Crude stays long above 89.42.",
+  "note": "Labor Day is today, Monday Sep 7, and the US market is closed. Liquidity thins into the long weekend and can stay thin on the Tuesday Sep 8 reopen. Prop accounts should mind the holiday schedule and any lingering post news volatility. CPI lands mid month. Not financial advice."
  },
  "keyLevels": [
   {
    "label": "MNQ ATR Stop",
    "value": "29,709",
-   "note": "flipped down, price 185 below"
+   "note": "flipped down, Fri close 185 below"
   },
   {
    "label": "MNQ AVWAP",
    "value": "29,537",
-   "note": "close sat right on the mean"
+   "note": "Fri close sat on the mean"
   },
   {
    "label": "MNQ Psych",
    "value": "29,500",
-   "note": "pivot, held most closes"
+   "note": "pivot into the reopen"
   },
   {
    "label": "MES ATR Stop",
@@ -86,7 +86,7 @@
   {
    "label": "MGC Close (Dec)",
    "value": "4,477",
-   "note": "gold faded with equities"
+   "note": "gold faded Friday"
   },
   {
    "label": "MCL ATR Stop",
@@ -96,45 +96,45 @@
   {
    "label": "MCL Psych",
    "value": "91",
-   "note": "reclaimed and held"
+   "note": "reclaimed and held Friday"
   }
  ],
  "setups": [
   {
    "name": "AVWAP Hand-off",
-   "confidence": "Medium",
-   "entry": "Short the hand off from the failed OR break as price loses NYVWAP",
+   "confidence": "Low",
+   "entry": "Wait for the Tuesday open. Short a hand off from a failed OR break as price loses NYVWAP",
    "stop": "Above the OR high and NYVWAP",
    "t1": "RTH low area",
    "rr": "1 to 1.5",
-   "bias": "A fade day after an upside OR fake out gave the short its direction, though the clean hand off came later in the session."
+   "bias": "Carried borderline. Friday faded after an upside OR break; needs a fresh open to re-arm. Pending the reopen."
   },
   {
    "name": "AVWAP Back Into Range",
-   "confidence": "Medium",
-   "entry": "Fade the failed break as price closes back inside the OR",
+   "confidence": "Low",
+   "entry": "Wait for the Tuesday open. Fade a failed break as price closes back inside the OR",
    "stop": "Beyond the failed extreme",
    "t1": "Opposite OR side",
    "rr": "1 to 1.5",
-   "bias": "The OR broke up at 13:50 UTC, failed, and price came back inside the range."
+   "bias": "Carried borderline. Friday printed a failed break and close back inside. Pending the reopen."
   },
   {
    "name": "TSMOM-20",
-   "confidence": "Medium",
+   "confidence": "Low",
    "entry": "Wait for a clean stop reclaim or loss on 2 hourly closes before adding trend risk",
    "stop": "The flipped ATR stop",
    "t1": "Systematic",
    "rr": "Systematic",
-   "bias": "Stops just flipped down on NQ, ES and gold; whippy tape with no clean trend yet."
+   "bias": "Carried borderline. Stops flipped down on NQ, ES and gold Friday; whippy tape, no clean trend yet. Pending the reopen."
   },
   {
    "name": "AVWAP Deviation Band",
-   "confidence": "Medium",
-   "entry": "Fade only a clean 2 or 3 sigma extreme back to AVWAP",
+   "confidence": "Low",
+   "entry": "Fade only a clean 2 or 3 sigma extreme back to AVWAP once Tuesday's bands reset",
    "stop": "Beyond the 3 sigma band",
-   "t1": "AVWAP 29,537",
+   "t1": "AVWAP",
    "rr": "1 to 1.5",
-   "bias": "Sigma tight and price near the mean; wait for a real stretch before fading."
+   "bias": "Carried borderline. Sigma tight and price near the mean at Friday's close; wait for a real stretch. Pending the reopen."
   }
  ],
  "activeIndicators": [
@@ -144,38 +144,38 @@
   "avwap-deviation-band",
   "hta-open"
  ],
- "downloadLink": "HTA-Pro-EOD-Report-2026-09-04.docx",
- "reportFileName": "HTA-Pro-EOD-Report-2026-09-04.docx",
+ "downloadLink": "HTA-Pro-EOD-Report-2026-09-07.docx",
+ "reportFileName": "HTA-Pro-EOD-Report-2026-09-07.docx",
  "charts": [
-  "charts/chart-mnq-1hr-2026-09-04.png",
-  "charts/chart-mes-1hr-2026-09-04.png",
-  "charts/chart-mgc-1hr-2026-09-04.png",
-  "charts/chart-mcl-1hr-2026-09-04.png"
+  "charts/chart-mnq-1hr-2026-09-07.png",
+  "charts/chart-mes-1hr-2026-09-07.png",
+  "charts/chart-mgc-1hr-2026-09-07.png",
+  "charts/chart-mcl-1hr-2026-09-07.png"
  ],
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Rotation lower after the jobs number. Everything ran up overnight, then reversed on the 8:30 ET print. NQ closed 29,524, up 0.07 percent but well off its 29,720 high with the trend stop flipped down. MES minus 0.45 percent at 7,715 and December gold minus 0.95 percent at 4,477, both stops flipped down too. Crude dipped and recovered to 91.24, the only one still above its stop.</td><td>High</td></tr><tr><td>Volatility</td><td>Event spike, then calm. The release drove a sharp two way bar (NQ swung 218 points and gold 111 points in one hour) before settling. VIX ticked up to 14.53 from 14.32 and stayed low. Ranges expanded on the print rather than on a trend.</td><td>High</td></tr><tr><td>Session</td><td>Post event day. The opening range broke up at 13:50 UTC, tagged 29,692, then failed and faded the rest of the session. A failed upside breakout.</td><td>High</td></tr><tr><td>Inventory</td><td>Long heavy going in, then unwound on the number. The overnight run built longs, the print flushed them, and closes settled mid to lower. Two way positioning.</td><td>Medium</td></tr><tr><td>Event</td><td>August jobs report released 8:30 ET today, the driver. Ahead: Labor Day Monday Sep 7 with the market closed, then a lighter start to the week and CPI mid month.</td><td>High</td></tr><tr><td>Liquidity</td><td>Normal, thinning into the long weekend. Gold on the December contract (MGC2!) is confirmed continuous: the prior close 4,520.1 and the 4,491.2 stop both reproduce to the cent and the change matches the chart header. Expect thinner liquidity around the holiday.</td><td>High</td></tr></tbody></table></div>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Rotation lower after Friday's jobs number, carried into the holiday. NQ closed 29,524 with its trend stop flipped down. MES at 7,715 and December gold at 4,477, both stops flipped down too. Crude held at 91.24, the only one still above its stop. Nothing changed over the closed Monday.</td><td>Medium (carried)</td></tr><tr><td>Volatility</td><td>Calm at the Friday close. One sharp two way bar on the release, then the tape settled and VIX sat at 14.53. Holiday liquidity can distort ranges on the reopen.</td><td>Medium (carried)</td></tr><tr><td>Session</td><td>Market holiday. No RTH session Monday Sep 7. The last read was Friday's failed upside opening range break and fade.</td><td>High</td></tr><tr><td>Inventory</td><td>Two way after Friday's flush. The overnight run built longs, the jobs print unwound them, closes settled mid to lower. A holiday can leave positioning light into the reopen.</td><td>Low (carried)</td></tr><tr><td>Event</td><td>Labor Day today, market closed. Ahead: a lighter start to the week on the Tuesday reopen, then CPI mid month.</td><td>High</td></tr><tr><td>Liquidity</td><td>Thin around the holiday. Expect lighter volume Sunday evening and into the Tuesday reopen. Gold levels carried on the December contract (MGC2!) from Friday's certified close.</td><td>High</td></tr></tbody></table></div>"
   },
   {
    "title": "NY Opening Range / HTA OPEN",
-   "html": "<p>HTA OPEN (NY opening range, the 13:30 to 13:45 UTC window): OR high 29,645.25, OR low 29,553.75, width 91.5 points (0.31 percent). Price broke up out of the range at 13:50 UTC, tagged a 29,692 high, then failed and faded the rest of the session, closing 29,524 back below the 29,542 NYVWAP. NYVWAP here is the session average anchored at the 9:30 ET open, and it is price only this run because volume is unavailable on the continuous contract. So the upside break did not hold and sellers had the day. Signals: a classic upside fake out that reversed into a fade. HOF (short only) got its direction on the reversal, and the back into range read printed as price came back inside the OR. Filters for Friday: no CPI or FOMC, so BIR, HOF, MID and BNC are all eligible, but the jobs number made the open a headline driven whip, so treat opening range plays with extra care around the release.</p>"
+   "html": "<p>No opening range today: the market is closed for Labor Day, so there is no 13:30 to 13:45 UTC window to compute. For reference, Friday's HTA OPEN read was an upside break out of the range at 13:50 UTC to a 29,692 high that failed and faded, closing back below NYVWAP, a classic upside fake out. On the Tuesday reopen the opening range resets fresh. All four plays (BIR, HOF, MID, BNC) are eligible on a Tuesday assuming no CPI or FOMC that day, but respect thin post holiday liquidity around the open.</p>"
   },
   {
    "title": "Momentum Breakout",
-   "html": "<p>E3v2 Momentum Long keeps its filter off for the equity indices. NQ and ES both closed below their trend stops after the fade, so a fresh momentum long would fight the tape. Crude is the one market still above a rising stop, the profile a momentum long wants, but it spent the day recovering a dip rather than breaking out cleanly. The filter is doing its job here: it keeps you out of index longs while the trend stops are flipped down.</p>"
+   "html": "<p>E3v2 Momentum Long keeps its filter off for the equity indices. NQ and ES both closed Friday below their trend stops, so a fresh momentum long would fight the tape. Crude sits above a rising stop, the profile a momentum long wants, but it recovered a dip rather than breaking out cleanly. No signal fires on a closed market; the filter carries this stance into Tuesday and keeps you out of index longs while the stops are flipped down.</p>"
   },
   {
    "title": "AVWAP Deviation Band",
-   "html": "<p>AVWAP deviation band (MNQ): AVWAP center 29,537, close 29,524 is right on the mean, about minus 0.5 sigma. Bands: plus 2 sigma 29,585, plus 1 sigma 29,561, minus 1 sigma 29,514, minus 2 sigma 29,490. Sigma is tight near 24 for the regular session even though the overnight spike ran far outside it. Volume is unavailable on the continuous contract, so this is price only. The read: inside the regular session there was no clean 2 or 3 sigma extreme to fade, and the big stretch happened overnight on the news. Deviation band fades work best in balance, and today the real move was the event itself.</p>"
+   "html": "<p>Carried from Friday (MNQ): AVWAP center 29,537, close 29,524 right on the mean, about minus 0.5 sigma. Bands: plus 2 sigma 29,585, plus 1 sigma 29,561, minus 1 sigma 29,514, minus 2 sigma 29,490. Sigma tight near 24. Volume is unavailable on the continuous contract, so this is price only. There is no new band data today; the bands reset with the Tuesday session, and until then there is no clean 2 or 3 sigma extreme to fade.</p>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Status</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ 29,500</td><td>MNQ holds above the 29,500 psych and the 29,338 rising stop on 2 hourly closes, the uptrend stays intact toward the 29,585 high and the 30,000 round</td><td>TRIGGERED</td><td>MIXED</td><td>MNQ held above 29,500 and the 29,338 stop on the early hourly closes and ran to 29,720 overnight, clearing the 29,585 target. But it faded after the jobs number, closed 29,524, never reached 30,000, and the trend stop flipped down. The first objective hit, the uptrend thesis frayed.</td></tr><tr><td>MNQ 29,338</td><td>MNQ loses the 29,338 rising stop on 2 hourly closes, the trend stalls and the 29,273 AVWAP comes back into play</td><td>NOT TRIGGERED</td><td>n/a</td><td>Price never closed below the 29,338 stop; the lowest hourly close was 29,491.5. This downside branch never armed. The stop flipped on a ratchet up to about 29,532, not on a close below 29,338.</td></tr><tr><td>MES 7,722</td><td>MES holds above the 7,722 rising stop and the 7,750 psych on 2 hourly closes, the new-high push continues toward 7,800</td><td>NOT TRIGGERED</td><td>n/a</td><td>MES never held the 7,750 psych today. It opened RTH at 7,745 and faded, slipping below the 7,722 stop to close 7,715. The bullish continuation branch never armed.</td></tr><tr><td>MGC 4,500</td><td>MGC holds above the 4,500 psych on 2 hourly closes, the gold trend extends toward 4,550 and the 4,558 high</td><td>NOT TRIGGERED</td><td>n/a</td><td>December gold lost the 4,500 psych after the jobs number and closed 4,477, below the old 4,491 stop, which flipped down. The upside extension branch never armed.</td></tr><tr><td>MCL 91.02</td><td>MCL holds above the 91.02 rising stop and round 91 on 2 hourly closes, crude stays constructive toward 92 and the 92.64 high</td><td>TRIGGERED</td><td>MIXED</td><td>Crude first lost round 91 and the 91.02 stop overnight, dipping to 88.73 with the stop flipping short, then reclaimed 91, held it on the later hourly closes, and pushed toward the 92 area (92.16 overnight, 91.78 in RTH) before closing 91.24. The constructive read worked, but only after a stop out and reclaim, so it is mixed.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 2 triggered, 0 played out, 2 mixed, 0 failed, 3 not triggered. Month to date (September): 20 rows, 10 triggered, 8 played out, 2 mixed, 0 failed.</p><p>Thursday's map (published Sep 3) marked against the Friday Sep 4 jobs day tape. A whippy post NFP fade: NQ and crude both triggered their hold above scenarios and grade mixed, each hitting a target but only after a fake out or a stop flip. The three continuation branches that needed the rally to hold, MNQ losing 29,338, MES above 7,750, and gold above 4,500, all failed to arm as the market reversed.</p>"
+   "html": "<p>Monday September 7 is Labor Day. The US market is closed and there was no regular session, so there is nothing new to mark. Friday's map was already built for Tuesday September 8, so it has not been tested yet. We carry the rows forward unchanged and hold them open; they get marked after Tuesday's session. Per our rule we never drop or re-grade a row, so the September tally does not change today.</p><div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Status</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ 29,709</td><td>MNQ reclaims the 29,709 flipped stop on 2 hourly closes, the short term trend flips back up toward the 29,720 high and the 30,000 round</td><td>CARRIED</td><td>n/a</td><td>No session Monday (Labor Day). This row was published Friday for Tuesday Sep 8 and stays open until Tuesday's tape tests it.</td></tr><tr><td>MNQ 29,468</td><td>MNQ stays below 29,709 and loses the 29,468 RTH low on 2 hourly closes, the fade extends toward the 29,400s and the 29,000 psych</td><td>CARRIED</td><td>n/a</td><td>No session Monday (Labor Day). Downside branch still armed for Tuesday, unchanged.</td></tr><tr><td>MES 7,750</td><td>MES reclaims the 7,746 flipped stop and the 7,750 psych on 2 hourly closes, the new-high push resumes toward 7,800</td><td>CARRIED</td><td>n/a</td><td>No session Monday (Labor Day). Carried forward to Tuesday, unchanged.</td></tr><tr><td>MGC 4,450</td><td>December gold holds the 4,450 psych on 2 hourly closes, gold stabilizes and can retest the 4,496 stop and the 4,500 round</td><td>CARRIED</td><td>n/a</td><td>No session Monday (Labor Day). Carried forward to Tuesday, unchanged.</td></tr><tr><td>MCL 91</td><td>MCL holds the round 91 and the 89.42 stop on 2 hourly closes, crude stays constructive toward 92 and the 92.16 overnight high</td><td>CARRIED</td><td>n/a</td><td>No session Monday (Labor Day). Carried forward to Tuesday, unchanged.</td></tr></tbody></table></div><p><strong>Score:</strong> 0 rows resolved today (market holiday, no session). Month to date (September) unchanged: 20 rows, 10 triggered, 8 played out, 2 mixed, 0 failed.</p>"
   },
   {
    "title": "Tomorrow's Map (for Tuesday, September 8)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Bias</th></tr></thead><tbody><tr><td>MNQ 29,709</td><td>MNQ reclaims the 29,709 flipped stop on 2 hourly closes, the short term trend flips back up toward the 29,720 high and the 30,000 round</td><td>The jobs day fade flipped NQ's trend stop down to 29,709. Two closes back above it put the bulls back in control.</td></tr><tr><td>MNQ 29,468</td><td>MNQ stays below 29,709 and loses the 29,468 RTH low on 2 hourly closes, the fade extends toward the 29,400s and the 29,000 psych</td><td>Below the flipped stop and under today's 29,468 low, the post jobs fade has room. 29,000 is the bigger line.</td></tr><tr><td>MES 7,750</td><td>MES reclaims the 7,746 flipped stop and the 7,750 psych on 2 hourly closes, the new-high push resumes toward 7,800</td><td>ES lost 7,750 and flipped its stop down to 7,746. Reclaiming both restarts the uptrend; losing today's 7,710 low opens 7,700.</td></tr><tr><td>MGC 4,450</td><td>December gold holds the 4,450 psych on 2 hourly closes, gold stabilizes and can retest the 4,496 stop and the 4,500 round</td><td>December gold fell 0.95 percent and flipped its stop down to 4,496. Holding 4,450 stops the bleed; a reclaim of 4,496 is the first repair sign.</td></tr><tr><td>MCL 91</td><td>MCL holds the round 91 and the 89.42 stop on 2 hourly closes, crude stays constructive toward 92 and the 92.16 overnight high</td><td>Crude dipped to 88.73 and recovered to 91.24, the one market still above its stop. Holding 91 keeps it pointed at 92; losing 89.42 flips it.</td></tr></tbody></table></div><p>HTA OPEN eligibility for Tuesday Sep 8: BIR, HOF, MID and BNC are all eligible on a Tuesday, assuming no CPI or FOMC on the day. Calendar: Labor Day is Monday Sep 7 and the US market is closed; futures reopen Sunday evening on a holiday schedule, so expect thin liquidity into and just after the long weekend. CPI lands mid month. Conditional and educational only.</p>"
+   "html": "<p>These are the scenarios published Friday, carried forward because no session has traded since. Levels are from the Friday September 4 close.</p><div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Bias</th></tr></thead><tbody><tr><td>MNQ 29,709</td><td>MNQ reclaims the 29,709 flipped stop on 2 hourly closes, the short term trend flips back up toward the 29,720 high and the 30,000 round</td><td>The jobs day fade flipped NQ's trend stop down to 29,709. Two closes back above it put the bulls back in control.</td></tr><tr><td>MNQ 29,468</td><td>MNQ stays below 29,709 and loses the 29,468 RTH low on 2 hourly closes, the fade extends toward the 29,400s and the 29,000 psych</td><td>Below the flipped stop and under Friday's 29,468 low, the post jobs fade has room. 29,000 is the bigger line.</td></tr><tr><td>MES 7,750</td><td>MES reclaims the 7,746 flipped stop and the 7,750 psych on 2 hourly closes, the new-high push resumes toward 7,800</td><td>ES lost 7,750 and flipped its stop down to 7,746. Reclaiming both restarts the uptrend; losing Friday's 7,710 low opens 7,700.</td></tr><tr><td>MGC 4,450</td><td>December gold holds the 4,450 psych on 2 hourly closes, gold stabilizes and can retest the 4,496 stop and the 4,500 round</td><td>December gold fell 0.95 percent Friday and flipped its stop down to 4,496. Holding 4,450 stops the bleed; a reclaim of 4,496 is the first repair sign.</td></tr><tr><td>MCL 91</td><td>MCL holds the round 91 and the 89.42 stop on 2 hourly closes, crude stays constructive toward 92 and the 92.16 overnight high</td><td>Crude dipped to 88.73 and recovered to 91.24, the one market still above its stop. Holding 91 keeps it pointed at 92; losing 89.42 flips it.</td></tr></tbody></table></div><p>HTA OPEN eligibility for Tuesday Sep 8: BIR, HOF, MID and BNC are all eligible on a Tuesday, assuming no CPI or FOMC on the day. Calendar: Labor Day is today, the US market is closed, and futures reopen Sunday evening on a holiday schedule, so expect thin liquidity into and just after the long weekend. CPI lands mid month. Conditional and educational only.</p>"
   }
  ],
  "tomorrowsMap": [
@@ -188,19 +188,19 @@
   {
    "if": "MNQ stays below 29,709 and loses the 29,468 RTH low on 2 hourly closes",
    "then": "the fade extends toward the 29,400s and the 29,000 psych",
-   "bias": "Below the flipped stop and under today's 29,468 low, the post jobs fade has room. 29,000 is the bigger line.",
+   "bias": "Below the flipped stop and under Friday's 29,468 low, the post jobs fade has room. 29,000 is the bigger line.",
    "level": "MNQ 29,468"
   },
   {
    "if": "MES reclaims the 7,746 flipped stop and the 7,750 psych on 2 hourly closes",
    "then": "the new-high push resumes toward 7,800",
-   "bias": "ES lost 7,750 and flipped its stop down to 7,746. Reclaiming both restarts the uptrend; losing today's 7,710 low opens 7,700.",
+   "bias": "ES lost 7,750 and flipped its stop down to 7,746. Reclaiming both restarts the uptrend; losing Friday's 7,710 low opens 7,700.",
    "level": "MES 7,750"
   },
   {
    "if": "December gold holds the 4,450 psych on 2 hourly closes",
    "then": "gold stabilizes and can retest the 4,496 stop and the 4,500 round",
-   "bias": "December gold fell 0.95 percent and flipped its stop down to 4,496. Holding 4,450 stops the bleed; a reclaim of 4,496 is the first repair sign.",
+   "bias": "December gold fell 0.95 percent Friday and flipped its stop down to 4,496. Holding 4,450 stops the bleed; a reclaim of 4,496 is the first repair sign.",
    "level": "MGC 4,450"
   },
   {
@@ -212,12 +212,13 @@
  ],
  "yesterdaysMapScore": {
   "rows": 5,
-  "triggered": 2,
+  "triggered": 0,
   "playedOut": 0,
-  "mixed": 2,
+  "mixed": 0,
   "failed": 0,
-  "notTriggered": 3,
-  "note": "Thursday's map (published Sep 3) marked against the Friday Sep 4 jobs day tape. A whippy post NFP fade: NQ and crude both triggered their hold above scenarios and grade mixed, each hitting a target but only after a fake out or a stop flip. The three continuation branches that needed the rally to hold, MNQ losing 29,338, MES above 7,750, and gold above 4,500, all failed to arm as the market reversed."
+  "notTriggered": 0,
+  "carried": 5,
+  "note": "Monday Sep 7 is Labor Day, no session, so nothing was marked. Friday's map was already built for Tuesday Sep 8; its 5 rows carry forward unchanged and stay open until Tuesday's tape tests them. Per our rule we never drop or re-grade a row, so the September tally is unchanged today."
  },
  "mapTallyMTD": {
   "rows": 20,
