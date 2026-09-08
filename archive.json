@@ -35,6 +35,13 @@
     "summary": "Stabilization day. Overnight, the indices kept falling from yesterday's reversal, with NQ sinking to 29,241, then they turned and bought the dip through the US session. NQ reclaimed its trend stop intraday and closed only slightly red at 29,504.5 (-0.30%), while ES lagged and stayed under its stop at 7,731.75 (-0.34%). The Dow tagged a fresh record even as tech gave back a little of yesterday's rally. Weekly jobless claims edged up to 199,000 but the labor picture stayed steady into Friday's big July jobs report. The clean movers were elsewhere: crude ripped +4.26% to 78.25 on reports of Iran-Oman talks and flipped its trend long, while gold cooled -0.20% to 4,267.5 after its +4% surge and flipped its short-term stop short. The 10-year yield ticked up near 4.69% and the VIX eased again to about 15.1. This read as the market catching its breath before the jobs number."
   },
   {
+    "date": "September 8, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Post-Holiday Chop, Crude Leads, Equities Flat Under Flipped Stops",
+    "regimeClass": "chop",
+    "summary": "Quiet reopen with one big exception, and that exception was crude. The market came back from Labor Day and mostly chopped. NQ finished dead flat at 29,525 and ES eased about half a percent to 7,678, both still stuck under the trend stops that flipped down on Friday's jobs day. December gold kept sliding, off 1.7 percent to 4,400, and lost the 4,450 round. The standout was crude, up 3.3 percent to 94.27, the one market in a clean uptrend above a rising stop. VIX ticked up to 15.7 but stayed low, so this was rotation, not fear."
+  },
+  {
     "date": "September 7, 2026",
     "dayOfWeek": "Monday",
     "regime": "Labor Day Holiday (US Market Closed, No RTH Session)",
