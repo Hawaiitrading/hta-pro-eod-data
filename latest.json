@@ -1,47 +1,47 @@
 {
- "date": "September 9, 2026",
- "dayOfWeek": "Wednesday",
- "regime": "Equities Chop Under Flipped Stops, Commodities Bid (Crude Leads, Gold Repairs)",
- "regimeClass": "chop",
- "summary": "Same script as yesterday, and crude still runs the show. NQ chopped and closed a touch lower at 29,460, ES eased to 7,648, and both are stuck under the trend stops that flipped down Friday. The one change was gold. December bounced 1.1 percent to 4,447, flipped its short term trend back up, and tagged 4,477 before fading. Crude kept leading, up another 2.5 percent to 96.66 and above a rising stop for a second day. VIX firmed again to 16.46 but stayed low, so the tape is still rotating, not panicking.",
- "psychology": "Two quiet days in the index can bait you into forcing a trade. Do not. NQ dropped more than 200 points this morning to 29,358, then took it all back to close near the middle. If you shorted the flush you got squeezed, and if you chased the bounce you gave it back. The market is coiling under a stop with PPI tomorrow and CPI Friday. When you do not have a clear edge and the calendar is about to move price, the strong play is smaller size or the sidelines. Let the number print, then trade the reaction you can see.",
+ "date": "September 10, 2026",
+ "dayOfWeek": "Thursday",
+ "regime": "Risk-Off Selloff, Oil Shock Leads (Crude +7.5%, Equities Heavy, Gold Flips Down)",
+ "regimeClass": "risk-off",
+ "summary": "<strong>An oil shock ran the tape today.</strong> Crude ripped 7.5 percent to 103.94 on Middle East supply fears, and that dragged everything else. NQ lost 29,358 and closed 29,142, down 1.08 percent, and ES eased to 7,602, both below falling stops. Gold fell 2 percent to 4,358 and flipped its trend back down. August PPI ran 5.4 percent, a touch hot with softer core, VIX jumped to about 17.8, and CPI lands Friday.",
+ "psychology": "Shock days set two traps, and most traders step in one. The first is chasing crude after a 7.5 percent run because it has to keep going. The second is fading the equity selloff because it went too far. Both fight a tape that just repriced in one morning. When one headline moves everything at once, your normal edge is not there, the range is twice as wide, and the next print is tomorrow. Smaller size or the sidelines is the position that survives to trade the reaction you can see. Let CPI print, then trade what the market does with it.",
  "event": {
-  "name": "No scheduled US release today (August PPI Thursday, August CPI Friday)",
-  "type": "NO_EVENT",
-  "consensus": "None today. The next drivers are back to back inflation prints: August PPI Thursday September 10 and August CPI Friday September 11, both 8:30 ET.",
-  "actual": "No data today. Friday's jobs report is still the backdrop, and the equity trend stops it flipped down held again through today's chop.",
-  "surprise": "None today. Two inflation prints land in the next two days, then the Fed meets September 15 to 16 with the decision on the 16th.",
-  "nqReaction": "NQ broke up out of a tight opening range, failed, flushed to 29,358, then recovered to close flat at 29,460, still below its falling stop.",
-  "crossAsset": "Crude up 2.5 percent to 96.66 and leading a second day. December gold up 1.1 percent to 4,447 and flipped its trend up. VIX 16.46, up 4.71 percent but still low. A rotational, not risk driven, tape."
+  "name": "August PPI (released today) plus a Middle East crude supply shock",
+  "type": "POST_EVENT",
+  "consensus": "August PPI expected near 0.3 percent on the month. The bigger unscheduled driver was oil, on escalating Middle East tension.",
+  "actual": "PPI ran 0.4 percent on the month and 5.4 percent on the year, a touch above expectations, with softer core at 0.2 percent and most of the rise from energy. Crude spiked about 7.5 percent on reports of attacks on Saudi energy facilities and a broader conflict.",
+  "surprise": "Headline PPI a touch hot, core softer, so a mixed inflation read. The clean surprise was the oil supply shock, which is both an inflation and a growth worry.",
+  "nqReaction": "NQ broke up out of the opening range, failed, and sold off to close 29,142, down 1.08 percent and below its falling stop. Rate sensitive tech fell more than ES.",
+  "crossAsset": "Crude up 7.5 percent to 103.94 and leading. December gold down 2 percent to 4,358 and flipped its trend down, an odd risk-off tell that points to a yield and liquidation move. VIX up about 8 percent to roughly 17.8. August CPI lands Friday, the Fed decides September 16."
  },
  "atrStop": {
   "MNQ": {
-   "stop": "29,584.75",
-   "price": "29,460.25",
-   "gap": "-124.50 (0.42 percent)",
+   "stop": "29,263.86",
+   "price": "29,142.25",
+   "gap": "-121.61 (0.42 percent)",
    "trend": "FALLING",
    "status": "BELOW (trend still down)"
   },
   "MES": {
-   "stop": "7,677.97",
-   "price": "7,648.00",
-   "gap": "-29.97 (0.39 percent)",
+   "stop": "7,619.97",
+   "price": "7,602.00",
+   "gap": "-17.97 (0.24 percent)",
    "trend": "FALLING",
-   "status": "BELOW (still soft)"
+   "status": "BELOW (soft under it)"
   },
   "MGC": {
-   "stop": "4,417.62",
-   "price": "4,447.40",
-   "gap": "+29.78 (0.67 percent)",
-   "trend": "RISING",
-   "status": "ABOVE (December, flipped long)"
+   "stop": "4,410.40",
+   "price": "4,358.40",
+   "gap": "-52.00 (1.19 percent)",
+   "trend": "FALLING",
+   "status": "BELOW (December, flipped back down)"
   },
   "MCL": {
-   "stop": "94.95",
-   "price": "96.66",
-   "gap": "+1.71 (1.80 percent)",
+   "stop": "101.23",
+   "price": "103.94",
+   "gap": "+2.71 (2.61 percent)",
    "trend": "RISING",
-   "status": "ABOVE (the clean trend, day two)"
+   "status": "ABOVE (the one clean trend)"
   }
  },
  "observe": [
@@ -52,168 +52,177 @@
   }
  ],
  "risk": {
-  "throttleState": "REDUCED",
-  "sizing": "Keep index size reduced. NQ and ES are still choppy and below their falling stops, so the short term index trend is not up. Do not chase the range in either direction. The trending longs are crude, above a rising 94.95 stop, and now December gold, which flipped above a rising 4,418 stop today. Both can be managed against those stops, gold with respect that it just gave back the day's gains.",
-  "openRisk": "For the indices the falling stops are the line. MNQ back above 29,585 or MES above 7,678 on two hourly closes turns the short term trend up. Below, MNQ 29,358 then the 29,000 psych, and MES 7,629 then 7,600, are the downside references. December gold stays constructive above 4,418 and works on reclaiming 4,450. Crude stays long above 94.95 and 95.",
-  "note": "Rising event risk into two inflation prints: August PPI Thursday September 10 and August CPI Friday September 11, both 8:30 ET, with the Fed the following week. Keep size sensible and mind prop news blackout rules around both releases. Not financial advice."
+  "throttleState": "DEFENSIVE",
+  "sizing": "Keep index size minimal. This was a fast, event driven, high volatility day with a geopolitical oil shock, and CPI prints in the morning. The indices are below falling stops, so the short term index trend is down. Both chasing an extended crude spike and fading a one way selloff carry outsized risk here. Crude is the one clean long above a rising 101.23 stop, but a 7.5 percent day is not a spot to add size into.",
+  "openRisk": "For the indices the falling stops are the line. MNQ back above 29,264 or MES above 7,620 on two hourly closes is the first sign the selling paused. Below, MNQ 29,097 then the 29,000 psych, and MES 7,585 then 7,550, are the downside. December gold is back below its 4,410 stop, with 4,355 then 4,300 the downside and 4,410 the first repair. Crude stays long above 101.23 and 100, and a close below 100 says the spike is unwinding.",
+  "note": "Rising event risk into August CPI Friday September 11 at 8:30 ET, with the Fed the following week. Keep size sensible and mind prop news blackout rules around the release. Not financial advice."
  },
  "keyLevels": [
   {
-   "label": "MNQ ATR Stop",
-   "value": "29,585",
-   "note": "falling, price 125 below, still resistance"
-  },
-  {
-   "label": "MNQ AVWAP",
-   "value": "29,463",
-   "note": "close sat right on the mean"
-  },
-  {
-   "label": "MNQ RTH Low",
-   "value": "29,358",
-   "note": "morning flush low, held on closes"
-  },
-  {
-   "label": "MES ATR Stop",
-   "value": "7,677.97",
-   "note": "falling, soft under it at 7,650"
-  },
-  {
-   "label": "MGC ATR Stop (Dec)",
-   "value": "4,417.62",
-   "note": "rising, flipped long today"
-  },
-  {
-   "label": "MGC RTH High",
-   "value": "4,477",
-   "note": "first target tagged, then faded"
-  },
-  {
    "label": "MCL ATR Stop",
-   "value": "94.95",
-   "note": "rising, the clean long above it"
+   "value": "101.23",
+   "note": "rising, the one clean long"
   },
   {
    "label": "MCL Close",
-   "value": "96.66",
-   "note": "up 2.5 percent, second strong day"
+   "value": "103.94",
+   "note": "up 7.5 percent, oil shock"
+  },
+  {
+   "label": "MNQ ATR Stop",
+   "value": "29,264",
+   "note": "falling, overhead resistance"
+  },
+  {
+   "label": "MNQ RTH Low",
+   "value": "29,097",
+   "note": "flush low, held on closes"
+  },
+  {
+   "label": "MNQ Close",
+   "value": "29,142",
+   "note": "below a falling stop"
+  },
+  {
+   "label": "MES ATR Stop",
+   "value": "7,620",
+   "note": "falling, soft under it at 7,600"
+  },
+  {
+   "label": "MGC ATR Stop (Dec)",
+   "value": "4,410",
+   "note": "falling, flipped back down"
+  },
+  {
+   "label": "MGC Close",
+   "value": "4,358",
+   "note": "off 2 percent, lost the stop"
   }
  ],
  "setups": [
   {
    "name": "TSMOM-20 (MCL long)",
-   "confidence": "Medium",
-   "entry": "Stay with crude while it holds the 94.95 rising stop and the 95 round",
-   "stop": "Below 94.95",
-   "t1": "Today's 96.92 high, then the 98 to 100 zone",
+   "confidence": "High",
+   "entry": "Stay with crude while it holds the 101.23 rising stop and the 100 round",
+   "stop": "Below 101.23 and 100",
+   "t1": "Today's 104.06 high, then the 105 to 106 zone",
    "rr": "Trend follow, manage with the stop",
-   "bias": "Crude is the one clean uptrend, up a second day above a rising stop. Continuation as long as 94.95 and 95 hold."
+   "bias": "Crude is the one clean uptrend, up 7.5 percent on a supply shock and far above a rising stop. Continuation as long as 101.23 and 100 hold, but do not add size into an extended spike."
   },
   {
-   "name": "TSMOM-20 (MGC long, fresh flip)",
-   "confidence": "Low",
-   "entry": "Gold long only while December holds the 4,418 rising stop; add strength on a clean reclaim of 4,450",
-   "stop": "Below 4,418",
-   "t1": "4,477 then the 4,500 round",
-   "rr": "Trend follow, respect the fade",
-   "bias": "December flipped its trend up today but closed back at the reclaim line after tagging 4,477. Fresh and unproven, so keep it small until 4,450 holds."
+   "name": "AVWAP Hand-off (MNQ short)",
+   "confidence": "Medium",
+   "entry": "Short continuation below NYVWAP after the failed opening range up break, while price holds under the 29,264 falling stop",
+   "stop": "Above the 29,264 stop on 2 closes",
+   "t1": "29,097 then the 29,042 overnight low and 29,000",
+   "rr": "Session structure, short only",
+   "bias": "The up break failed and handed off to a downside trend below NYVWAP, this edge's shape. Manage tight into CPI."
   },
   {
    "name": "AVWAP Back Into Range (MNQ)",
+   "confidence": "Medium",
+   "entry": "Fade a failed break back inside the opening range",
+   "stop": "Beyond the failed break extreme",
+   "t1": "The opposite side of the range",
+   "rr": "Session structure",
+   "bias": "NQ broke up out of the range, failed, and closed back inside near the low, though price kept leaking lower rather than settling."
+  },
+  {
+   "name": "AVWAP Deviation Band (MNQ)",
    "confidence": "Low",
-   "entry": "Fade a failed break of Thursday's fresh opening range back toward the range and AVWAP",
-   "stop": "Beyond the opening range extreme that failed",
-   "t1": "Opposite range edge or AVWAP",
-   "rr": "1 to 1.5",
-   "bias": "Today printed a clean failed upside break back into a tight range. On a two way tape, failed range breaks revert. PPI at 8:30 ET makes the open an event open, so the first break is suspect."
+   "entry": "Only fade a clean 2 to 3 sigma stretch with exhaustion, not a band tag inside the trend",
+   "stop": "Beyond the 3 sigma band",
+   "t1": "Back toward the 29,187 AVWAP",
+   "rr": "Mean reversion, confirmation required",
+   "bias": "The flush stretched the lower bands intraday then reverted to the mean, but fading a one way trend day is dangerous and this only armed on the sharpest stretches."
   }
  ],
  "activeIndicators": [
+  "tsmom-20",
+  "avwap-hand-off",
   "avwap-back-into-range",
   "avwap-deviation-band",
-  "tsmom-20",
-  "avwap-bounce",
   "hta-open"
  ],
- "downloadLink": "HTA-Pro-EOD-Report-2026-09-09.docx",
- "reportFileName": "HTA-Pro-EOD-Report-2026-09-09.docx",
+ "downloadLink": "HTA-Pro-EOD-Report-2026-09-10.docx",
+ "reportFileName": "HTA-Pro-EOD-Report-2026-09-10.docx",
  "charts": [
-  "charts/chart-mnq-1hr-2026-09-09.png",
-  "charts/chart-mes-1hr-2026-09-09.png",
-  "charts/chart-mgc-1hr-2026-09-09.png",
-  "charts/chart-mcl-1hr-2026-09-09.png"
+  "charts/chart-mnq-1hr-2026-09-10.png",
+  "charts/chart-mes-1hr-2026-09-10.png",
+  "charts/chart-mgc-1hr-2026-09-10.png",
+  "charts/chart-mcl-1hr-2026-09-10.png"
  ],
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Commodity bid, equities heavy. Crude is a clean uptrend at 96.66 above a rising stop, up a second day. December gold flipped its short term trend up to 4,447 above a rising stop after a 1.1 percent bounce. Equities are still soft and below falling stops: NQ 29,460 and ES 7,648.</td><td>Medium</td></tr><tr><td>Volatility</td><td>Calm but firming. VIX rose to 16.46, up 4.71 percent, a second higher close from Friday's mid 14s and still low in absolute terms. The NQ opening range was tight at 89.5 points, but the morning still swung 236 points.</td><td>Medium-High</td></tr><tr><td>Session</td><td>Two way for the indices, trend for commodities. NQ broke up out of a tight range, failed, flushed to 29,358, then recovered to close 29,460 right at NYVWAP. A mean reverting equity tape and a one way commodity tape.</td><td>High</td></tr><tr><td>Inventory</td><td>Balanced for the indices, closes settled at NYVWAP after a full round trip. One sided in commodities, with crude longs in control and gold shorts covering on the flip.</td><td>Low-Medium</td></tr><tr><td>Event</td><td>No scheduled US release today. Rising event risk: August PPI Thursday, August CPI Friday, then the Fed on September 16.</td><td>High</td></tr><tr><td>Liquidity</td><td>Normal, past the holiday thin. Gold levels are on the December contract (MGC2!), the active liquid front. December traded about 10,000 contracts an hour today versus about 1,000 on October, which has rolled off.</td><td>Medium</td></tr></tbody></table></div>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Risk-off, with a one-way commodity split. Crude is a clean uptrend at 103.94, up 7.5 percent and far above a rising stop, driven by a Middle East supply scare. Equities sold off below falling stops: NQ 29,142 and ES 7,602. December gold fell 2 percent to 4,358 and flipped its short term trend back down.</td><td>High</td></tr><tr><td>Volatility</td><td>Rising. VIX jumped about 8 percent to roughly 17.8, its firmest in weeks though still moderate. NQ ran a 143 point opening range and a 178 point RTH range, and the morning swung more than 230 points.</td><td>High</td></tr><tr><td>Session</td><td>Trend day both ways. NQ broke up out of the opening range, failed, and sold off to close near the lows and below NYVWAP. Crude was a straight line higher. One way tapes, not rotation.</td><td>High</td></tr><tr><td>Inventory</td><td>One sided. Crude longs are in full control. Equity and gold holders were offside and selling into the close, not balanced.</td><td>Medium</td></tr><tr><td>Event</td><td>PPI day, and the bigger driver was the oil shock. August PPI ran 5.4 percent on the year, a touch hot, with softer core, and energy did most of the work. CPI lands Friday, the Fed meets September 15 to 16.</td><td>High</td></tr><tr><td>Liquidity</td><td>Heavy, event driven volume. Gold levels are on the December contract (MGC2!), the tracked liquid front. October (MGC1!) closed 4,325 and December closed 4,358.</td><td>Medium</td></tr></tbody></table></div>"
   },
   {
    "title": "NY Opening Range / HTA OPEN",
-   "html": "<p>NQ printed a tight opening range: high 29,506, low 29,417, a 89.5 point band, about half of Tuesday's width. Price broke UP out of the range at 13:50 UTC, ran to a 29,594 high, then failed and came back into the range, closing 29,460 right at NYVWAP 29,464. The upside break did not hold and price fell back inside the range, a Back Into Range from the top.</p><div class='table-wrap'><table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody><tr><td>Opening range high</td><td>29,506.50</td></tr><tr><td>Opening range low</td><td>29,417.00</td></tr><tr><td>Range width</td><td>89.5 points</td></tr><tr><td>Break</td><td>UP at 13:50 UTC, 29,518.00</td></tr><tr><td>Session high</td><td>29,594.00</td></tr><tr><td>NYVWAP</td><td>29,463.62 (close right on it)</td></tr><tr><td>Eligibility Thu Sep 10</td><td>All four eligible on the calendar; August PPI 8:30 ET makes it an event open, first break suspect.</td></tr></tbody></table></div>"
+   "html": "<p>NQ printed a 143 point opening range: high 29,200, low 29,057. Price broke up at 14:20 UTC and tagged 29,275, then failed and sold off through the range to close 29,142, back inside and below NYVWAP 29,188.</p><div class='table-wrap'><table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td>OR High</td><td>29,200</td></tr><tr><td>OR Low</td><td>29,057</td></tr><tr><td>OR Width</td><td>143 pts</td></tr><tr><td>Break</td><td>UP at 14:20 UTC, tagged 29,275, then failed</td></tr><tr><td>NYVWAP</td><td>29,188 (close below it)</td></tr><tr><td>Signals fired</td><td>None. The up break failed into a downside trend, not a clean playbook set</td></tr><tr><td>Filters (Fri Sep 11)</td><td>CPI day: BIR blocked. HOF, MID, BNC eligible on the calendar. Treat as an event open.</td></tr></tbody></table></div>"
   },
   {
    "title": "Momentum Breakout",
-   "html": "<p>E3v2 Momentum Long keeps its filter off for the equity indices. NQ and ES both closed below their trend stops, so a fresh index momentum long would fight the tape. Crude and now gold sit above rising stops, the profile a momentum long wants, but those are commodity moves, not index signals. No index signal fires while the equity stops are flipped down.</p><div class='table-wrap'><table><thead><tr><th>Symbol</th><th>Trend Stop</th><th>Close</th><th>Regime Filter</th></tr></thead><tbody><tr><td>MNQ</td><td>29,584.75 FALLING</td><td>29,460.25 BELOW</td><td>OFF (below stop)</td></tr><tr><td>MES</td><td>7,677.97 FALLING</td><td>7,648.00 BELOW</td><td>OFF (below stop)</td></tr><tr><td>MGC</td><td>4,417.62 RISING</td><td>4,447.40 ABOVE</td><td>Momentum profile (fresh flip), commodity not an index signal</td></tr><tr><td>MCL</td><td>94.95 RISING</td><td>96.66 ABOVE</td><td>Momentum profile, energy move not an index signal</td></tr></tbody></table></div>"
+   "html": "<p>E3v2 Momentum Long stays off for the equity indices. NQ and ES closed below their trend stops, so a fresh index long would fight the tape. Crude is far above a rising stop, the profile a momentum long wants, but that is a commodity supply move, not an index signal, and chasing an extended 7.5 percent spike is its own risk.</p><div class='table-wrap'><table><thead><tr><th>Symbol</th><th>Signal</th><th>Read</th></tr></thead><tbody><tr><td>MNQ</td><td>NO SIGNAL</td><td>Below the trend stop, regime filter blocks index longs</td></tr><tr><td>MES</td><td>NO SIGNAL</td><td>Below the trend stop, no momentum long</td></tr><tr><td>MCL</td><td>OFF (commodity)</td><td>Trend is up and strong, but this is an index edge; do not chase the spike</td></tr></tbody></table></div>"
   },
   {
    "title": "AVWAP Deviation Band",
-   "html": "<p>MNQ today: AVWAP center 29,463, close 29,460, right on the mean. Sigma near 29. Volume is unavailable on the continuous contract, so this is price only. The close sat on the average with no stretch, so there was no clean 2 or 3 sigma extreme to fade into the close.</p><div class='table-wrap'><table><thead><tr><th>Band</th><th>Level</th></tr></thead><tbody><tr><td>Plus 2 sigma</td><td>29,520.90</td></tr><tr><td>Plus 1 sigma</td><td>29,491.79</td></tr><tr><td>AVWAP center</td><td>29,462.68</td></tr><tr><td>Minus 1 sigma</td><td>29,433.57</td></tr><tr><td>Minus 2 sigma</td><td>29,404.46</td></tr><tr><td>Close</td><td>29,460.25 (on the mean)</td></tr></tbody></table></div>"
+   "html": "<p>MNQ AVWAP center 29,187, close 29,142, about 1.4 sigma below the mean. The morning flush pushed price below the minus 2 and minus 3 sigma bands intraday, then reverted most of the way back by the close. A band tag inside a strong trend is not an automatic fade.</p><div class='table-wrap'><table><thead><tr><th>Band</th><th>Level</th></tr></thead><tbody><tr><td>+2 sigma</td><td>29,252</td></tr><tr><td>+1 sigma</td><td>29,219</td></tr><tr><td>AVWAP</td><td>29,187</td></tr><tr><td>-1 sigma</td><td>29,154</td></tr><tr><td>-2 sigma</td><td>29,121</td></tr><tr><td>-3 sigma</td><td>29,088</td></tr></tbody></table></div>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<p>The map we published Tuesday for the Wednesday session, marked against today's tape. We never re-grade a row.</p><div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Status</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ 29,685</td><td>Reclaims 29,685 on 2 hourly closes, trend flips up toward 29,765 and 30,000</td><td>NOT TRIGGERED</td><td>n/a</td><td>Never got there. Overnight high 29,634, RTH high 29,594, both under the stop. Stayed below all day.</td></tr><tr><td>MNQ 29,424</td><td>Loses the 29,424 RTH low on 2 hourly closes, fade toward the 29,400s and 29,000</td><td>NOT TRIGGERED</td><td>n/a</td><td>Flushed to 29,358 intraday but never put in two hourly closes below 29,424. Lowest close 29,448, recovered to 29,460.</td></tr><tr><td>MES 7,715</td><td>Reclaims 7,715 on 2 hourly closes, push toward 7,725 and 7,750</td><td>NOT TRIGGERED</td><td>n/a</td><td>Never neared 7,715. Overnight high 7,691, RTH high 7,665. Stayed soft under the stop.</td></tr><tr><td>MGC 4,448</td><td>December gold reclaims 4,448 on 2 hourly closes, first repair toward 4,477 and 4,500</td><td>TRIGGERED</td><td>MIXED</td><td>Reclaimed 4,448 with several closes above, flipped its trend up, tagged the 4,477 target (RTH high 4,477, ON 4,479). Then reversed to close 4,447 at the reclaim line, and 4,500 never came.</td></tr><tr><td>MCL 92.33</td><td>Holds 92.33 and 92 on 2 hourly closes, stays constructive toward 95 and 94.73</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Held 92.33 and 92 easily (low 95.15) and ran through 95 and the old 94.73 overnight high to close 96.66, up 2.5 percent. Strongest row again.</td></tr></tbody></table></div><p>Score today: 5 rows, 2 triggered, 3 not triggered. Of the triggered, 1 played out, 1 mixed. Month to date: 30 rows, 15 triggered, 10 played out, 4 mixed, 1 failed.</p>"
+   "html": "<p>The map we published Wednesday for the Thursday session, marked against today's tape. We never re-grade a row.</p><div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Status</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ 29,585</td><td>Reclaims 29,585 on 2 hourly closes, trend flips up toward 29,594 and 29,634</td><td>NOT TRIGGERED</td><td>n/a</td><td>Never got close. Gapped down and sold off. RTH high 29,275, more than 300 under the stop, closed 29,142.</td></tr><tr><td>MNQ 29,358</td><td>Loses the 29,358 RTH low on 2 hourly closes, fade toward 29,332 and 29,000</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Lost 29,358 and stayed gone, every hourly close below it. Flushed to 29,097 RTH and 29,042 overnight at the 29,000 round, then closed 29,142.</td></tr><tr><td>MES 7,678</td><td>Reclaims 7,678 on 2 hourly closes, push toward 7,691 and 7,700</td><td>NOT TRIGGERED</td><td>n/a</td><td>Never reclaimed the stop. RTH high 7,620, closed 7,602 at the 7,600 round, soft all day.</td></tr><tr><td>MGC 4,418</td><td>December gold holds 4,418 and reclaims 4,450 on 2 hourly closes, repair toward 4,477 and 4,500</td><td>NOT TRIGGERED</td><td>n/a</td><td>The hold and reclaim never happened. Gold did the opposite, lost 4,418, flipped down, closed 4,358, off 2 percent.</td></tr><tr><td>MCL 94.95</td><td>Holds 94.95 and 95 on 2 hourly closes, stays constructive toward 96.92 and 98 to 100</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Held 94.95 and 95 with huge room (low 98.55) and ripped through 96.92 and the 98 to 100 zone to 103.94, up 7.5 percent. Blew past the target.</td></tr></tbody></table></div>"
   },
   {
-   "title": "Tomorrow's Map (for Thursday, September 10)",
-   "html": "<p>Built only from levels measured today. Conditions are checkable on hourly closes. Educational and conditional.</p><div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Bias</th></tr></thead><tbody><tr><td>MNQ 29,585</td><td>Reclaims the 29,585 falling stop on 2 hourly closes, trend flips up toward the 29,594 RTH high and the 29,634 overnight high</td><td>Third day stuck under the stop after closing 29,460. Two closes back above 29,585 are the first real repair.</td></tr><tr><td>MNQ 29,358</td><td>Loses today's 29,358 RTH low on 2 hourly closes, the fade extends toward the 29,332 overnight low and the 29,000 psych</td><td>The morning flush bottomed at 29,358 and the overnight low was 29,332. Below there the range breaks down toward 29,000.</td></tr><tr><td>MES 7,678</td><td>Reclaims the 7,678 falling stop on 2 hourly closes, push toward the 7,691 overnight high and the 7,700 psych</td><td>Closed 7,648 at the 7,650 round under a falling stop. Losing today's 7,629 RTH low opens more room down.</td></tr><tr><td>MGC 4,418</td><td>December gold holds the 4,418 rising stop and reclaims 4,450 on 2 hourly closes, the repair continues toward 4,477 and 4,500</td><td>Flipped long today and closed 4,447 just under 4,450. Holding the rising stop keeps the bounce alive. Losing 4,418 flips it back down.</td></tr><tr><td>MCL 94.95</td><td>Holds the 94.95 rising stop and the 95 round on 2 hourly closes, crude stays constructive toward today's 96.92 high and the 98 to 100 zone</td><td>Ripped a second day to 96.66, still the one clean long above a rising stop. Holding 94.95 and 95 keeps it pointed higher. Losing them flips the trend.</td></tr></tbody></table></div><p>HTA OPEN eligibility for Thursday Sep 10: all four plays clear the day of week and CPI or FOMC filters, but August PPI at 8:30 ET makes it an event open, so treat the first range break as suspect. August CPI lands Friday September 11 at 8:30 ET.</p>"
+   "title": "Tomorrow's Map (for Friday, September 11)",
+   "html": "<p>Built only from levels measured today. Conditions are checkable on hourly closes. Educational and conditional.</p><div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Bias</th></tr></thead><tbody><tr><td>MNQ 29,264</td><td>Reclaims the 29,264 falling stop on 2 hourly closes, the flush stalls and price works back toward the 29,275 RTH high and the 29,508 overnight high</td><td>Broke down on the oil shock and closed 29,142 under a falling stop. Two closes above 29,264 are the first sign the selling paused.</td></tr><tr><td>MNQ 29,097</td><td>Loses today's 29,097 RTH low on 2 hourly closes, the next leg opens toward the 29,042 overnight low and the 29,000 psych</td><td>The selloff bottomed at 29,097 RTH and 29,042 overnight, above the 29,000 round. Below there, with CPI in the morning, the next leg is live.</td></tr><tr><td>MES 7,620</td><td>Reclaims the 7,620 falling stop on 2 hourly closes, the bounce points toward the 7,650 round and the 7,666 overnight high</td><td>Closed 7,602 at the 7,600 round under a falling stop. Losing today's 7,585 RTH low opens 7,550.</td></tr><tr><td>MGC 4,410</td><td>December gold reclaims the 4,410 falling stop on 2 hourly closes, the repair points toward 4,450 and today's 4,419 RTH high</td><td>Flipped back down today, lost the stop, closed 4,358. Below today's 4,355 low opens 4,300. Reclaiming 4,410 is the first repair.</td></tr><tr><td>MCL 101.23</td><td>Holds the 101.23 rising stop and the 100 round on 2 hourly closes, the geopolitical bid stays constructive toward today's 104.06 high and the 105 to 106 zone</td><td>Ripped 7.5 percent on supply fears and closed 103.94, far above a rising stop. Holding 101.23 and 100 keeps it pointed higher. A close below 100 says the spike is unwinding.</td></tr></tbody></table></div>"
   }
  ],
  "tomorrowsMap": [
   {
-   "level": "MNQ 29,585",
-   "if": "MNQ reclaims the 29,585 falling stop on 2 hourly closes",
-   "then": "the short term trend flips up toward the 29,594 RTH high and the 29,634 overnight high",
-   "bias": "Third day stuck under the stop after closing 29,460. Two closes above 29,585 are the first real repair."
+   "level": "MNQ 29,264",
+   "if": "Reclaims the 29,264 falling stop on 2 hourly closes",
+   "then": "the flush stalls and price works back toward the 29,275 RTH high and the 29,508 overnight high",
+   "bias": "Broke down on the oil shock and closed 29,142 under a falling stop. Two closes above 29,264 are the first sign the selling paused."
   },
   {
-   "level": "MNQ 29,358",
-   "if": "MNQ loses today's 29,358 RTH low on 2 hourly closes",
-   "then": "the fade extends toward the 29,332 overnight low and the 29,000 psych",
-   "bias": "The morning flush bottomed at 29,358. Below the overnight 29,332 the range breaks down."
+   "level": "MNQ 29,097",
+   "if": "Loses today's 29,097 RTH low on 2 hourly closes",
+   "then": "the next leg opens toward the 29,042 overnight low and the 29,000 psych",
+   "bias": "The selloff bottomed at 29,097 RTH and 29,042 overnight, above the 29,000 round. Below there, with CPI in the morning, the next leg is live."
   },
   {
-   "level": "MES 7,678",
-   "if": "MES reclaims the 7,678 falling stop on 2 hourly closes",
-   "then": "the push resumes toward the 7,691 overnight high and the 7,700 psych",
-   "bias": "Closed 7,648 at the 7,650 round. Losing today's 7,629 low opens more room down."
+   "level": "MES 7,620",
+   "if": "Reclaims the 7,620 falling stop on 2 hourly closes",
+   "then": "the bounce points toward the 7,650 round and the 7,666 overnight high",
+   "bias": "Closed 7,602 at the 7,600 round under a falling stop. Losing today's 7,585 RTH low opens 7,550."
   },
   {
-   "level": "MGC 4,418",
-   "if": "December gold holds the 4,418 rising stop and reclaims 4,450 on 2 hourly closes",
-   "then": "the repair continues toward 4,477 and the 4,500 round",
-   "bias": "Flipped long today and closed 4,447. Losing 4,418 flips it back down."
+   "level": "MGC 4,410",
+   "if": "December gold reclaims the 4,410 falling stop on 2 hourly closes",
+   "then": "the repair points toward 4,450 and today's 4,419 RTH high",
+   "bias": "Flipped back down today, lost the stop, closed 4,358. Below today's 4,355 low opens 4,300. Reclaiming 4,410 is the first repair."
   },
   {
-   "level": "MCL 94.95",
-   "if": "MCL holds the 94.95 rising stop and the 95 round on 2 hourly closes",
-   "then": "crude stays constructive toward today's 96.92 high and the 98 to 100 zone",
-   "bias": "Ripped a second day to 96.66, the one clean long. Losing 94.95 and 95 flips the trend."
+   "level": "MCL 101.23",
+   "if": "Holds the 101.23 rising stop and the 100 round on 2 hourly closes",
+   "then": "the geopolitical bid stays constructive toward today's 104.06 high and the 105 to 106 zone",
+   "bias": "Ripped 7.5 percent on supply fears and closed 103.94, far above a rising stop. Holding 101.23 and 100 keeps it pointed higher. A close below 100 says the spike is unwinding."
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
   "triggered": 2,
-  "playedOut": 1,
-  "mixed": 1,
+  "playedOut": 2,
+  "mixed": 0,
   "failed": 0,
   "notTriggered": 3,
-  "note": "Tuesday's map, marked against Wednesday Sep 9. Equities stayed pinned under their flipped stops so both NQ rows and the MES row never triggered. December gold reclaimed and tagged its 4,477 first target but reversed to close at the reclaim line (mixed). Crude played out cleanly with another 2.5 percent run."
+  "note": "Wednesday's map, marked against Thursday Sep 10. An oil shock drove the tape. Both NQ rows split: the reclaim never triggered, but the downside MNQ 29,358 row triggered and played out into the 29,000 area. MES never reclaimed its stop. December gold did the opposite of its hold-and-reclaim scenario, losing 4,418 and flipping down, so that row did not trigger. Crude held its stop and blew past every target with a 7.5 percent run."
  },
  "mapTallyMTD": {
-  "rows": 30,
-  "triggered": 15,
-  "playedOut": 10,
+  "rows": 35,
+  "triggered": 17,
+  "playedOut": 12,
   "mixed": 4,
   "failed": 1
  }
