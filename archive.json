@@ -77,6 +77,13 @@
     "summary": "<strong>Quiet inside day after Tuesday's selloff.</strong> Nasdaq closed flat at 29,143 and the S&P bounced to 7,668.75, both reclaiming above their falling stops but neither building a trend. Gold bounced 1.34 percent to 4,434 and crude held 90.63 above a rising stop. VIX fell almost 7 percent to 15.20 as fear cooled. A coiled, low volume tape drifting toward Friday's jobs report."
   },
   {
+    "date": "September 11, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Risk-On Relief Bounce, Oil Spike Unwinds",
+    "regimeClass": "risk-on",
+    "summary": "Yesterday's oil shock unwound today and risk came back. Crude reversed hard, down 3.79 percent to exactly 100.00, giving back a big chunk of Thursday's spike and flipping below its stop. That took the pressure off stocks. NQ bounced 0.86 percent to 29,393 and ES 0.77 percent to 7,661, both reclaiming the falling stops they lost yesterday and flipping their short term trend back up. Gold rose 0.72 percent to 4,390 but faded from a 4,445 high, so its bounce is tentative. VIX dropped about 11 percent to 15.84. August CPI printed this morning and the tape took it in stride, with the oil reversal doing most of the work."
+  },
+  {
     "date": "September 10, 2026",
     "dayOfWeek": "Thursday",
     "regime": "Risk-Off Selloff, Oil Shock Leads (Crude +7.5%, Equities Heavy, Gold Flips Down)",
