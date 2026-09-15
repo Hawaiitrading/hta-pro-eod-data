@@ -77,6 +77,13 @@
     "summary": "<strong>Quiet inside day after Tuesday's selloff.</strong> Nasdaq closed flat at 29,143 and the S&P bounced to 7,668.75, both reclaiming above their falling stops but neither building a trend. Gold bounced 1.34 percent to 4,434 and crude held 90.63 above a rising stop. VIX fell almost 7 percent to 15.20 as fear cooled. A coiled, low volume tape drifting toward Friday's jobs report."
   },
   {
+    "date": "September 15, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Risk-Off into the Fed, Indices Lose Their Stops, Crude Spikes",
+    "regimeClass": "risk-off",
+    "summary": "No US data today, so the market spent the session positioning for the Fed. Stocks leaned defensive. NQ drifted lower all day, lost its trend stop, printed a 28,919 low, then bounced late to close 28,987, down 0.71 percent. ES tracked it lower, down 0.47 percent to 7,596, also under its stop. The big mover was crude. MCL ripped 3.6 percent to 105.52 in the day session and flipped its stop up. December gold held about flat, down 0.16 percent to 4,333, and edged back above its own stop. VIX barely moved near 17.2. The Fed decides tomorrow at 2:00 pm ET with fresh projections, and August retail sales lands the same morning."
+  },
+  {
     "date": "September 14, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-Off Lean into the Fed, Equities Dip and Recover",
