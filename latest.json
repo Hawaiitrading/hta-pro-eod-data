@@ -1,124 +1,123 @@
 {
- "date": "September 15, 2026",
- "dayOfWeek": "Tuesday",
- "regime": "Risk-Off into the Fed, Indices Lose Their Stops, Crude Spikes",
+ "date": "September 16, 2026",
+ "dayOfWeek": "Wednesday",
+ "regime": "Risk-Off after a Hawkish-Read Fed",
  "regimeClass": "risk-off",
- "summary": "No US data today, so the market spent the session positioning for the Fed. Stocks leaned defensive. NQ drifted lower all day, lost its trend stop, printed a 28,919 low, then bounced late to close 28,987, down 0.71 percent. ES tracked it lower, down 0.47 percent to 7,596, also under its stop. The big mover was crude. MCL ripped 3.6 percent to 105.52 in the day session and flipped its stop up. December gold held about flat, down 0.16 percent to 4,333, and edged back above its own stop. VIX barely moved near 17.2. The Fed decides tomorrow at 2:00 pm ET with fresh projections, and August retail sales lands the same morning.",
+ "summary": "<strong>The Fed decided today and the tape did not like it.</strong> Everything ran up into the 2:00 pm ET decision, then sold off. NQ round-tripped from a 29,254 high to a 28,763 low and closed 28,974, flat on the day but below its trend stop. ES fell 0.55 percent to 7,554, December gold flipped its stop down and closed 4,302, and crude gave back yesterday's spike, down 3.32 percent to 102.02. VIX rose about 3 percent to 17.71. All four markets now sit below their trend stops.",
  "keyLevels": [
   {
    "label": "MNQ ATR Stop",
-   "value": "29,154",
-   "note": "flipped down, price below, overhead resistance"
+   "value": "29,149",
+   "note": "flipped down, overhead resistance"
   },
   {
    "label": "MNQ RTH Low",
-   "value": "28,919",
-   "note": "today's low, held on the close"
+   "value": "28,763",
+   "note": "the FOMC low, held on close"
   },
   {
    "label": "MNQ AVWAP",
-   "value": "28,978",
-   "note": "close just above the mean"
+   "value": "29,096",
+   "note": "close 1 sigma below the mean"
   },
   {
    "label": "MES ATR Stop",
-   "value": "7,620",
+   "value": "7,594",
    "note": "flipped down, price below"
   },
   {
    "label": "MGC ATR Stop (Dec)",
-   "value": "4,306",
-   "note": "reclaimed, price above, support"
+   "value": "4,363",
+   "note": "flipped down, price below"
+  },
+  {
+   "label": "MGC PSYCH",
+   "value": "4,300",
+   "note": "held by a hair, close 4,302"
   },
   {
    "label": "MCL ATR Stop",
-   "value": "103.78",
-   "note": "flipped up after a 3.6 percent breakout"
-  },
-  {
-   "label": "MCL RTH High",
-   "value": "106.75",
-   "note": "day-session spike high"
+   "value": "104.23",
+   "note": "flipped down after a 3.3 percent drop"
   },
   {
    "label": "VIX",
-   "value": "17.2",
-   "note": "little changed into the Fed"
+   "value": "17.71",
+   "note": "up 3 percent, still calm"
   }
  ],
  "setups": [
   {
-   "name": "AVWAP Hand-off",
-   "confidence": "Borderline",
-   "entry": "Short only; today's opening range broke down and handed off lower into NYVWAP",
-   "stop": "back above the OR / AVWAP",
-   "t1": "28,919 then lower",
-   "rr": "Session",
-   "bias": "Textbook down-break short shape today, but it sits out the Wednesday Fed decision."
-  },
-  {
    "name": "TSMOM-20",
-   "confidence": "Borderline",
-   "entry": "Index shorts below the reset stops (NQ 29,154 / ES 7,620); crude long above 103.78",
-   "stop": "NQ 29,154 / ES 7,620 / MCL 103.78",
-   "t1": "index lows / crude 106.75",
+   "confidence": "Medium",
+   "entry": "Wait for two hourly closes to confirm direction before adding trend risk",
+   "stop": "The flipped trend stops (NQ 29,149 / ES 7,594 / MGC 4,363 / MCL 104.23)",
+   "t1": "Systematic",
    "rr": "Systematic",
-   "bias": "Trends exist both ways, but the Fed decision tomorrow argues for small size and no chasing."
+   "bias": "All four flipped or held below their stops, but on a violent event bar, so the down-tilt is unconfirmed."
   },
   {
-   "name": "AVWAP Bounce",
-   "confidence": "Borderline",
-   "entry": "NQ long only while it holds above the 28,978 AVWAP",
-   "stop": "below AVWAP",
-   "t1": "29,136 RTH high",
-   "rr": "Intraday",
-   "bias": "Close sits barely above the AVWAP after the sell-off; thin and event-capped."
+   "name": "AVWAP Hand-off",
+   "confidence": "Medium",
+   "entry": "Short the hand-off lower as price loses NYVWAP after the failed upside break",
+   "stop": "Above the OR high and NYVWAP",
+   "t1": "RTH low area",
+   "rr": "Session",
+   "bias": "The clean short came on the 2pm reversal, after the fake-out rather than right off the open."
+  },
+  {
+   "name": "AVWAP Deviation Band",
+   "confidence": "Medium",
+   "entry": "Fade only a clean 2 or 3 sigma extreme back toward AVWAP once the bands re-settle",
+   "stop": "Beyond the 3 sigma band",
+   "t1": "AVWAP 29,096",
+   "rr": "1 to 1.5",
+   "bias": "The 28,763 low tagged minus 3 sigma and reverted 200 points, but sigma is event-inflated near 113."
   }
  ],
  "activeIndicators": [
   "tsmom-20",
-  "avwap-bounce",
-  "avwap-deviation-band",
   "avwap-hand-off",
+  "avwap-deviation-band",
   "hta-open"
  ],
  "event": {
-  "name": "No scheduled US release (FOMC day 1 of 2)",
-  "type": "PRE_EVENT",
-  "consensus": "n/a",
-  "actual": "There was no scheduled US release today, so the driver was positioning ahead of the Fed. That changes tomorrow. The FOMC rate decision and a fresh set of economic projections land Wednesday September 16 at 2:00 pm ET, and Advance Retail Sales for August prints at 8:30 am ET the same morning. The current target range is 3.50 to 3.75 percent, and the market is split on a hold versus a small hike, so the projections and the press conference matter as much as the decision itself.",
-  "surprise": "Stocks leaned defensive into the decision. NQ and ES both lost their trend stops, crude jumped over 3 percent, December gold held about flat and edged back above its stop, and VIX was little changed near 17.2.",
-  "nqReaction": "NQ opened into a tight 71 point range, broke down out of it at 29,050, and sold to a 28,919 low before a late bounce to close 28,987, below NYVWAP 28,992 and below its reset trend stop.",
-  "crossAsset": "December gold slipped 0.16 percent to 4,333 but reclaimed its stop. Crude ripped 3.6 percent to 105.52 in the day session and flipped its stop up. MGC1! October settled 4,299.9. VIX near 17.2, up about half a percent."
+  "name": "FOMC rate decision and projections (August retail sales 8:30 am ET)",
+  "type": "POST_EVENT",
+  "consensus": "Target range 3.50 to 3.75 percent into the meeting; market split on a hold versus a small hike",
+  "actual": "The FOMC decision and fresh projections landed at 2:00 pm ET. We read it by its market fingerprint rather than guessing the exact rate move, and the fingerprint was hawkish: stocks, gold, and crude all sold off after the release and VIX rose, the classic higher-for-longer reaction.",
+  "surprise": "Broadly hawkish read. By the close NQ and ES were back under their trend stops and December gold and crude had flipped their stops down.",
+  "nqReaction": "NQ broke up out of its opening range, ran to a 29,254 high, then reversed on the 2pm decision below NYVWAP 29,116 to a 28,763 low before closing 28,974, flat on the day but below its trend stop.",
+  "crossAsset": "December gold ran to 4,414 then flipped its stop down to close 4,302, off 0.72 percent. Crude gave back yesterday's spike, down 3.32 percent to 102.02 and below its stop. MGC1! October closed 4,268.3. VIX up about 3 percent to 17.71."
  },
  "atrStop": {
   "MNQ1!": {
-   "stop": "29,154",
-   "price": "28,987",
-   "gap": "-168",
-   "trend": "FALLING",
+   "stop": "29,149",
+   "price": "28,974",
+   "gap": "-175",
+   "trend": "FLAT",
    "status": "BELOW"
   },
   "MES1!": {
-   "stop": "7,621",
-   "price": "7,596",
-   "gap": "-24",
+   "stop": "7,594",
+   "price": "7,554.75",
+   "gap": "-39",
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MGC2!": {
-   "stop": "4,306.4",
-   "price": "4,333.3",
-   "gap": "+26.9",
-   "trend": "RISING",
-   "status": "ABOVE"
+   "stop": "4,363.1",
+   "price": "4,302.2",
+   "gap": "-60.9",
+   "trend": "FLIPPED",
+   "status": "BELOW"
   },
   "MCL1!": {
-   "stop": "103.78",
-   "price": "105.52",
-   "gap": "+1.74",
-   "trend": "RISING",
-   "status": "ABOVE"
+   "stop": "104.23",
+   "price": "102.02",
+   "gap": "-2.21",
+   "trend": "FLIPPED",
+   "status": "BELOW"
   }
  },
  "observe": [
@@ -129,94 +128,98 @@
   }
  ],
  "risk": {
-  "throttleState": "REDUCED",
+  "throttleState": "DEFENSIVE",
   "ddProximity": "n/a",
   "dailyLossBudget": "n/a",
-  "sizing": "The indices lost their stops and the Fed decides tomorrow at 2:00 pm ET, so this is a keep it small backdrop that leans defensive into the decision. Consider standing flat or trimming risk around the 2:00 pm release. This is not a size up spot.",
-  "openRisk": "For the indices the reset stops are the line. NQ is below 29,154 and ES below 7,620, so both carry a with-trend short lean until they reclaim those stops on two hourly closes. Downside references are today's 28,919 NQ low and 7,577 ES low, then lower. Upside references are the 29,199 overnight high and 29,500 on NQ, and 7,633 then 7,700 on ES. December gold reclaimed its 4,306 stop and closed 4,333, a with-trend long lean while it holds 4,306, with 4,350 and 4,400 above. Crude reclaimed its 103.78 stop and closed 105.52, a with-trend long while it holds 103.78, with today's 106.75 high above and the 105 area as the pivot.",
-  "note": "Very high event risk into the FOMC decision Wednesday September 16 at 2:00 pm ET with fresh projections, plus August retail sales at 8:30 am ET. A binary event can whip both ways, so keep size small and mind prop news blackout rules around the 2:00 pm decision. Not financial advice."
+  "sizing": "Keep size reduced. The Fed just flipped or held all four markets below their trend stops on a violent reversal bar, so the short-term trend has tipped lower but on event noise, not a clean trend. Do not chase the flip in either direction. Let tomorrow's cleaner tape confirm before adding trend risk.",
+  "openRisk": "The flipped stops are the line. NQ is below 29,149, ES below 7,594, December gold below 4,363, and crude below 104.23, so all four carry a with-trend short lean until they reclaim those stops on two hourly closes. Downside references are today's lows: NQ 28,763, ES 7,509, gold 4,273, crude 101.03, then the round numbers below. Upside references are the reclaim stops above, then the overnight highs (NQ 29,187) and psych levels (NQ 29,500, ES 7,700, gold 4,400). Gold is holding the 4,300 psych by a hair, so 4,300 and then 4,273 are the levels that decide whether the metal steadies or extends lower.",
+  "note": "Event risk steps down now that the Fed is behind us, but follow-through after a hawkish reaction can extend for a day or two. Weekly jobless claims print Thursday at 8:30 am ET. Keep size small until the trend stops are reclaimed or clearly lost. Not financial advice."
  },
- "psychology": "This is the hardest kind of day to sit still. The Fed decides tomorrow, so nothing today was going to settle the trend, and a slow grind lower with a sharp crude spike is exactly the tape that tempts you to overtrade. The edge tonight is preparation. Mark your levels, size down, and let the 2:00 pm decision come to you. If you are already short the indices with the trend, that is fine, but do not add risk into a binary event. Whatever the Fed says, the reaction can whip both ways in minutes. Flat is a position, and tomorrow rewards the trader who kept powder dry.",
+ "psychology": "Today was the binary event we spent all week preparing for, and it did exactly what binary events do: it whipped. If you traded the run-up into 2:00 pm and got caught long on the reversal, that sting is the market teaching a lesson you already knew. The pros were not guessing the decision. They waited for the dust to settle and traded the reaction with a plan. Notice that NQ closed near flat after a 491 point swing. That is a coin-flip day dressed up as a trend, and forcing size into it is how good weeks turn into bad ones. Tomorrow the event risk is behind us and the tape usually gives cleaner information. Reset, review what the Fed reaction actually did to your levels, and trade the follow-through, not your feelings about the decision.",
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Risk-off. NQ down 0.71 percent to 28,987 and ES down 0.47 percent to 7,596, both losing their trend stops. December gold down 0.16 percent to 4,333, back above its stop. Crude up 3.6 percent to 105.52, flipped its stop up. VIX little changed near 17.2.</td><td>Medium-High</td></tr><tr><td>Volatility</td><td>Moderate and event-coiled. VIX flat near 17.2. NQ ran a 28,919 to 29,199 range, about 280 points, but the hourly closes clustered tightly, so the deviation band sigma is small at about 16. ATR(14) eased to about 76 on NQ from 99.</td><td>Medium</td></tr><tr><td>Session</td><td>Downside opening break. NQ broke down out of its 29,075 to 29,146 opening range at 29,050, sold to 28,919, and closed 28,987, below NYVWAP 28,992. A weak open that worked lower.</td><td>Medium</td></tr><tr><td>Inventory</td><td>Defensive, net long liquidation in the indices. Steady drift lower through globex and the day session, with a late bounce. Crude was the one-way bid.</td><td>Medium</td></tr><tr><td>Event</td><td>FOMC day 1 of 2. No scheduled US release today. The rate decision and fresh projections land Wednesday at 2:00 pm ET, with August retail sales at 8:30 am ET the same morning.</td><td>High</td></tr><tr><td>Liquidity</td><td>Normal. Gold is on December (MGC2!), the tracked liquid front. October (MGC1!) settled 4,299.9 and December 4,333.3. Crude spiked on strong day-session flow.</td><td>Medium</td></tr></tbody></table></div>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Risk-off after a hawkish-read Fed. NQ round-tripped to close 28,974 (down 0.04 percent) below its stop, ES down 0.55 percent to 7,554 below its stop, December gold down 0.72 percent to 4,302 with its stop flipped down, crude down 3.32 percent to 102.02 with its stop flipped down. VIX up about 3 percent to 17.71. All four below their trend stops.</td><td>High</td></tr><tr><td>Volatility</td><td>Expanded on the event. NQ ATR(14) jumped to about 92 from 76 and the deviation band sigma blew out to about 113 on the FOMC swing. NQ ran a 491 point intraday range. VIX up 3 percent but still calm at 17.71.</td><td>High</td></tr><tr><td>Session</td><td>Upside opening break that failed. NQ broke up out of its 29,082 to 29,130 opening range at 9:45 ET, ran to 29,254, then the 2pm decision reversed it below NYVWAP 29,116 to a 28,763 low, closing 28,974. A trap and reverse.</td><td>Medium-High</td></tr><tr><td>Inventory</td><td>Long liquidation into and after the decision. Ran up pre-Fed on positioning, then broad de-risking across stocks, gold, and crude on the 2pm print.</td><td>Medium</td></tr><tr><td>Event</td><td>FOMC decision day. The 2pm ET rate decision and fresh projections landed and the reaction read hawkish. August retail sales also printed at 8:30 am ET.</td><td>High</td></tr><tr><td>Liquidity</td><td>Normal. Gold is on December (MGC2!), the tracked liquid front. October (MGC1!) closed 4,268.3 and December 4,302.2.</td><td>Medium</td></tr></tbody></table></div>"
   },
   {
    "title": "NY Opening Range / HTA OPEN",
-   "html": "<p>NQ opened into a tight 71 point range at the bell: high 29,146, low 29,075. Price broke down out of that range at 29,050 and worked lower through the session to a 28,919 low, closing 28,987, below NYVWAP 28,992. In plain terms the market opened, failed to hold the range, and drifted lower into the Fed. For Wednesday the opening range resets fresh, but it is the FOMC decision day. HOF and MID sit out Wednesday and the Fed decision. BIR and BNC are eligible by calendar, though the 2:00 pm ET decision and 8:30 am retail sales make it a high-risk session, so treat any opening-range play with extra caution. Calendar: FOMC rate decision and fresh projections Wednesday September 16 at 2:00 pm ET, and Advance Retail Sales for August at 8:30 am ET the same morning. Conditional and educational only.</p>"
+   "html": "<p>NQ opened into a tight 48 point range at the bell: high 29,130, low 29,082. Price broke up out of that range at 9:45 ET and ran to 29,254, then the 2:00 pm Fed reversed it, dropping below NYVWAP 29,116 to a 28,763 low and closing 28,974. In plain terms the market broke out, the Fed trapped the breakout, and price reversed all the way through the range to the downside. For Thursday the opening range resets fresh and the Fed is behind us, so all four HTA OPEN plays are eligible by calendar: BIR, HOF, MID, and BNC. Calendar: weekly initial jobless claims Thursday September 17 at 8:30 am ET, plus any follow-on Fed speak. Conditional and educational only.</p>"
+  },
+  {
+   "title": "TSMOM ATR Stop",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Symbol</th><th>ATR Stop</th><th>Price</th><th>Gap</th><th>Trend</th><th>Status</th></tr></thead><tbody><tr><td>MNQ</td><td>29,149</td><td>28,974</td><td>-175 (-0.60 percent)</td><td>FLAT</td><td>BELOW (held below)</td></tr><tr><td>MES</td><td>7,594</td><td>7,554.75</td><td>-39 (-0.52 percent)</td><td>FALLING</td><td>BELOW (held below)</td></tr><tr><td>MGC</td><td>4,363.1</td><td>4,302.2</td><td>-60.9 (-1.40 percent)</td><td>FLIPPED</td><td>BELOW (December, flipped down)</td></tr><tr><td>MCL</td><td>104.23</td><td>102.02</td><td>-2.21 (-2.12 percent)</td><td>FLIPPED</td><td>BELOW (flipped down)</td></tr></tbody></table></div>"
   },
   {
    "title": "Momentum Breakout (Regime Filter)",
-   "html": "<p>E3v2 Momentum Long is off on the indices. NQ and ES both closed below their trend stops, so the index momentum long filter is not armed and there is no long there. Crude is the opposite, above its stop after a 3.6 percent breakout, so a momentum long filter is on for crude, but it just ran hard and the Fed lands tomorrow, so chasing it is poor risk. For a fresh index breakout long, this is a stand-aside spot until price reclaims the stops.</p>"
+   "html": "<p>E3v2 Momentum Long is off across the board. All four markets closed below their trend stops, so the momentum long filter is not armed anywhere and a fresh long would fight the tape. This is exactly the spot the filter is built for: it keeps you out of longs while the trend stops are flipped down after an event. Wait for a stop reclaim on two hourly closes before a momentum long is back on the table.</p>"
   },
   {
    "title": "AVWAP Deviation Band Reversal",
-   "html": "<p>AVWAP deviation band (MNQ): AVWAP center 28,978, close 28,987 sits about half a sigma above the mean. Bands: plus 2 sigma 29,011, plus 1 sigma 28,994, minus 1 sigma 28,961, minus 2 sigma 28,945, minus 3 sigma 28,928. Sigma is tight at about 16 because the hourly closes clustered even though the session range was wide, from 28,919 to 29,136. Volume is unavailable on the continuous contract, so this is price only. There is no stretched extreme to fade right now, and these bands are unusually narrow, so a Fed-driven move tomorrow will run through them. This edge is a low-value fade until volatility and the bands re-expand.</p>"
+   "html": "<p>AVWAP deviation band (MNQ): AVWAP center 29,096, close 28,974 sits about 1 sigma below the mean. Bands: plus 2 sigma 29,322, plus 1 sigma 29,209, minus 1 sigma 28,983, minus 2 sigma 28,870, minus 3 sigma 28,758. Sigma is very wide at about 113 today because the FOMC ran a huge swing. The one clean signal was the 28,763 low tagging the minus 3 sigma band at 28,758 and reverting about 200 points into the close, a textbook exhaustion reversion. Volume is unavailable on the continuous contract, so this is price only. With the bands this stretched, wait for them to re-settle before trusting a fresh fade tomorrow.</p>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Status</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ 29,016</td><td>MNQ holds the 29,016 flipped up stop on 2 hourly closes, the recovery stays intact toward the 29,306 RTH high and the 29,500 psych</td><td>NOT TRIGGERED</td><td>n/a</td><td>NQ did not hold 29,016. It lost the stop and every RTH hourly close printed below it, starting at 28,950. The recovery scenario never armed.</td></tr><tr><td>MNQ 28,956</td><td>MNQ loses today's 28,956 RTH low on 2 hourly closes, the flush resumes toward the 28,816 overnight low and lower</td><td>NOT TRIGGERED</td><td>n/a</td><td>NQ wicked below 28,956 to a 28,919 low, but only one hourly close, 28,950, printed under the level before it recovered above it. There were not two hourly closes below 28,956, so the flush-resume did not confirm. Price closed 28,987, back above the level, and 28,816 was never approached.</td></tr><tr><td>MES 7,598</td><td>MES holds the 7,598 flipped up stop on 2 hourly closes, the tape stays constructive toward the 7,652 RTH high and the 7,700 psych</td><td>NOT TRIGGERED</td><td>n/a</td><td>The hold failed. ES lost 7,598 and closed below it all session, from 7,580 to 7,597, dipping to a 7,577 low. It never strung two hourly closes above 7,598, so the constructive hold did not trigger.</td></tr><tr><td>MGC 4,362</td><td>December gold reclaims the 4,362 stop on 2 hourly closes, the repair points toward 4,400 and the 4,397 overnight high</td><td>NOT TRIGGERED</td><td>n/a</td><td>December gold did not reclaim 4,362. Its high was 4,351 and every hourly close stayed below the level, closing 4,333. The reclaim did not trigger, though gold did edge back above its new, lower stop.</td></tr><tr><td>MCL 104.19</td><td>MCL stays below the 104.19 flipped down stop, the fade stays in play toward the 100.53 RTH low and the 100 round</td><td>NOT TRIGGERED</td><td>n/a</td><td>Crude did the opposite. It reclaimed 104.19 early and ripped 3.6 percent to a 106.75 high, closing 105.52. The stay-below condition broke, the fade was invalidated, and the reclaim the bias flagged is what happened.</td></tr></tbody></table></div><p>Monday's map, marked against Tuesday Sep 15, a positioning day before the Fed. None of the five acceptance conditions confirmed on two hourly closes. NQ and ES lost their stops instead of holding them, December gold did not reclaim 4,362, NQ wicked below 28,956 to 28,919 but closed back above it, and crude reclaimed 104.19 and rallied instead of staying below. Zero triggered, five not triggered.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Status</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ 29,154</td><td>MNQ reclaims the 29,154 flipped down stop on 2 hourly closes, the pre-Fed downtrend repairs toward the 29,199 overnight high and the 29,500 psych</td><td>TRIGGERED</td><td>MIXED</td><td>The reclaim armed. NQ's first four hourly closes (29,203, 29,203, 29,173, 29,188) all printed above 29,154, and it cleared the 29,199 overnight high with a run to 29,254, hitting the first target. But the 2pm Fed reversed it below the stop again to close 28,974, and 29,500 was never approached. First objective hit, the repair thesis frayed.</td></tr><tr><td>MNQ 28,919</td><td>MNQ loses today's 28,919 RTH low on 2 hourly closes, the flush extends toward the 28,800s and lower</td><td>NOT TRIGGERED</td><td>n/a</td><td>Price wicked well below 28,919 to a 28,763 low on the Fed reaction, but no hourly close printed under the level. The lowest hourly close was 28,940, above 28,919. The 2 close flush never confirmed and price recovered to close 28,974.</td></tr><tr><td>MES 7,620</td><td>MES reclaims the 7,620 flipped down stop on 2 hourly closes, the tape repairs toward the 7,633 overnight high and the 7,700 psych</td><td>NOT TRIGGERED</td><td>n/a</td><td>Only one hourly close, 7,622, printed above 7,620; the rest stayed below. ES tagged the 7,632 high intraday but never strung two closes above the stop, so the reclaim did not confirm. It sold the Fed to a 7,509 low and closed 7,554.</td></tr><tr><td>MGC 4,306</td><td>December gold holds the 4,306 reclaimed stop on 2 hourly closes, the steadying continues toward 4,350 and the 4,400 round</td><td>TRIGGERED</td><td>MIXED</td><td>Gold held 4,306 on its first four hourly closes and ran to 4,414, clearing both 4,350 and 4,400. But the Fed dumped it to a 4,273 low and it closed 4,302, below the level it was supposed to hold, flipping its stop down. The upside targets were hit, then the hold broke.</td></tr><tr><td>MCL 103.78</td><td>MCL holds the 103.78 flipped up stop on 2 hourly closes, the breakout stays in play toward today's 106.75 high</td><td>NOT TRIGGERED</td><td>n/a</td><td>Crude never held above 103.78. Every RTH hourly close printed below it and price faded hard to 102.02, down 3.32 percent. The loss and fade the bias flagged as the alternative is what happened.</td></tr></tbody></table></div><p>Tuesday's map, marked against the Wednesday Sep 16 FOMC session. Two of five acceptance conditions armed and both grade mixed: NQ and December gold each reclaimed or held their levels and hit a first upside target during the pre-Fed run, then the 2pm decision reversed both back below those levels. The three that needed a clean break, MNQ losing 28,919, MES reclaiming 7,620, and crude holding 103.78, did not confirm on two hourly closes.</p>"
   },
   {
-   "title": "Tomorrow's Map (for Wednesday, September 16)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Bias</th></tr></thead><tbody><tr><td>MNQ 29,154</td><td>MNQ reclaims the 29,154 flipped down stop on 2 hourly closes, the pre-Fed downtrend repairs toward the 29,199 overnight high and the 29,500 psych</td><td>NQ closed 28,987 below its reset stop after losing it today. Two hourly closes back above 29,154 are the first sign buyers stepped in around the decision.</td></tr><tr><td>MNQ 28,919</td><td>MNQ loses today's 28,919 RTH low on 2 hourly closes, the flush extends toward the 28,800s and lower</td><td>28,919 was today's low and held on the close. Losing it, most likely on the 2:00 pm reaction, opens fresh downside.</td></tr><tr><td>MES 7,620</td><td>MES reclaims the 7,620 flipped down stop on 2 hourly closes, the tape repairs toward the 7,633 overnight high and the 7,700 psych</td><td>ES closed 7,596 under its stop. Two closes back above 7,620 flip it constructive again.</td></tr><tr><td>MGC 4,306</td><td>December gold holds the 4,306 reclaimed stop on 2 hourly closes, the steadying continues toward 4,350 and the 4,400 round</td><td>December gold closed 4,333 back above its stop. Holding 4,306 keeps the repair alive, and a safe-haven bid can build on the decision.</td></tr><tr><td>MCL 103.78</td><td>MCL holds the 103.78 flipped up stop on 2 hourly closes, the breakout stays in play toward today's 106.75 high</td><td>Crude ripped 3.6 percent and reclaimed its stop. Holding 103.78 keeps the momentum long alive. Losing it fades the spike back toward the 103 area.</td></tr></tbody></table></div><p>For Wednesday the opening range resets fresh, but it is the FOMC decision day. HOF and MID sit out Wednesday and the Fed decision. BIR and BNC are eligible by calendar, though the 2:00 pm ET decision and 8:30 am retail sales make it a high-risk session, so treat any opening-range play with extra caution. Calendar: FOMC rate decision and fresh projections Wednesday September 16 at 2:00 pm ET, and Advance Retail Sales for August at 8:30 am ET the same morning. Conditional and educational only.</p>"
+   "title": "Tomorrow's Map (for Thursday, September 17)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>Level</th><th>Scenario</th><th>Bias</th></tr></thead><tbody><tr><td>MNQ 29,149</td><td>MNQ reclaims the 29,149 flipped down stop on 2 hourly closes, the post-Fed downtrend repairs toward the 29,187 overnight high and the 29,500 psych</td><td>NQ closed 28,974 below its stop after the Fed reversal. Two hourly closes back above 29,149 are the first sign buyers stepped back in.</td></tr><tr><td>MNQ 28,763</td><td>MNQ loses today's 28,763 FOMC low on 2 hourly closes, the flush extends toward the 28,600s and lower</td><td>28,763 was the Fed low and held on the close. Losing it opens fresh downside with little support until the 28,600s.</td></tr><tr><td>MES 7,594</td><td>MES reclaims the 7,594 flipped down stop on 2 hourly closes, the tape repairs toward the 7,620 area and the 7,700 psych</td><td>ES closed 7,554 under its stop. Two closes back above 7,594 flip it constructive; losing today's 7,509 low opens the 7,500 psych.</td></tr><tr><td>MGC 4,363</td><td>December gold reclaims the 4,363 flipped down stop on 2 hourly closes, the repair points toward the 4,400 round</td><td>Gold flipped its stop down and closed 4,302, holding the 4,300 psych by a hair. A reclaim of 4,363 is the first repair sign; losing 4,300 and today's 4,273 low opens 4,250.</td></tr><tr><td>MCL 104.23</td><td>MCL stays below the 104.23 flipped down stop, the fade stays in play toward the 101.03 RTH low and the 100 round</td><td>Crude gave back the spike and flipped down. Below 104.23 the fade has room toward 101 and 100; a reclaim of 104.23 on 2 closes is the first repair sign.</td></tr></tbody></table></div><p>For Thursday the opening range resets fresh and the Fed is behind us, so all four HTA OPEN plays are eligible by calendar: BIR, HOF, MID, and BNC. Calendar: weekly initial jobless claims Thursday September 17 at 8:30 am ET, plus any follow-on Fed speak. A hawkish reaction can carry for a day or two, so watch for follow-through. Conditional and educational only.</p>"
   }
  ],
  "tomorrowsMap": [
   {
-   "level": "MNQ 29,154",
-   "if": "MNQ reclaims the 29",
-   "then": "154 flipped down stop on 2 hourly closes, the pre-Fed downtrend repairs toward the 29,199 overnight high and the 29,500 psych",
-   "bias": "NQ closed 28,987 below its reset stop after losing it today. Two hourly closes back above 29,154 are the first sign buyers stepped in around the decision."
+   "level": "MNQ 29,149",
+   "if": "MNQ reclaims the 29,149 flipped down stop on 2 hourly closes, the post-Fed downtrend repairs toward the 29,187 overnight high and the 29,500 psych",
+   "then": "",
+   "bias": "NQ closed 28,974 below its stop after the Fed reversal. Two hourly closes back above 29,149 are the first sign buyers stepped back in."
   },
   {
-   "level": "MNQ 28,919",
-   "if": "MNQ loses today's 28",
-   "then": "919 RTH low on 2 hourly closes, the flush extends toward the 28,800s and lower",
-   "bias": "28,919 was today's low and held on the close. Losing it, most likely on the 2:00 pm reaction, opens fresh downside."
+   "level": "MNQ 28,763",
+   "if": "MNQ loses today's 28,763 FOMC low on 2 hourly closes, the flush extends toward the 28,600s and lower",
+   "then": "",
+   "bias": "28,763 was the Fed low and held on the close. Losing it opens fresh downside with little support until the 28,600s."
   },
   {
-   "level": "MES 7,620",
-   "if": "MES reclaims the 7",
-   "then": "620 flipped down stop on 2 hourly closes, the tape repairs toward the 7,633 overnight high and the 7,700 psych",
-   "bias": "ES closed 7,596 under its stop. Two closes back above 7,620 flip it constructive again."
+   "level": "MES 7,594",
+   "if": "MES reclaims the 7,594 flipped down stop on 2 hourly closes, the tape repairs toward the 7,620 area and the 7,700 psych",
+   "then": "",
+   "bias": "ES closed 7,554 under its stop. Two closes back above 7,594 flip it constructive; losing today's 7,509 low opens the 7,500 psych."
   },
   {
-   "level": "MGC 4,306",
-   "if": "December gold holds the 4",
-   "then": "306 reclaimed stop on 2 hourly closes, the steadying continues toward 4,350 and the 4,400 round",
-   "bias": "December gold closed 4,333 back above its stop. Holding 4,306 keeps the repair alive, and a safe-haven bid can build on the decision."
+   "level": "MGC 4,363",
+   "if": "December gold reclaims the 4,363 flipped down stop on 2 hourly closes, the repair points toward the 4,400 round",
+   "then": "",
+   "bias": "Gold flipped its stop down and closed 4,302, holding the 4,300 psych by a hair. A reclaim of 4,363 is the first repair sign; losing 4,300 and today's 4,273 low opens 4,250."
   },
   {
-   "level": "MCL 103.78",
-   "if": "MCL holds the 103.78 flipped up stop on 2 hourly closes",
-   "then": "the breakout stays in play toward today's 106.75 high",
-   "bias": "Crude ripped 3.6 percent and reclaimed its stop. Holding 103.78 keeps the momentum long alive. Losing it fades the spike back toward the 103 area."
+   "level": "MCL 104.23",
+   "if": "MCL stays below the 104.23 flipped down stop, the fade stays in play toward the 101.03 RTH low and the 100 round",
+   "then": "",
+   "bias": "Crude gave back the spike and flipped down. Below 104.23 the fade has room toward 101 and 100; a reclaim of 104.23 on 2 closes is the first repair sign."
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
-  "triggered": 0,
+  "triggered": 2,
   "playedOut": 0,
-  "mixed": 0,
+  "mixed": 2,
   "failed": 0,
-  "notTriggered": 5,
-  "note": "Monday's map, marked against Tuesday Sep 15, a positioning day before the Fed. None of the five acceptance conditions confirmed on two hourly closes. NQ and ES lost their stops instead of holding them, December gold did not reclaim 4,362, NQ wicked below 28,956 to 28,919 but closed back above it, and crude reclaimed 104.19 and rallied instead of staying below. Zero triggered, five not triggered."
+  "notTriggered": 3,
+  "note": "Tuesday's map, marked against the Wednesday Sep 16 FOMC session. Two of five acceptance conditions armed and both grade mixed: NQ and December gold each reclaimed or held their levels and hit a first upside target during the pre-Fed run, then the 2pm decision reversed both back below those levels. The three that needed a clean break, MNQ losing 28,919, MES reclaiming 7,620, and crude holding 103.78, did not confirm on two hourly closes."
  },
  "mapTallyMTD": {
-  "rows": 50,
-  "triggered": 20,
+  "rows": 55,
+  "triggered": 22,
   "playedOut": 15,
-  "mixed": 4,
+  "mixed": 6,
   "failed": 1
  },
  "downloadLink": "",
- "reportFileName": "HTA-Pro-EOD-Report-2026-09-15.docx",
+ "reportFileName": "HTA-Pro-EOD-Report-2026-09-16.docx",
  "charts": [
-  "charts/chart-mnq-1hr-2026-09-15.png",
-  "charts/chart-mes-1hr-2026-09-15.png",
-  "charts/chart-mgc-1hr-2026-09-15.png",
-  "charts/chart-mcl-1hr-2026-09-15.png"
+  "charts/chart-mnq-1hr-2026-09-16.png",
+  "charts/chart-mes-1hr-2026-09-16.png",
+  "charts/chart-mgc-1hr-2026-09-16.png",
+  "charts/chart-mcl-1hr-2026-09-16.png"
  ]
 }
