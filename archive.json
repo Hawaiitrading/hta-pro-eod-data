@@ -133,6 +133,13 @@
     "summary": "Risk off day and a clean trend, the mirror image of Monday's coil. Equities sold from the open. NQ closed 29,139, down 1.30 percent and right on the 29,000 psych. MES closed 7,647, down 0.70 percent, losing the 7,700 psych line it sat on Monday. Gold broke hard, down 2.70 percent to 4,342 as the 10 year yield firmed. Crude went the other way and led the board, ripping 5.09 percent to 90.70 and stretching its lead as the only market above a rising stop. Volatility expanded, VIX jumped to 16.34, and jobs week is live with JOLTS mid week and the August payrolls report Friday."
   },
   {
+    "date": "Monday, September 21, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Risk-On Equity Extension, Gold Flips Down, Crude Rolls Lower",
+    "regimeClass": "risk-on",
+    "summary": "The risk-on move accelerated. NQ ripped 2.74 percent to 30,782, cleared the 30,000 wall and ran toward 31,000. ES added 1.34 percent to 7,829. Both closed near their highs above rising stops. The tell was rotation: gold and crude both sold off. December gold fell 0.79 percent to 4,381 and flipped its trend stop down. Crude, now on the November contract after the roll, dropped 3.66 percent to 92.00 and stayed below its falling stop. VIX near 14.8, calm. Money moved out of metals and energy and into stocks."
+  },
+  {
     "date": "Monday, August 3, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-on trend day. NQ and ES broke out together and closed near their highs above rising AVWAPs, powered by a 7.8% crude crash on Iran de-escalation and a strong ISM beat. Gold lagged and stayed below its stop; the only caution is how far and fast oil just repriced.",
