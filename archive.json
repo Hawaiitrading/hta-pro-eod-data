@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-01",
+    "dayOfWeek": "Thursday",
+    "regime": "Choppy Fade (Shutdown Pop Then Fade, NQ Flipped Bearish)",
+    "regimeClass": "chop",
+    "summary": "<strong>The government shut down and the tape could not make up its mind.</strong> The Nasdaq popped overnight to 31,150 well past 31,000, reversed hard to a 30,531 low, flipped its ATR stop bearish, and clawed back to close 30,770.5, up a token 0.14 percent but below that flipped stop. The S&P was flat at 7,725 and still below a falling stop, so tech and the broad market are both heavy under their trend lines. Gold bounced 0.67 percent to 4,177.6 but stalled under its 4,182 flipped stop, while crude was the one clean trend, up 2.88 percent to 92.93 above a rising stop. Jobless claims fell to 197K and ISM held 54.5, while the 10-year yield spiked to a 24-year-high 5.33 percent intraday before easing."
+  },
+  {
     "date": "2026-09-30",
     "dayOfWeek": "Wednesday",
     "regime": "Choppy Fade (NQ Popped PCE Then Faded, ES Red, Gold Reversed)",
