@@ -1,60 +1,69 @@
 {
- "date": "October 2, 2026",
- "dayOfWeek": "Friday",
- "regime": "Trend-Up Repair (Risk-On)",
+ "date": "October 5, 2026",
+ "dayOfWeek": "Monday",
+ "regime": "Trend-Up Continuation (Quiet Risk-On)",
  "regimeClass": "risk-on",
- "summary": "<strong>NQ and ES both reclaimed the ATR stops they lost yesterday and closed green while VIX fell 6.59% to 15.31.</strong> The September jobs report was cancelled by the shutdown, so the tape ran on flows, not data. Both indices faded off early highs into the close. Gold rolled to the December contract and reversed from 4,259 to close 4,172, and crude whipsawed to 88.20 before reclaiming its stop to close 91.27.",
+ "summary": "<strong>NQ and ES kept the trend going and pushed to fresh highs on a quiet tape, while gold and crude went the other way.</strong> NQ closed up 0.94% at 31,340 after clearing Friday's 31,282 high and tagging 31,371, and ES ran with it to a 7,848 high and a 7,830 close, with the S&P cash index back in record territory near 7,794. VIX ticked up to 15.52 but stayed low, so this was a calm grind rather than a volatility move. Gold stayed capped below a falling stop and chopped to close 4,168, and crude flipped bearish, lost its stop and closed down 2.20% at 89.26.",
  "keyLevels": [
   {
    "label": "MNQ ATR Stop",
-   "value": "30,916",
-   "note": "Reclaimed, rising"
+   "value": "31,126",
+   "note": "Rising, price above"
   },
   {
    "label": "MNQ AVWAP",
-   "value": "31,084",
-   "note": "Close hugged it"
+   "value": "31,277",
+   "note": "Close held above"
   },
   {
-   "label": "MNQ PSYCH",
-   "value": "31,000",
-   "note": "Held as support"
+   "label": "MNQ RTH High",
+   "value": "31,371",
+   "note": "New session high"
   },
   {
    "label": "MES ATR Stop",
-   "value": "7,755",
-   "note": "Reclaimed, rising"
+   "value": "7,799",
+   "note": "Rising, price above"
   },
   {
-   "label": "MES PSYCH",
-   "value": "7,750",
-   "note": "Cleared"
+   "label": "MES RTH High",
+   "value": "7,848",
+   "note": "Record territory"
   },
   {
    "label": "MGC (Dec) ATR Stop",
-   "value": "4,215",
+   "value": "4,202",
    "note": "Price below, falling"
   },
   {
-   "label": "MGC (Dec) PRIOR CLOSE",
-   "value": "4,207.60",
-   "note": "MGC2! roll basis"
+   "label": "MGC (Dec) ON High",
+   "value": "4,199",
+   "note": "Capped the chop"
   },
   {
    "label": "MCL ATR Stop",
-   "value": "89.05",
-   "note": "Reclaimed after flush"
+   "value": "91.24",
+   "note": "Flipped short, price below"
   }
  ],
  "setups": [
   {
    "name": "TSMOM-20",
    "confidence": "High",
-   "entry": "Long while price holds above the reclaimed 1h ATR stop",
-   "stop": "ATR stop (MNQ 30,916 / MES 7,755)",
-   "t1": "Prior RTH highs (MNQ 31,282 / MES 7,810)",
+   "entry": "Long while price holds above the rising 1h ATR stop",
+   "stop": "ATR stop (MNQ 31,126 / MES 7,799)",
+   "t1": "Session highs (MNQ 31,371 / MES 7,848), then 31,500 / 7,850 psych",
    "rr": "Systematic",
-   "bias": "Trend repair back on the long side with both index stops rising"
+   "bias": "Trend-up continuation with both index stops rising and fresh highs in hand"
+  },
+  {
+   "name": "AVWAP Bounce",
+   "confidence": "Medium",
+   "entry": "Continuation bounce off AVWAP as dynamic support on a pullback",
+   "stop": "Below the AVWAP reclaim bar",
+   "t1": "Session high extension",
+   "rr": "Systematic",
+   "bias": "Uptrend intact but price closed extended above AVWAP, so a bounce needs a pullback first"
   },
   {
    "name": "E3v2 Momentum Long",
@@ -63,73 +72,53 @@
    "stop": "2x ATR below entry",
    "t1": "4x ATR",
    "rr": "Systematic",
-   "bias": "Momentum turned up but compressing volatility keeps the regime filter marginal"
-  },
-  {
-   "name": "AVWAP Back Into Range",
-   "confidence": "Medium",
-   "entry": "Full-body close back inside the opening range after a break",
-   "stop": "Beyond the OR extreme that was broken",
-   "t1": "Opposite OR boundary",
-   "rr": "Systematic",
-   "bias": "Fired today as a BIR structure, note Monday blocks BIR by filter"
-  },
-  {
-   "name": "AVWAP Bounce",
-   "confidence": "Medium",
-   "entry": "Continuation bounce off AVWAP as dynamic support",
-   "stop": "Below the AVWAP reclaim bar",
-   "t1": "Session high extension",
-   "rr": "Systematic",
-   "bias": "Price hugged AVWAP into the close, bounces are live if the trend read holds"
+   "bias": "Momentum is up but low, compressing volatility keeps the regime filter marginal"
   }
  ],
  "activeIndicators": [
   "tsmom-20",
-  "e3v2-momentum-long",
-  "avwap-back-into-range",
   "avwap-bounce",
-  "hta-open"
+  "e3v2-momentum-long"
  ],
  "downloadLink": "https://your-download-link.com/EOD_Report.docx",
- "reportFileName": "pro-eod-report-2026-10-02.docx",
+ "reportFileName": "pro-eod-report-2026-10-05.docx",
  "event": {
-  "name": "September jobs report (NFP) cancelled, government shutdown data blackout",
+  "name": "No scheduled federal release (government shutdown data blackout)",
   "type": "POST_EVENT",
-  "consensus": "n/a, release cancelled",
-  "actual": "No release. The BLS jobs report was blacked out by the federal shutdown.",
-  "surprise": "The print that was supposed to anchor the day did not happen, so the market traded on positioning and flows.",
-  "nqReaction": "NQ reclaimed its ATR stop and closed up 0.91% at 31,049, fading off a 31,282 RTH high. VIX dropped 6.59% to 15.31.",
-  "crossAsset": "Gold rolled to December (MGC2!) and reversed from 4,259 to close 4,172 down 0.85%. Crude whipsawed to 88.20 then closed 91.27 down 1.79%."
+  "consensus": "n/a, federal data on hold",
+  "actual": "No major U.S. data released. The government shutdown continues to black out BLS and federal releases, including jobs and CPI.",
+  "surprise": "No catalyst. The tape ran on flows and positioning into a quiet start to the week.",
+  "nqReaction": "NQ extended the trend, cleared Friday's 31,282 high and closed up 0.94% at 31,340 off a 31,371 high. VIX ticked up to 15.52, still low.",
+  "crossAsset": "S&P cash near record highs around 7,794. Gold stayed capped below a falling stop and closed 4,168 down 0.10%. Crude flipped bearish, lost its stop and closed 89.26 down 2.20%."
  },
  "atrStop": {
   "MNQ": {
-   "stop": "30,916.01",
-   "price": "31,049.00",
-   "gap": "+132.99",
+   "stop": "31,125.70",
+   "price": "31,339.75",
+   "gap": "+214.05",
    "trend": "RISING",
    "status": "ABOVE"
   },
   "MES": {
-   "stop": "7,754.51",
-   "price": "7,776.50",
-   "gap": "+21.99",
+   "stop": "7,798.72",
+   "price": "7,830.25",
+   "gap": "+31.53",
    "trend": "RISING",
    "status": "ABOVE"
   },
   "MGC": {
-   "stop": "4,215.00",
-   "price": "4,171.90",
-   "gap": "-43.10",
+   "stop": "4,201.54",
+   "price": "4,167.60",
+   "gap": "-33.94",
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MCL": {
-   "stop": "89.05",
-   "price": "91.27",
-   "gap": "+2.22",
-   "trend": "RISING",
-   "status": "ABOVE"
+   "stop": "91.24",
+   "price": "89.26",
+   "gap": "-1.98",
+   "trend": "FALLING",
+   "status": "BELOW"
   }
  },
  "observe": [
@@ -145,87 +134,87 @@
   "dailyLossBudget": "Per your plan",
   "sizing": "Standard",
   "openRisk": "Keep every trade defined",
-  "note": "Week ahead: the shutdown keeps federal data (jobs, CPI) on hold, so expect a thin, headline-driven tape into the Oct 5 week. Keep size standard and let the stop reclaims prove themselves before pressing. Gold now trades the December contract (MGC2!) after the October roll, so size gold off the new basis."
+  "note": "Week ahead: the shutdown keeps federal data (jobs, CPI) on hold, so expect a thin, headline-driven tape with Fed speakers as the main input. The indices are extended into fresh highs, so respect the chance of a pullback to the rising stops rather than chasing. Crude flipped below its ATR stop today, so size energy off the new short-side read. Gold trades the December contract (MGC2!) after the October roll, size it off that basis."
  },
- "psychology": "When the data you were waiting on does not show up, the easy mistake is forcing a read out of noise. The jobs report got cancelled, but your levels do not care. Trade the stop reclaims and the ranges that are actually in front of you, keep size standard, and let the thinner tape be a reason for patience.",
+ "psychology": "When the tape grinds higher on low volatility, the hardest thing to do is let it. The urge to call a top and the urge to chase the breakout bar come from the same place, impatience. Today the trend and the rising stop did the work. Let a pullback toward the rising stop or AVWAP set up your entries, keep size standard, and treat the quiet tape as a reason for patience.",
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th><th>Evidence</th></tr></thead><tbody><tr><td>Direction</td><td>Trend-Up (repair)</td><td>High</td><td>NQ +0.91% and ES +0.67% both reclaimed the ATR stops they lost yesterday and closed above rising stops. TrendSpider 1h read UPTREND - NORMAL.</td></tr><tr><td>Volatility</td><td>Low, compressing</td><td>High</td><td>VIX fell 6.59% to 15.31. MNQ ATR(14) contracted to 101 from 126 yesterday. Ranges tightened into the close.</td></tr><tr><td>Session</td><td>Two-way reversal</td><td>Medium</td><td>Indices opened strong, tagged highs (NQ 31,282) then faded into the close. Gold and crude both ran big reversals.</td></tr><tr><td>Inventory</td><td>Balanced, long lean sold</td><td>Medium</td><td>Overnight built up to the 31,223 area and RTH extended to 31,282 before sellers faded it back toward value.</td></tr><tr><td>Event</td><td>Data blackout</td><td>High</td><td>The September jobs report was scheduled today and got cancelled by the shutdown. The tape ran on flows, not data.</td></tr><tr><td>Liquidity</td><td>Thinner, caution</td><td>Medium</td><td>The shutdown data blackout plus the gold Oct to Dec contract roll argue for a more careful read of macro moves.</td></tr></tbody></table></div>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>Read</th><th>Confidence</th><th>Evidence</th></tr></thead><tbody><tr><td>Direction</td><td>Trend-Up (continuation)</td><td>High</td><td>NQ +0.94% and ES +0.69% both extended above rising ATR stops and cleared Friday's RTH highs to fresh highs (NQ 31,371, ES 7,848). TrendSpider 1h read UPTREND - NORMAL.</td></tr><tr><td>Volatility</td><td>Low, compressing</td><td>High</td><td>VIX 15.52, up 1.37% but still sub-16. MNQ ATR(14) eased to 85.6 from 101 Friday. Ranges stayed contained on a grind day.</td></tr><tr><td>Session</td><td>Trend-up, one-way</td><td>High</td><td>The HTA OPEN range broke UP at 14:20 UTC and price closed above the range near the highs, a clean trend day, not Friday's two-way reversal.</td></tr><tr><td>Inventory</td><td>Long build, held</td><td>Medium</td><td>Overnight built to 31,229 and RTH extended to 31,371. The close held near the high at 31,340, so longs stayed in control into the bell.</td></tr><tr><td>Event</td><td>Quiet, data blackout</td><td>High</td><td>No scheduled federal release. The shutdown keeps BLS data on hold, so the tape ran on flows.</td></tr><tr><td>Liquidity</td><td>Normal to thinner</td><td>Medium</td><td>Index liquidity was fine on the grind, but the shutdown blackout and the gold roll basis argue for a careful read of macro moves.</td></tr></tbody></table></div>"
   },
   {
    "title": "NY Opening Range / HTA OPEN (MNQ)",
-   "html": "<p><strong>MNQ NY Opening Range (HTA OPEN), 5-minute.</strong> Volume is disclaimed on the continuous contract, so VWAP lines use a typical-price mean.</p><div class='table-wrap'><table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td>OR High</td><td>31,181.75</td></tr><tr><td>OR Low</td><td>31,056.00</td></tr><tr><td>OR Width</td><td>125.75 pts</td></tr><tr><td>Break</td><td>UP at 13:55 UTC to 31,184.75</td></tr><tr><td>NYVWAP</td><td>31,093.81</td></tr><tr><td>HOF VWAP</td><td>31,090.09</td></tr><tr><td>Close vs OR</td><td>INSIDE</td></tr><tr><td>Close vs NYVWAP</td><td>BELOW</td></tr><tr><td>Signal</td><td>Back-in-Range structure: OR broke up at 13:55 UTC then price closed back inside the range and below NYVWAP</td></tr><tr><td>Filters (Monday Oct 5)</td><td>Monday blocks BIR. No CPI or FOMC. HOF, MID and BNC eligible. HOF dead zone 12:00 to 14:00 ET applies, MID is 9:30 to 10:30 ET only.</td></tr></tbody></table></div>"
+   "html": "<p><strong>MNQ NY Opening Range (HTA OPEN), 5-minute.</strong> Volume is disclaimed on the continuous contract, so the VWAP lines use a typical-price mean.</p><div class='table-wrap'><table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td>OR High</td><td>31,211.50</td></tr><tr><td>OR Low</td><td>31,044.00</td></tr><tr><td>OR Width</td><td>167.50 pts</td></tr><tr><td>Break</td><td>UP at 14:20 UTC to 31,231.00</td></tr><tr><td>NYVWAP</td><td>31,260.13</td></tr><tr><td>HOF VWAP</td><td>31,273.55</td></tr><tr><td>Close vs OR</td><td>ABOVE</td></tr><tr><td>Close vs NYVWAP</td><td>ABOVE</td></tr><tr><td>Signal</td><td>Clean upside break: OR broke UP at 14:20 UTC and price closed above the range and above NYVWAP, a trend-day structure</td></tr><tr><td>Filters (Monday Oct 5)</td><td>Monday blocks BIR. No CPI or FOMC. HOF, MID and BNC eligible. HOF dead zone 12:00 to 14:00 ET applies, MID is 9:30 to 10:30 ET only.</td></tr></tbody></table></div>"
   },
   {
    "title": "Momentum Breakout (Regime Filter)",
-   "html": "<p><strong>Momentum Breakout with Regime Filter (MNQ, 15m logic read on 1h context).</strong></p><div class='table-wrap'><table><thead><tr><th>Field</th><th>Reading</th></tr></thead><tbody><tr><td>Signal state</td><td>NO SIGNAL, momentum turned up with the reclaim but has not cleared the breakout trigger</td></tr><tr><td>ROC(12)</td><td>0.106</td></tr><tr><td>RVOL</td><td>n/a (volume disclaimed on continuous)</td></tr><tr><td>EMA(50)</td><td>30,908.85, price 31,049.00 above it</td></tr><tr><td>Regime filter</td><td>OK on direction, marginal on volatility as ATR compresses</td></tr><tr><td>Active position</td><td>None</td></tr></tbody></table></div>"
+   "html": "<p><strong>Momentum Breakout with Regime Filter (MNQ, 15m logic read on 1h context).</strong></p><div class='table-wrap'><table><thead><tr><th>Field</th><th>Reading</th></tr></thead><tbody><tr><td>Signal state</td><td>NO SIGNAL, this is trend continuation rather than a fresh breakout trigger</td></tr><tr><td>ROC(12)</td><td>0.998%</td></tr><tr><td>RVOL</td><td>n/a (volume disclaimed on continuous)</td></tr><tr><td>EMA(50)</td><td>31,060.80, price 31,339.75 well above it</td></tr><tr><td>Regime filter</td><td>OK on direction, marginal on volatility as ATR compresses</td></tr><tr><td>Active position</td><td>None</td></tr></tbody></table></div>"
   },
   {
    "title": "AVWAP Deviation Band Reversal (MNQ)",
-   "html": "<p><strong>AVWAP Deviation Band Reversal (MNQ, 1h).</strong> We only trade reversions at plus or minus 2 and 3 sigma. The plus or minus 1 sigma band is normal range.</p><div class='table-wrap'><table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td>AVWAP center</td><td>31,083.64</td></tr><tr><td>+3 sigma / -3 sigma</td><td>31,235.44 / 30,931.84</td></tr><tr><td>+2 sigma / -2 sigma</td><td>31,184.84 / 30,982.44</td></tr><tr><td>+1 sigma / -1 sigma</td><td>31,134.24 / 31,033.04</td></tr><tr><td>Price zone</td><td>INSIDE plus or minus 1 sigma at the close (31,049 vs AVWAP 31,084)</td></tr><tr><td>Band touch</td><td>+3 sigma TAGGED at the 31,282 RTH high then REVERTED all the way back inside plus or minus 1 sigma</td></tr><tr><td>Volume signature</td><td>Exhaustion spike into the high faded, a clean reversion read</td></tr></tbody></table></div>"
+   "html": "<p><strong>AVWAP Deviation Band Reversal (MNQ, 1h).</strong> We only trade reversions at plus or minus 2 and 3 sigma. The plus or minus 1 sigma band is normal range.</p><div class='table-wrap'><table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td>AVWAP center</td><td>31,276.93</td></tr><tr><td>+3 sigma / -3 sigma</td><td>31,407.93 / 31,145.93</td></tr><tr><td>+2 sigma / -2 sigma</td><td>31,364.26 / 31,189.59</td></tr><tr><td>+1 sigma / -1 sigma</td><td>31,320.60 / 31,233.26</td></tr><tr><td>Price zone</td><td>BETWEEN +1 sigma and +2 sigma at the close (31,339.75 vs AVWAP 31,276.93), riding the upper band</td></tr><tr><td>Band touch</td><td>+2 sigma tagged at the 31,371 RTH high, then price held the band and closed between +1 and +2 sigma, a trend extension not a reversion</td></tr><tr><td>Volume signature</td><td>No exhaustion reversal. On a one-way trend day the band tags continue, so there was no reversion-grade setup</td></tr></tbody></table></div>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<div class='table-wrap'><table><thead><tr><th>IF (from Oct 1 map)</th><th>Marked</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ reclaims the 30,897 flipped stop on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>MNQ held every hourly close above 30,897, flipped its stop back up to 30,916 and ran to a 31,282 RTH high, clearing the 31,000 round and the prior 31,150 overnight high.</td></tr><tr><td>MNQ loses the 30,711 NYVWAP and the 30,685 overnight low on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>Price never traded down there. The overnight low held 30,760, well above 30,685, so the downside case never set up.</td></tr><tr><td>MES reclaims the 7,739 falling stop on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>MES held above 7,739 all session, flipped its stop up to 7,754, tagged a 7,810 RTH high and cleared the 7,750 round, confirming the index bounce with NQ.</td></tr><tr><td>December gold reclaims the 4,182 flipped stop on 2 hourly closes</td><td>TRIGGERED</td><td>MIXED</td><td>December gold (now MGC2! after the Oct roll) opened above 4,182 and tagged 4,259 overnight, briefly opening 4,200 as mapped, then reversed hard and closed 4,172 back below the pivot near the 4,152 downside reference. Note the roll shifts the gold basis.</td></tr><tr><td>Crude holds above the 90.98 rising stop</td><td>TRIGGERED</td><td>MIXED</td><td>Crude lost 90.98 early and the downside opened as mapped, flushing to 88.07 overnight and 88.20 in RTH through the 90 round, then reclaimed 90.98 and closed 91.27 back above the stop. The loss played out, then reversed.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 4 triggered, 2 played out, 2 mixed, 0 failed, 1 not triggered. October MTD: 10 rows, 7 triggered, 3 played out, 4 mixed.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>IF (from Oct 2 map)</th><th>Marked</th><th>Grade</th><th>Read</th></tr></thead><tbody><tr><td>MNQ holds 2 hourly closes above the 30,916 reclaimed ATR stop</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>MNQ held every hourly close above 30,916, extended its stop up to 31,126, cleared Friday's 31,282 high and ran to a 31,371 RTH high, closing 31,340. The trend repair stuck and kept going.</td></tr><tr><td>MNQ loses the 31,000 round and the 30,988 RTH low on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>Price never traded down there. The RTH low held 31,114 and no hourly close came near 31,000, so the downside case never set up.</td></tr><tr><td>MES holds above the 7,754 reclaimed stop</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>MES held above 7,754 all session, lifted its stop to 7,799, cleared the 7,810 high and tagged 7,848, closing 7,830 in gear with NQ.</td></tr><tr><td>December gold (MGC2!) reclaims the 4,215 falling stop on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>Gold never got near 4,215. The overnight high was 4,199 and the RTH high 4,177, so it stayed capped below the falling stop and chopped 4,151 to 4,199, closing 4,168.</td></tr><tr><td>Crude holds above the 89.05 rising stop</td><td>TRIGGERED</td><td>MIXED</td><td>Crude held 89.05 on a closing basis but faded all day from 91.7, the opposite of the toward-92 case. It printed one sub-stop close (88.89 at 19:00 UTC, no two-close acceptance) and closed 89.26 down 2.20%, flipping its ATR stop to the short side.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 3 triggered, 2 played out, 1 mixed, 0 failed, 2 not triggered. October MTD: 15 rows, 10 triggered, 5 played out, 5 mixed, 0 failed.</p>"
   },
   {
-   "title": "Tomorrow's Map (for Monday, October 5, 2026)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th><th>Level</th></tr></thead><tbody><tr><td>MNQ holds 2 hourly closes above the 30,916 reclaimed ATR stop</td><td>Trend repair sticks. Grind back toward the 31,282 RTH high, clearing it opens the 31,500 psych.</td><td>Bias up while above</td><td>MNQ 30,916</td></tr><tr><td>MNQ loses the 31,000 round and the 30,988 RTH low on 2 hourly closes</td><td>The reclaim fails and the fade extends back to the 30,916 stop then the 30,760 overnight low.</td><td>Bias down on loss</td><td>MNQ 30,988</td></tr><tr><td>MES holds above the 7,754 reclaimed stop</td><td>ES stays in gear with NQ toward the 7,810 RTH high, a clear break opens the 7,850 area.</td><td>Bias up while above</td><td>MES 7,754</td></tr><tr><td>December gold (MGC2!) reclaims the 4,215 falling stop on 2 hourly closes</td><td>The reversal repairs toward the 4,200 round then the 4,226 RTH high. While below 4,215 gold stays capped, risk back to the 4,154 RTH low then 4,100.</td><td>Bias up on reclaim</td><td>MGC 4,215</td></tr><tr><td>Crude holds above the 89.05 rising stop</td><td>The reclaim sticks toward the 92 round then the 92.03 RTH high. Losing 89.05 on 2 closes reopens 88 and the 88.07 overnight low.</td><td>Bias up while above</td><td>MCL 89.05</td></tr></tbody></table></div><p><strong>Filters Monday Oct 5:</strong> Monday blocks BIR. No CPI or FOMC scheduled. HOF, MID and BNC eligible. <strong>Calendar:</strong> the government shutdown keeps federal data (jobs, CPI) on hold, so expect a thin, headline-driven tape. Watch Fed speakers and any private data. Verify the calendar Monday morning.</p>"
+   "title": "Tomorrow's Map (for Tuesday, October 6, 2026)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th><th>Level</th></tr></thead><tbody><tr><td>MNQ holds 2 hourly closes above the 31,126 ATR stop</td><td>Trend-up continuation stays in gear. Grind toward the 31,371 RTH high, clearing it opens the 31,500 psych.</td><td>Bias up while above</td><td>MNQ 31,126</td></tr><tr><td>MNQ loses the 31,114 RTH low and the 31,000 round on 2 hourly closes</td><td>The grind stalls and risk rotates back to the 31,126 stop then the 30,959 overnight low.</td><td>Bias down on loss</td><td>MNQ 31,114</td></tr><tr><td>MES holds above the 7,799 rising stop</td><td>ES stays in gear with NQ toward the 7,848 RTH high, a clear break opens the 7,850 psych.</td><td>Bias up while above</td><td>MES 7,799</td></tr><tr><td>December gold (MGC2!) reclaims the 4,202 falling stop on 2 hourly closes</td><td>The chop repairs toward the 4,200 round then the 4,199 overnight high. While below 4,202 gold stays capped, risk back to the 4,151 RTH low then 4,100.</td><td>Bias up on reclaim</td><td>MGC 4,202</td></tr><tr><td>Crude accepts (2 hourly closes) below the 89 handle and the 88.76 RTH low</td><td>The fade extends toward the 88 psych. Reclaiming 90 on two closes repairs toward the 91.24 flipped stop.</td><td>Bias down while below 90</td><td>MCL 88.76</td></tr></tbody></table></div><p><strong>Filters Tuesday Oct 6:</strong> not Monday, not Wednesday, no CPI or FOMC scheduled (the shutdown keeps federal data on hold). All four HTA OPEN playbooks eligible (BIR, HOF, MID, BNC). HOF dead zone 12:00 to 14:00 ET applies, MID is 9:30 to 10:30 ET only. <strong>Calendar:</strong> the government shutdown continues to black out federal data (jobs, CPI), so expect a thin, headline and Fed-speaker driven tape. Verify the calendar Tuesday morning.</p>"
   }
  ],
  "tomorrowsMap": [
   {
-   "if": "MNQ holds 2 hourly closes above the 30,916 reclaimed ATR stop",
-   "then": "Trend repair sticks. Grind back toward the 31,282 RTH high, clearing it opens the 31,500 psych.",
+   "if": "MNQ holds 2 hourly closes above the 31,126 ATR stop",
+   "then": "Trend-up continuation stays in gear. Grind toward the 31,371 RTH high, clearing it opens the 31,500 psych.",
    "bias": "Bias up while above",
-   "level": "MNQ 30,916"
+   "level": "MNQ 31,126"
   },
   {
-   "if": "MNQ loses the 31,000 round and the 30,988 RTH low on 2 hourly closes",
-   "then": "The reclaim fails and the fade extends back to the 30,916 stop then the 30,760 overnight low.",
+   "if": "MNQ loses the 31,114 RTH low and the 31,000 round on 2 hourly closes",
+   "then": "The grind stalls and risk rotates back to the 31,126 stop then the 30,959 overnight low.",
    "bias": "Bias down on loss",
-   "level": "MNQ 30,988"
+   "level": "MNQ 31,114"
   },
   {
-   "if": "MES holds above the 7,754 reclaimed stop",
-   "then": "ES stays in gear with NQ toward the 7,810 RTH high, a clear break opens the 7,850 area.",
+   "if": "MES holds above the 7,799 rising stop",
+   "then": "ES stays in gear with NQ toward the 7,848 RTH high, a clear break opens the 7,850 psych.",
    "bias": "Bias up while above",
-   "level": "MES 7,754"
+   "level": "MES 7,799"
   },
   {
-   "if": "December gold (MGC2!) reclaims the 4,215 falling stop on 2 hourly closes",
-   "then": "The reversal repairs toward the 4,200 round then the 4,226 RTH high. While below 4,215 gold stays capped, risk back to the 4,154 RTH low then 4,100.",
+   "if": "December gold (MGC2!) reclaims the 4,202 falling stop on 2 hourly closes",
+   "then": "The chop repairs toward the 4,200 round then the 4,199 overnight high. While below 4,202 gold stays capped, risk back to the 4,151 RTH low then 4,100.",
    "bias": "Bias up on reclaim",
-   "level": "MGC 4,215"
+   "level": "MGC 4,202"
   },
   {
-   "if": "Crude holds above the 89.05 rising stop",
-   "then": "The reclaim sticks toward the 92 round then the 92.03 RTH high. Losing 89.05 on 2 closes reopens 88 and the 88.07 overnight low.",
-   "bias": "Bias up while above",
-   "level": "MCL 89.05"
+   "if": "Crude accepts (2 hourly closes) below the 89 handle and the 88.76 RTH low",
+   "then": "The fade extends toward the 88 psych. Reclaiming 90 on two closes repairs toward the 91.24 flipped stop.",
+   "bias": "Bias down while below 90",
+   "level": "MCL 88.76"
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
-  "triggered": 4,
+  "triggered": 3,
   "playedOut": 2,
-  "mixed": 2,
+  "mixed": 1,
   "failed": 0,
-  "notTriggered": 1,
-  "note": "Built Thursday Oct 1 for the Friday Oct 2 session, graded against Friday. Both index stop reclaims played out clean, gold and crude both triggered but whipsawed to MIXED, and the MNQ downside case never triggered."
+  "notTriggered": 2,
+  "note": "Built Friday Oct 2 for the Monday Oct 5 session, graded against Monday. Both index stop holds played out clean into fresh highs, gold and crude both failed to confirm the upside, gold never triggered its reclaim and crude held the stop on closes but faded to MIXED."
  },
  "mapTallyMTD": {
-  "rows": 10,
-  "triggered": 7,
-  "playedOut": 3,
-  "mixed": 4,
+  "rows": 15,
+  "triggered": 10,
+  "playedOut": 5,
+  "mixed": 5,
   "failed": 0
  },
  "charts": [
-  "charts/chart-mnq-1hr-2026-10-02.png",
-  "charts/chart-mes-1hr-2026-10-02.png",
-  "charts/chart-mgc-1hr-2026-10-02.png",
-  "charts/chart-mcl-1hr-2026-10-02.png"
+  "charts/chart-mnq-1hr-2026-10-05.png",
+  "charts/chart-mes-1hr-2026-10-05.png",
+  "charts/chart-mgc-1hr-2026-10-05.png",
+  "charts/chart-mcl-1hr-2026-10-05.png"
  ]
 }
