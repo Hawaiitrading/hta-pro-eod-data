@@ -168,6 +168,13 @@
     "summary": "Risk off day and a clean trend, the mirror image of Monday's coil. Equities sold from the open. NQ closed 29,139, down 1.30 percent and right on the 29,000 psych. MES closed 7,647, down 0.70 percent, losing the 7,700 psych line it sat on Monday. Gold broke hard, down 2.70 percent to 4,342 as the 10 year yield firmed. Crude went the other way and led the board, ripping 5.09 percent to 90.70 and stretching its lead as the only market above a rising stop. Volatility expanded, VIX jumped to 16.34, and jobs week is live with JOLTS mid week and the August payrolls report Friday."
   },
   {
+    "date": "October 5, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Trend-Up Continuation (Quiet Risk-On)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>NQ and ES kept the trend going and pushed to fresh highs on a quiet tape, while gold and crude went the other way.</strong> NQ closed up 0.94% at 31,340 after clearing Friday's 31,282 high and tagging 31,371, and ES ran with it to a 7,848 high and a 7,830 close, with the S&P cash index back in record territory near 7,794. VIX ticked up to 15.52 but stayed low, so this was a calm grind rather than a volatility move. Gold stayed capped below a falling stop and chopped to close 4,168, and crude flipped bearish, lost its stop and closed down 2.20% at 89.26."
+  },
+  {
     "date": "October 2, 2026",
     "dayOfWeek": "Friday",
     "regime": "Trend-Up Repair (Risk-On)",
