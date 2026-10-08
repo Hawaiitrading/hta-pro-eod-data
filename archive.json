@@ -1,5 +1,12 @@
 [
   {
+    "date": "October 8, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Trend-Down (Indices Flip Below Their Stops, Havens and Oil Reclaim)",
+    "regimeClass": "trend-down",
+    "summary": "<strong>Tech led the tape lower and both index futures lost their trend lines, while the bid rotated into gold and oil.</strong> NQ gapped down from Wednesday's close, broke the opening range down just before 10 a.m. Eastern, and closed 31,021.5, off 1.22 percent and below its ATR stop for the first time this week. ES followed it under its own stop, closing 7,822.75 down 0.35 percent, a thinner loss but the same direction. December gold reclaimed its stop and closed 4,158.4 up 0.52 percent, and crude ripped 2.51 percent to 91.17, back above the line it flipped down on yesterday. VIX edged up to near 15.4, still a calm sub-16 read, so this was a rotation day more than a fear day."
+  },
+  {
     "date": "October 7, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Trend-Up but Fading (Tech Lags, Gold and Crude Lose Their Stops)",
