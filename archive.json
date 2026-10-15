@@ -210,6 +210,13 @@
     "summary": "<strong>NQ and ES both reclaimed the ATR stops they lost yesterday and closed green while VIX fell 6.59% to 15.31.</strong> The September jobs report was cancelled by the shutdown, so the tape ran on flows, not data. Both indices faded off early highs into the close. Gold rolled to the December contract and reversed from 4,259 to close 4,172, and crude whipsawed to 88.20 before reclaiming its stop to close 91.27."
   },
   {
+    "date": "October 15, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Reclaim and Stabilization (Risk-On Tone, Vol Easing)",
+    "regimeClass": "risk-on",
+    "summary": "<strong>Yesterday's selloff got bought back.</strong> NQ flushed to a 29,622 low at the open, then reversed and climbed all session to close 30,077.75, down just 0.20 percent and well off the lows. MES recovered 0.27 percent to 7,786.25, and both reclaimed their trend stops. December gold found a safe-haven bid and rallied 1.60 percent to 4,192.9, while crude ripped 2.52 percent to 97.56, the strongest in the complex. VIX eased 2.4 percent to 16.46."
+  },
+  {
     "date": "October 14, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Trend-Down, Broad Risk-Off (Vol Expanding)",
