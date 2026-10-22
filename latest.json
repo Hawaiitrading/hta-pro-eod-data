@@ -1,138 +1,138 @@
 {
- "date": "October 19, 2026",
- "dayOfWeek": "Monday",
- "regime": "Risk-On Rotation (Bounce Under Resistance, Vol Easing)",
- "regimeClass": "risk-on",
- "summary": "<strong>Friday's selloff got bought back Monday.</strong> NQ recovered 1.21 percent to close 29,744 and reclaimed its trend stop, and MES added 0.48 percent to 7,740. December gold gave back its safe-haven bid, slipping 0.63 percent to 4,160.2 and losing its stop, while crude held its trend above a rising stop after rolling to December. VIX eased 7.8 percent to 18.43. Both indexes still close under EMA50, so this is a bounce inside a broken trend.",
+ "date": "October 21, 2026",
+ "dayOfWeek": "Wednesday",
+ "regime": "Trend-Up Reclaim (Risk-On Rotation, Vol Back to the Lows)",
+ "regimeClass": "trend-up",
+ "summary": "<strong>The bounce turned into a reclaim.</strong> NQ added a second up day, tagging 30,114 and closing near the 30,000 round at 30,023, while MES closed 7,800, both back above their EMA50 and ATR stops. Gold lagged at 4,159 under its stop and crude faded to 97.72 below its own, while VIX fell to 16.68, back to the mid-month lows. The catch: the overnight has already reversed hard and handed most of Wednesday back, so the reclaim is unconfirmed.",
  "keyLevels": [
   {
    "label": "MNQ ATR Stop",
-   "value": "29,658",
+   "value": "29,779",
    "note": "reclaimed, below price"
   },
   {
    "label": "MNQ EMA50",
-   "value": "29,851",
-   "note": "overhead, still capping"
+   "value": "29,861",
+   "note": "reclaimed, support"
   },
   {
-   "label": "MNQ RTH High",
-   "value": "29,983",
-   "note": "upside pivot"
+   "label": "MNQ PSYCH",
+   "value": "30,000",
+   "note": "round, closed on it"
   },
   {
    "label": "MES ATR Stop",
-   "value": "7,724",
-   "note": "reclaimed support"
+   "value": "7,765",
+   "note": "reclaimed, below price"
+  },
+  {
+   "label": "MES PSYCH",
+   "value": "7,800",
+   "note": "round, closed on it"
   },
   {
    "label": "MGC ATR Stop",
-   "value": "4,190",
-   "note": "above price, resistance"
+   "value": "4,161",
+   "note": "overhead, capping"
   },
   {
-   "label": "MGC RTH Low",
-   "value": "4,156",
-   "note": "support, Dec front"
+   "label": "MGC PSYCH",
+   "value": "4,150",
+   "note": "round, holding above"
   },
   {
    "label": "MCL ATR Stop",
-   "value": "97.53",
-   "note": "rising support, Dec"
+   "value": "98.93",
+   "note": "overhead, lost"
   },
   {
-   "label": "MCL RTH High",
-   "value": "99.73",
-   "note": "breakout level, Dec"
-  },
-  {
-   "label": "VIX",
-   "value": "18.43",
-   "note": "down 7.8 pct, fear easing"
+   "label": "MCL PSYCH",
+   "value": "97.00",
+   "note": "round support"
   }
  ],
  "setups": [
   {
    "name": "TSMOM-20",
-   "confidence": "Medium",
+   "confidence": "High",
    "entry": "Trend-follow each instrument with its ATR stop.",
-   "stop": "Long while above: MNQ 29,658, MES 7,724, crude 97.53. Gold is below its stop (4,190), so no long there.",
-   "t1": "EMA50 reclaim, then session highs.",
+   "stop": "Long while above: MNQ 29,779, MES 7,765. Gold (4,161) and crude (98.93) are below their stops, so no long there.",
+   "t1": "Hold EMA50, then session highs.",
    "rr": "Systematic",
-   "bias": "NQ and MES flipped their stops back up and crude held its long, but both indexes close under EMA50 and gold flipped short, so it is a mixed one-day signal."
+   "bias": "NQ and MES close above their stops and EMA50 on a second up day, so the trend-long is on, but the overnight reversal is the first thing that could flip it back off."
   },
   {
    "name": "AVWAP Bounce",
-   "confidence": "Medium",
-   "entry": "Long a pullback into AVWAP that holds, with AVWAP flattening near 29,794.",
-   "stop": "Below the AVWAP level that was tested.",
-   "t1": "Back toward the session highs.",
+   "confidence": "High",
+   "entry": "Long dips that hold AVWAP and NYVWAP while price is above the stop.",
+   "stop": "Below NYVWAP 29,992 and AVWAP 30,001 invalidates.",
+   "t1": "Session highs toward 30,114.",
    "rr": "Systematic",
-   "bias": "NQ chopped around AVWAP in the back half. Dips that hold it favor the long only while price stays above the stop."
+   "bias": "NQ held above its mean into the close, the continuation read, while price stays above the stop."
   },
   {
-   "name": "AVWAP Back Into Range",
+   "name": "AVWAP Deviation Band",
    "confidence": "Medium",
-   "entry": "Long on a full-body close back inside the opening range after a failed break.",
-   "stop": "Below the failed-break extreme.",
-   "t1": "The far side of the range and session highs.",
-   "rr": "Systematic",
-   "bias": "MNQ broke the OR down at 13:55, failed, and closed back inside, a textbook BIR shape. BIR skips Mondays, so it was not an eligible play today."
+   "entry": "Fade reversion-grade tags at plus or minus 2 sigma and 3 sigma only.",
+   "stop": "Beyond the plus 3 sigma band at 30,168.",
+   "t1": "Back to AVWAP 30,001.",
+   "rr": "Defined at the band",
+   "bias": "The 30,114 high tagged plus 2 sigma, but on a trend day the bands extend more than they revert, so this is a lower-odds fade."
   },
   {
    "name": "E3v2 Momentum Long",
    "confidence": "Medium",
-   "entry": "Long a 15-minute momentum breakout with the regime filter on.",
-   "stop": "ATR-based under the breakout.",
-   "t1": "Measured move to the prior highs.",
+   "entry": "Long-only breakout on the 15m, above EMA50 with momentum.",
+   "stop": "ATR-based, below EMA50 at 29,861.",
+   "t1": "Measured breakout extension.",
    "rr": "Systematic",
-   "bias": "Crude already broke out and vol is elevated, so the regime filter is open. On NQ the long-only breakout stays blocked under EMA50 until price reclaims it."
+   "bias": "Unblocked above EMA50 with ROC(12) at plus 0.94, but easing vol is working against the momentum edge."
   }
  ],
  "activeIndicators": [
   "tsmom-20",
   "avwap-bounce",
-  "avwap-back-into-range",
+  "avwap-deviation-band",
   "e3v2-momentum-long",
   "hta-open"
  ],
  "event": {
   "name": "No scheduled US release (budget and shutdown backdrop continues)",
   "type": "NO_EVENT / data-calendar thin",
-  "consensus": "The federal data calendar stays thin against the budget and shutdown situation. Scheduled releases remain unreliable, so there is no firm data catalyst.",
-  "actual": "No major US release drove the tape. Monday was a positioning and rotation session after Friday's selloff.",
-  "surprise": "The rotation was the story. Money came back into stocks while the safe-haven gold bid came off, and VIX eased about 7.8 percent.",
-  "nqReaction": "NQ opened firm, a narrow opening range broke down at 13:55 UTC and failed, then price ran to a 29,983 high before fading to close 29,744, up 1.21 percent and back above its stop but still under EMA50.",
-  "crossAsset": "MES recovered to 7,740.25, up 0.48 percent and back above its stop. December gold fell 0.63 percent to 4,160.2 and lost its stop. December crude eased 0.85 percent to 98.23 but held above a rising stop. VIX 18.43, down 7.8 percent."
+  "consensus": "The federal data calendar stays thin against the budget and shutdown situation. Scheduled releases remain unreliable.",
+  "actual": "No major US release drove the tape. A second straight positioning and rotation session into stocks.",
+  "surprise": "Risk-on held for a second day, gold lagged and crude sold off, and VIX fell back to the mid-month 16 area.",
+  "nqReaction": "NQ added 0.43 percent to close near 30,023, tagging 30,114 and reclaiming EMA50, then reversed overnight.",
+  "crossAsset": "MES plus 0.20 percent 7,800. December gold plus 0.40 percent 4,159, still under its stop. December crude minus 0.48 percent 97.72, lost its stop. VIX 16.68, down 3.6 percent."
  },
  "atrStop": {
   "MNQ": {
-   "stop": "29,658.17",
-   "price": "29,744.00",
-   "gap": "+85.83",
+   "stop": "29,779.41",
+   "price": "30,023.50",
+   "gap": "+244.09",
    "trend": "RISING (reclaimed)",
    "status": "ABOVE"
   },
   "MES": {
-   "stop": "7,723.67",
-   "price": "7,740.25",
-   "gap": "+16.58",
+   "stop": "7,764.92",
+   "price": "7,800.00",
+   "gap": "+35.08",
    "trend": "RISING (reclaimed)",
    "status": "ABOVE"
   },
   "MGC": {
-   "stop": "4,189.64",
-   "price": "4,160.20",
-   "gap": "-29.44",
-   "trend": "FALLING (flipped short)",
+   "stop": "4,161.19",
+   "price": "4,159.00",
+   "gap": "-2.19",
+   "trend": "FALLING",
    "status": "BELOW"
   },
   "MCL": {
-   "stop": "97.53",
-   "price": "98.23",
-   "gap": "+0.70",
-   "trend": "RISING (above)",
-   "status": "ABOVE"
+   "stop": "98.93",
+   "price": "97.72",
+   "gap": "-1.21",
+   "trend": "FALLING",
+   "status": "BELOW"
   }
  },
  "observe": [
@@ -146,91 +146,91 @@
   "throttleState": "REDUCED",
   "ddProximity": "None flagged",
   "dailyLossBudget": "Standard, none used",
-  "sizing": "Reduced, one-day bounce under EMA50",
-  "openRisk": "NQ, MES and crude long-trends are on, but both indexes close under EMA50 and gold flipped short, so the reclaim is unconfirmed.",
-  "note": "The bounce reclaimed the NQ and MES stops, but both close under EMA50, gold flipped its stop down, and Friday's range was wide, so this is a one-day bounce inside a broken trend, not a confirmed turn. Keep size reduced until a clean trend re-establishes, meaning a hold above today's stops (MNQ 29,658, MES 7,724, crude 97.53) and a reclaim of EMA50 (MNQ 29,851, MES 7,758). Crude is the cleanest long, above a rising December stop, but mind the roll and do not read the expiring November print near 101 as the trend. Gold is below its stop and mean now, so the easy safe-haven long is off until it reclaims 4,190. VIX eased to 18.43 but stays elevated, so let the stops do the work. The data calendar stays thin with the shutdown backdrop, so treat any headline as the catalyst. Next policy event is the FOMC meeting Oct 27 to 28."
+  "sizing": "Reduced, reclaim unconfirmed after the overnight reversal",
+  "openRisk": "NQ and MES trend-longs are on above their stops and EMA50, but the overnight reversed and both gold and crude are below their stops, so the reclaim is unconfirmed.",
+  "note": "Throttle state REDUCED. No drawdown flags, daily loss budget unused, sizing stays trimmed. Wednesday earned a cleaner read, with NQ and MES both back above their stops and EMA50 for a second day, but the overnight already reversed and handed most of it back, so the reclaim is unconfirmed and this is not the spot to add. Keep size reduced until Thursday's RTH holds above the stops (MNQ 29,779, MES 7,765) and reclaims EMA50 (MNQ 29,861, MES 7,770). Gold is still below its stop and mean, so the safe-haven long stays off until it reclaims 4,161. Crude lost its December stop and faded from the 100 area, so the trend-long is off until it reclaims 98.93, and mind the roll with January now on MCL2!. VIX back at 16.68 is calm, which cuts both ways, less fear but also less of the volatility the momentum edge needs. The data calendar stays thin with the shutdown backdrop, so treat any headline as the catalyst. Next policy event is the FOMC meeting Oct 27 to 28."
  },
- "psychology": "After a hard down day the urge is to keep selling every bounce. Monday paid the other side. Grade the level in front of you instead of trading Friday's fear. A reclaim off a flush can be real, but one green session that still closes under EMA50 is a bounce, so keep size honest and let price reclaim the mean before you trust a new trend. One more tell: when your hedge sells off as stocks rise, like gold did today, that is the hedge coming off, not a fresh short to chase.",
+ "psychology": "Two green days in a row feel like permission to size up. Slow down. The reclaim is real on the daily close, but the overnight just showed how fast price can hand it back. The habit that pays is separating what the chart did from what you want it to do next. A confirmed reclaim is one you can still see on the chart the next morning. If it already failed before the open, it was never confirmed in the first place. Let price hold the level for a session before you trust it, and keep your risk the same size on day two of a move as it was on day one.",
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<p><strong>Read: Risk-On Rotation, Bounce Under Resistance, Vol Easing, Gold Unwind</strong></p><div class='table-wrap'><table><thead><tr><th>Axis</th><th>Reading</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Up, bounce. NQ and MES reclaimed their ATR stops on Monday's recovery, but both close under EMA50, so it is a bounce inside a broken trend, not a confirmed turn. Gold flipped its stop down.</td><td>Medium</td></tr><tr><td>Volatility</td><td>Easing but still elevated. VIX fell 7.8 percent to 18.43 off Friday's 19.98 spike. MNQ ATR(14) is about 106, down from Friday's 126, though the Friday-into-Monday swing was wide.</td><td>High</td></tr><tr><td>Session</td><td>Recovery then fade. A narrow opening range broke down at 13:55 UTC, failed, and price ran to 29,983 before fading back inside the range into the close.</td><td>Medium</td></tr><tr><td>Inventory</td><td>Rotating back to risk. Stocks caught a bid while the gold hedge was sold. Buyers held the morning, sellers capped the afternoon under EMA50.</td><td>Medium</td></tr><tr><td>Event</td><td>None scheduled. The federal data calendar stays thin with the budget and shutdown backdrop. This was flows and rotation, not news.</td><td>Medium</td></tr><tr><td>Liquidity</td><td>Normal, with two roll notes. Gold uses December (MGC2!); MGC1! October is stale near expiry. Crude rolled to December (MCL2!); MCL1! November is at expiry and detached near 101. Continuous-contract volume is disclaimed.</td><td>Medium</td></tr></tbody></table></div>"
+   "html": "<p><strong>Read: Risk-On Reclaim, Vol Back to the Lows, Gold Lagging, Overnight Reversal Warning</strong></p><div class='table-wrap'><table><thead><tr><th>Axis</th><th>Reading</th><th>Confidence</th></tr></thead><tbody><tr><td>Direction</td><td>Up, reclaim. NQ and MES posted a second up day and both close above EMA50 and their ATR stops, so the Monday bounce matured into a reclaim. The overnight reversal is the warning sign hanging over it.</td><td>Medium</td></tr><tr><td>Volatility</td><td>Easing, back to the lows. VIX fell to 16.68 from 17.31, fully off the Oct 16 spike at 19.98 and back in the mid-month 16 area. MNQ ATR(14) is about 117, still a touch elevated from the selloff.</td><td>High</td></tr><tr><td>Session</td><td>Trend up. MNQ broke its opening range up at 14:45 UTC, ran to 30,114, and closed above the range and NYVWAP. A clean one-way session.</td><td>Medium</td></tr><tr><td>Inventory</td><td>Long buildup into resistance. Buyers held two sessions and pushed to new local highs, but the overnight reversal suggests late longs got trapped around the 30,000 area.</td><td>Medium</td></tr><tr><td>Event</td><td>None scheduled. The federal data calendar stays thin with the budget and shutdown backdrop, so this was flows rather than news. FOMC is next week, Oct 27 to 28.</td><td>Medium</td></tr><tr><td>Liquidity</td><td>Normal, with two roll notes. Gold uses December (MGC2!); MGC1! October is frozen near expiry. Crude rolled to December (MCL1!) after November expired, with January now on MCL2!. Continuous-contract volume is disclaimed.</td><td>Medium</td></tr></tbody></table></div>"
   },
   {
    "title": "NY Opening Range / HTA OPEN (MNQ)",
-   "html": "<p><strong>OR High 29,806 | OR Low 29,719.5 | Width 86.5 pts (0.29%)</strong></p><p>Break DOWN at 13:55 UTC at 29,711.25, but the down-break failed. Price reversed, ran to a 29,983 high above the range, then faded to close 29,744 back inside, below NYVWAP 29,809.7 and HOF VWAP 29,813.13.</p><p>It is Monday, so BIR skips the day. The back-in-range shape formed but was not an eligible play, HOF (short only) did not set up on a recovery, and nothing flagged a clean bounce for BNC.</p><p><em>The structure still tells you the flush got bought, even with the Monday filter keeping BIR on the bench.</em></p>"
+   "html": "<p><strong>Trend-up break that held.</strong> OR High 29,913.75, OR Low 29,771.25, Width 142.5 pts (0.48 percent).</p><p>Break UP at 14:45 UTC at 29,919. Price ran to a 30,114 high above the range and closed 30,023.5 above it, above NYVWAP 29,992.18 and HOF VWAP 30,024.52. It is Wednesday, so HOF and MID are filtered out. There was no BIR because price closed above the range rather than back inside, and no clean BNC bounce flagged.</p>"
   },
   {
    "title": "Momentum Breakout (Regime Filter)",
-   "html": "<p><strong>NO SIGNAL on MNQ.</strong> Price closed 29,744, below its EMA(50) at 29,851, so this long-only breakout stays blocked by the regime filter.</p><p>ROC(12) is plus 0.21 percent, barely positive. RVOL is not available (volume disclaimed). No position until price reclaims EMA50.</p>"
+   "html": "<p><strong>SIGNAL UNBLOCKED on MNQ.</strong> Price closed 30,023.5, above EMA(50) at 29,861, with ROC(12) at plus 0.94 percent, so the long-only breakout is open for the first time in days.</p><p>RVOL is not available (volume disclaimed on the continuous contract). The regime filter reads open on trend and momentum, though easing vol is the risk to the edge.</p>"
   },
   {
    "title": "AVWAP Deviation Band Reversal (MNQ)",
-   "html": "<p><strong>AVWAP 29,793.54</strong></p><div class='table-wrap'><table><thead><tr><th>Band</th><th>Level</th></tr></thead><tbody><tr><td>+3s</td><td>29,968.51</td></tr><tr><td>+2s</td><td>29,910.18</td></tr><tr><td>+1s</td><td>29,851.86</td></tr><tr><td>-1s</td><td>29,735.21</td></tr><tr><td>-2s</td><td>29,676.89</td></tr><tr><td>-3s</td><td>29,618.56</td></tr></tbody></table></div><p>Price closed 29,744, just below AVWAP inside the normal range. The day was a wide two-way swing: the 29,983 high tagged beyond the plus 3s band (exhaustion) before fading, and the 29,653 low reached the minus 2s to minus 3s zone. On a swing day like this the bands get hit both ways, so clean one-directional reversion entries were scarce, and the close back near AVWAP says the session ended roughly balanced.</p>"
+   "html": "<p><strong>AVWAP (session open anchor) 30,001.2.</strong></p><div class='table-wrap'><table><thead><tr><th>Band</th><th>Upper</th><th>Lower</th></tr></thead><tbody><tr><td>3 sigma</td><td>30,167.56</td><td>29,834.85</td></tr><tr><td>2 sigma</td><td>30,112.10</td><td>29,890.30</td></tr><tr><td>1 sigma</td><td>30,056.65</td><td>29,945.75</td></tr></tbody></table></div><p>The 30,114 RTH high tagged the plus 2 sigma band, a reversion-grade touch, but price held near the highs into the close instead of reverting. That is the signature of a trend day, where the bands extend rather than snap price back to the mean.</p>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<p>Score: 4 of 5 triggered, 3 played out, 1 failed, 0 mixed, 1 not triggered. MTD 41 of 60. The Oct 16 report did not run; this map was published Oct 15 for the Friday Oct 16 session and is graded against Friday.</p><div class='table-wrap'><table><thead><tr><th>Scenario (IF)</th><th>Mark</th><th>Grade</th><th>What happened</th></tr></thead><tbody><tr><td>MNQ holds above the 29,789 ATR stop and reclaims the 30,197 RTH high on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>MNQ never reclaimed 30,197. It topped at 30,086 early Friday, then lost the 29,789 stop and sold off hard. The up setup never formed.</td></tr><tr><td>MNQ loses the 29,789 stop on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>MNQ lost 29,789 on back-to-back closes and cascaded through the 29,622 low and the 29,500 round to a 29,268.75 low, closing 29,389.75. The downside played out in full.</td></tr><tr><td>MES holds above the 7,741 stop and reclaims the 7,802 RTH high on 2 hourly closes</td><td>TRIGGERED</td><td>FAILED</td><td>MES reclaimed 7,802 on back-to-back overnight closes, but the push stalled at 7,808 and never reached 7,850. It then lost 7,741 and fell to a 7,676 low, closing 7,703. The reclaim triggered, then the losing-7,741 downside took over.</td></tr><tr><td>December gold holds above the 4,159 stop and clears the 4,197 RTH high on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Gold held above 4,159 all day, cleared 4,197 and the 4,200 round on back-to-back closes, and tagged a 4,220.5 high. It faded to close 4,186.5, reaching the first target but short of 4,250.</td></tr><tr><td>Crude holds above the 94.34 rising stop and the 95 round</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>November crude held its stop and the 95 round, then ran hard, clearing the 96.07 and 98 targets and extending to 101.94, closing 101.83. The trend-long played out big.</td></tr></tbody></table></div>"
+   "html": "<p>Score: 4 of 5 triggered, 2 played out, 2 mixed, 0 failed, 1 not triggered. MTD 45 of 65. The Oct 20 report did not run; this map was published Oct 19 for the Tuesday Oct 20 session and is graded against Tuesday.</p><div class='table-wrap'><table><thead><tr><th>Scenario (IF)</th><th>Mark</th><th>Grade</th><th>What happened</th></tr></thead><tbody><tr><td>MNQ holds above the 29,658 ATR stop and reclaims EMA50 near 29,851, then the 29,983 RTH high, on 2 hourly closes</td><td>TRIGGERED</td><td>MIXED</td><td>MNQ held the 29,658 stop and reclaimed EMA50, closed 29,893.5, and pushed toward 30,000. It stalled at a 29,903 high, short of the 29,983 reclaim trigger. The direction was right but the target went unmet.</td></tr><tr><td>MNQ loses the 29,658 stop on 2 hourly closes</td><td>NOT TRIGGERED</td><td>-</td><td>MNQ never lost the stop. It held above and closed up, so the downside path never set up.</td></tr><tr><td>MES holds above the 7,724 stop and reclaims EMA50 near 7,758 and the 7,773 RTH high</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>MES held the 7,724 stop, reclaimed EMA50 and the 7,773 high on back-to-back closes, ran to a 7,791.5 high toward the 7,800 round, and closed 7,784.75.</td></tr><tr><td>December gold reclaims the 4,190 stop and the 4,181 EMA50 on 2 hourly closes</td><td>TRIGGERED</td><td>PLAYED OUT</td><td>Gold stayed below the 4,190 stop and EMA50 all day, kept the down bias, and fell to a 4,136 low, closing 4,142.5, through the 4,150 area toward 4,100.</td></tr><tr><td>December crude holds above the 97.53 rising stop and the 98 round</td><td>TRIGGERED</td><td>MIXED</td><td>Crude closed 98.19, holding the 98 round and the 97.53 stop on the close, but it whipsawed to a 95.26 low intraday and never made the 99.73 or 100 run.</td></tr></tbody></table></div>"
   },
   {
-   "title": "Tomorrow's Map (for Tuesday, October 20)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th></tr></thead><tbody><tr><td>MNQ holds above the 29,658 ATR stop and reclaims EMA50 near 29,851, then the 29,983 RTH high, on 2 hourly closes</td><td>The bounce gains traction toward the 30,000 round.</td><td>Bias up while above the stop</td></tr><tr><td>MNQ loses the 29,658 stop on 2 hourly closes</td><td>The bounce fails and the 29,500 round, then the 29,202 overnight low, come back into play.</td><td>Bias down on loss</td></tr><tr><td>MES holds above the 7,724 stop and reclaims EMA50 near 7,758 and the 7,773 RTH high</td><td>The stabilization extends toward the 7,800 round. Losing 7,724 opens 7,700.</td><td>Bias up while above the stop</td></tr><tr><td>December gold reclaims the 4,190 stop and the 4,181 EMA50 on 2 hourly closes</td><td>The unwind pauses and 4,200 comes back into view. Staying below 4,190 keeps the bias down toward 4,150, then the 4,100 area.</td><td>Bias down while below the stop</td></tr><tr><td>December crude holds above the 97.53 rising stop and the 98 round</td><td>The trend-long runs toward the 99.73 high and the 99 round, then 100. Losing 97.53 on 2 closes turns the trend-long off and opens 97.</td><td>Bias up while above</td></tr></tbody></table></div><p>Filters Tuesday: no day-of-week blocks. All four HTA OPEN plays (BIR, HOF, MID, BNC) are eligible, assuming no CPI. No FOMC (next is Oct 27 to 28).</p><p>Calendar: Tuesday Oct 20 is a normal full session. The data calendar stays thin against the budget and shutdown backdrop, so treat any headline as the catalyst. Gold is on December (MGC2!) and crude rolled to December (MCL2!) with November at expiry. Next policy event is the FOMC meeting Oct 27 to 28.</p>"
+   "title": "Tomorrow's Map (for Thursday, October 22)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th></tr></thead><tbody><tr><td>MNQ reclaims the 29,779 ATR stop and the 29,861 EMA50 on 2 hourly closes</td><td>The Wednesday reclaim is back on and the 30,000 round, then the 30,114 high, come back into play.</td><td>Bias up on the reclaim</td></tr><tr><td>MNQ stays below the 29,779 stop on 2 hourly closes</td><td>The overnight reversal has control and the 29,500 round, then the 29,727 overnight low, are the downside path.</td><td>Bias down while below</td></tr><tr><td>MES holds above the 7,765 stop and the 7,770 EMA50</td><td>The index trend-long stays on toward the 7,800 round and the 7,812 high. Losing 7,765 opens 7,750, then 7,700.</td><td>Bias up while above</td></tr><tr><td>December gold reclaims the 4,161 stop and the 4,150 EMA50 on 2 hourly closes</td><td>The unwind pauses and 4,200 comes back into view. Staying below 4,161 keeps the bias down toward 4,122, then 4,100.</td><td>Bias down while below the stop</td></tr><tr><td>December crude reclaims the 98.93 stop and the 98 round on 2 hourly closes</td><td>The December trend-long turns back on toward 99 and the 100 area. Staying below 98.93 keeps the bias down toward 97, then the 96.31 low.</td><td>Bias down while below</td></tr></tbody></table></div>"
   }
  ],
  "tomorrowsMap": [
   {
-   "if": "MNQ holds above the 29,658 ATR stop and reclaims EMA50 near 29,851, then the 29,983 RTH high, on 2 hourly closes",
-   "then": "The bounce gains traction toward the 30,000 round.",
-   "bias": "Bias up while above the stop",
-   "level": "MNQ 29,658 / 29,983"
+   "if": "MNQ reclaims the 29,779 ATR stop and the 29,861 EMA50 on 2 hourly closes",
+   "then": "The Wednesday reclaim is back on and the 30,000 round, then the 30,114 high, come back into play.",
+   "bias": "Bias up on the reclaim",
+   "level": "MNQ 29,779 / 30,114"
   },
   {
-   "if": "MNQ loses the 29,658 stop on 2 hourly closes",
-   "then": "The bounce fails and the 29,500 round, then the 29,202 overnight low, come back into play.",
-   "bias": "Bias down on loss",
-   "level": "MNQ 29,658 / 29,202"
+   "if": "MNQ stays below the 29,779 stop on 2 hourly closes",
+   "then": "The overnight reversal has control and the 29,500 round, then the 29,727 overnight low, are the downside path.",
+   "bias": "Bias down while below",
+   "level": "MNQ 29,779 / 29,727"
   },
   {
-   "if": "MES holds above the 7,724 stop and reclaims EMA50 near 7,758 and the 7,773 RTH high",
-   "then": "The stabilization extends toward the 7,800 round. Losing 7,724 opens 7,700.",
-   "bias": "Bias up while above the stop",
-   "level": "MES 7,724 / 7,773"
-  },
-  {
-   "if": "December gold reclaims the 4,190 stop and the 4,181 EMA50 on 2 hourly closes",
-   "then": "The unwind pauses and 4,200 comes back into view. Staying below 4,190 keeps the bias down toward 4,150, then the 4,100 area.",
-   "bias": "Bias down while below the stop",
-   "level": "MGC 4,190 / 4,150"
-  },
-  {
-   "if": "December crude holds above the 97.53 rising stop and the 98 round",
-   "then": "The trend-long runs toward the 99.73 high and the 99 round, then 100. Losing 97.53 on 2 closes turns the trend-long off and opens 97.",
+   "if": "MES holds above the 7,765 stop and the 7,770 EMA50",
+   "then": "The index trend-long stays on toward the 7,800 round and the 7,812 high. Losing 7,765 opens 7,750, then 7,700.",
    "bias": "Bias up while above",
-   "level": "MCL 97.53 / 99"
+   "level": "MES 7,765 / 7,812"
+  },
+  {
+   "if": "December gold reclaims the 4,161 stop and the 4,150 EMA50 on 2 hourly closes",
+   "then": "The unwind pauses and 4,200 comes back into view. Staying below 4,161 keeps the bias down toward 4,122, then 4,100.",
+   "bias": "Bias down while below the stop",
+   "level": "MGC 4,161 / 4,122"
+  },
+  {
+   "if": "December crude reclaims the 98.93 stop and the 98 round on 2 hourly closes",
+   "then": "The December trend-long turns back on toward 99 and the 100 area. Staying below 98.93 keeps the bias down toward 97, then the 96.31 low.",
+   "bias": "Bias down while below",
+   "level": "MCL 98.93 / 96.31"
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
   "triggered": 4,
-  "playedOut": 3,
-  "mixed": 0,
-  "failed": 1,
+  "playedOut": 2,
+  "mixed": 2,
+  "failed": 0,
   "notTriggered": 1,
-  "note": "Published Oct 15 for the Friday Oct 16 session and graded against Friday (the Oct 16 report did not run). Friday was a hard selloff. The MNQ breakdown, the crude long and the gold hold all triggered and played out, the MES reclaim triggered then failed as it lost the stop, and the MNQ reclaim never triggered. A trend-down day that mostly matched the downside paths."
+  "note": "Published Oct 19 for the Tuesday Oct 20 session and graded against Tuesday (the Oct 20 report did not run). Tuesday extended the bounce: MNQ held its stop and reclaimed EMA50 but stalled short of 29,983, MES reclaimed and ran toward 7,800, gold stayed below its stop and fell toward 4,100, and crude held the 98 round on the close after a whippy 95.26 dip. A mostly constructive up day that matched the up and down paths unevenly."
  },
  "mapTallyMTD": {
-  "rows": 60,
-  "triggered": 41,
-  "playedOut": 20,
-  "mixed": 19,
+  "rows": 65,
+  "triggered": 45,
+  "playedOut": 22,
+  "mixed": 21,
   "failed": 2
  },
  "downloadLink": "https://your-download-link.com/EOD_Report.docx",
- "reportFileName": "pro-eod-report-2026-10-19.docx",
+ "reportFileName": "pro-eod-report-2026-10-21.docx",
  "charts": [
-  "charts/chart-mnq-1hr-2026-10-19.png",
-  "charts/chart-mes-1hr-2026-10-19.png",
-  "charts/chart-mgc-1hr-2026-10-19.png",
-  "charts/chart-mcl-1hr-2026-10-19.png"
+  "charts/chart-mnq-1hr-2026-10-21.png",
+  "charts/chart-mes-1hr-2026-10-21.png",
+  "charts/chart-mgc-1hr-2026-10-21.png",
+  "charts/chart-mcl-1hr-2026-10-21.png"
  ]
 }
