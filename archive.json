@@ -203,6 +203,13 @@
     "summary": "<strong>NQ and ES kept the trend going and pushed to fresh highs on a quiet tape, while gold and crude went the other way.</strong> NQ closed up 0.94% at 31,340 after clearing Friday's 31,282 high and tagging 31,371, and ES ran with it to a 7,848 high and a 7,830 close, with the S&P cash index back in record territory near 7,794. VIX ticked up to 15.52 but stayed low, so this was a calm grind rather than a volatility move. Gold stayed capped below a falling stop and chopped to close 4,168, and crude flipped bearish, lost its stop and closed down 2.20% at 89.26."
   },
   {
+    "date": "October 22, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Trend-Down Reversal (Risk-Off, AI-Capex Selloff, Vol Rising)",
+    "regimeClass": "risk-off",
+    "summary": "The reclaim failed in a single session. NQ gave back both green days and more, down 3.10 percent to 29,092, breaking its opening range down and losing both its ATR stop and EMA50. This was a tech and AI story: renewed AI-capex worries and the reaction to megacap earnings hit the Nasdaq hardest, while ES held up far better at off 1.23 percent. Gold got sold too, down 2.86 percent to 4,040, which reads as cash-raising rather than a safe-haven bid. VIX jumped back to 19 and crude was the only green market on the board."
+  },
+  {
     "date": "October 21, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Trend-Up Reclaim (Risk-On Rotation, Vol Back to the Lows)",
