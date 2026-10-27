@@ -1,5 +1,12 @@
 [
   {
+    "date": "October 26, 2026",
+    "dayOfWeek": "Monday",
+    "regime": "Risk-On Bounce, Equities Reclaim Trend Stops (Pre-FOMC Drift)",
+    "regimeClass": "risk-on",
+    "summary": "Friday's failed bounce flipped into a real one. The Nasdaq opened firm, broke its opening range up at 14:15 UTC, ran to a 29,571.75 high, and closed 29,466.75, up 0.99 percent, back above both its trend stop and its 50-period average. The S&P confirmed, up 0.55 percent to 7,714.25 and also back above its stop and average, so breadth matched the tape this time. VIX fell 5.45 percent to 18.39, under 20 again. Gold firmed 0.54 percent and flipped its trailing stop long, though it stayed under its 50-average, and crude gave back part of Friday's spike, down 2.09 percent to 101.27, holding the 100 round. All four contracts closed above their trend stops, a broad risk-on flip, with the Fed decision Wednesday the next hurdle."
+  },
+  {
     "date": "October 23, 2026",
     "dayOfWeek": "Friday",
     "regime": "Chop (Corrective, Below Resistance)",
