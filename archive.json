@@ -203,6 +203,13 @@
     "summary": "<strong>NQ and ES kept the trend going and pushed to fresh highs on a quiet tape, while gold and crude went the other way.</strong> NQ closed up 0.94% at 31,340 after clearing Friday's 31,282 high and tagging 31,371, and ES ran with it to a 7,848 high and a 7,830 close, with the S&P cash index back in record territory near 7,794. VIX ticked up to 15.52 but stayed low, so this was a calm grind rather than a volatility move. Gold stayed capped below a falling stop and chopped to close 4,168, and crude flipped bearish, lost its stop and closed down 2.20% at 89.26."
   },
   {
+    "date": "October 28, 2026",
+    "dayOfWeek": "Wednesday",
+    "regime": "Post-FOMC Reversal (Nasdaq Loses Trend, S&P Holds)",
+    "regimeClass": "caution",
+    "summary": "The Fed gave the market a spike and then took it back. The Nasdaq ran to a fresh high at 30,180, cleared the 30,000 round, then reversed and closed <strong>29,755, down 0.16 percent</strong>, below its trend stop, which flipped to the short side at 30,082. The S&P held better, up 0.06 percent to 7,760.75, still above its stop, so the mirror split. Gold firmed to 4,081.5 (up 0.21 percent) under its 50-hour average, crude reclaimed its stop and jumped 1.71 percent to 101.94, and VIX eased to 16.91."
+  },
+  {
     "date": "October 27, 2026",
     "dayOfWeek": "Tuesday",
     "regime": "Risk-On Continuation, Equities Extend (Crude Breaks Down, Fed Eve)",
