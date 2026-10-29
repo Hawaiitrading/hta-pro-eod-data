@@ -203,6 +203,13 @@
     "summary": "<strong>NQ and ES kept the trend going and pushed to fresh highs on a quiet tape, while gold and crude went the other way.</strong> NQ closed up 0.94% at 31,340 after clearing Friday's 31,282 high and tagging 31,371, and ES ran with it to a 7,848 high and a 7,830 close, with the S&P cash index back in record territory near 7,794. VIX ticked up to 15.52 but stayed low, so this was a calm grind rather than a volatility move. Gold stayed capped below a falling stop and chopped to close 4,168, and crude flipped bearish, lost its stop and closed down 2.20% at 89.26."
   },
   {
+    "date": "October 29, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Risk-Off Trend Day (Nasdaq and S&P Lose Stops, Gold Falls Too)",
+    "regimeClass": "risk-off",
+    "summary": "Risk came off hard. The Nasdaq followed through on Wednesday's stop loss and dropped 1.81 percent to 29,217.75, closing near the session low after a late flush to 29,111. The S&P lost its own trend stop too, down 0.65 percent to 7,710.25, so both indexes now sit below their ATR stops together. December gold did not hedge the drop, falling 1.18 percent to 4,033.3 and losing its stop. Only crude held a bid, up 0.91 percent to 102.87. VIX rose 1.71 percent to 17.21. The day after the Fed turned into broad de-risking, not a relief bounce."
+  },
+  {
     "date": "October 28, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Post-FOMC Reversal (Nasdaq Loses Trend, S&P Holds)",
