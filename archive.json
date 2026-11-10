@@ -700,6 +700,13 @@
     "summary": "<strong>NQ1! grinding into the 26,010 zone after a constructive Tuesday session \u2014 bulls remain in control above the 1h ATR-trail at 25,892.76.</strong> ATR(14, 1h) prints 54.95 \u2014 squarely in the Normal volatility band per the ATR Regime Gate (no Shock signal, no Compression squeeze). Anchored VWAP from the 7/4 event sits at 25,314 (~696 pts below price), confirming buyers have controlled every reset since. The W20-3 Power Hour long bot exited at NY close (likely a green tag), and the TSMOM-style '1hr long 2.5 ATR stop' bot fired a fresh long into settle and is in-position \u2014 confirming the active stack is in habitat. Two MNQ1! 1h momentum bots currently in-position, one 'short 2 cons' bot armed but flat. No Tier-1 macro on the tape today; base-rate regime logic applies into Wednesday."
   },
   {
+    "date": "2026-11-10",
+    "dayOfWeek": "Tuesday",
+    "regime": "Pullback / Post-CPI Digest (Mild Risk-Off)",
+    "regimeClass": "risk-off",
+    "summary": "Hot CPI reset the trade. The October inflation report ran +0.4% on the month against the +0.3% the market expected, and the reaction was textbook. Rate-cut odds got trimmed and gold took the hit, crashing 2.7% to 4,039 and losing the trailing stop it reclaimed yesterday. Equities wobbled but did not break. The Nasdaq slipped 0.6% to 27,836 and the S&P eased 0.4% to 7,544. Both lost their trailing stops (a volatility line, above it favors longs), yet both closed back inside the day's range instead of breaking down. VIX spiked to 21.3 on the print then settled under 20 at 19.6, so the fear was brief. Crude kept sliding to 86.31, still short below its stop. Yesterday's confirmed up-trend is on hold now, not broken: the stops flipped, but the equity selling stayed mild and contained."
+  },
+  {
     "date": "2026-08-25",
     "dayOfWeek": "Tuesday",
     "regime": "Risk-on reversal. NQ and ES both reclaimed their stops and flipped long after Monday's risk-off. Gold held its uptrend but whipsawed; crude broke down 4.5% alone. Index volatility eased. Reduced risk into Wednesday's GDP, durable goods and Core PCE cluster and Jackson Hole.",
