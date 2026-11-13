@@ -1,124 +1,149 @@
 {
- "date": "2026-11-10",
- "dayOfWeek": "Tuesday",
- "regime": "Pullback / Post-CPI Digest (Mild Risk-Off)",
+ "date": "November 13, 2026",
+ "dayOfWeek": "Friday",
+ "regime": "Risk-Off: Equity Stops Lost, Tech-Led",
  "regimeClass": "risk-off",
- "summary": "Hot CPI reset the trade. The October inflation report ran +0.4% on the month against the +0.3% the market expected, and the reaction was textbook. Rate-cut odds got trimmed and gold took the hit, crashing 2.7% to 4,039 and losing the trailing stop it reclaimed yesterday. Equities wobbled but did not break. The Nasdaq slipped 0.6% to 27,836 and the S&P eased 0.4% to 7,544. Both lost their trailing stops (a volatility line, above it favors longs), yet both closed back inside the day's range instead of breaking down. VIX spiked to 21.3 on the print then settled under 20 at 19.6, so the fear was brief. Crude kept sliding to 86.31, still short below its stop. Yesterday's confirmed up-trend is on hold now, not broken: the stops flipped, but the equity selling stayed mild and contained.",
+ "summary": "<strong>Tech dragged the whole market down.</strong> The Nasdaq lost the trailing stop it had just reclaimed, closing the day session near 28,038, off about 1.2% after a flush to 27,690. The S&P gave back 0.4% and lost its stop at 7,607. The damage was concentrated in chips after a Nvidia leadership shock, so the Nasdaq fell about three times as much as the S&P, while gold and crude sat flat. Buyers clawed back roughly half the drop late. October PPI was tame on the month but the yearly rate hit a three-year high, and the market now prices a likely December rate hike.",
  "keyLevels": [
   {
    "label": "MNQ ATR Stop",
-   "value": "28,016",
-   "note": "Lost; overhead now"
+   "value": "28,236",
+   "note": "Lost; now resistance"
   },
   {
    "label": "MNQ Session VWAP",
-   "value": "27,729",
-   "note": "Reclaimed into the close"
+   "value": "27,931",
+   "note": "Reclaimed late"
+  },
+  {
+   "label": "MNQ RTH Low",
+   "value": "27,690",
+   "note": "Flush low, bounced"
+  },
+  {
+   "label": "MES ATR Stop",
+   "value": "7,607",
+   "note": "Lost; overhead"
+  },
+  {
+   "label": "MGC ATR Stop",
+   "value": "3,919",
+   "note": "Below; short intact"
+  },
+  {
+   "label": "MGC PSYCH",
+   "value": "3,900",
+   "note": "Capped under it"
+  },
+  {
+   "label": "MCL ATR Stop",
+   "value": "87.70",
+   "note": "Held; still long"
   },
   {
    "label": "MNQ PSYCH",
    "value": "28,000",
-   "note": "Round, overhead"
-  },
-  {
-   "label": "MES ATR Stop",
-   "value": "7,576",
-   "note": "Lost; back under the line"
-  },
-  {
-   "label": "MGC ATR Stop",
-   "value": "4,074",
-   "note": "Lost; flipped short"
-  },
-  {
-   "label": "MGC PSYCH",
-   "value": "4,000",
-   "note": "Round support below"
-  },
-  {
-   "label": "MCL ATR Stop",
-   "value": "86.85",
-   "note": "Below; short intact"
+   "note": "Pivot into Monday"
   }
  ],
  "setups": [
   {
+   "name": "AVWAP Hand-off",
+   "confidence": "High",
+   "entry": "Short the opening-range down-break hand-off to lower continuation",
+   "stop": "Back above the opening-range high 28,399",
+   "t1": "Lower continuation toward the 27,659 lower 3-sigma",
+   "rr": "Session short",
+   "bias": "Clean down-break at 14:48 UTC that continued to 27,690; short-only session edge, eligible today."
+  },
+  {
+   "name": "TSMOM-20",
+   "confidence": "High",
+   "entry": "Short bias or stand aside long while below the 28,236 stop",
+   "stop": "The 28,236 ATR trailing line",
+   "t1": "27,690 then 27,500",
+   "rr": "Systematic",
+   "bias": "Both boards lost their stops; the trend flipped down."
+  },
+  {
    "name": "AVWAP Deviation Band",
-   "confidence": "Medium",
-   "entry": "Fade band extremes back to VWAP 27,729",
-   "stop": "Beyond the 3-sigma band",
+   "confidence": "High",
+   "entry": "Fade a lower 3-sigma tag (27,659) back toward VWAP 27,931",
+   "stop": "Beyond the lower 3-sigma band",
    "t1": "Session VWAP",
    "rr": "Mean-reversion",
-   "bias": "Chop day; reversion edge borderline in-habitat."
+   "bias": "Price tagged near the lower 3-sigma at the 27,690 low and reverted above VWAP."
+  },
+  {
+   "name": "AVWAP Bounce",
+   "confidence": "Medium",
+   "entry": "Long on a VWAP reclaim and hold (27,931)",
+   "stop": "Back below VWAP",
+   "t1": "The 28,236 stop overhead",
+   "rr": "Continuation",
+   "bias": "The late recovery leaned on reclaiming VWAP into the close."
   },
   {
    "name": "AVWAP Midrange",
    "confidence": "Medium",
-   "entry": "Range plays between VWAP and the OR edges",
-   "stop": "Beyond the opposite OR edge",
-   "t1": "OR boundary",
+   "entry": "Range plays between 27,690 and 28,111",
+   "stop": "Beyond the range edge",
+   "t1": "Opposite boundary",
    "rr": "Range",
-   "bias": "Two-sided day, closed back inside the opening range."
-  },
-  {
-   "name": "TSMOM-20",
-   "confidence": "Low",
-   "entry": "Both boards flipped short of their ATR stops",
-   "stop": "Systematic (back above the stop)",
-   "t1": "Trend continuation",
-   "rr": "Systematic",
-   "bias": "Stops flipped short but chop, not trend; low conviction."
+   "bias": "The afternoon settled into a range after the flush."
   }
  ],
  "activeIndicators": [
+  "avwap-hand-off",
+  "tsmom-20",
   "avwap-deviation-band",
-  "avwap-midrange",
-  "tsmom-20"
+  "avwap-bounce",
+  "avwap-midrange"
  ],
  "event": {
-  "name": "October CPI (hotter than expected)",
+  "name": "October PPI (post-event) and a Nvidia leadership shock",
   "type": "POST_EVENT",
-  "consensus": "+0.3% MoM headline",
-  "actual": "+0.4% MoM headline (core about +0.3%)",
-  "surprise": "Modest upside (hotter). Public sources split on the exact headline; the tape confirms a hot read.",
-  "nqReaction": "NQ sold the open, broke the opening range down, then recovered to close back inside; net -0.6%.",
-  "crossAsset": "Gold crushed -2.7% as rate-cut odds were trimmed; MES -0.4%; crude -0.8% on its own story; VIX spiked to 21.3 then settled under 20."
+  "consensus": "PPI plus 0.4% m/m expected",
+  "actual": "PPI plus 0.3% m/m (below consensus); plus 6.5% y/y, highest since November 2022; core plus 0.3% m/m, plus 5.0% y/y",
+  "surprise": "The monthly number came in tame, but the yearly rate firmed to a three-year high and the market moved to price about 100% odds of a December rate hike, with the 10-year near 5.13%.",
+  "nqReaction": "NQ was higher overnight to 28,608, then reversed through the open to a 27,690 low, closing the cash session near 28,038, off about 1.2% and below its reclaimed stop.",
+  "crossAsset": "Tech led down after a Nvidia leadership shock (the Nasdaq fell about three times the S&P); gold flat (+0.06%), crude flat (-0.02%); VIX spiked to 20.92 then settled at 18.94."
  },
  "atrStop": {
   "MNQ": {
-   "stop": 28016.34,
-   "price": 27835.5,
-   "gap": -180.84,
-   "trend": "FALLING",
-   "status": "LOST"
-  },
-  "MES": {
-   "stop": 7575.71,
-   "price": 7544.5,
-   "gap": -31.21,
-   "trend": "FALLING",
-   "status": "LOST"
-  },
-  "MGC": {
-   "stop": 4074.15,
-   "price": 4038.9,
-   "gap": -35.25,
-   "trend": "FALLING",
-   "status": "LOST"
-  },
-  "MCL": {
-   "stop": 86.85,
-   "price": 86.31,
-   "gap": -0.54,
+   "stop": 28236.23,
+   "price": 28038.5,
+   "gap": -197.73,
    "trend": "FALLING",
    "status": "BELOW"
+  },
+  "MES": {
+   "stop": 7607.43,
+   "price": 7584.75,
+   "gap": -22.68,
+   "trend": "FALLING",
+   "status": "BELOW"
+  },
+  "MGC": {
+   "stop": 3919.43,
+   "price": 3881.8,
+   "gap": -37.63,
+   "trend": "FALLING",
+   "status": "BELOW"
+  },
+  "MCL": {
+   "stop": 87.7,
+   "price": 88.92,
+   "gap": 1.22,
+   "trend": "RISING",
+   "status": "ABOVE"
   }
  },
  "observe": [
   {
    "name": "GAP_NQ",
    "status": "MONITOR",
-   "note": "Outside the Net Alpha Pro curriculum, research only. A gap-and-chop open, not a gap-and-go, so no clean event; no Net Alpha Pro action follows."
+   "note": "Outside the Net Alpha Pro curriculum, research only. A gap-up overnight that reversed down through the open, not a clean continuation, so no Net Alpha Pro action follows."
   },
   {
    "name": "TSMOM252LO_NQ",
@@ -129,92 +154,92 @@
  "risk": {
   "throttleState": "REDUCED",
   "ddProximity": "NORMAL band",
-  "dailyLossBudget": "Full",
-  "sizing": "Reduced: trim size until a direction re-forms. Lines overhead: MNQ 28,016 / MES 7,576 / Dec gold 4,074; crude a short below 86.85.",
-  "openRisk": "Both equity boards lost their stops; the agreed long trend is gone for now.",
-  "note": "Stepped down from NORMAL because both equity boards lost their trailing stops after a hot October CPI (+0.4% vs +0.3%), even though volatility stayed contained (VIX under 20, ATR eased). Keep size down until the stops settle on one side. Week ahead: Veterans Day Wednesday Nov 11 (bond market closed, equity futures open); next policy event the December FOMC."
+  "dailyLossBudget": "Trimmed",
+  "sizing": "Size down. The long posture is gone: MNQ 28,236 and MES 7,607 are now overhead resistance, so longs wait for a reclaim. December gold stays a short below 3,919; crude is the lone long above 87.70.",
+  "openRisk": "Both equity boards closed below their stops; only crude holds a long. Do not carry oversized risk into Nvidia earnings Tuesday or the December FOMC.",
+  "note": "Stepped down to REDUCED from NORMAL because both equity boards lost their trailing stops and closed below them, and volatility ticked up (VIX tagged 20.92 before settling 18.94). Hold-above longs are gone: MNQ 28,236 and MES 7,607 are now overhead; December gold stays a short below 3,919; crude is the lone long above 87.70. Size down into Nvidia earnings Tuesday Nov 17 and a December FOMC the market now reads as a likely hike. Week ahead: Nvidia earnings Tuesday; December FOMC the next policy event."
  },
- "psychology": "The hard part today was sitting still. One inflation number flipped the stops that had confirmed a trend only a day earlier, and that tempts two mistakes: buying the dip on faith the up-trend resumes, or chasing the gold-style collapse into an equity short. A single print that moves your stops is information, not a reason to overtrade. When price closes back inside the opening range on an event day, the market is telling you it has not decided. The edge is patience. Let the stops rebuild a direction before you commit size, and do not let the gold crash scare you into an equity short the tape does not support.",
+ "psychology": "Days like this punish stubbornness. If you were long into the open because the overnight tape looked strong, the job was to respect the stop the moment price lost it rather than argue with it. The Nasdaq closing its hourly bars below the 28,236 trailing line was the tell, and it came early. Averaging down into a leader like Nvidia while it is breaking is how a small loss becomes an account event. The flip side matters too: the late bounce off 27,690 was a gift for anyone who had already cut and was waiting to re-enter with a plan. Let the level decide. Below the stop you stand aside or lean short; above it you can lean long again.",
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>State</th><th>Confidence</th></tr></thead><tbody><tr><td><strong>Direction</strong></td><td>Pullback, trend paused. MNQ lost its 28,016 stop (-0.6%) and MES lost its 7,576 stop (-0.4%); gold crashed 2.7%. But both boards closed back inside the day's range, so the down move is contained, not a trend flip yet.</td><td>Medium</td></tr><tr><td><strong>Volatility</strong></td><td>Contained. VIX spiked to 21.3 on the print then settled under 20 at 19.6, roughly flat on the day. ATR(14) eased (MNQ 177 from 192). The event did not break volatility higher.</td><td>High</td></tr><tr><td><strong>Session</strong></td><td>HTA OPEN two-sided and whippy. OR 226.75 pts (27,864 / 27,637.25), an up-break 14:54 UTC that failed and a down-break 16:54 UTC, then a close back inside the range. A chop day.</td><td>High</td></tr><tr><td><strong>Inventory</strong></td><td>Balanced. The two-sided trade and an inside-range close show no clear inventory build on either side.</td><td>Medium</td></tr><tr><td><strong>Event</strong></td><td>Post-event. The October CPI printed +0.4% on the month versus +0.3% expected, a modest upside surprise that drove the whole tape.</td><td>High</td></tr><tr><td><strong>Liquidity</strong></td><td>Event chop. Wider ranges through the print then settling, gold the outlier on the downside. Gold December (MGC1!) current; MGC2! February 4,072.5 in contango. Index on front 1!. Continuous volume disclaimed.</td><td>Medium</td></tr></tbody></table></div><p><strong>Read:</strong> Pullback and digest, mild risk-off. A hotter CPI trimmed easing bets, gold took the brunt, and both equity boards lost their stops but closed back inside the range. Class: risk-off lean.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>Axis</th><th>State</th><th>Confidence</th></tr></thead><tbody><tr><td><strong>Direction</strong></td><td>Downtrend resuming on the boards. MNQ and MES both lost their ATR trailing stops (28,236 / 7,607) and closed below them, so the midweek repair failed. Gold stays below its stop (short); crude is the lone hold above its stop. The trend flipped down on equities.</td><td>Medium</td></tr><tr><td><strong>Volatility</strong></td><td>Elevated intraday, then settled. VIX spiked to 20.92 at the lows and faded to 18.94 (up 1.28% on the day). ATR(14) expanded on the Nasdaq to 159 from 146. Ranges were wide and two-way.</td><td>Medium</td></tr><tr><td><strong>Session</strong></td><td>HTA OPEN down-break day. The opening range ran 28,399 / 28,195 (204 points). Price broke down at 14:48 UTC at 28,127 and extended to a 27,690 low, then recovered back above NYVWAP by the close but stayed below the range. A trend-down then bounce session.</td><td>High</td></tr><tr><td><strong>Inventory</strong></td><td>Flipped short, with a late bid. The boards closed below their stops, so the posture is short, but the recovery off the lows into the bell shows buyers defended 27,690. Distribution early, two-way late.</td><td>Medium</td></tr><tr><td><strong>Event</strong></td><td>POST_EVENT. October PPI at 8:30 AM ET: plus 0.3% on the month, below the 0.4% consensus, but the yearly rate hit 6.5%, the highest since November 2022. The market now prices about 100% odds of a December hike, with the 10-year near 5.13%. The bigger intraday mover was a Nvidia leadership shock that hit semiconductors.</td><td>High</td></tr><tr><td><strong>Liquidity</strong></td><td>Normal, with selling concentrated in chips. Gold December (MGC1!) is the current contract; MGC2! February 3,905 sits in contango. Index on the front 1! contract. Continuous-contract volume is unavailable, so the VWAP is a typical-price mean and is disclaimed.</td><td>Medium</td></tr></tbody></table></div><p><strong>Read:</strong> Risk-off, tech-led. Both equity boards lost the trailing stops they reclaimed midweek, with the selling concentrated in chips after a Nvidia leadership shock. Gold and crude held flat, so this was a tech story rather than a broad liquidation. Class: risk-off.</p>"
   },
   {
    "title": "NY Opening Range / HTA OPEN (MNQ)",
-   "html": "<p><strong>OR:</strong> High 27,864 / Low 27,637.25 / Width 226.75 pts, off the 14:30 UTC cash open.</p><p><strong>Break:</strong> UP at 14:54 UTC to 27,956 (failed), then DOWN at 16:54 UTC to 27,625.25.</p><p><strong>Session VWAP:</strong> NYVWAP 27,745; closed back inside the range at 27,849, above NYVWAP. A two-sided chop session.</p><p><strong>Signals:</strong> none fired. CPI day blocks BIR; the back-into-range structure that set up is the one play the filter removes.</p><p><strong>Filters:</strong> CPI day blocks BIR; HOF, MID, BNC eligible.</p>"
+   "html": "<p><strong>OR:</strong> High 28,399 / Low 28,195 / Width 204 pts, off the 28,390 cash open.</p><p><strong>Break:</strong> DOWN at 14:48 UTC at 28,127, extended to a 27,690 low; no up-break.</p><p><strong>Session VWAP:</strong> NYVWAP 27,940. Closed 28,038 back above NYVWAP but below the opening range. A down-break that recovered late.</p><p><strong>Signals:</strong> Hand-off was the clean read, a short-only down-break continuation. No event block today, so all four plays were eligible.</p><p><strong>Filters:</strong> Friday, not CPI or FOMC; BIR, HOF, MID, BNC all eligible.</p>"
   },
   {
    "title": "Momentum Breakout (Regime Filter)",
-   "html": "<p><strong>MNQ:</strong> gate SHUT (the change from yesterday). Price 27,836 is back below the 50-hour average 28,140 with ROC(12) at -0.7%, so the long-only breakout is blocked again. No long setup until price reclaims the average.</p>"
+   "html": "<p><strong>MNQ:</strong> gate CLOSED. Price 28,038 is back below the 50-hour average 28,225 with ROC(12) at minus 0.8%, so the regime filter blocks the long-only breakout. No signal, and none expected while price is under the trend average.</p>"
   },
   {
    "title": "AVWAP Deviation Band Reversal (MNQ)",
-   "html": "<p><strong>MNQ:</strong> session VWAP 27,728.54; 2-sigma 27,871.98 / 27,585.10; 3-sigma 27,943.71 / 27,513.38. Price closed 27,836, in the +1 to +2 sigma zone, stretched up off the lows but not at an extreme. On a chop day the bands are fadeable; a push to +3-sigma that stalls is the cleaner short.</p>"
+   "html": "<p><strong>MNQ:</strong> session VWAP 27,931; 2-sigma 28,113 / 27,750; 3-sigma 28,204 / 27,659. The session low printed 27,690.50, within about 30 points of the lower 3-sigma band, then reverted hard to close 28,038 back above VWAP. The stretched tag and snap-back was the reversion long off the lows; the close back above VWAP is where dip-buyers took control into the bell.</p>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<div class='table-wrap'><table><thead><tr><th>#</th><th>Map row (IF)</th><th>Result</th><th>Measured</th></tr></thead><tbody><tr><td>1</td><td>MNQ holds above the 27,962 session VWAP and the 28,000 round (2 hourly closes)</td><td><span style='color:#9ca3af;font-weight:600;'>NOT TRIGGERED</span></td><td>The CPI print knocked MNQ straight through 28,000 at the open; it never strung two hourly closes above 27,962, so the up-continuation never set up.</td></tr><tr><td>2</td><td>MNQ loses the 27,679 RTH low and the 27,534 ATR stop (2 hourly closes)</td><td><span style='color:#f59e0b;font-weight:600;'>TRIGGERED - MIXED</span></td><td>Lost 27,679 on two hourly closes and dipped to a 27,518 low near the 27,476 average, but defended the 27,534 stop on a closing basis and recovered to close 27,836.</td></tr><tr><td>3</td><td>MES holds above its reclaimed 7,507 stop and the 7,550 round</td><td><span style='color:#f59e0b;font-weight:600;'>TRIGGERED - MIXED</span></td><td>Failed to hold 7,550 so the up-continuation never came, but defended the 7,507 stop zone (one marginal 7,506 close) and closed 7,544, modestly lower.</td></tr><tr><td>4</td><td>December gold holds the 4,106 reclaimed stop and the 4,100 round</td><td><span style='color:#10b981;font-weight:600;'>TRIGGERED - PLAYED OUT</span></td><td>The up bias was wrong but the row's downside branch played: losing 4,100 reopened the 4,062 low and extended to a 4,021 low, closed 4,039, down 2.7%.</td></tr><tr><td>5</td><td>December crude stays below the 88.73 stop and the 88 round</td><td><span style='color:#10b981;font-weight:600;'>TRIGGERED - PLAYED OUT</span></td><td>Stayed below both all day and ground down to the 86 round, a 85.16 low just shy of the 85.01 target, closed 86.31 still short.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 4 triggered, 2 played out, 2 mixed, 0 failed, 1 not triggered. &nbsp;|&nbsp; <strong>Month MTD:</strong> 35 rows, 27 triggered, 14 played out, 11 mixed, 2 failed.</p>"
+   "html": "<div class='table-wrap'><table><thead><tr><th>#</th><th>Map row (IF)</th><th>Result</th><th>Measured</th></tr></thead><tbody><tr><td>1</td><td>MNQ holds above the 28,165 ATR stop and reclaims the 28,447 session VWAP (2 hourly closes)</td><td><span style='color:#f59e0b;font-weight:600;'>TRIGGERED - MIXED</span></td><td>Reclaimed overnight. MNQ closed several hours above 28,447 (to 28,571) while above the 28,165 stop and tagged the 28,585 upper 2-sigma with a 28,608 overnight high, so the upside branch triggered. But the 28,652 high never came, and the cash session fully reversed and lost the 28,165 stop, so the reclaim failed to hold.</td></tr><tr><td>2</td><td>MNQ loses the 28,165 ATR stop and the 28,000 round (2 hourly closes)</td><td><span style='color:#10b981;font-weight:600;'>TRIGGERED - PLAYED OUT</span></td><td>Played out in full. MNQ lost both on the 15:00 UTC hourly close and kept going, falling through the 28,044 opening-range low, the 28,000 psych and the 28,014 overnight low to a 27,690 low before a late bounce. The downside branch was the day.</td></tr><tr><td>3</td><td>MES holds above the 7,598 ATR stop and reclaims the 7,638 session VWAP (2 hourly closes)</td><td><span style='color:#f59e0b;font-weight:600;'>TRIGGERED - MIXED</span></td><td>Marginal reclaim overnight to a 7,669 high, then the same reversal. MES lost the 7,598 stop in the cash session and fell to 7,519, through the 7,592 lower 3-sigma and the 7,550 round that the row flagged on the downside. The up-branch failed; the flagged downside hit.</td></tr><tr><td>4</td><td>December gold stays below the 3,927 stop and the 3,900 round</td><td><span style='color:#f59e0b;font-weight:600;'>TRIGGERED - MIXED</span></td><td>Half right. Gold stayed below the 3,927 stop all session (short intact) but popped above the 3,900 round overnight to a 3,927 high, so the below-3,900 part broke. It never extended to the 3,856 / 3,850 downside the row named; it chopped flat and closed 3,882. A pause, not a continuation.</td></tr><tr><td>5</td><td>December crude holds above the 86.94 reclaimed stop and the 88 round</td><td><span style='color:#10b981;font-weight:600;'>TRIGGERED - PLAYED OUT</span></td><td>Held both all session and extended up as the row read, running to a 89.58 high through the 89.14 target toward the 89.54 upper 2-sigma, then settling at 88.92. The long structure held.</td></tr></tbody></table></div><p><strong>Score:</strong> 5 rows, 5 triggered, 2 played out, 3 mixed, 0 failed, 0 not triggered. &nbsp;|&nbsp; <strong>Month MTD:</strong> 45 rows, 35 triggered, 19 played out, 14 mixed, 2 failed.</p>"
   },
   {
-   "title": "Tomorrow's Map (for Wednesday November 11)",
-   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th></tr></thead><tbody><tr><td>MNQ reclaims the 28,016 ATR stop and the 28,000 round (2 hourly closes)</td><td>The pullback repairs toward the 28,090 high and the 28,500 psych level; failing there keeps it capped under the stop.</td><td>Bias up on the reclaim</td></tr><tr><td>MNQ loses the 27,729 session VWAP and the 27,518 RTH low (2 hourly closes)</td><td>The pullback extends toward the 27,513 lower 3-sigma band and the 27,075 shelf.</td><td>Bias down below 27,729</td></tr><tr><td>MES reclaims the 7,576 ATR stop and the 7,550 round (2 hourly closes)</td><td>The S&P repair resumes toward the 7,566 high and the 7,600 round; losing the 7,493 low opens the 7,482 lower 3-sigma.</td><td>Bias up on the reclaim</td></tr><tr><td>December gold stays below the 4,074 stop and the 4,050 round</td><td>The selloff continues toward the 4,021 low and the 4,000 psych; a close back above 4,074 is the first repair.</td><td>Bias down while below 4,074</td></tr><tr><td>December crude stays below the 86.85 stop and the 87 round</td><td>The downtrend grinds toward the 85.01 prior low and the 85 round; a close back above 86.85 is the first repair.</td><td>Bias down while below 86.85</td></tr></tbody></table></div><p><strong>Filters Wed Nov 11:</strong> not Monday and no CPI or FOMC, so BIR, HOF, MID and BNC are all eligible. The HOF dead zone 12:00-14:00 ET and MID 9:30-10:30 ET windows still apply. Veterans Day means the bond market is closed and equity futures are open, so expect thinner liquidity.</p><p><strong>Calendar:</strong> Veterans Day Wednesday Nov 11 (bond market closed, equity index futures open). Gold on December (MGC1!); MGC2! February. Crude on December (MCL1!), January on MCL2!. Next policy event the December FOMC.</p>"
+   "title": "Tomorrow's Map (for Monday November 16)",
+   "html": "<div class='table-wrap'><table><thead><tr><th>IF</th><th>THEN</th><th>BIAS</th></tr></thead><tbody><tr><td>MNQ stays below the 28,236 ATR stop and the 28,000 round (2 hourly closes)</td><td>The downtrend extends toward the 27,690 session low and the 27,659 lower 3-sigma; losing 27,690 opens the 27,500 psych.</td><td>Bias down while below 28,236</td></tr><tr><td>MNQ reclaims the 28,000 round and then the 28,236 ATR stop (2 hourly closes)</td><td>The bounce extends toward the 28,195 opening-range low and the 28,399 range high; a tag of the 28,236 stop that stalls is the short.</td><td>Bias up only above 28,236</td></tr><tr><td>MES stays below the 7,607 ATR stop and the 7,550 round</td><td>The S&P extends toward the 7,519 session low and the 7,512 lower 3-sigma; a reclaim of 7,607 is the first repair.</td><td>Bias down while below 7,607</td></tr><tr><td>December gold stays below the 3,919 stop and inside the 3,870 to 3,900 range</td><td>It keeps basing after the slide; a close above 3,919 is the first repair, while losing 3,870 reopens the 3,850 psych.</td><td>Bias down to neutral below 3,919</td></tr><tr><td>December crude holds above the 87.70 stop and the 88 round</td><td>The consolidation resolves up toward the 89.58 session high and the 89 round; losing 87.70 reopens the 88 and 87 handles.</td><td>Bias up while above 87.70</td></tr></tbody></table></div><p><strong>Filters Monday Nov 16:</strong> it is a Monday, so Back-in-Range is skipped; Hand-off, Midrange and Bounce are eligible (no CPI or FOMC). The Hand-off noon dead zone 12:00 to 14:00 ET and the Midrange 9:30 to 10:30 ET window still apply.</p><p><strong>Calendar:</strong> the week's main events are Nvidia earnings Tuesday, November 17 after the close, and the December FOMC, which the market now reads as a likely hike. Gold on December (MGC1!); MGC2! February. Crude on December (MCL1!), January on MCL2!.</p>"
   }
  ],
  "tomorrowsMap": [
   {
-   "if": "MNQ reclaims the 28,016 ATR stop and the 28,000 round (2 hourly closes)",
-   "then": "The pullback repairs toward the 28,090 high and the 28,500 psych level; failing there keeps it capped under the stop.",
-   "bias": "Bias up on the reclaim",
-   "level": "28,016 / 28,000"
+   "if": "MNQ stays below the 28,236 ATR stop and the 28,000 round (2 hourly closes)",
+   "then": "The downtrend extends toward the 27,690 session low and the 27,659 lower 3-sigma; losing 27,690 opens the 27,500 psych.",
+   "bias": "Bias down while below 28,236",
+   "level": "28,236 / 28,000"
   },
   {
-   "if": "MNQ loses the 27,729 session VWAP and the 27,518 RTH low (2 hourly closes)",
-   "then": "The pullback extends toward the 27,513 lower 3-sigma band and the 27,075 shelf.",
-   "bias": "Bias down below 27,729",
-   "level": "27,729 / 27,518"
+   "if": "MNQ reclaims the 28,000 round and then the 28,236 ATR stop (2 hourly closes)",
+   "then": "The bounce extends toward the 28,195 opening-range low and the 28,399 range high; a tag of the 28,236 stop that stalls is the short.",
+   "bias": "Bias up only above 28,236",
+   "level": "28,000 / 28,236"
   },
   {
-   "if": "MES reclaims the 7,576 ATR stop and the 7,550 round (2 hourly closes)",
-   "then": "The S&P repair resumes toward the 7,566 high and the 7,600 round; losing the 7,493 low opens the 7,482 lower 3-sigma.",
-   "bias": "Bias up on the reclaim",
-   "level": "7,576 / 7,550"
+   "if": "MES stays below the 7,607 ATR stop and the 7,550 round",
+   "then": "The S&P extends toward the 7,519 session low and the 7,512 lower 3-sigma; a reclaim of 7,607 is the first repair.",
+   "bias": "Bias down while below 7,607",
+   "level": "7,607 / 7,550"
   },
   {
-   "if": "December gold stays below the 4,074 stop and the 4,050 round",
-   "then": "The selloff continues toward the 4,021 low and the 4,000 psych; a close back above 4,074 is the first repair.",
-   "bias": "Bias down while below 4,074",
-   "level": "4,074 / 4,050"
+   "if": "December gold stays below the 3,919 stop and inside the 3,870 to 3,900 range",
+   "then": "It keeps basing after the slide; a close above 3,919 is the first repair, while losing 3,870 reopens the 3,850 psych.",
+   "bias": "Bias down to neutral below 3,919",
+   "level": "3,919 / 3,870"
   },
   {
-   "if": "December crude stays below the 86.85 stop and the 87 round",
-   "then": "The downtrend grinds toward the 85.01 prior low and the 85 round; a close back above 86.85 is the first repair.",
-   "bias": "Bias down while below 86.85",
-   "level": "86.85 / 87"
+   "if": "December crude holds above the 87.70 stop and the 88 round",
+   "then": "The consolidation resolves up toward the 89.58 session high and the 89 round; losing 87.70 reopens the 88 and 87 handles.",
+   "bias": "Bias up while above 87.70",
+   "level": "87.70 / 88"
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
-  "triggered": 4,
+  "triggered": 5,
   "playedOut": 2,
-  "mixed": 2,
+  "mixed": 3,
   "failed": 0,
-  "notTriggered": 1,
-  "note": "Published Nov 9 for the Tuesday Nov 10 session. A hot October CPI reset the tape. The MNQ up-hold never set up (not triggered); the MNQ and MES rows came in mixed, both defending their stops on closes while failing the up-continuation; and the gold and crude downside branches played out as written, gold crashing through its levels and crude grinding to the 86 round."
+  "notTriggered": 0,
+  "note": "Published in the Thursday Nov 12 report for the Friday Nov 13 session. A two-phase day: the bullish equity rows triggered overnight and tagged their first upside targets, then the cash session reversed and the bearish MNQ row played out in full to a 27,690 low. Crude held its long; gold paused below its stop without extending."
  },
  "mapTallyMTD": {
-  "rows": 35,
-  "triggered": 27,
-  "playedOut": 14,
-  "mixed": 11,
+  "rows": 45,
+  "triggered": 35,
+  "playedOut": 19,
+  "mixed": 14,
   "failed": 2
  },
  "downloadLink": "https://your-download-link.com/EOD_Report.docx",
- "reportFileName": "pro-eod-report-2026-11-10.docx",
+ "reportFileName": "pro-eod-report-2026-11-13.docx",
  "charts": [
-  "charts/chart-mnq-1hr-2026-11-10.png",
-  "charts/chart-mes-1hr-2026-11-10.png",
-  "charts/chart-mgc-1hr-2026-11-10.png",
-  "charts/chart-mcl-1hr-2026-11-10.png"
+  "charts/chart-mnq-1hr-2026-11-13.png",
+  "charts/chart-mes-1hr-2026-11-13.png",
+  "charts/chart-mgc-1hr-2026-11-13.png",
+  "charts/chart-mcl-1hr-2026-11-13.png"
  ]
 }
