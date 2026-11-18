@@ -350,6 +350,20 @@
     "summary": "Risk-off rolled into a new month, but it stopped treating every board the same. The Nasdaq fell a fourth straight day, off 1.43 percent to 28,138.50, and the S&P slipped 0.50 percent to 7,576.25, both pinned under their trend stops. Crude was the real damage, down 6.92 percent to 95.85 as the multi-day de-risk finally reached it and broke its stop hard. Gold went the other way. It bounced 1.83 percent to 3,955.60, reclaimed its stop and flipped long, the only board higher and the first haven bid of this selloff. VIX pushed up about 10 percent to 21.28, so fear is still bid, but money rotated into gold and out of crude."
   },
   {
+    "date": "November 18, 2026",
+    "dayOfWeek": "Wednesday",
+    "regime": "Two-Sided: NQ Reclaims, Commodities Flush",
+    "regimeClass": "caution",
+    "summary": "<strong>Post-Nvidia, and the market could not agree with itself.</strong> The Nasdaq ran to 27,609 overnight on the Nvidia relief, faded, and closed near 27,191 (up about 0.4%), just enough to reclaim its trailing trend stop. The S&P did not follow, closing near 7,340 (down about 0.3%) and undercutting yesterday's flush low. The real move was in commodities: gold fell 3.2% and crude fell 3.4% in a cash-raising flush, while the VIX eased to 24.4. A mixed tape up top, one-sided only in metals and oil."
+  },
+  {
+    "date": "November 17, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Risk-Off: Flush Into Nvidia, Late Bounce",
+    "regimeClass": "risk-off",
+    "summary": "<strong>Another down day into Nvidia, with a fight at the lows.</strong> The Nasdaq flushed to a 26,659 midday low, then buyers dragged it back to close the cash session near 27,086, off about 0.8%. The S&P did the same, diving to 7,308 and recovering to 7,363, down about 1.1%. Crude firmed 0.2% but stayed under its stop, and gold was flat, closing right on the 3,850 line. VIX jumped again, tagging 27.7 intraday and settling near 25.6, a second straight step up. All four boards are still below their trailing stops, and the whole tape is holding its breath for Nvidia earnings tonight."
+  },
+  {
     "date": "November 16, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-Off Broadens: All Boards Below Their Stops",
