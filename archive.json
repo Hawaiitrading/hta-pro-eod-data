@@ -350,6 +350,13 @@
     "summary": "Risk-off rolled into a new month, but it stopped treating every board the same. The Nasdaq fell a fourth straight day, off 1.43 percent to 28,138.50, and the S&P slipped 0.50 percent to 7,576.25, both pinned under their trend stops. Crude was the real damage, down 6.92 percent to 95.85 as the multi-day de-risk finally reached it and broke its stop hard. Gold went the other way. It bounced 1.83 percent to 3,955.60, reclaimed its stop and flipped long, the only board higher and the first haven bid of this selloff. VIX pushed up about 10 percent to 21.28, so fear is still bid, but money rotated into gold and out of crude."
   },
   {
+    "date": "November 19, 2026",
+    "dayOfWeek": "Thursday",
+    "regime": "Trend-Down (Elevated Volatility)",
+    "regimeClass": "risk-off",
+    "summary": "<strong>Risk-off arrived in size.</strong> The Nasdaq ran to a fresh overnight high near 27,838, then sold off the whole cash session to close at the lows, down 2.2 percent, losing its hourly trend stop. The S and P mirrored it, down 2.0 percent and also below its stop, so this was broad de-risking. Gold fell with stocks (down 1.8 percent), a cash-raising tell, while crude firmed 0.4 percent and reclaimed its own trend line. VIX jumped 16 percent to 28.6. Theme of the day: <strong>Stocks and gold sold together.</strong>"
+  },
+  {
     "date": "November 18, 2026",
     "dayOfWeek": "Wednesday",
     "regime": "Two-Sided: NQ Reclaims, Commodities Flush",
