@@ -1,49 +1,49 @@
 {
- "date": "November 19, 2026",
- "dayOfWeek": "Thursday",
- "regime": "Trend-Down (Elevated Volatility)",
+ "date": "November 20, 2026",
+ "dayOfWeek": "Friday",
+ "regime": "Trend-Down (Extreme Volatility)",
  "regimeClass": "risk-off",
- "summary": "<strong>Risk-off arrived in size.</strong> The Nasdaq ran to a fresh overnight high near 27,838, then sold off the whole cash session to close at the lows, down 2.2 percent, losing its hourly trend stop. The S and P mirrored it, down 2.0 percent and also below its stop, so this was broad de-risking. Gold fell with stocks (down 1.8 percent), a cash-raising tell, while crude firmed 0.4 percent and reclaimed its own trend line. VIX jumped 16 percent to 28.6. Theme of the day: <strong>Stocks and gold sold together.</strong>",
+ "summary": "<strong>Risk-off turned into a full liquidation.</strong> The Nasdaq fell 5.4 percent and closed near the lows, well below its hourly trend stop, and the S and P dropped 3.5 percent and stayed under its own stop, so the whole equity complex is trending down together. Gold did not act like a haven again: it sold 3.7 percent alongside stocks, a second straight day of cash-raising. Crude was the lone green market, firming about 1 percent and holding its trend line. VIX spiked about 39 percent to a 40.03 high. Theme of the day: <strong>Stocks and gold sold together.</strong>",
  "keyLevels": [
   {
    "label": "MNQ ATR Stop",
-   "value": "27,164",
-   "note": "lost today, resistance"
+   "value": "25,799",
+   "note": "below, trend down"
   },
   {
    "label": "MNQ AVWAP",
-   "value": "27,017",
+   "value": "25,657",
    "note": "reclaim line"
   },
   {
    "label": "MNQ RTH Low",
-   "value": "26,558",
+   "value": "24,976",
    "note": "session low"
   },
   {
    "label": "MES ATR Stop",
-   "value": "7,295",
+   "value": "7,070",
    "note": "below, trend down"
   },
   {
    "label": "MES RTH Low",
-   "value": "7,192",
+   "value": "6,898",
    "note": "session low"
   },
   {
    "label": "MGC ATR Stop",
-   "value": "3,709",
+   "value": "3,596",
    "note": "below, downtrend"
   },
   {
-   "label": "MGC Psych",
-   "value": "3,700",
-   "note": "lost on the session"
+   "label": "MGC RTH Low",
+   "value": "3,503",
+   "note": "session low"
   },
   {
    "label": "MCL ATR Stop",
-   "value": "81.79",
-   "note": "reclaimed, support"
+   "value": "81.93",
+   "note": "held, support"
   }
  ],
  "setups": [
@@ -59,11 +59,11 @@
   {
    "name": "TSMOM-20",
    "confidence": "High",
-   "entry": "Short on hourly closes below the 27,164 (MNQ) and 7,295 (MES) ATR stops",
+   "entry": "Short on hourly closes below the 25,799 (MNQ) and 7,070 (MES) ATR stops",
    "stop": "Back above the stop",
-   "t1": "Lower 2-sigma and session lows",
+   "t1": "Lower 3-sigma and session lows",
    "rr": "Systematic",
-   "bias": "Both boards below their hourly stops; trend down confirmed"
+   "bias": "Both boards well below their hourly stops; trend down confirmed"
   },
   {
    "name": "AVWAP Deviation Band",
@@ -72,7 +72,7 @@
    "stop": "Beyond the 3-sigma",
    "t1": "Back to AVWAP",
    "rr": "about 1 to 1.5",
-   "bias": "Elevated vol widens the bands; reversion into a strong trend needs real exhaustion"
+   "bias": "Extreme vol widens the bands; reversion into a strong trend needs real exhaustion"
   }
  ],
  "activeIndicators": [
@@ -81,43 +81,43 @@
   "avwap-deviation-band"
  ],
  "downloadLink": "https://your-download-link.com/EOD_Report.docx",
- "reportFileName": "pro-eod-report-2026-11-19.docx",
+ "reportFileName": "pro-eod-report-2026-11-20.docx",
  "event": {
   "name": "No scheduled release drove the session",
   "type": "NONE",
   "consensus": "n/a",
   "actual": "n/a",
   "surprise": "n/a",
-  "nqReaction": "Positioning-driven markdown: overnight high near 27,838 distributed to a 26,558 low, close 26,589 (-2.2%).",
-  "crossAsset": "ES -2.0%, Gold -1.8% (sold with stocks), Crude +0.4% (lone bid), VIX +16% to 28.6."
+  "nqReaction": "Positioning-driven liquidation: the cash session opened near 26,322 and sold to a 24,976 low, close 25,144 (-5.4%).",
+  "crossAsset": "ES -3.5%, Gold -3.7% (sold with stocks again), Crude +1.0% (lone bid), VIX +39% to a 40.03 high."
  },
  "atrStop": {
   "MNQ": {
-   "stop": 27163.62,
-   "price": 26589.25,
-   "gap": -574.37,
+   "stop": 25798.84,
+   "price": 25144.5,
+   "gap": -654.34,
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MES": {
-   "stop": 7294.84,
-   "price": 7194.25,
-   "gap": -100.59,
+   "stop": 7070.48,
+   "price": 6944.25,
+   "gap": -126.23,
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MGC": {
-   "stop": 3708.8,
-   "price": 3661.8,
-   "gap": -47,
+   "stop": 3596.14,
+   "price": 3526.0,
+   "gap": -70.14,
    "trend": "FALLING",
    "status": "BELOW"
   },
   "MCL": {
-   "stop": 81.79,
-   "price": 83.08,
-   "gap": 1.29,
-   "trend": "FLAT",
+   "stop": 81.93,
+   "price": 83.95,
+   "gap": 2.02,
+   "trend": "RISING",
    "status": "ABOVE"
   }
  },
@@ -134,86 +134,93 @@
   }
  ],
  "risk": {
-  "throttle": "DEFENSIVE",
-  "note": "VIX 28.6 is in the 25 to 30 DEFENSIVE band and the trend is down across equities and gold. Keep size light, respect the downtrend, no new longs into a confirmed markdown, let volatility compress before adding. Week ahead: November flash PMIs (S&P Global manufacturing and services) are the main scheduled item into Friday; nothing of the earlier-week magnitude."
+  "throttle": "PAUSED",
+  "throttleState": "PAUSED",
+  "note": "VIX near 40 is above the 30 PAUSED threshold and the trend is down across equities and gold. This is a stand-down regime: no new risk into a 5 percent trend day with an extreme fear reading, and let volatility compress before adding any size. The paper fleet stays on its existing hold. Week ahead: Monday Nov 23 opens a holiday-shortened week; Thanksgiving closes the market Thursday Nov 26 with an early close Friday Nov 27; the PCE inflation gauge and the GDP revision are the main scheduled items, front-loaded Monday to Wednesday. The next policy event is the December FOMC."
  },
- "psychology": "The trap today was the overnight high. Price pushed to a new high before the open, and the pull was to buy that strength and then average down as it fell. Days like this punish anchoring to the high and reward accepting the trend. If you caught yourself adding to a long on the way down because it had to bounce, that is the tell to size down.",
+ "psychology": "Days like this punish the urge to call a bottom. Price was down hard by mid-morning and the pull was to buy the first bounce because it felt oversold. A 5 percent trend day with VIX near 40 is not the place to pick a low. The job today was capital preservation: smaller size, or no size, and letting the tape prove a turn before stepping in front of it. If you found yourself adding to a long because it had to bounce, that is the signal to stand down, not to double up.",
  "fullReport": [
   {
    "title": "Market Regime Snapshot (6-Axis)",
-   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Axis</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Read</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Confidence</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Direction</td><td style='padding:6px;border-bottom:1px solid #16242b'>Trend down, confirmed. NQ and ES both below their hourly ATR stops; NQ -2.2%, ES -2.0%. Day-theme: TREND_DOWN.</td><td style='padding:6px;border-bottom:1px solid #16242b'>High</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Volatility</td><td style='padding:6px;border-bottom:1px solid #16242b'>Elevated and rising. VIX 28.6, up ~16%, above 25. NQ ran 1,280 points on the day.</td><td style='padding:6px;border-bottom:1px solid #16242b'>High</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Session</td><td style='padding:6px;border-bottom:1px solid #16242b'>Markdown. Wide 203-point opening range, clean down-break at 10:10 ET, close at the lows below NYVWAP.</td><td style='padding:6px;border-bottom:1px solid #16242b'>High</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Inventory</td><td style='padding:6px;border-bottom:1px solid #16242b'>Short. Overnight pop to 27,838 distributed all session, closed on the lows.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Medium</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Event</td><td style='padding:6px;border-bottom:1px solid #16242b'>None scheduled. Positioning and liquidation, not a data print.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Medium</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Liquidity</td><td style='padding:6px;border-bottom:1px solid #16242b'>Thinner with wide swings; elevated vol widens spreads into the close.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Medium</td></tr></tbody></table>"
+   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Axis</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Read</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Confidence</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Direction</td><td style='padding:6px;border-bottom:1px solid #16242b'>Trend down, confirmed and broad. NQ -5.4 percent and ES -3.5 percent, both closed below their hourly ATR stops, and the day-theme engine tagged both TREND_DOWN. Gold trend down too.</td><td style='padding:6px;border-bottom:1px solid #16242b'>High</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Volatility</td><td style='padding:6px;border-bottom:1px solid #16242b'>Extreme and rising. VIX spiked about 39 percent to a 40.03 high, the most stressed reading in months, well above 30. Hourly ranges blew out (NQ ran 1,529 points on the cash session).</td><td style='padding:6px;border-bottom:1px solid #16242b'>High</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Session</td><td style='padding:6px;border-bottom:1px solid #16242b'>Markdown. A 340 point opening range, a down-break at 10:21 ET, then a steady sell to close near the lows below NYVWAP.</td><td style='padding:6px;border-bottom:1px solid #16242b'>High</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Inventory</td><td style='padding:6px;border-bottom:1px solid #16242b'>Short. Price opened the cash session well below the prior close and sold all day, closing at 11 percent of the range, so sellers held control into the bell.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Medium</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Event</td><td style='padding:6px;border-bottom:1px solid #16242b'>None scheduled. The move was positioning and liquidation, not a data print.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Medium</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Liquidity</td><td style='padding:6px;border-bottom:1px solid #16242b'>Thin with wide swings; VIX near 40 keeps spreads wide into the close and the weekend.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Medium</td></tr></tbody></table>"
   },
   {
    "title": "NY Opening Range / HTA OPEN",
-   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Field</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Value</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>OR High</td><td style='padding:6px;border-bottom:1px solid #16242b'>27,835</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>OR Low</td><td style='padding:6px;border-bottom:1px solid #16242b'>27,632</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>OR Width</td><td style='padding:6px;border-bottom:1px solid #16242b'>203 pts</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Break</td><td style='padding:6px;border-bottom:1px solid #16242b'>DOWN at 10:10 ET, first close below the range low at 27,565</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>NYVWAP</td><td style='padding:6px;border-bottom:1px solid #16242b'>27,017 (closed below at 26,589)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>HOF VWAP</td><td style='padding:6px;border-bottom:1px solid #16242b'>Established on the down-break and held; never reclaimed (continuation tell)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Signals</td><td style='padding:6px;border-bottom:1px solid #16242b'>Clean down-break and hand-off; HOF (short) the in-habitat read, eligible Thursday</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Filters</td><td style='padding:6px;border-bottom:1px solid #16242b'>No CPI, no FOMC; Thursday, all four plays eligible</td></tr></tbody></table>"
+   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Field</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Value</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>OR High</td><td style='padding:6px;border-bottom:1px solid #16242b'>26,455</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>OR Low</td><td style='padding:6px;border-bottom:1px solid #16242b'>26,115</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>OR Width</td><td style='padding:6px;border-bottom:1px solid #16242b'>340 pts</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Break</td><td style='padding:6px;border-bottom:1px solid #16242b'>DOWN at 10:21 ET, first close below the range low at 26,018</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>NYVWAP</td><td style='padding:6px;border-bottom:1px solid #16242b'>25,657 (closed below at 25,144)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>HOF VWAP</td><td style='padding:6px;border-bottom:1px solid #16242b'>Established on the down-break and held; never reclaimed (continuation tell)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Signals</td><td style='padding:6px;border-bottom:1px solid #16242b'>Clean down-break and hand-off; HOF (short) the in-habitat read, eligible Friday</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Filters</td><td style='padding:6px;border-bottom:1px solid #16242b'>No CPI, no FOMC; Friday, all four plays eligible</td></tr></tbody></table>"
   },
   {
    "title": "Momentum Breakout",
-   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Field</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Value</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Signal</td><td style='padding:6px;border-bottom:1px solid #16242b'>NO SIGNAL (long-only edge, regime filter blocking)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>EMA(50)</td><td style='padding:6px;border-bottom:1px solid #16242b'>27,339 (price below it)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>ROC(12)</td><td style='padding:6px;border-bottom:1px solid #16242b'>-4.04% (negative momentum)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Regime Filter</td><td style='padding:6px;border-bottom:1px solid #16242b'>BLOCKED: below the 50-hour average with negative momentum</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Read</td><td style='padding:6px;border-bottom:1px solid #16242b'>No long breakout on a markdown day; the edge sits out</td></tr></tbody></table>"
+   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Field</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Value</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Signal</td><td style='padding:6px;border-bottom:1px solid #16242b'>NO SIGNAL (long-only edge, regime filter blocking)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>EMA(50)</td><td style='padding:6px;border-bottom:1px solid #16242b'>26,566 (price below it)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>ROC(12)</td><td style='padding:6px;border-bottom:1px solid #16242b'>-4.59% (negative momentum)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Regime Filter</td><td style='padding:6px;border-bottom:1px solid #16242b'>BLOCKED: below the 50-hour average with negative momentum</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Read</td><td style='padding:6px;border-bottom:1px solid #16242b'>No long breakout on a markdown day; the edge sits out</td></tr></tbody></table>"
   },
   {
    "title": "AVWAP Deviation Band",
-   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Band</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Level</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>AVWAP (center)</td><td style='padding:6px;border-bottom:1px solid #16242b'>27,017</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>+2 sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>27,704</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>-2 sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>26,331</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>+3 sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>28,047</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>-3 sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>25,988</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>343 (wide; range was huge)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Read</td><td style='padding:6px;border-bottom:1px solid #16242b'>Price rode the lower side of the bands down; reversion into a trend needs real exhaustion</td></tr></tbody></table>"
+   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Band</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Level</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>AVWAP (center)</td><td style='padding:6px;border-bottom:1px solid #16242b'>25,657</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>+2 sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>26,310</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>-2 sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>25,004</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>+3 sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>26,636</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>-3 sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>24,677</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Sigma</td><td style='padding:6px;border-bottom:1px solid #16242b'>326 (wide; range was huge)</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>Read</td><td style='padding:6px;border-bottom:1px solid #16242b'>Price rode the lower side of the bands down; reversion into a trend needs real exhaustion</td></tr></tbody></table>"
   },
   {
    "title": "Yesterday's Map: Marked",
-   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>IF (prior scenario)</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Bias</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Status</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Grade</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>What happened</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ holds above the 26,972 ATR stop and reclaims the 27,335 average then the 27,326 cash high</td><td style='padding:6px;border-bottom:1px solid #16242b'>Up while above 26,972</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>MIXED</td><td style='padding:6px;border-bottom:1px solid #16242b'>Overnight extension hit the 27,500 round and the 27,609 overnight high (to 27,838), then the up bias failed as NQ lost 26,972 and reversed to close 26,589.</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ loses the 27,156 AVWAP and the 27,000 round (2 hourly closes)</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 27,000</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>PLAYED OUT</td><td style='padding:6px;border-bottom:1px solid #16242b'>Lost the AVWAP and 27,000, broke the 26,972 stop and the 26,922 prior low, pressed through the 26,659 flush low to a 26,558 low.</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MES stays below the 7,414 ATR stop and the 7,350 round</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 7,414</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>PLAYED OUT</td><td style='padding:6px;border-bottom:1px solid #16242b'>Never reclaimed 7,414, stayed under 7,350, pressed past the 7,305 prior low and 7,312 lower 3-sigma to 7,192, close 7,194.</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>December gold stays below the 3,773 stop and loses the 3,700 psych</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 3,773</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>PLAYED OUT</td><td style='padding:6px;border-bottom:1px solid #16242b'>Held under 3,773, lost the 3,700 psych, pressed to a 3,660 low, close 3,662; no reclaim of 3,750 or 3,773.</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>December crude stays below the 84.03 stop and the 83 round</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 84.03</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>MIXED</td><td style='padding:6px;border-bottom:1px solid #16242b'>Held below 84.03 but reclaimed the 83 round and bounced to 83.92, reclaiming its stop; breakdown did not extend, the first repair began.</td></tr></tbody></table>"
+   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>IF (prior scenario)</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Bias</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Status</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Grade</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>What happened</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ stays below the 27,164 ATR stop and the 27,000 round (2 hourly closes)</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 27,000</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>PLAYED OUT</td><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ never reclaimed 27,164 or 27,000, opened the cash session near 26,322 and sold the whole day to a 24,976 low, slicing the 26,558 prior low, the 26,331 lower 2-sigma and the 25,988 lower 3-sigma in one move, close 25,144.</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ reclaims the 27,017 AVWAP and the 27,000 round (2 hourly closes)</td><td style='padding:6px;border-bottom:1px solid #16242b'>Up only above 27,017</td><td style='padding:6px;border-bottom:1px solid #16242b'>NOT TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>-</td><td style='padding:6px;border-bottom:1px solid #16242b'>The reclaim never set up. MNQ opened the cash session near 26,322, well below 27,017, and fell all day, so the up trigger did not fire.</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MES stays below the 7,295 ATR stop and the 7,200 round</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 7,200</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>PLAYED OUT</td><td style='padding:6px;border-bottom:1px solid #16242b'>MES stayed below 7,295 and 7,200 the whole session, pressed past the 7,192 prior low and the 7,152 lower 2-sigma, and ran to a 6,898 low, close 6,944.</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>December gold stays below the 3,709 stop and the 3,700 psych</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 3,709</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>PLAYED OUT</td><td style='padding:6px;border-bottom:1px solid #16242b'>Gold stayed below 3,709 and 3,700, pressed through the 3,660 prior low and the 3,646 lower 3-sigma, and ran to a 3,503 low, close 3,526, another 3.7 percent down.</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>December crude holds above the 81.79 stop and the 83 round</td><td style='padding:6px;border-bottom:1px solid #16242b'>Up while above 83</td><td style='padding:6px;border-bottom:1px solid #16242b'>TRIGGERED</td><td style='padding:6px;border-bottom:1px solid #16242b'>MIXED</td><td style='padding:6px;border-bottom:1px solid #16242b'>Crude undercut both the 81.79 stop and the 83 round early, printing 81.26, but reclaimed them and ran to an 84.08 high, tagging the 84 round and clearing the 83.92 target, close 83.95; the up-target played out after the hold briefly failed.</td></tr></tbody></table>"
   },
   {
-   "title": "Tomorrow's Map (for Friday, November 20)",
-   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>IF</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>THEN</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>BIAS</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Levels</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ stays below the 27,164 ATR stop and the 27,000 round (2 hourly closes)</td><td style='padding:6px;border-bottom:1px solid #16242b'>The markdown continues toward the 26,558 session low and the 26,331 lower 2-sigma; losing 26,558 opens the 25,988 lower 3-sigma.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 27,000</td><td style='padding:6px;border-bottom:1px solid #16242b'>27,164 / 27,000</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ reclaims the 27,017 AVWAP and the 27,000 round (2 hourly closes)</td><td style='padding:6px;border-bottom:1px solid #16242b'>The oversold bounce extends toward the 27,164 ATR stop and the 27,338 50-hour average; reclaiming the stop is the first real repair.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Up only above 27,017</td><td style='padding:6px;border-bottom:1px solid #16242b'>27,017 / 27,164</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MES stays below the 7,295 ATR stop and the 7,200 round</td><td style='padding:6px;border-bottom:1px solid #16242b'>It keeps pressing toward the 7,192 session low and the 7,152 lower 2-sigma; a reclaim of 7,295 is the first repair.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 7,200</td><td style='padding:6px;border-bottom:1px solid #16242b'>7,295 / 7,200</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>December gold stays below the 3,709 stop and the 3,700 psych</td><td style='padding:6px;border-bottom:1px solid #16242b'>The washout extends toward the 3,660 session low and the 3,646 lower 3-sigma; a reclaim of 3,700 then 3,709 is the first repair.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 3,709</td><td style='padding:6px;border-bottom:1px solid #16242b'>3,709 / 3,700</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>December crude holds above the 81.79 stop and the 83 round</td><td style='padding:6px;border-bottom:1px solid #16242b'>The reclaim extends toward the 83.92 session high and the 84 round; losing 81.79 flips it back to the 82 psych and the sellers.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Up while above 83</td><td style='padding:6px;border-bottom:1px solid #16242b'>81.79 / 83</td></tr></tbody></table>"
+   "title": "Tomorrow's Map (for Monday, November 23)",
+   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>IF</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>THEN</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>BIAS</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Levels</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ stays below the 25,799 ATR stop and the 25,000 round (2 hourly closes)</td><td style='padding:6px;border-bottom:1px solid #16242b'>The markdown extends toward the 24,976 session low and the 24,677 lower 3-sigma; losing 24,976 opens fresh lows.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 25,000</td><td style='padding:6px;border-bottom:1px solid #16242b'>25,799 / 25,000</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ reclaims the 25,657 AVWAP and the 26,000 round (2 hourly closes)</td><td style='padding:6px;border-bottom:1px solid #16242b'>The oversold bounce extends toward the 25,799 ATR stop and the 25,983 upper 1-sigma; reclaiming the stop is the first real repair.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Up only above 25,657</td><td style='padding:6px;border-bottom:1px solid #16242b'>25,657 / 25,799</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MES stays below the 7,070 ATR stop and the 6,900 round</td><td style='padding:6px;border-bottom:1px solid #16242b'>It keeps pressing toward the 6,898 session low and the 6,845 lower 3-sigma; a reclaim of 7,053 then 7,070 is the first repair.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 6,900</td><td style='padding:6px;border-bottom:1px solid #16242b'>7,070 / 6,900</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>December gold stays below the 3,596 stop and loses the 3,500 psych</td><td style='padding:6px;border-bottom:1px solid #16242b'>The washout extends toward the 3,479 lower 3-sigma and fresh lows; a reclaim of 3,535 then 3,596 is the first repair.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Down below 3,596</td><td style='padding:6px;border-bottom:1px solid #16242b'>3,596 / 3,500</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>December crude holds above the 81.93 stop and the 83 round</td><td style='padding:6px;border-bottom:1px solid #16242b'>The reclaim extends toward the 84.08 session high and the 84.64 upper 3-sigma; losing 81.93 flips it back to the 82 psych and the sellers.</td><td style='padding:6px;border-bottom:1px solid #16242b'>Up while above 83</td><td style='padding:6px;border-bottom:1px solid #16242b'>81.93 / 83</td></tr></tbody></table>"
   },
   {
    "title": "Tomorrow's Range Read",
-   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Market</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Today's range (pts)</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Tomorrow, similar past days (pts)</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Tomorrow, plain average (pts)</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Busy open to watch</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Tonight's label</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ</td><td style='padding:6px;border-bottom:1px solid #16242b'>1,280.0</td><td style='padding:6px;border-bottom:1px solid #16242b'>697.0</td><td style='padding:6px;border-bottom:1px solid #16242b'>639.5</td><td style='padding:6px;border-bottom:1px solid #16242b'>327.75 pts in 09:30-10:00 ET (04:30-05:00 HST)</td><td style='padding:6px;border-bottom:1px solid #16242b'>Close at the bottom</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MES</td><td style='padding:6px;border-bottom:1px solid #16242b'>244.5</td><td style='padding:6px;border-bottom:1px solid #16242b'>147.75</td><td style='padding:6px;border-bottom:1px solid #16242b'>108.25</td><td style='padding:6px;border-bottom:1px solid #16242b'>69.0 pts in 09:30-10:00 ET (04:30-05:00 HST)</td><td style='padding:6px;border-bottom:1px solid #16242b'>Close at the bottom</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MGC</td><td style='padding:6px;border-bottom:1px solid #16242b'>60.5</td><td style='padding:6px;border-bottom:1px solid #16242b'>62.7</td><td style='padding:6px;border-bottom:1px solid #16242b'>62.1</td><td style='padding:6px;border-bottom:1px solid #16242b'>25.2 pts in 08:20-08:50 ET (03:20-03:50 HST)</td><td style='padding:6px;border-bottom:1px solid #16242b'>None</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MCL</td><td style='padding:6px;border-bottom:1px solid #16242b'>1.83</td><td style='padding:6px;border-bottom:1px solid #16242b'>2.58</td><td style='padding:6px;border-bottom:1px solid #16242b'>2.74</td><td style='padding:6px;border-bottom:1px solid #16242b'>0.77 pts in 09:00-09:30 ET (04:00-04:30 HST)</td><td style='padding:6px;border-bottom:1px solid #16242b'>Close at the bottom</td></tr></tbody></table><p style='font-size:12px;margin-top:8px'>How to use it: size your stops and targets to fit the range you expect. It tells you how big the day may be. It does not tell you which way it goes.</p><p style='font-size:12px'>Busy open: if the first 30 minutes cover at least the number shown, expect a wider day than normal. Give trades more room.</p><p style='font-size:12px'>Close at the top or bottom: do not count on follow-through at the next open.</p><p style='font-size:12px'>These are observations from past price data, not trade signals. HTA is still checking these rules on live days.</p>"
+   "html": "<table style='width:100%;border-collapse:collapse;font-size:13px'><thead><tr><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Market</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Today's range (pts)</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Monday, similar past days (pts)</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Monday, plain average (pts)</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Busy open to watch</th><th style='text-align:left;padding:6px;border-bottom:1px solid #1E3640'>Tonight's label</th></tr></thead><tbody><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MNQ</td><td style='padding:6px;border-bottom:1px solid #16242b'>1,528.75</td><td style='padding:6px;border-bottom:1px solid #16242b'>940.5</td><td style='padding:6px;border-bottom:1px solid #16242b'>697.75</td><td style='padding:6px;border-bottom:1px solid #16242b'>509.75 pts in 09:30-10:00 ET (04:30-05:00 HST)</td><td style='padding:6px;border-bottom:1px solid #16242b'>None</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MES</td><td style='padding:6px;border-bottom:1px solid #16242b'>318.5</td><td style='padding:6px;border-bottom:1px solid #16242b'>200.5</td><td style='padding:6px;border-bottom:1px solid #16242b'>120.75</td><td style='padding:6px;border-bottom:1px solid #16242b'>84.5 pts in 09:30-10:00 ET (04:30-05:00 HST)</td><td style='padding:6px;border-bottom:1px solid #16242b'>None</td></tr><tr><td style='padding:6px;border-bottom:1px solid #16242b'>MGC</td><td style='padding:6px;border-bottom:1px solid #16242b'>77.8</td><td style='padding:6px;border-bottom:1px solid #16242b'>65.2</td><td style='padding:6px;border-bottom:1px solid #16242b'>68.1</td><td style='padding:6px;border-bottom:1px solid #16242b'>27.0 pts in 08:20-08:50 ET (03:20-03:50 HST)</td><td style='padding:6px;border-bottom:1px solid #16242b'>Close at the bottom</td></tr></tbody></table><p style='font-size:12px;margin-top:8px'>Crude (MCL) size read skipped this run: the engine flagged the Nov 20 gold-floor session data as stale, so no crude row tonight.</p><p style='font-size:12px'>How to use it: size your stops and targets to fit the range you expect. It tells you how big the day may be. It does not tell you which way it goes.</p><p style='font-size:12px'>Busy open: if the first 30 minutes cover at least the number shown, expect a wider day than normal. Give trades more room.</p><p style='font-size:12px'>These are observations from past price data, not trade signals. HTA is still checking these rules on live days.</p>"
   }
  ],
  "tomorrowsMap": [
   {
-   "if": "MNQ stays below the 27,164 ATR stop and the 27,000 round (2 hourly closes)",
-   "then": "The markdown continues toward the 26,558 session low and the 26,331 lower 2-sigma; losing 26,558 opens the 25,988 lower 3-sigma.",
-   "bias": "Down below 27,000",
-   "level": "27,164 / 27,000"
+   "if": "MNQ stays below the 25,799 ATR stop and the 25,000 round (2 hourly closes)",
+   "then": "The markdown extends toward the 24,976 session low and the 24,677 lower 3-sigma; losing 24,976 opens fresh lows.",
+   "bias": "Down below 25,000",
+   "level": "25,799 / 25,000"
   },
   {
-   "if": "MNQ reclaims the 27,017 AVWAP and the 27,000 round (2 hourly closes)",
-   "then": "The oversold bounce extends toward the 27,164 ATR stop and the 27,338 50-hour average; reclaiming the stop is the first real repair.",
-   "bias": "Up only above 27,017",
-   "level": "27,017 / 27,164"
+   "if": "MNQ reclaims the 25,657 AVWAP and the 26,000 round (2 hourly closes)",
+   "then": "The oversold bounce extends toward the 25,799 ATR stop and the 25,983 upper 1-sigma; reclaiming the stop is the first real repair.",
+   "bias": "Up only above 25,657",
+   "level": "25,657 / 25,799"
   },
   {
-   "if": "MES stays below the 7,295 ATR stop and the 7,200 round",
-   "then": "It keeps pressing toward the 7,192 session low and the 7,152 lower 2-sigma; a reclaim of 7,295 is the first repair.",
-   "bias": "Down below 7,200",
-   "level": "7,295 / 7,200"
+   "if": "MES stays below the 7,070 ATR stop and the 6,900 round",
+   "then": "It keeps pressing toward the 6,898 session low and the 6,845 lower 3-sigma; a reclaim of 7,053 then 7,070 is the first repair.",
+   "bias": "Down below 6,900",
+   "level": "7,070 / 6,900"
   },
   {
-   "if": "December gold stays below the 3,709 stop and the 3,700 psych",
-   "then": "The washout extends toward the 3,660 session low and the 3,646 lower 3-sigma; a reclaim of 3,700 then 3,709 is the first repair.",
-   "bias": "Down below 3,709",
-   "level": "3,709 / 3,700"
+   "if": "December gold stays below the 3,596 stop and loses the 3,500 psych",
+   "then": "The washout extends toward the 3,479 lower 3-sigma and fresh lows; a reclaim of 3,535 then 3,596 is the first repair.",
+   "bias": "Down below 3,596",
+   "level": "3,596 / 3,500"
   },
   {
-   "if": "December crude holds above the 81.79 stop and the 83 round",
-   "then": "The reclaim extends toward the 83.92 session high and the 84 round; losing 81.79 flips it back to the 82 psych and the sellers.",
+   "if": "December crude holds above the 81.93 stop and the 83 round",
+   "then": "The reclaim extends toward the 84.08 session high and the 84.64 upper 3-sigma; losing 81.93 flips it back to the 82 psych and the sellers.",
    "bias": "Up while above 83",
-   "level": "81.79 / 83"
+   "level": "81.93 / 83"
   }
  ],
  "yesterdaysMapScore": {
   "rows": 5,
-  "triggered": 5,
+  "triggered": 4,
   "playedOut": 3,
-  "mixed": 2,
+  "mixed": 1,
   "failed": 0,
-  "notTriggered": 0,
-  "note": "Published in the Wednesday Nov 18 report for the Thursday Nov 19 session. A broad risk-off day: the two MNQ down rows, the MES down row and the gold down row all played out past target; the MNQ up row was mixed (overnight extension hit the upside targets before NQ reversed hard); the crude down row was mixed (crude reclaimed the 83 round and bounced)."
+  "notTriggered": 1,
+  "note": "Published in the Thursday Nov 19 report for the Friday Nov 20 session. A broad liquidation: the MNQ down row, the MES down row and the gold down row all played out well past target; the MNQ reclaim row did not trigger (price never got back above 27,017); the crude row was mixed (crude undercut 81.79 and 83 early, then reclaimed and hit the 84 up-target)."
  },
  "mapTallyMTD": {
-  "rows": 65,
-  "triggered": 51,
-  "playedOut": 31,
-  "mixed": 18,
+  "rows": 70,
+  "triggered": 55,
+  "playedOut": 34,
+  "mixed": 19,
   "failed": 2
- }
+ },
+ "charts": [
+  "charts/chart-mnq-1hr-2026-11-20.png",
+  "charts/chart-mes-1hr-2026-11-20.png",
+  "charts/chart-mgc-1hr-2026-11-20.png",
+  "charts/chart-mcl-1hr-2026-11-20.png"
+ ]
 }
