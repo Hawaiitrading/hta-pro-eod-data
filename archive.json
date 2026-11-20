@@ -343,6 +343,13 @@
     "summary": "<strong>The four-day slide finally paused.</strong> The Nasdaq added 0.58 percent to 28,301 and the S&amp;P 500 added 0.26 percent to 7,596.25, and both climbed back above the trailing stops they lost last week, the first repair signal in a week. The catch is that both stalled under their 50-hour averages and closed below session VWAP, so this reads as a relief bounce inside a trend that is still broken. December gold slipped 0.61 percent to 3,931.40, giving back part of Monday's jump after an overnight whipsaw, while December crude bounced 0.71 percent to 96.53 but stayed below its stop. VIX eased about 2.5 percent into the low 20s and the hourly ranges narrowed hard, and with midterm election results landing overnight, the tape is set up to gap on the open."
   },
   {
+    "date": "November 20, 2026",
+    "dayOfWeek": "Friday",
+    "regime": "Trend-Down (Extreme Volatility)",
+    "regimeClass": "risk-off",
+    "summary": "<strong>Risk-off turned into a full liquidation.</strong> The Nasdaq fell 5.4 percent and closed near the lows, well below its hourly trend stop, and the S and P dropped 3.5 percent and stayed under its own stop, so the whole equity complex is trending down together. Gold did not act like a haven again: it sold 3.7 percent alongside stocks, a second straight day of cash-raising. Crude was the lone green market, firming about 1 percent and holding its trend line. VIX spiked about 39 percent to a 40.03 high. Theme of the day: <strong>Stocks and gold sold together.</strong>"
+  },
+  {
     "date": "November 2, 2026",
     "dayOfWeek": "Monday",
     "regime": "Risk-Off Continues, Gold Rotates Higher (Equities Day 4, Crude Cracks)",
