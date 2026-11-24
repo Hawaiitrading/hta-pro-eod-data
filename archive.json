@@ -343,6 +343,13 @@
     "summary": "<strong>The four-day slide finally paused.</strong> The Nasdaq added 0.58 percent to 28,301 and the S&amp;P 500 added 0.26 percent to 7,596.25, and both climbed back above the trailing stops they lost last week, the first repair signal in a week. The catch is that both stalled under their 50-hour averages and closed below session VWAP, so this reads as a relief bounce inside a trend that is still broken. December gold slipped 0.61 percent to 3,931.40, giving back part of Monday's jump after an overnight whipsaw, while December crude bounced 0.71 percent to 96.53 but stayed below its stop. VIX eased about 2.5 percent into the low 20s and the hourly ranges narrowed hard, and with midterm election results landing overnight, the tape is set up to gap on the open."
   },
   {
+    "date": "November 24, 2026",
+    "dayOfWeek": "Tuesday",
+    "regime": "Pullback (Caution)",
+    "regimeClass": "caution",
+    "summary": "<strong>Stocks pulled back and gave back part of Monday's bounce; gold led the move lower.</strong> The Nasdaq fell about 2 percent and lost its hourly trend stop, while the S&P held up far better and closed back above its 50-hour average. Gold was the biggest mover, down about 2.3 percent and below its trend stop; crude went the other way, up about 1.6 percent and reclaiming its stop. Volatility eased to about 26 after a brief tag of 29. Theme of the day: Gold on its own."
+  },
+  {
     "date": "November 23, 2026",
     "dayOfWeek": "Monday",
     "regime": "Relief Bounce (Below 50-Hour Average)",
